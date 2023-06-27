@@ -1,0 +1,192 @@
+Pregunta 4
+Una empresa requiere una conexión privada dedicada a la nube de AWS desde sus operaciones en las instalaciones. ¿Qué servicio o característica de AWS proporcionará esa conexión?
+AWS VPN
+AWS PrivateLink
+Punto de enlace de la VPC
+AWS Direct Connect
+
+Pregunta 5
+¿Cuál de las siguientes opciones es una ventaja de la facturación unificada de AWS?
+Calificación de precios por volumen
+Permisos de acceso compartido
+Varias facturas para cada cuenta
+Eliminación de la necesidad de etiquetar recursos
+
+Pregunta 6
+¿Qué componente de la infraestructura global de AWS utiliza Amazon CloudFront para garantizar una entrega con baja latencia?
+Regiones de AWS
+Ubicaciones de borde
+Zonas de disponibilidad
+Virtual Private Cloud (VPC)
+
+Pregunta 7
+Una empresa aloja un sitio web estático desde un único bucket de Amazon S3 ¿Qué servicio de AWS logrará una latencia más baja y velocidades de transferencia altas?
+AWS Elastic Beanstalk
+AWS DynamoDB Accelerator (DAX)
+Amazon Route 53
+Amazon CloudFront
+
+Pregunta 8
+Una empresa tiene un servidor de aplicaciones que se ejecuta en una instancia de Amazon EC2, el servidor de aplicaciones necesita acceder a los contenidos de un bucket privado de S3. ¿Cuál es el enfoque recomendado para cumplir con este requisito?
+Crear un rol de IAM con los permisos adecuados. Asociar el rol a la instancia de EC2
+Configurar una interconexión de VPC para permitir la comunicación privada entre la instancia EC2 y el S3 Bucket
+Crear una clave de acceso compartida. Configurar la instancia EC2 para que utilice la clave codificada
+Configurar la aplicación para leer una clave de acceso de una fuente segura
+
+Pregunta 9
+¿Qué modelo de precios de Amazon EC2 se ajusta en función de la oferta y la demanda de las instancias EC2?
+Instancias bajo demanda
+Instancias reservadas
+Instancias de spot
+Instancias reservadas convertibles
+
+Pregunta 10
+¿Qué principio de arquitectura de nube de AWS establece que los sistemas deben reducir las interdependencias?
+Escalabilidad
+Servicios, no servidores
+Automatización
+Acoplamiento débil
+
+Pregunta 11
+¿Cuál de las siguientes opciones es responsabilidad de AWS según el modelo de responsabilidad compartida de AWS?
+Diseña la aplicación de un cliente para la recuperación de desastres
+Actualiza los sistemas operativos invitados en las instancias de Amazon EC2 implementadas
+Configura nuevos recursos en una cuenta de AWS
+Protege la infraestructura física
+
+Pregunta 12
+Una empresa necesita supervisar y recibir alertas sobre los eventos de inicio de sesión de AWS Management Console que involucran al usuario raíz de la cuenta de AWS. ¿Qué servicio de AWS puede usar la empresa para cumplir con estos requisitos?
+Amazon CloudWatch
+AWS Config
+AWS Trusted Advisor
+AWS Identity and Access Management (IAM)
+
+Pregunta 13
+¿Qué servicio puede identificar al usuario que realizó la llamada a la API cuando termina una instancia de Amazon EC2?
+AWS Trusted Advisor
+AWS CloudTrail
+AWS X-Ray
+AWS Identity and Access Management (AWS IAM)
+
+Pregunta 14
+¿Por qué AWS es más económico que los centros de datos tradicionales para aplicaciones con diferentes cargas de trabajo de informática?
+Los costos de Amazon EC2 se facturan de forma mensual.
+Los usuarios mantienen el acceso administrativo total a sus instancias de Amazon EC2.
+Las instancias de Amazon EC2 se pueden lanzar bajo demanda cuando sea necesario.
+Los usuarios pueden ejecutar de forma permanente instancias suficientes para manejar los aumentos de las cargas de trabajo.
+
+Pregunta 15
+¿Qué producto de redes de AWS le permiten a una empresa crear una red virtual dentro de AWS?
+AWS Config
+Amazon Route 53
+AWS Direct Connect
+Amazon Virtual Private Cloud (Amazon VPC)
+
+Pregunta 16
+Una empresa requiere el aislamiento físico de sus instancias de Amazon EC2 de las instancias de otros clientes. ¿Qué opción de compra de instancias cumple con este requisito?
+Servidores Anfitrión-Dedicados
+Instancias reservadas
+Instancias bajo demanda
+Instancias de spot
+
+Pregunta 17
+¿Cuáles de las siguientes opciones son beneficios de la nube de AWS (Selecciona dos)
+Las empresas necesitan más personal de TI
+Los gastos de capital se sustituyen por gastos variables
+Los clientes reciben la misma factura mensual, independientemente de los recursos que utilicen
+Las empresas ganan más agilidad
+AWS se responsabiliza de la seguridad en la nube
+
+Pregunta 18
+¿Cuál de las siguientes opciones describe una práctica recomendada de seguridad que se puede implementar mediante AWS Identity and Access Management (IAM)?
+Desactivar el acceso a la AWS Management Console para todos los usuarios
+Generar claves secretas para cada usuario de IAM
+Otorgar permisos a los usuarios que solo deben realizar una tarea específica
+Almacenar las credenciales de AWS en las instancias de Amazon EC2
+
+Pregunta 19
+¿Cuál de las siguientes es una responsabilidad de AWS según el modelo de responsabilidad compartida de AWS?
+Configuración de aplicaciones de terceros
+Mantenimiento del hardware físico
+Protección del acceso a la aplicación y de sus datos
+Administración de sistemas operativos invitados
+
+Pregunta 20
+¿Qué producto de AWS simplificaría la migración de una base de datos a AWS?
+AWS Storage Gateway
+AWS Database Migration Service (AWS DMS)
+Amazon EC2
+Amazon AppStream 2.0
+
+Pregunta 21
+¿Cómo podría agregar el administrador del sistema una capa de seguridad adicional durante el inicio de sesión a la consola de administración de AWS de un usuario?
+Mediante Amazon Cloud Directory
+Por medio de una auditoría de los roles de AWS Identity and Access Management (IAM)
+Mediante la habilitación de la autenticación multifactor
+Mediante la habilitación de AWS CloudTrail
+
+Pregunta 22
+¿Dónde puede encontrar información un usuario sobre las acciones prohibidas en la infraestructura de AWS?
+AWS Trusted Advisor
+AWS Identity and Access Management (IAM)
+Consola de facturación de AWS
+Política de uso aceptable de AWS
+
+Pregunta 23
+¿Qué oferta de AWS permite a los usuarios encontrar, comprar y comenzar a utilizar de forma inmediata soluciones de software en su entorno de AWS?
+AWS Config
+AWS OpsWorks
+AWS SDK
+AWS Marketplace
+
+Pregunta 24
+¿Qué servicios o características de AWS admiten la replicación de datos en las regiones de AWS? (Selecciones dos)
+Amazon S3
+Amazon Elastic Block Store (EBS)
+Amazon EC2 Instance store
+AWS Storage Gateway
+Amazon RDS
+
+Pregunta 25
+¿Qué servicio de AWS puede crear una alarma que envía una notificación cuando se supera un umbral de facturación?
+AWS Trusted Advisor
+AWS CloudTrail
+AWS CloudWatch
+AWS QuickSight
+
+Pregunta 26
+¿Qué recomendaciones se incluyen en los controles de AWS Trusted Advisor (Seleccione dos)
+Permisos de bucket de Amazon S3
+Interrupciones del servicio de AWS para los servicios
+Usar la autenticación multifactor (MFA) en el usuario raíz de la cuenta AWS
+Parches de software disponibles para las instancias de Amazon EC2
+Número de usuarios de la cuenta
+
+Pregunta 27
+¿Qué servicios o características relacionadas con la seguridad ofrece AWS (Seleccione dos)
+Conformidad de PCI completa para aplicaciones de clientes que se ejecutan en AWS
+Controles de seguridad de AWS Trusted Advisor
+Cifrado de datos
+Prueba de penetración automatizada
+Detección de contenido protegido por derechos de autor de Amazon S3
+
+Pregunta 28
+¿Qué servicio de AWS proporciona una solución de almacenamiento de archivos compartidos simple y escalable para su uso con instancias de Amazon EC2 basadas en Linux y servidores en las instalaciones?
+AWS Managed Services (AMS)
+Amazon S3 Glacier
+Amazon Elastic Block Store (EBS)
+Amazon Elastic File System (EFS)
+
+Pregunta 29
+¿Qué principios de diseño de arquitectura de nube de AWS admite la distribución de cargas de trabajo en varias zonas de disponibilidad?
+Implementar la automatización
+Diseñar para la agilidad
+Diseñar a prueba de fallos
+Implementar elasticidad
+
+Pregunta 30
+¿Qué servicio se utilizaría para enviar alertas basadas en alarmas de Amazon CloudWatch?
+Amazon Simple Notification Service (Amazon SNS)
+AWS CloudTrail
+AWS Trusted Advisor
+Amazon Route 53
