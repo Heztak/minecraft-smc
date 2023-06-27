@@ -1,0 +1,14 @@
+location: world:-57.989:86.000:-20.995
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&a&l1. &f%supremeessentials_balance_name_1%'
+    height: 0.3
+  - content: '&a&l%supremeessentials_balance_value_1%'
+    height: 0.3
+  actions: {}

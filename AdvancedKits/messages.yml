@@ -1,0 +1,29 @@
+#  __  __                                     
+# |  \/  | ___  ___ ___  __ _  __ _  ___  ___ 
+# | |\/| |/ _ \/ __/ __|/ _` |/ _` |/ _ \/ __|
+# | |  | |  __/\__ \__ \ (_| | (_| |  __/\__ \
+# |_|  |_|\___||___/___/\__,_|\__, |\___||___/
+#                             |___/           
+
+no-permission: '&cYou do not have permission to use this command.'
+player-not-found: '&cThat player does not exist.'
+reload-all-files: '&2&lAK &aAll files have been reloaded! &f(It took {ms} ms!)'
+claim-kit-command-usage: '&cIncorrect usage! Use "/{command} \<kit>" instead.'
+kit-preview-command-usage: '&cIncorrect usage! Use "/{command} \<kit> [level]" instead.'
+kit-not-found: '&cThat kit does not exist.'
+voucher-not-found: '&cThat voucher does not exist.'
+invalid-voucher-amount: '&cThat number is invalid.'
+level-not-found: '&cThat level does not exist.'
+successfully-edited-kit: '&2&lAK &aYou have edited the &f{kit} (Lvl. {level}) &aitems successfully.'
+successfully-reset-cooldown: '&2&lAK &aYou have reset &f{player}''s cooldown &aon the &f{kit} kit &asuccessfully.'
+main-command-usage: '&cIncorrect usage! Use "/{command} \<give|open|reload|edit|resetcooldown>" instead.'
+give-player-kit-command-usage: '&cIncorrect usage! Use "/{command} give {player} kit \<kit> [level]" instead.'
+give-player-voucher-command-usage: '&cIncorrect usage! Use "/{command} give {player} voucher \<voucher>" instead.'
+give-player-command-usage: '&cIncorrect usage! Use "/{command} give \<player> \<kit|voucher>" instead.'
+invalid-command: '&cInvalid command! Use "/{command}" for help.'
+no-console-command: '&cYou must be in game to use this command.'
+no-console-open-menu: '&cIncorrect usage! Use "/{command} open [player]" instead.'
+edit-kit-command-usage: '&cIncorrect usage! Use "/{command} edit \<kit> \<level>" instead.'
+edit-kit-level-command-usage: '&cIncorrect usage! Use "/{command} edit {kit} \<level>" instead.'
+reset-cooldown-player-command-usage: '&cIncorrect usage! Use "/{command} resetcooldown \<player> \<kit>" instead.'
+reset-cooldown-player-kit-command-usage: '&cIncorrect usage! Use "/{command} resetcooldown {player} \<kit>" instead.'

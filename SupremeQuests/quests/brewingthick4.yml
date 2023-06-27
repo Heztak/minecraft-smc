@@ -1,0 +1,17 @@
+tasks:
+  brewing:
+    type: 'brewing'
+    item: POTION
+    data: THICK
+    amount: 75
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "supremetokens give {player} 10"
+options:
+  category: "brewing"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

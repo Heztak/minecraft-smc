@@ -1,0 +1,14 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 250
+    mob: CREEPER
+    worlds:
+     - 'survival'
+rewards:
+  - "eco give {player} 2500"
+  - "lp user {player} permission set level.33b"
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

@@ -1,0 +1,25 @@
+# ----------------------------------
+# -
+#       ExecutableItems
+# -
+#         By: Ssomar
+# -
+# ----------------------------------
+# -
+# -
+# -
+# follow the examples below to create new Executable Item
+# Players will need permission "ei.item.<ID>" to use items in-game (ex: ei.item.fly)
+# -
+# WIKI HERE : https://github.com/ssomar1607/ExecutableItems/wiki
+# DISCORD HERE : https://discord.com/invite/7n8wHXu
+# material ID : https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# particle ID: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+# head VALUE: https://minecraft-heads.com/custom-heads
+# -
+pickup-limit: -1
+configConvert: true #Dont touch this option
+disable-world: []
+activeLogs: false
+premium-enable-cooldown-for-op: false
+checkVersionMsg: false

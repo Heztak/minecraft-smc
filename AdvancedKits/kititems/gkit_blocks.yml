@@ -1,0 +1,141 @@
+'1':
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: OAK_WOOD
+    amount: 64
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: OAK_WOOD
+    amount: 64
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: GRASS_BLOCK
+    amount: 64
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: GRASS_BLOCK
+    amount: 64
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SAND
+    amount: 64
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SAND
+    amount: 64
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: GLASS
+    amount: 64
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: GLASS
+    amount: 64
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: BRICKS
+    amount: 64
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: BRICKS
+    amount: 64
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: YELLOW_CONCRETE
+    amount: 64
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ORANGE_CONCRETE
+    amount: 64
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: LIME_CONCRETE
+    amount: 64
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: PINK_CONCRETE
+    amount: 64
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: RED_CONCRETE
+    amount: 64
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: PURPLE_CONCRETE
+    amount: 64
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: BLACK_CONCRETE
+    amount: 64
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: WHITE_CONCRETE
+    amount: 64
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: LIGHT_BLUE_CONCRETE
+    amount: 64
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: MAGENTA_CONCRETE
+    amount: 64
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: QUARTZ_BLOCK
+    amount: 64
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: QUARTZ_BLOCK
+    amount: 64
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: PURPUR_BLOCK
+    amount: 64
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: PURPUR_PILLAR
+    amount: 64
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SEA_LANTERN
+    amount: 64
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: PRISMARINE_BRICKS
+    amount: 64
+  '27':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: PRISMARINE
+    amount: 64
+  '28':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DARK_PRISMARINE
+    amount: 64

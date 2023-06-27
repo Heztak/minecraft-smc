@@ -1,0 +1,13 @@
+tasks:
+  walking:
+    type: 'walking'
+    distance: 1000000
+    worlds:
+     - 'survival'
+rewards:
+  - "minecraft:give {player} enchanted_book{StoredEnchantments:[{id:frost_walker,lvl:1}]} 1"
+  - "lp user {player} permission set level.69"  
+options:
+  category: "walking"
+  requires: []
+  repeatable: true

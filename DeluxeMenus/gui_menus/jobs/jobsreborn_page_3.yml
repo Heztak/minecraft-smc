@@ -1,0 +1,329 @@
+menu_title: '&cSurvival Jobs (Page 3/3)'
+open_command:
+- jobs page3
+update_interval: 1
+size: 45
+items:
+  'filler':
+    material: 'GRAY_STAINED_GLASS_PANE'
+    display_name: '&r'    
+    priority: 1
+    slots:
+    - 22
+    - 23
+    - 24
+  'jobs':
+    material: CLOCK
+    priority: 1
+    slot: 4
+    display_name: '&e&lJobs'
+    lore:
+    - '&7Start earning some extra cash by'
+    - '&7joining different jobs. Each job will'
+    - '&7reward you for different actions.'    
+    - ''
+    - ' &fInformation:'    
+    - '  &8◊ &7Max Jobs: &e%jobsr_user_joinedjobcount%/%jobsr_maxjobs%'
+    - '  &8◊ &7Joined: &e%jobsr_user_jobs%'
+    - ''
+    - '&a&lLeft Click &r&7for more information'
+    left_click_commands:
+    - '[openguimenu] jobsreborn_information_page_1'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_information_page_1'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'digger':
+    material: IRON_SHOVEL
+    priority: 3
+    slot: 20
+    display_name: '&e&lDigger'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money by digging your way into the world!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Breaking'
+    - '  &8◊ &7Killing'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''    
+    - '&a&lLeft Click &r&7to join this job'  
+    left_click_commands:
+    - '[player] jobs join digger'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_digger_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'digger2':
+    material: IRON_SHOVEL
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true    
+    priority: 2
+    slot: 20
+    display_name: '&e&lDigger &7(Lvl %jobsr_user_jlevel_digger%/%jobsr_maxlvl_digger%)'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money by digging your way into the world!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Breaking'
+    - '  &8◊ &7Killing'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''
+    - '&c&lLeft Click &r&7to leave this job' 
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_digger%"
+         output: "True" 
+    left_click_commands:
+    - '[player] jobs leave digger'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_digger_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'digger3':
+    material: IRON_SHOVEL
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true    
+    priority: 1
+    slot: 20
+    display_name: '&e&lDigger &7(Lvl %jobsr_user_jlevel_digger%/%jobsr_maxlvl_digger%)'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money by digging your way into the world!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Breaking'
+    - '  &8◊ &7Killing'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''
+    - '&c&lLeft Click &r&7to leave this job' 
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_digger%"
+         output: "True" 
+        anythings1:
+         type: javascript
+         expression: "%jobsr_user_joinedjobcount% == %jobsr_maxjobs%"
+    left_click_commands:
+    - '[player] jobs leave digger'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_digger_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'digger4':
+    material: IRON_SHOVEL
+    priority: 0
+    slot: 20
+    display_name: '&e&lDigger'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money by digging your way into the world!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Breaking'
+    - '  &8◊ &7Killing'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''    
+    - '&a&lLeft Click &r&7to join this job'
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_digger%"
+         output: "False" 
+        anythings1:
+         type: javascript
+         expression: "%jobsr_user_joinedjobcount% == %jobsr_maxjobs%"
+    left_click_commands:
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    - '[message] &cYou have reached the maximum number of jobs.'
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_digger_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'crafter':
+    material: CRAFTING_TABLE
+    priority: 3
+    slot: 21
+    display_name: '&e&lCrafter'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money by crafting and smelting items!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Crafting'
+    - '  &8◊ &7Smelting'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''    
+    - '&a&lLeft Click &r&7to join this job'
+    left_click_commands:
+    - '[player] jobs join crafter'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_crafter_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'crafter2':
+    material: CRAFTING_TABLE
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true    
+    priority: 2
+    slot: 21
+    display_name: '&e&lCrafter &7(Lvl %jobsr_user_jlevel_crafter%/%jobsr_maxlvl_crafter%)'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money by crafting and smelting items!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Crafting'
+    - '  &8◊ &7Smelting'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''
+    - '&c&lLeft Click &r&7to leave this job'
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_crafter%"
+         output: "True" 
+    left_click_commands:
+    - '[player] jobs leave crafter'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_crafter_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'crafter3':
+    material: CRAFTING_TABLE
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true    
+    priority: 1
+    slot: 21
+    display_name: '&e&lCrafter &7(Lvl %jobsr_user_jlevel_crafter%/%jobsr_maxlvl_crafter%)'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money by crafting and smelting items!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Crafting'
+    - '  &8◊ &7Smelting'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''
+    - '&c&lLeft Click &r&7to leave this job'
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_crafter%"
+         output: "True" 
+        anythings1:
+         type: javascript
+         expression: "%jobsr_user_joinedjobcount% == %jobsr_maxjobs%"
+    left_click_commands:
+    - '[player] jobs leave crafter'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_crafter_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'crafter4':
+    material: CRAFTING_TABLE
+    priority: 0
+    slot: 21
+    display_name: '&e&lCrafter'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money by crafting and smelting items!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Crafting'
+    - '  &8◊ &7Smelting'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''    
+    - '&a&lLeft Click &r&7to join this job'
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_crafter%"
+         output: "False" 
+        anythings1:
+         type: javascript
+         expression: "%jobsr_user_joinedjobcount% == %jobsr_maxjobs%"
+    left_click_commands:
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    - '[message] &cYou have reached the maximum number of jobs.'
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_crafter_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'close':
+    material: BARRIER
+    priority: 1
+    display_name: '&c× Close'
+    slots:
+    - 40
+    left_click_commands:
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'nextpage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0=
+    priority: 1
+    display_name: '&8Next Page'
+    slot: 25
+    left_click_commands:
+    - '[openguimenu] jobsreborn_page_3'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_page_3'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'previouspage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    priority: 1
+    display_name: '&ePrevious Page'
+    slot: 19
+    left_click_commands:
+    - '[openguimenu] jobsreborn_page_2'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_page_2'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'         

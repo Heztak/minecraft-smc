@@ -1,0 +1,70 @@
+#  ____  _                                         _        
+# |  _ \| | __ _ _   _  ___ _ __   _ __ __ _ _ __ | | _____ 
+# | |_) | |/ _` | | | |/ _ \ '__| | '__/ _` | '_ \| |/ / __|
+# |  __/| | (_| | |_| |  __/ |    | | | (_| | | | |   <\__ \
+# |_|   |_|\__,_|\__, |\___|_|    |_|  \__,_|_| |_|_|\_\___/
+#                |___/
+
+_DEFAULT_:
+  tabprefix: '&8[%supremelevels_levels%&8] %vault-prefix%%supremecolor_name_color%'
+  tagprefix: '&8[%supremelevels_levels%&8] &8Villein &7%supremecolor_name_color%'
+  tagsuffix: '%supremetags_tag%'
+  tabsuffix: '%supremetags_tag%'
+Knight:
+  tabprefix: '&8[%supremelevels_levels%&8] &#0f65b4K&#1972bcn&#237fc4i&#2d8bcdg&#3798d5h&#41a5ddt&#0f65b4 &r%supremecolor_name_color%'
+  tagprefix: '&8[%supremelevels_levels%&8] &#0f65b4K&#1972bcn&#237fc4i&#2d8bcdg&#3798d5h&#41a5ddt&#0f65b4 &r%supremecolor_name_color%'
+  tagsuffix: '%supremetags_tag%'
+  tabsuffix: '%supremetags_tag%'  
+Lord:
+  tabprefix: '&8[%supremelevels_levels%&8] &#ddd56bL&#ddd352o&#ddd239r&#ddd020d&#DDD56B &r%supremecolor_name_color%'
+  tagprefix: '&8[%supremelevels_levels%&8] &#ddd56bL&#ddd352o&#ddd239r&#ddd020d&#DDD56B &r%supremecolor_name_color%'
+  tagsuffix: '%supremetags_tag%'
+  tabsuffix: '%supremetags_tag%'  
+Baron:
+  tabprefix: '&8[%supremelevels_levels%&8] &a&#42c813B&#43d62da&#44e447r&#45f160o&#46ff7an&#42C813 &r%supremecolor_name_color%'
+  tagprefix: '&8[%supremelevels_levels%&8] &a&#42c813B&#43d62da&#44e447r&#45f160o&#46ff7an&#42C813 &r%supremecolor_name_color%'
+  tagsuffix: '%supremetags_tag%'
+  tabsuffix: '%supremetags_tag%'  
+Paladin:
+  tabprefix: '&8[%supremelevels_levels%&8] &5&#d51fadP&#dc2bbba&#e236c8l&#e942d6a&#ef4de4d&#f659f1i&#fc64ffn&#D51FAD &r%supremecolor_name_color%'
+  tagprefix: '&8[%supremelevels_levels%&8] &5&#d51fadP&#dc2bbba&#e236c8l&#e942d6a&#ef4de4d&#f659f1i&#fc64ffn&#D51FAD &r%supremecolor_name_color%'
+  tagsuffix: '%supremetags_tag%'
+  tabsuffix: '%supremetags_tag%'  
+Duke:
+  tabprefix: '&8[%supremelevels_levels%&8] &#83ffe1D&#6ff0ebu&#5ae2f5k&#46d3ffe&#83FFE1 &r%supremecolor_name_color%'
+  tagprefix: '&8[%supremelevels_levels%&8] &#83ffe1D&#6ff0ebu&#5ae2f5k&#46d3ffe&#83FFE1 &r%supremecolor_name_color%'
+  tagsuffix: '%supremetags_tag%'
+  tabsuffix: '%supremetags_tag%'  
+King:
+  tabprefix: '&8[%supremelevels_levels%&8] &#ffa63e&lK&#ffb53d&li&#ffc53d&ln&#ffd43c&lg&#FFA63E &r%supremecolor_name_color%'
+  tagprefix: '&8[%supremelevels_levels%&8] &#ffa63e&lK&#ffb53d&li&#ffc53d&ln&#ffd43c&lg&#FFA63E &r%supremecolor_name_color%'
+  tagsuffix: '%supremetags_tag%'
+  tabsuffix: '%supremetags_tag%'  
+
+
+#  ____  _         __  __                   _        
+# / ___|| |_ __ _ / _|/ _|  _ __ __ _ _ __ | | _____ 
+# \___ \| __/ _` | |_| |_  | '__/ _` | '_ \| |/ / __|
+#  ___) | || (_| |  _|  _| | | | (_| | | | |   <\__ \
+# |____/ \__\__,_|_| |_|   |_|  \__,_|_| |_|_|\_\___/
+#
+
+Trial:
+  tabprefix: '&3Trial &r'
+  tagprefix: '&3Trial &r'  
+Helper:
+  tabprefix: '&aHelper &r'
+  tagprefix: '&aHelper &r'  
+Moderator:
+  tabprefix: '&dModerator &r'
+  tagprefix: '&dModerator &r'  
+Manager:
+  tabprefix: '&9Manager &r'
+  tagprefix: '&9Manager &r'  
+Owner:
+  tabprefix: '&c&lOwner &r'
+  tagprefix: '&c&lOwner &r'  
+
+
+
+per-world: {}

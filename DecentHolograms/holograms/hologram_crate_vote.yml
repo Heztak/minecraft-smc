@@ -1,0 +1,17 @@
+location: world:11.503:84.500:47.532
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: <#ANIM:wave:&a&l,&f&l>Vote Crate</#ANIM>
+    height: 0.3
+  - content: '&fRight click to open'
+    height: 0.3
+  - content: '&fLeft click to view rewards'
+    height: 0.3
+  actions: {}

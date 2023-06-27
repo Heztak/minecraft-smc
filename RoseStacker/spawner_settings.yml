@@ -1,0 +1,1069 @@
+BAT:
+  enabled: true
+  display-name: '&eBat &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - below-sea-level
+    - darkness
+BEE:
+  enabled: true
+  display-name: '&eBee &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements: []
+BLAZE:
+  enabled: true
+  display-name: '&eBlaze &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+CAT:
+  enabled: true
+  display-name: '&eCat &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+CAVE_SPIDER:
+  enabled: true
+  display-name: '&eCave Spider &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+CHICKEN:
+  enabled: true
+  display-name: '&eChicken &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+COD:
+  enabled: true
+  display-name: '&eCod &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+COW:
+  enabled: true
+  display-name: '&eCow &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+CREEPER:
+  enabled: true
+  display-name: '&eCreeper &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+DOLPHIN:
+  enabled: true
+  display-name: '&eDolphin &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - above-y-axis:45
+    - below-sea-level
+    - biome:ocean,deep_ocean
+    - fluid:water
+DONKEY:
+  enabled: true
+  display-name: '&eDonkey &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+DROWNED:
+  enabled: true
+  display-name: '&eDrowned &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+    - below-sea-level
+ELDER_GUARDIAN:
+  enabled: true
+  display-name: '&eElder Guardian &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+ENDERMAN:
+  enabled: true
+  display-name: '&eEnderman &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+ENDERMITE:
+  enabled: true
+  display-name: '&eEndermite &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+ENDER_DRAGON:
+  enabled: true
+  display-name: '&eEnder Dragon &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements: []
+EVOKER:
+  enabled: true
+  display-name: '&eEvoker &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+FOX:
+  enabled: true
+  display-name: '&eFox &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+GHAST:
+  enabled: true
+  display-name: '&eGhast &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements: []
+GIANT:
+  enabled: true
+  display-name: '&eGiant &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+GUARDIAN:
+  enabled: true
+  display-name: '&eGuardian &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+HOGLIN:
+  enabled: true
+  display-name: '&eHoglin &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+    - block-exception:nether_wart_block
+HORSE:
+  enabled: true
+  display-name: '&eHorse &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+HUSK:
+  enabled: true
+  display-name: '&eHusk &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+ILLUSIONER:
+  enabled: true
+  display-name: '&eIllusioner &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+IRON_GOLEM:
+  enabled: true
+  display-name: '&eIron Golem &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - on-ground
+LLAMA:
+  enabled: true
+  display-name: '&eLlama &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+MAGMA_CUBE:
+  enabled: true
+  display-name: '&eMagma Cube &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements: []
+MULE:
+  enabled: true
+  display-name: '&eMule &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+MUSHROOM_COW:
+  enabled: true
+  display-name: '&eMushroom Cow &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:mycelium
+    - lightness
+OCELOT:
+  enabled: true
+  display-name: '&eOcelot &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block,acacia_leaves,birch_leaves,dark_oak_leaves,jungle_leaves,oak_leaves,spruce_leaves
+    - lightness
+PANDA:
+  enabled: true
+  display-name: '&ePanda &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+PARROT:
+  enabled: true
+  display-name: '&eParrot &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block,acacia_leaves,birch_leaves,dark_oak_leaves,jungle_leaves,oak_leaves,spruce_leaves
+    - lightness
+PHANTOM:
+  enabled: true
+  display-name: '&ePhantom &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+PIG:
+  enabled: true
+  display-name: '&ePig &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+PIGLIN:
+  enabled: true
+  display-name: '&ePiglin &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+    - block-exception:nether_wart_block
+PIGLIN_BRUTE:
+  enabled: true
+  display-name: '&ePiglin Brute &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+    - block-exception:nether_wart_block
+PILLAGER:
+  enabled: true
+  display-name: '&ePillager &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+POLAR_BEAR:
+  enabled: true
+  display-name: '&ePolar Bear &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block,ice,packed_ice,blue_ice
+    - lightness
+PUFFERFISH:
+  enabled: true
+  display-name: '&ePufferfish &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+RABBIT:
+  enabled: true
+  display-name: '&eRabbit &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block,snow,sand
+    - lightness
+RAVAGER:
+  enabled: true
+  display-name: '&eRavager &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+SALMON:
+  enabled: true
+  display-name: '&eSalmon &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+SHEEP:
+  enabled: true
+  display-name: '&eSheep &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+SHULKER:
+  enabled: true
+  display-name: '&eShulker &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+SILVERFISH:
+  enabled: true
+  display-name: '&eSilverfish &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+SKELETON:
+  enabled: true
+  display-name: '&eSkeleton &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+SKELETON_HORSE:
+  enabled: true
+  display-name: '&eSkeleton Horse &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+SLIME:
+  enabled: true
+  display-name: '&eSlime &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - below-y-axis:40
+    - lightness
+SNOWMAN:
+  enabled: true
+  display-name: '&eSnowman &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - on-ground
+SPIDER:
+  enabled: true
+  display-name: '&eSpider &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+SQUID:
+  enabled: true
+  display-name: '&eSquid &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+    - below-sea-level
+    - above-y-axis:45
+STRAY:
+  enabled: true
+  display-name: '&eStray &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+STRIDER:
+  enabled: true
+  display-name: '&eStrider &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+TRADER_LLAMA:
+  enabled: true
+  display-name: '&eTrader Llama &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+TROPICAL_FISH:
+  enabled: true
+  display-name: '&eTropical Fish &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+TURTLE:
+  enabled: true
+  display-name: '&eTurtle &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - above-sea-level
+    - block:sand,red_sand
+    - lightness
+VEX:
+  enabled: true
+  display-name: '&eVex &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+VILLAGER:
+  enabled: true
+  display-name: '&eVillager &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - on-ground
+VINDICATOR:
+  enabled: true
+  display-name: '&eVindicator &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+WANDERING_TRADER:
+  enabled: true
+  display-name: '&eWandering Trader &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - on-ground
+WITCH:
+  enabled: true
+  display-name: '&eWitch &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+WITHER:
+  enabled: true
+  display-name: '&eWither &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+WITHER_SKELETON:
+  enabled: true
+  display-name: '&eWither Skeleton &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+WOLF:
+  enabled: true
+  display-name: '&eWolf &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+ZOGLIN:
+  enabled: true
+  display-name: '&eZoglin &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+    - block-exception:nether_wart_block
+ZOMBIE:
+  enabled: true
+  display-name: '&eZombie &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+ZOMBIE_HORSE:
+  enabled: true
+  display-name: '&eZombie Horse &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+ZOMBIE_VILLAGER:
+  enabled: true
+  display-name: '&eZombie Villager &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+ZOMBIFIED_PIGLIN:
+  enabled: true
+  display-name: '&eZombified Piglin &fSpawner'
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+    - block-exception:nether_wart_block
+AXOLOTL:
+  enabled: true
+  display-name: Axolotl Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+    - below-sea-level
+    - darkness
+GLOW_SQUID:
+  enabled: true
+  display-name: Glow Squid Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+    - below-sea-level
+    - darkness
+GOAT:
+  enabled: true
+  display-name: Goat Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+ALLAY:
+  enabled: true
+  display-name: Allay Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements: []
+FROG:
+  enabled: true
+  display-name: Frog Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block,mud,mangrove_roots,muddy_mangrove_roots
+    - lightness
+TADPOLE:
+  enabled: true
+  display-name: Tadpole Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+WARDEN:
+  enabled: true
+  display-name: Warden Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+CAMEL:
+  enabled: true
+  display-name: Camel Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block,sand
+    - lightness
+EMPTY:
+  enabled: true
+  display-name: Empty Spawner
+  max-stack-size: -1
+SNIFFER:
+  enabled: true
+  display-name: Sniffer Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - on-ground
+    - block:grass_block

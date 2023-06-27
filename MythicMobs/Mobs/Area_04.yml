@@ -1,0 +1,85 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+ZombiefiedVillager01Lvl12:
+  Type: ZOMBIE
+  Display: '&6&lLvl. 12 &8▪ &2Zombified Villager'
+  Disguise: player Zombie01 setCustomName "&6&lLvl. 12 &8▪ &2Zombified Villager" setSkin Zombie01
+  Health: 90
+  Damage: 7
+  Drops:
+  - Common_Shard 1 0.25
+  - Rare_Shard 1 0.18
+  - Legendary_Shard 1 0.08 
+  LevelModifiers:
+  - health 10
+  Options:
+    MovementSpeed: 0.3
+    AlwaysShowName: false
+    PreventSunburn: true
+    Silent: true
+    Despawn: true
+    FollowRange: 9
+    KnockbackResistance: 0.5
+    PreventOtherDrops: true
+  Skills:
+  - damage{a=10;pkb=true} ~onAttack
+  - message{m="&7You defeated A <caster.name>&7!"} @Trigger ~onDeath 
+  - message{m="&c♡ <caster.hp> HP"} @Trigger ~onDamaged
+  - effect:particles{particle=reddust;color=#B20000;amount=10;speed=0.5;hS=0.15;vS=.15} @target ~onDeath
+  - sound{s=entity.zombie.destroy_egg} @self ~onDeath
+ZombiefiedVillager02Lvl12:
+  Type: ZOMBIE
+  Display: '&6&lLvl. 11 &8▪ &2Zombified Villager'
+  Disguise: player Zombie02 setCustomName "&6&lLvl. 11 &8▪ &2Zombified Villager" setSkin Zombie02
+  Health: 90
+  Damage: 9
+  Drops:
+  - Common_Shard 1 0.25
+  - Rare_Shard 1 0.18
+  - Legendary_Shard 1 0.08 
+  LevelModifiers:
+  - health 10
+  Options:
+    MovementSpeed: 0.3
+    AlwaysShowName: false
+    PreventSunburn: true
+    Silent: true
+    Despawn: true
+    FollowRange: 9
+    KnockbackResistance: 0.5
+    PreventOtherDrops: true
+  Skills:
+  - damage{a=10;pkb=true} ~onAttack
+  - message{m="&7You defeated A <caster.name>&7!"} @Trigger ~onDeath 
+  - message{m="&c♡ <caster.hp> HP"} @Trigger ~onDamaged
+  - effect:particles{particle=reddust;color=#B20000;amount=10;speed=0.5;hS=0.15;vS=.15} @target ~onDeath
+  - sound{s=entity.zombie.destroy_egg} @self ~onDeath
+ZombiefiedVillager03Lvl12:
+  Type: ZOMBIE
+  Display: '&6&lLvl. 14 &8▪ &2Zombified Villager'
+  Disguise: player Zombie03 setCustomName "&6&lLvl. 14 &8▪ &2Zombified Villager" setSkin Zombie03
+  Health: 90
+  Damage: 9
+  Drops:
+  - Common_Shard 1 0.25
+  - Rare_Shard 1 0.18
+  - Legendary_Shard 1 0.08 
+  LevelModifiers:
+  - health 10
+  Options:
+    MovementSpeed: 0.3
+    AlwaysShowName: false
+    PreventSunburn: true
+    Silent: true
+    Despawn: true
+    FollowRange: 11
+    KnockbackResistance: 0.5
+    PreventOtherDrops: true
+  Skills:
+  - damage{a=10;pkb=true} ~onAttack
+  - message{m="&7You defeated A <caster.name>&7!"} @Trigger ~onDeath 
+  - message{m="&c♡ <caster.hp> HP"} @Trigger ~onDamaged
+  - effect:particles{particle=reddust;color=#B20000;amount=10;speed=0.5;hS=0.15;vS=.15} @target ~onDeath
+  - sound{s=entity.zombie.destroy_egg} @self ~onDeath  

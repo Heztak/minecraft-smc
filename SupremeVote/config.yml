@@ -1,0 +1,57 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+# Vote message
+vote-announcement:
+- '&e&lVote &6┃ &e{USERNAME} &fhas voted and received &a&l&n1x Voting Crate Key&f! Vote using &b/vote&f!'
+
+# Vote rewards 
+reward-commands:
+- cc give physical vote 1 {USERNAME}
+
+# Sounds
+voting-sounds:
+- ENTITY_ITEM_PICKUP;0.5;1.0
+party-sounds:
+- ENTITY_PLAYER_LEVELUP;1.0;1.0
+
+# Vote party messages and options
+messages:
+  reward: '&d&lVote Party &5┃ &fYou have received &e&l&n1x Ultra Crate Key&f from the &dVote Party&f!'
+vote-party:
+  votes-needed: 5
+  reward-commands:
+  - cc give physical ultra 1 {EVERYONE}
+  save: 0
+  start-delay: 10
+  party-broadcast:
+  - ' &c♫'
+  - '  &b♫  &e♫  &fThe votes for the &d&lVote Party &fhave been obtained!'
+  - '&a♫   &c♫          &fThis will be started in &b10 seconds&f!'
+  - '  &6♫ '
+
+# Vote progress hologram 
+progress-bar:
+  length: 50
+  symbol: ┃
+  color-filled: '&a'
+  color-empty: '&7'
+
+# /votes message (player command)  
+votes-message: '&eYou have &f{votes} &eVotes.'  
+ 

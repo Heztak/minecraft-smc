@@ -1,0 +1,3658 @@
+menu_title: '&cPlayer Levels (Page 2/4)'
+open_command: 
+- plevel2
+size: 45
+update_interval: 1
+items:
+
+#  _                   _   ____  _ 
+# | |    _____   _____| | |___ \/ |
+# | |   / _ \ \ / / _ \ |   __) | |
+# | |__|  __/\ V /  __/ |  / __/| |
+# |_____\___| \_/ \___|_| |_____|_|
+#
+
+  'level_21':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 10
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.21a
+        hasPermission2:
+          type: has permission
+          permission: level.21b
+        hasPermission3:
+          type: has permission
+          permission: level.21c
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.20.unlocked          
+    display_name: '&e&lLevel 21'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eBlaze quest 1 &8(Killing) &8(%supremequests_percent_killingblaze1:killing:5%%)'
+    - '  &8▪ &ePiglin quest 1 &8(Killing) &8(%supremequests_percent_killingpiglin1:killing:10%%)'
+    - '  &8▪ &eZombified Piglin quest 1 &8(Killing) &8(%supremequests_percent_killingzombifiedpiglin1:killing:5%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a2500'
+    - '  &8◊ &c10 Tokens'    
+    - '' 
+    - '&fPrefix: &8[&e21&8]'
+    - ''
+    - '&fTag: &e&l❃ &8(/tags)'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] eco give %player_name% 2500'
+    - '[console] supremetokens give %player_name% 10'    
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.21.unlocked'
+    - '[console] lp user %player_name% permission set level.22.menu false'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set tag.leve21'    
+    right_click_commands:
+    - '[close]'
+    - '[console] eco give %player_name% 2500'
+    - '[console] supremetokens give %player_name% 10'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.21.unlocked'
+    - '[console] lp user %player_name% permission set level.22.menu false'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set tag.leve21'    
+  'level_21b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 10
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.21.unlocked
+    display_name: '&e&lLevel 21'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eBlaze quest 1 &8(Killing)'
+    - '  &8▪ &ePiglin quest 1 &8(Killing)'
+    - '  &8▪ &eZombified Piglin quest 1 &8(Killing)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a2500'
+    - '  &8◊ &c10 Tokens'
+    - '' 
+    - '&fPrefix: &8[&e21&8]'
+    - ''
+    - '&fTag: &e&l❃ &8(/tags)'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_21c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 10
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.20.unlocked    
+    display_name: '&e&lLevel 21'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eBlaze quest 1 &8(Killing) &8(%supremequests_percent_killingblaze1:killing:5%%)'
+    - '  &8▪ &ePiglin quest 1 &8(Killing) &8(%supremequests_percent_killingpiglin1:killing:10%%)'
+    - '  &8▪ &eZombified Piglin quest 1 &8(Killing) &8(%supremequests_percent_killingzombifiedpiglin1:killing:5%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a2500'
+    - '  &8◊ &c10 Tokens'
+    - '' 
+    - '&fPrefix: &8[&e21&8]'
+    - ''
+    - '&fTag: &e&l❃ &8(/tags)'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_21d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 10
+    priority: 5
+    display_name: '&e&lLevel 21'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a2500'
+    - '  &8◊ &c10 Tokens'
+    - '' 
+    - '&fPrefix: &8[&e21&8]'
+    - ''
+    - '&fTag: &e&l❃ &8(/tags)'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_21e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 10
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.21.menu   	
+    display_name: '&e&lLevel 21'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a2500'
+    - '  &8◊ &c10 Tokens'
+    - '' 
+    - '&fPrefix: &8[&e21&8]'
+    - ''
+    - '&fTag: &e&l❃ &8(/tags)'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   ____  ____  
+# | |    _____   _____| | |___ \|___ \ 
+# | |   / _ \ \ / / _ \ |   __) | __) |
+# | |__|  __/\ V /  __/ |  / __/ / __/ 
+# |_____\___| \_/ \___|_| |_____|_____|
+#
+
+  'level_22':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 11
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.22
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.21.unlocked          
+    display_name: '&e&lLevel 22'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Netherrack quest 3 &8(Mining) &8(%supremequests_percent_miningnetherrack3:mining:500%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &3x1 Baron kit Voucher'   
+    - '' 
+    - '&fPrefix: &8[&e22&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] supremevouchers %player_name% kitbaron'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.22.unlocked'
+    - '[console] lp user %player_name% permission set tag.level22'    
+    - '[console] lp user %player_name% permission set level.23.menu false'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] supremevouchers %player_name% kitbaron'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.22.unlocked'
+    - '[console] lp user %player_name% permission set tag.level22'    
+    - '[console] lp user %player_name% permission set level.23.menu false'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_22b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 11
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.22.unlocked
+    display_name: '&e&lLevel 22'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Netherrack quest 3 &8(Mining)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &3x1 Baron kit Voucher'
+    - '' 
+    - '&fPrefix: &8[&e22&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_22c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 11
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.21.unlocked    
+    display_name: '&e&lLevel 22'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Netherrack quest 3 &8(Mining) &8(%supremequests_percent_miningnetherrack3:mining:500%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &3x1 Baron kit Voucher'
+    - '' 
+    - '&fPrefix: &8[&e22&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_22d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 11
+    priority: 5
+    display_name: '&e&lLevel 22'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &3x1 Baron kit Voucher'
+    - '' 
+    - '&fPrefix: &8[&e22&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_22e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 11
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.22.menu   	
+    display_name: '&e&lLevel 22'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &3x1 Baron kit Voucher'
+    - '' 
+    - '&fPrefix: &8[&e22&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   ____  _____ 
+# | |    _____   _____| | |___ \|___ / 
+# | |   / _ \ \ / / _ \ |   __) | |_ \ 
+# | |__|  __/\ V /  __/ |  / __/ ___) |
+# |_____\___| \_/ \___|_| |_____|____/ 
+#
+
+  'level_23':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 12
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.23
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.22.unlocked          
+    display_name: '&e&lLevel 23'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Gold quest 4 &8(Mining) &8(%supremequests_percent_mininggold4:mining:30%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &a+1 Player Vault'
+    - '' 
+    - '&fPrefix: &8[&e23&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] lp user %player_name% permission set cosmicvaults.maxallowedvaults.2'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.23.unlocked'
+    - '[console] lp user %player_name% permission set level.24.menu false'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] lp user %player_name% permission set cosmicvaults.maxallowedvaults.2'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.23.unlocked'
+    - '[console] lp user %player_name% permission set level.24.menu false'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_23b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 12
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.23.unlocked
+    display_name: '&e&lLevel 23'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Gold quest 4 &8(Mining)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &a+1 Player Vault'
+    - '' 
+    - '&fPrefix: &8[&e23&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_23c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 12
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.22.unlocked    
+    display_name: '&e&lLevel 23'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Gold quest 4 &8(Mining) &8(%supremequests_percent_mininggold4:mining:30%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &a+1 Player Vault'
+    - '' 
+    - '&fPrefix: &8[&e23&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_23d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 12
+    priority: 5
+    display_name: '&e&lLevel 23'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &a+1 Player Vault'
+    - '' 
+    - '&fPrefix: &8[&e23&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_23e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 12
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.23.menu   	
+    display_name: '&e&lLevel 23'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &a+1 Player Vault'
+    - '' 
+    - '&fPrefix: &8[&e23&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   ____  _  _   
+# | |    _____   _____| | |___ \| || |  
+# | |   / _ \ \ / / _ \ |   __) | || |_ 
+# | |__|  __/\ V /  __/ |  / __/|__   _|
+# |_____\___| \_/ \___|_| |_____|  |_|  
+#
+
+  'level_24':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 13
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.24a
+        hasPermission2:
+          type: has permission
+          permission: level.24b
+        hasPermission3:
+          type: has permission
+          permission: level.24c
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.23.unlocked          
+    display_name: '&e&lLevel 24'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Beetroot quest 2 &8(Harvesting) &8(%supremequests_percent_harvestingbeetroot2:harvesting:125%%)'
+    - '  &8▪ &eReach Cocoa Beans quest 2 &8(Harvesting) &8(%supremequests_percent_harvestingcocoabeans2:harvesting:125%%)'
+    - '  &8▪ &eReach Nether Wart quest 2 &8(Harvesting) &8(%supremequests_percent_harvestingnetherwart2:harvesting:125%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &bDiamond Sword &8(Sharpness III, Fire Aspect I)'
+    - '' 
+    - '&fPrefix: &8[&e24&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] minecraft:give %player_name% diamond_sword{Enchantments:[{id:sharpness,lvl:3},{id:fire_aspect,lvl:1}]} 1'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.24.unlocked'
+    - '[console] lp user %player_name% permission set level.25.menu false'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] minecraft:give %player_name% diamond_sword{Enchantments:[{id:sharpness,lvl:3},{id:fire_aspect,lvl:1}]} 1'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.24.unlocked'
+    - '[console] lp user %player_name% permission set level.25.menu false'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_24b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 13
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.24.unlocked
+    display_name: '&e&lLevel 24'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Beetroot quest 2 &8(Harvesting)'
+    - '  &8▪ &eReach Cocoa Beans quest 2 &8(Harvesting)'
+    - '  &8▪ &eReach Nether Wart quest 2 &8(Harvesting)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &bDiamond Sword &8(Sharpness III, Fire Aspect I)'
+    - '' 
+    - '&fPrefix: &8[&e24&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_24c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 13
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.23.unlocked    
+    display_name: '&e&lLevel 24'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Beetroot quest 2 &8(Harvesting) &8(%supremequests_percent_harvestingbeetroot2:harvesting:125%%)'
+    - '  &8▪ &eReach Cocoa Beans quest 2 &8(Harvesting) &8(%supremequests_percent_harvestingcocoabeans2:harvesting:125%%)'
+    - '  &8▪ &eReach Nether Wart quest 2 &8(Harvesting) &8(%supremequests_percent_harvestingnetherwart2:harvesting:125%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &bDiamond Sword &8(Sharpness III, Fire Aspect I)'
+    - '' 
+    - '&fPrefix: &8[&e24&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_24d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 13
+    priority: 5
+    display_name: '&e&lLevel 24'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &bDiamond Sword &8(Sharpness III, Fire Aspect I)'
+    - '' 
+    - '&fPrefix: &8[&e24&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_24e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.24.menu   	
+    display_name: '&e&lLevel 24'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &bDiamond Sword &8(Sharpness III, Fire Aspect I)'
+    - '' 
+    - '&fPrefix: &8[&e24&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   ____  ____  
+# | |    _____   _____| | |___ \| ___| 
+# | |   / _ \ \ / / _ \ |   __) |___ \ 
+# | |__|  __/\ V /  __/ |  / __/ ___) |
+# |_____\___| \_/ \___|_| |_____|____/ 
+#
+
+  'level_25':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 14
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: '>='
+          input: "%supremevote_votes%"
+          output: "15"
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.24.unlocked        
+    display_name: '&e&lLevel 25'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eHave a total of 15 Votes &8(%supremevote_votes%/15)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &#fb38ed&lD&#fa40ee&lu&#f948ef&ln&#f84ff0&lg&#f657f1&le&#f55ff1&lo&#f467f2&ln&#f36ef3&ls &#f276f4&lW&#f17ef5&lo&#ef86f6&lr&#ee8ef7&ll&#ed95f8&ld &#ec9df9&lA&#eba5f9&lc&#eaadfa&lc&#e8b4fb&le&#e7bcfc&ls&#e6c4fd&ls'
+    - '  &8◊ &6Congratulations!'
+    - ''
+    - '&fPrefix: &8[&e25&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] minecraft:summon firework_rocket ~ ~1 ~ {LifeTime:30,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,3887386,4312372,6719955,12801229,15435844,15790320],FadeColors:[I;15790320]}]}}}}'    
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.25.unlocked'
+    - '[console] lp user %player_name% permission set tag.level25'    
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7! &6Congratulations!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] minecraft:summon firework_rocket ~ ~1 ~ {LifeTime:30,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,3887386,4312372,6719955,12801229,15435844,15790320],FadeColors:[I;15790320]}]}}}}'    
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.25.unlocked'
+    - '[console] lp user %player_name% permission set tag.level25'    
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7! &6Congratulations!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_25b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 14
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.25.unlocked
+    display_name: '&e&lLevel 25'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eHave a total of 15 Votes'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &#fb38ed&lD&#fa40ee&lu&#f948ef&ln&#f84ff0&lg&#f657f1&le&#f55ff1&lo&#f467f2&ln&#f36ef3&ls &#f276f4&lW&#f17ef5&lo&#ef86f6&lr&#ee8ef7&ll&#ed95f8&ld &#ec9df9&lA&#eba5f9&lc&#eaadfa&lc&#e8b4fb&le&#e7bcfc&ls&#e6c4fd&ls'
+    - '  &8◊ &6Congratulations!'
+    - ''
+    - '&fPrefix: &8[&e25&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_25c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 14
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.24.unlocked    
+    display_name: '&e&lLevel 25'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eHave a total of 15 Votes &8(%supremevote_votes%/15)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &#fb38ed&lD&#fa40ee&lu&#f948ef&ln&#f84ff0&lg&#f657f1&le&#f55ff1&lo&#f467f2&ln&#f36ef3&ls &#f276f4&lW&#f17ef5&lo&#ef86f6&lr&#ee8ef7&ll&#ed95f8&ld &#ec9df9&lA&#eba5f9&lc&#eaadfa&lc&#e8b4fb&le&#e7bcfc&ls&#e6c4fd&ls'    
+    - '  &8◊ &6Congratulations!'
+    - '' 
+    - '&fPrefix: &8[&e25&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_25d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 14
+    priority: 5
+    display_name: '&e&lLevel 25'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &#fb38ed&lD&#fa40ee&lu&#f948ef&ln&#f84ff0&lg&#f657f1&le&#f55ff1&lo&#f467f2&ln&#f36ef3&ls &#f276f4&lW&#f17ef5&lo&#ef86f6&lr&#ee8ef7&ll&#ed95f8&ld &#ec9df9&lA&#eba5f9&lc&#eaadfa&lc&#e8b4fb&le&#e7bcfc&ls&#e6c4fd&ls'
+    - '  &8◊ &6Congratulations!'
+    - '' 
+    - '&fPrefix: &8[&e25&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_25e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 14
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.25.menu   	
+    display_name: '&e&lLevel 25'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &#fb38ed&lD&#fa40ee&lu&#f948ef&ln&#f84ff0&lg&#f657f1&le&#f55ff1&lo&#f467f2&ln&#f36ef3&ls &#f276f4&lW&#f17ef5&lo&#ef86f6&lr&#ee8ef7&ll&#ed95f8&ld &#ec9df9&lA&#eba5f9&lc&#eaadfa&lc&#e8b4fb&le&#e7bcfc&ls&#e6c4fd&ls' 
+    - '  &8◊ &6Congratulations!'
+    - '' 
+    - '&fPrefix: &8[&e25&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   ____   __   
+# | |    _____   _____| | |___ \ / /_  
+# | |   / _ \ \ / / _ \ |   __) | '_ \ 
+# | |__|  __/\ V /  __/ |  / __/| (_) |
+# |_____\___| \_/ \___|_| |_____|\___/ 
+#
+
+  'level_26':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 15
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.26a
+        hasPermission2:
+          type: has permission
+          permission: level.26b
+        hasPermission3:
+          type: has permission
+          permission: level.26c
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.25.unlocked          
+    display_name: '&e&lLevel 26'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eGhast quest 1 &8(Killing) &8(%supremequests_percent_killingghast1:killing:1%%)'
+    - '  &8▪ &eMagma Cube quest 1 &8(Killing) &8(%supremequests_percent_killingmagmacube1:killing:10%%)'
+    - '  &8▪ &eHoglin quest 1 &8(Killing) &8(%supremequests_percent_killinghoglin1:killing:5%%)' 
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &bDiamond Sword &8(Looting III)'
+    - '' 
+    - '&fPrefix: &8[&e26&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] minecraft:give %player_name% diamond_sword{Enchantments:[{id:looting,lvl:3}]} 1'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.26.unlocked'
+    - '[console] lp user %player_name% permission set tag.level26'    
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] minecraft:give %player_name% diamond_sword{Enchantments:[{id:looting,lvl:3}]} 1'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.26.unlocked'
+    - '[console] lp user %player_name% permission set tag.level26'    
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_26b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 15
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.26.unlocked
+    display_name: '&e&lLevel 26'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eGhast quest 1 &8(Killing)'
+    - '  &8▪ &eMagma Cube quest 1 &8(Killing)'
+    - '  &8▪ &eHoglin quest 1 &8(Killing)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &bDiamond Sword &8(Looting III)'
+    - '' 
+    - '&fPrefix: &8[&e26&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_26c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 15
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.25.unlocked    
+    display_name: '&e&lLevel 26'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eGhast quest 1 &8(Killing) &8(%supremequests_percent_killingghast1:killing:1%%)'
+    - '  &8▪ &eMagma Cube quest 1 &8(Killing) &8(%supremequests_percent_killingmagmacube1:killing:10%%)'
+    - '  &8▪ &eHoglin quest 1 &8(Killing) &8(%supremequests_percent_killinghoglin1:killing:5%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &bDiamond Sword &8(Looting III)'
+    - '' 
+    - '&fPrefix: &8[&e26&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_26d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 15
+    priority: 5
+    display_name: '&e&lLevel 26'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &bDiamond Sword &8(Looting III)'
+    - '' 
+    - '&fPrefix: &8[&e26&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_26e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.26.menu   	
+    display_name: '&e&lLevel 26'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &bDiamond Sword &8(Looting III)'
+    - '' 
+    - '&fPrefix: &8[&e26&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   ____ _____ 
+# | |    _____   _____| | |___ \___  |
+# | |   / _ \ \ / / _ \ |   __) | / / 
+# | |__|  __/\ V /  __/ |  / __/ / /  
+# |_____\___| \_/ \___|_| |_____/_/   
+#
+
+  'level_27':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 16
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.27
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.26.unlocked          
+    display_name: '&e&lLevel 27'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Diamond quest 3 &8(Mining) &8(%supremequests_percent_miningdiamond3:mining:15%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &e&l+1500 Claim Blocks'
+    - '' 
+    - '&fPrefix: &8[&e27&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] adjustbonusclaimblocks %player_name% 1500'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.27.unlocked'
+    - '[console] lp user %player_name% permission set tag.level26'    
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] adjustbonusclaimblocks %player_name% 1500'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.27.unlocked'
+    - '[console] lp user %player_name% permission set tag.level26'    
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_27b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 16
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.27.unlocked
+    display_name: '&e&lLevel 27'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Diamond quest 3 &8(Mining)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &e&l+1500 Claim Blocks'
+    - '' 
+    - '&fPrefix: &8[&e27&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_27c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 16
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.26.unlocked    
+    display_name: '&e&lLevel 27'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Diamond quest 3 &8(Mining) &8(%supremequests_percent_miningdiamond3:mining:15%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &e&l+1500 Claim Blocks'
+    - '' 
+    - '&fPrefix: &8[&e27&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_27d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 16
+    priority: 5
+    display_name: '&e&lLevel 27'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &e&l+1500 Claim Blocks'
+    - '' 
+    - '&fPrefix: &8[&e27&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_27e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 16
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.27.menu   	
+    display_name: '&e&lLevel 27'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &e&l+1500 Claim Blocks'
+    - '' 
+    - '&fPrefix: &8[&e27&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   ____  ___  
+# | |    _____   _____| | |___ \( _ ) 
+# | |   / _ \ \ / / _ \ |   __) / _ \ 
+# | |__|  __/\ V /  __/ |  / __/ (_) |
+# |_____\___| \_/ \___|_| |_____\___/ 
+#
+
+  'level_28':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 19
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.28
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.27.unlocked          
+    display_name: '&e&lLevel 28'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Rabbit''s foot quest 3 &8(Gathering) &8(%supremequests_percent_gatheringrabbitfoot3:gathering:18%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &d+3 Gravestones'
+    - '' 
+    - '&fPrefix: &8[&e28&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] gravestones give %player_name% 3'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.28.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] gravestones give %player_name% 3'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.28.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_28b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 19
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.28.unlocked
+    display_name: '&e&lLevel 28'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Rabbit''s foot quest 3 &8(Gathering)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &d+3 Gravestones'
+    - '' 
+    - '&fPrefix: &8[&e28&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_28c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 19
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.27.unlocked    
+    display_name: '&e&lLevel 28'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Rabbit''s foot quest 3 &8(Gathering) &8(%supremequests_percent_gatheringrabbitfoot3:gathering:18%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &d+3 Gravestones'
+    - '' 
+    - '&fPrefix: &8[&e28&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_28d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 19
+    priority: 5
+    display_name: '&e&lLevel 28'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &d+3 Gravestones'
+    - '' 
+    - '&fPrefix: &8[&e28&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_28e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 19
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.28.menu   	
+    display_name: '&e&lLevel 28'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &d+3 Gravestones'
+    - '' 
+    - '&fPrefix: &8[&e28&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   ____   ___  
+# | |    _____   _____| | |___ \ / _ \ 
+# | |   / _ \ \ / / _ \ |   __) | (_) |
+# | |__|  __/\ V /  __/ |  / __/ \__, |
+# |_____\___| \_/ \___|_| |_____|  /_/ 
+#
+
+  'level_29':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 20
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.29
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.28.unlocked          
+    display_name: '&e&lLevel 29'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Emerald quest 3 &8(Mining) &8(%supremequests_percent_miningemerald3:mining:15%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &9Totem Of Undying'
+    - '' 
+    - '&fPrefix: &8[&e29&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] give %player_name% totem_of_undying 1'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.29.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] give %player_name% totem_of_undying 1'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.29.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_29b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 20
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.29.unlocked
+    display_name: '&e&lLevel 29'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Emerald quest 3 &8(Mining)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &9Totem Of Undying'
+    - '' 
+    - '&fPrefix: &8[&e29&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_29c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 20
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.28.unlocked    
+    display_name: '&e&lLevel 29'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Emerald quest 3 &8(Mining) &8(%supremequests_percent_miningemerald3:mining:15%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &9Totem Of Undying'
+    - '' 
+    - '&fPrefix: &8[&e29&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_29d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 20
+    priority: 5
+    display_name: '&e&lLevel 29'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &9Totem Of Undying'
+    - '' 
+    - '&fPrefix: &8[&e29&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_29e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 20
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.29.menu   	
+    display_name: '&e&lLevel 29'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &9Totem Of Undying'
+    - '' 
+    - '&fPrefix: &8[&e29&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   _____  ___  
+# | |    _____   _____| | |___ / / _ \ 
+# | |   / _ \ \ / / _ \ |   |_ \| | | |
+# | |__|  __/\ V /  __/ |  ___) | |_| |
+# |_____\___| \_/ \___|_| |____/ \___/ 
+#
+
+  'level_30':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 21
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: '>='
+          input: "%supremedrops_sold%"
+          output: "500"
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.29.unlocked      
+    display_name: '&e&lLevel 30'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eSell at least 500 mob heads &8(%supremedrops_sold%/500)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &#C8C2A8&k!&r&#FBF3D2&lEnd World Access&r&#C8C2A8&k!'
+    - '  &8◊ &c15 Tokens'
+    - '' 
+    - '&fPrefix: &8[&e30&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] supremetokens give %player_name% 15'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.30.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] supremetokens give %player_name% 15'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.30.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_30b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 21
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.30.unlocked
+    display_name: '&e&lLevel 30'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eSell at least 500 mob heads'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &#C8C2A8&k!&r&#FBF3D2&lEnd World Access&r&#C8C2A8&k!'
+    - '  &8◊ &c15 Tokens'  
+    - '' 
+    - '&fPrefix: &8[&e30&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_30c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 21
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.29.unlocked    
+    display_name: '&e&lLevel 30'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eSell at least 500 mob heads &8(%supremedrops_sold%/500)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &#C8C2A8&k!&r&#FBF3D2&lEnd World Access&r&#C8C2A8&k!'
+    - '  &8◊ &c15 Tokens'  
+    - '' 
+    - '&fPrefix: &8[&e30&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_30d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 21
+    priority: 5
+    display_name: '&e&lLevel 30'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &#C8C2A8&k!&r&#FBF3D2&lEnd World Access&r&#C8C2A8&k!'
+    - '  &8◊ &c15 Tokens' 
+    - '' 
+    - '&fPrefix: &8[&e30&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_30e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 21
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.30.menu   	
+    display_name: '&e&lLevel 30'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &#C8C2A8&k!&r&#FBF3D2&lEnd World Access&r&#C8C2A8&k!'
+    - '  &8◊ &c15 Tokens'
+    - '' 
+    - '&fPrefix: &8[&e30&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   _____ _ 
+# | |    _____   _____| | |___ // |
+# | |   / _ \ \ / / _ \ |   |_ \| |
+# | |__|  __/\ V /  __/ |  ___) | |
+# |_____\___| \_/ \___|_| |____/|_|
+#
+
+  'level_31':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 22
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.31a
+        hasPermission2:
+          type: has permission
+          permission: level.31b
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.30.unlocked          
+    display_name: '&e&lLevel 31'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Obsidian quest 2 &8(Mining) &8(%supremequests_percent_miningobsidian2:mining:100%%)'
+    - '  &8▪ &eReach End stone quest 4 &8(Mining) &8(%supremequests_percent_miningendstone4:mining:1000%%)'    
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &aAbility to create 15 player shops. &8(Default 7)'
+    - '' 
+    - '&fPrefix: &8[&631&8]'
+    - ''
+    - '&fTag: &6&l✜ &8(/tags)'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] lp user %player_name% permission set quickshop.playerlevel31'    
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.31.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set tag.level31'    
+    right_click_commands:
+    - '[close]'
+    - '[console] lp user %player_name% permission set quickshop.playerlevel19'    
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.31.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set tag.level31'    
+  'level_31b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 22
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.31.unlocked
+    display_name: '&e&lLevel 31'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Obsidian quest 2 &8(Mining)'
+    - '  &8▪ &eReach End stone quest 4 &8(Mining)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &aAbility to create 15 player shops. &8(Default 7)'
+    - '' 
+    - '&fPrefix: &8[&631&8]'
+    - ''
+    - '&fTag: &6&l✜ &8(/tags)'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_31c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 22
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.30.unlocked    
+    display_name: '&e&lLevel 31'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Obsidian quest 2 &8(Mining) &8(%supremequests_percent_miningobsidian2:mining:100%%)'
+    - '  &8▪ &eReach End stone quest 4 &8(Mining) &8(%supremequests_percent_miningendstone4:mining:1000%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &aAbility to create 15 player shops. &8(Default 7)'
+    - '' 
+    - '&fPrefix: &8[&631&8]'
+    - ''
+    - '&fTag: &6&l✜ &8(/tags)'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_31d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 22
+    priority: 5
+    display_name: '&e&lLevel 31'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &aAbility to create 15 player shops. &8(Default 7)'
+    - '' 
+    - '&fPrefix: &8[&631&8]'
+    - ''
+    - '&fTag: &6&l✜ &8(/tags)'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_31e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 22
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.31.menu   	
+    display_name: '&e&lLevel 31'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &aAbility to create 15 player shops. &8(Default 7)'
+    - '' 
+    - '&fPrefix: &8[&631&8]'
+    - ''
+    - '&fTag: &6&l✜ &8(/tags)'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   _________  
+# | |    _____   _____| | |___ /___ \ 
+# | |   / _ \ \ / / _ \ |   |_ \ __) |
+# | |__|  __/\ V /  __/ |  ___) / __/ 
+# |_____\___| \_/ \___|_| |____/_____|
+#
+
+  'level_32':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 23
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.32a
+        hasPermission2:
+          type: has permission
+          permission: level.32b
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.31.unlocked          
+    display_name: '&e&lLevel 32'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Cow quest 6 &8(Killing) &8(%supremequests_percent_killingcow6:killing:500%%)'
+    - '  &8▪ &eReach Pig quest 6 &8(Killing) &8(%supremequests_percent_killingpig6:killing:500%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a5000'
+    - '  &8◊ &c15 Tokens'    
+    - '' 
+    - '&fPrefix: &8[&632&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] eco give %player_name% 5000'
+    - '[console] supremetokens give %player_name% 15'    
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.32.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] eco give %player_name% 5000'
+    - '[console] supremetokens give %player_name% 15'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.32.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_32b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 23
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.32.unlocked
+    display_name: '&e&lLevel 32'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Cow quest 6 &8(Killing)'
+    - '  &8▪ &eReach Pig quest 6 &8(Killing)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a5000'
+    - '  &8◊ &c15 Tokens'
+    - '' 
+    - '&fPrefix: &8[&632&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_32c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 23
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.31.unlocked    
+    display_name: '&e&lLevel 32'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Cow quest 6 &8(Killing) &8(%supremequests_percent_killingcow6:killing:500%%)'
+    - '  &8▪ &eReach Pig quest 6 &8(Killing) &8(%supremequests_percent_killingpig6:killing:500%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a5000'
+    - '  &8◊ &c15 Tokens'
+    - '' 
+    - '&fPrefix: &8[&632&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_32d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 23
+    priority: 5
+    display_name: '&e&lLevel 32'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a5000'
+    - '  &8◊ &c15 Tokens'
+    - '' 
+    - '&fPrefix: &8[&632&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_32e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 23
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.32.menu   	
+    display_name: '&e&lLevel 32'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &2$&a5000'
+    - '  &8◊ &c15 Tokens'
+    - '' 
+    - '&fPrefix: &8[&632&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   __________ 
+# | |    _____   _____| | |___ /___ / 
+# | |   / _ \ \ / / _ \ |   |_ \ |_ \ 
+# | |__|  __/\ V /  __/ |  ___) |__) |
+# |_____\___| \_/ \___|_| |____/____/ 
+#
+
+  'level_33':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 24
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.33a
+        hasPermission2:
+          type: has permission
+          permission: level.33b
+        hasPermission3:
+          type: has permission
+          permission: level.33c
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.32.unlocked          
+    display_name: '&e&lLevel 33'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Enderman quest 3 &8(Killing) &8(%supremequests_percent_killingenderman3:killing:75%%)'
+    - '  &8▪ &eReach Creeper quest 4 &8(Killing) &8(%supremequests_percent_killingcreeper4:killing:250%%)'
+    - '  &8▪ &eReach Witch quest 2 &8(Killing) &8(%supremequests_percent_killingwitch2:killing:10%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &ex1 Ultra Crate Key'
+    - '' 
+    - '&fPrefix: &8[&633&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] crazycrate give physical ultra 1 %player_name%'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.33.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] crazycrate give physical ultra 1 %player_name%'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.33.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_33b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 24
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.33.unlocked
+    display_name: '&e&lLevel 33'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Enderman quest 3 &8(Killing)'
+    - '  &8▪ &eReach Creeper quest 4 &8(Killing)'
+    - '  &8▪ &eReach Witch quest 2 &8(Killing)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &ex1 Ultra Crate Key'
+    - '' 
+    - '&fPrefix: &8[&633&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_33c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 24
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.32.unlocked    
+    display_name: '&e&lLevel 33'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Enderman quest 3 &8(Killing) &8(%supremequests_percent_killingspider3:killing:200%%)'
+    - '  &8▪ &eReach Creeper quest 4 &8(Killing) &8(%supremequests_percent_killingcreeper4:killing:250%%)'
+    - '  &8▪ &eReach Witch quest 2 &8(Killing) &8(%supremequests_percent_killingwitch2:killing:10%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &ex1 Ultra Crate Key' 
+    - '' 
+    - '&fPrefix: &8[&633&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_33d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 24
+    priority: 5
+    display_name: '&e&lLevel 33'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &ex1 Ultra Crate Key'
+    - '' 
+    - '&fPrefix: &8[&633&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_33e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 24
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.33.menu   	
+    display_name: '&e&lLevel 33'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &ex1 Ultra Crate Key'
+    - '' 
+    - '&fPrefix: &8[&633&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   _____ _  _   
+# | |    _____   _____| | |___ /| || |  
+# | |   / _ \ \ / / _ \ |   |_ \| || |_ 
+# | |__|  __/\ V /  __/ |  ___) |__   _|
+# |_____\___| \_/ \___|_| |____/   |_|  
+#
+
+  'level_34':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 25
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.34a
+        hasPermission2:
+          type: has permission
+          permission: level.34b
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.33.unlocked          
+    display_name: '&e&lLevel 34'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Deepslate quest 2 &8(Mining) &8(%supremequests_percent_miningdeepslate2:mining:100%%)'
+    - '  &8▪ &eReach Tuff quest 2 &8(Mining) &8(%supremequests_percent_miningtuff2:mining:100%%)'   
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &3&lTrident of Neptune &r&8(Mending, Loyalty III, Channeling)'
+    - '' 
+    - '&fPrefix: &8[&634&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] minecraft:give %player_name% trident{Enchantments:[{id:loyalty,lvl:3},{id:channeling,lvl:1},{id:mending,lvl:1}]} 1'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.34.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] minecraft:give %player_name% trident{Enchantments:[{id:loyalty,lvl:3},{id:channeling,lvl:1},{id:mending,lvl:1}]} 1'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.34.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_34b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 25
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.34.unlocked
+    display_name: '&e&lLevel 34'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Deepslate quest 2 &8(Mining)'
+    - '  &8▪ &eReach Tuff quest 2 &8(Mining)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &3&lTrident of Neptune &r&8(Mending, Loyalty III, Channeling)'
+    - '' 
+    - '&fPrefix: &8[&634&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_34c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 25
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.33.unlocked    
+    display_name: '&e&lLevel 34'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Deepslate quest 2 &8(Mining) &8(%supremequests_percent_miningdeepslate2:mining:100%%)'
+    - '  &8▪ &eReach Tuff quest 2 &8(Mining) &8(%supremequests_percent_miningtuff2:mining:100%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &3&lTrident of Neptune &r&8(Mending, Loyalty III, Channeling)'    
+    - '' 
+    - '&fPrefix: &8[&634&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_34d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 25
+    priority: 5
+    display_name: '&e&lLevel 34'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &3&lTrident of Neptune &r&8(Mending, Loyalty III, Channeling)'
+    - '' 
+    - '&fPrefix: &8[&634&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_34e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 25
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.34.menu   	
+    display_name: '&e&lLevel 34'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &3&lTrident of Neptune &r&8(Mending, Loyalty III, Channeling)'
+    - '' 
+    - '&fPrefix: &8[&634&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   _________  
+# | |    _____   _____| | |___ / ___| 
+# | |   / _ \ \ / / _ \ |   |_ \___ \ 
+# | |__|  __/\ V /  __/ |  ___) |__) |
+# |_____\___| \_/ \___|_| |____/____/ 
+#
+
+  'level_35':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 28
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.35
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.34.unlocked          
+    display_name: '&e&lLevel 35'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Chorus fruit quest 3 &8(Gathering) &8(%supremequests_percent_gatheringchorusfruit3:gathering:525%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &ex16 Sponge'
+    - '  &8◊ &dAble to share your position &8[pos]'
+    - '' 
+    - '&fPrefix: &8[&635&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] give %player_name% sponge 16'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.35.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] give %player_name% sponge 16'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.35.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_35b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 28
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.35.unlocked
+    display_name: '&e&lLevel 35'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Chorus fruit quest 3 &8(Gathering)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &ex16 Sponge'
+    - '  &8◊ &dAble to share your position &8[pos]'    
+    - '' 
+    - '&fPrefix: &8[&635&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_35c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 28
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.34.unlocked    
+    display_name: '&e&lLevel 35'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Chorus fruit quest 3 &8(Gathering) &8(%supremequests_percent_gatheringchorusfruit3:gathering:525%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &ex16 Sponge'
+    - '  &8◊ &dAble to share your position &8[pos]'    
+    - '' 
+    - '&fPrefix: &8[&635&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_35d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 28
+    priority: 5
+    display_name: '&e&lLevel 35'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &ex16 Sponge'
+    - '  &8◊ &dAble to share your position &8[pos]'    
+    - '' 
+    - '&fPrefix: &8[&635&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_35e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 28
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.35.menu   	
+    display_name: '&e&lLevel 35'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &ex16 Sponge'
+    - '  &8◊ &dAble to share your position &8[pos]'    
+    - '' 
+    - '&fPrefix: &8[&635&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   _____  __   
+# | |    _____   _____| | |___ / / /_  
+# | |   / _ \ \ / / _ \ |   |_ \| '_ \ 
+# | |__|  __/\ V /  __/ |  ___) | (_) |
+# |_____\___| \_/ \___|_| |____/ \___/ 
+#
+
+  'level_36':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 29
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.36
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.35.unlocked          
+    display_name: '&e&lLevel 36'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Pumpkin quest 4 &8(Farming) &8(%supremequests_percent_harvestingpumpkin4:harvesting:500%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &b&lTree gravity! &8(/lumberjack)'
+    - '' 
+    - '&fPrefix: &8[&636&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] lp user %player_name% permission set lumberjack.use'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.36.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] lp user %player_name% permission set lumberjack.use'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.36.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_36b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 29
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.36.unlocked
+    display_name: '&e&lLevel 36'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Pumpkin quest 4 &8(Farming)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &b&lTree gravity! &8(/lumberjack)'
+    - '' 
+    - '&fPrefix: &8[&636&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_36c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 29
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.35.unlocked    
+    display_name: '&e&lLevel 36'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Pumpkin quest 4 &8(Farming) &8(%supremequests_percent_harvestingpumpkin4:harvesting:500%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &b&lTree gravity! &8(/lumberjack)'
+    - '' 
+    - '&fPrefix: &8[&636&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_36d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 29
+    priority: 5
+    display_name: '&e&lLevel 36'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &b&lTree gravity! &8(/lumberjack)'
+    - '' 
+    - '&fPrefix: &8[&636&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_36e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 29
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.36.menu   	
+    display_name: '&e&lLevel 36'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &b&lTree gravity! &8(/lumberjack)'
+    - '' 
+    - '&fPrefix: &8[&636&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   __________ 
+# | |    _____   _____| | |___ /___  |
+# | |   / _ \ \ / / _ \ |   |_ \  / / 
+# | |__|  __/\ V /  __/ |  ___) |/ /  
+# |_____\___| \_/ \___|_| |____//_/   
+#
+
+  'level_37':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 30
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.37a
+        hasPermission2:
+          type: has permission
+          permission: level.37b
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.36.unlocked          
+    display_name: '&e&lLevel 37'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Netherrack quest 5 &8(Mining) &8(%supremequests_percent_miningnetherrack5:mining:5000%%)'
+    - '  &8▪ &eReach Nether quartz quest 5 &8(Mining) &8(%supremequests_percent_miningnetherquartz5:mining:200%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &9x1 Elytra'
+    - '  &8◊ &dx64 Firework'    
+    - '' 
+    - '&fPrefix: &8[&637&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] give %player_name% firework_rocket 64'
+    - '[console] give %player_name% elytra 1'    
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.37.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] give %player_name% firework_rocket 64'
+    - '[console] give %player_name% elytra 1'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.37.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_37b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 30
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.37.unlocked
+    display_name: '&e&lLevel 37'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Netherrack quest 5 &8(Mining)'
+    - '  &8▪ &eReach Nether quartz quest 3 &8(Mining)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &9x1 Elytra'
+    - '  &8◊ &dx64 Firework'
+    - '' 
+    - '&fPrefix: &8[&637&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_37c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 30
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.36.unlocked    
+    display_name: '&e&lLevel 37'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Netherrack quest 5 &8(Mining) &8(%supremequests_percent_miningnetherrack5:mining:5000%%)'
+    - '  &8▪ &eReach Nether quartz quest 3 &8(Mining) &8(%supremequests_percent_miningnetherquartz5:mining:200%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &9x1 Elytra'
+    - '  &8◊ &dx64 Firework'  
+    - '' 
+    - '&fPrefix: &8[&637&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_37d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 30
+    priority: 5
+    display_name: '&e&lLevel 37'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &9x1 Elytra'
+    - '  &8◊ &dx64 Firework'
+    - '' 
+    - '&fPrefix: &8[&637&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_37e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 30
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.37.menu   	
+    display_name: '&e&lLevel 37'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &9x1 Elytra'
+    - '  &8◊ &dx64 Firework'
+    - '' 
+    - '&fPrefix: &8[&637&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   _____  ___  
+# | |    _____   _____| | |___ / ( _ ) 
+# | |   / _ \ \ / / _ \ |   |_ \ / _ \ 
+# | |__|  __/\ V /  __/ |  ___) | (_) |
+# |_____\___| \_/ \___|_| |____/ \___/ 
+#
+
+  'level_38':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 31
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.38a
+        hasPermission2:
+          type: has permission
+          permission: level.38b
+        hasPermission3:
+          type: has permission
+          permission: level.38c
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.37.unlocked
+    display_name: '&e&lLevel 38'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Prismarine Shard quest 3 &8(Gathering) &8(%supremequests_percent_gatheringprismarineshard3:gathering:18%%)'
+    - '  &8▪ &eReach Kelp quest 3 &8(Gathering) &8(%supremequests_percent_gatheringkelp3:gathering:525%%)'
+    - '  &8▪ &eReach Guardian quest 3 &8(Killing) &8(%supremequests_percent_killingguardian3:killing:25%%)'    
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &bx1 Super Cubelet'
+    - '' 
+    - '&fPrefix: &8[&638&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] acubelets:cubelets give %player_name% super 1'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.38.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] acubelets:cubelets give %player_name% super 1'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.38.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_38b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 31
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.38.unlocked
+    display_name: '&e&lLevel 38'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Prismarine Shard quest 3 &8(Gathering)'
+    - '  &8▪ &eReach Kelp quest 3 &8(Gathering)'
+    - '  &8▪ &eReach Guardian quest 3 &8(Killing)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &bx1 Super Cubelet'
+    - '' 
+    - '&fPrefix: &8[&638&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_38c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 31
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.37.unlocked    
+    display_name: '&e&lLevel 38'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Prismarine Shard quest 3 &8(Gathering) &8(%supremequests_percent_gatheringprismarineshard3:gathering:18%%)'
+    - '  &8▪ &eReach Kelp quest 3 &8(Gathering) &8(%supremequests_percent_gatheringkelp3:gathering:525%%)'
+    - '  &8▪ &eReach Guardian quest 3 &8(Killing) &8(%supremequests_percent_killingguardian3:killing:25%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &bx1 Super Cubelet'   
+    - '' 
+    - '&fPrefix: &8[&638&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.' 
+  'level_38d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 31
+    priority: 5
+    display_name: '&e&lLevel 38'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &bx1 Super Cubelet'
+    - '' 
+    - '&fPrefix: &8[&638&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_38e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 31
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.38.menu   	
+    display_name: '&e&lLevel 38'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &bx1 Super Cubelet'
+    - '' 
+    - '&fPrefix: &8[&638&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   _____ ___  
+# | |    _____   _____| | |___ // _ \ 
+# | |   / _ \ \ / / _ \ |   |_ \ (_) |
+# | |__|  __/\ V /  __/ |  ___) \__, |
+# |_____\___| \_/ \___|_| |____/  /_/ 
+#
+
+  'level_39':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 32
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.39
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.38.unlocked          
+    display_name: '&e&lLevel 39'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Ancient Debris quest 3 &8(Mining) &8(%supremequests_percent_miningancientdebris3:mining:15%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &eEnchanted Book &8(Unbreaking V)'
+    - '  &8◊ &eEnchanted Book &8(Unbreaking V)'    
+    - '' 
+    - '&fPrefix: &8[&639&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] minecraft:give %player_name% minecraft:enchanted_book{Enchantments:[{id:unbreaking,lvl:5}]} 2'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.39.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] minecraft:give %player_name% minecraft:enchanted_book{Enchantments:[{id:unbreaking,lvl:5}]} 2'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.39.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_39b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 32
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.39.unlocked
+    display_name: '&e&lLevel 39'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Ancient Debris quest 3 &8(Mining)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &eEnchanted Book &8(Unbreaking V)'
+    - '  &8◊ &eEnchanted Book &8(Unbreaking V)'
+    - '' 
+    - '&fPrefix: &8[&639&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_39c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 32
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.38.unlocked    
+    display_name: '&e&lLevel 39'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Ancient Debris quest 3 &8(Mining) &8(%supremequests_percent_miningancientdebris3:mining:15%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &eEnchanted Book &8(Unbreaking V)'
+    - '  &8◊ &eEnchanted Book &8(Unbreaking V)'
+    - '' 
+    - '&fPrefix: &8[&639&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_39d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 32
+    priority: 5
+    display_name: '&e&lLevel 39'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &eEnchanted Book &8(Unbreaking V)'
+    - '  &8◊ &eEnchanted Book &8(Unbreaking V)'
+    - '' 
+    - '&fPrefix: &8[&639&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_39e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 32
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.39.menu   	
+    display_name: '&e&lLevel 39'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &eEnchanted Book &8(Unbreaking V)'
+    - '  &8◊ &eEnchanted Book &8(Unbreaking V)'
+    - '' 
+    - '&fPrefix: &8[&639&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+    
+#  _                   _   _  _    ___  
+# | |    _____   _____| | | || |  / _ \ 
+# | |   / _ \ \ / / _ \ | | || |_| | | |
+# | |__|  __/\ V /  __/ | |__   _| |_| |
+# |_____\___| \_/ \___|_|    |_|  \___/ 
+#
+
+  'level_40':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 33
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.40a
+        hasPermission2:
+          type: has permission
+          permission: level.40b
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.39.unlocked          
+    display_name: '&e&lLevel 40'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Obsidian quest 4 &8(Mining) &8(%supremequests_percent_miningobsidian4:mining:250%%)'
+    - '  &8▪ &eReach End stone quest 6 &8(Mining) &8(%supremequests_percent_miningendstone6:mining:10000%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &d+5 Gravestones'
+    - '' 
+    - '&fPrefix: &8[&640&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] gravestones give %player_name% 5'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.40.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] gravestones give %player_name% 5'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.40.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_40b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 33
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.40.unlocked
+    display_name: '&e&lLevel 40'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Obsidian quest 4 &8(Mining)'
+    - '  &8▪ &eReach End stone quest 6 &8(Mining)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &d+5 Gravestones'
+    - '' 
+    - '&fPrefix: &8[&640&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_40c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 33
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.39.unlocked    
+    display_name: '&e&lLevel 40'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Obsidian quest 4 &8(Mining) &8(%supremequests_percent_miningobsidian4:mining:250%%)'
+    - '  &8▪ &eReach End stone quest 6 &8(Mining) &8(%supremequests_percent_miningendstone6:mining:10000%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &d+5 Gravestones'    
+    - '' 
+    - '&fPrefix: &8[&640&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_40d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 33
+    priority: 5
+    display_name: '&e&lLevel 40'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &d+5 Gravestones'
+    - '' 
+    - '&fPrefix: &8[&640&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_40e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 33
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.40.menu   	
+    display_name: '&e&lLevel 40'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &d+5 Gravestones'
+    - '' 
+    - '&fPrefix: &8[&640&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   _  _   _ 
+# | |    _____   _____| | | || | / |
+# | |   / _ \ \ / / _ \ | | || |_| |
+# | |__|  __/\ V /  __/ | |__   _| |
+# |_____\___| \_/ \___|_|    |_| |_|
+#
+
+  'level_41':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 34
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.41a
+        hasPermission2:
+          type: has permission
+          permission: level.41b
+        hasPermission3:
+          type: has permission
+          permission: level.41c
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.40.unlocked          
+    display_name: '&e&lLevel 41'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Awkward quest 3 &8(Brewing) &8(%supremequests_percent_brewingawkward3:brewing:45%%)'
+    - '  &8▪ &eReach Thick quest 2 &8(Brewing) &8(%supremequests_percent_brewingthick2:brewing:18%%)'
+    - '  &8▪ &eReach Mundane quest 2 &8(Brewing) &8(%supremequests_percent_brewingmundane2:brewing:18%%)'    
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a6500'   
+    - '' 
+    - '&fPrefix: &8[&941&8]'
+    - ''
+    - '&fTag: &9&l❖ &8(/tags)'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] eco give %player_name% 6500'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.41.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set tag.level41'    
+    right_click_commands:
+    - '[close]'
+    - '[console] eco give %player_name% 6500'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.41.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set tag.level41'    
+  'level_41b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 34
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.41.unlocked
+    display_name: '&e&lLevel 41'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Awkward quest 3 &8(Brewing)'
+    - '  &8▪ &eReach Thick quest 2 &8(Brewing)'
+    - '  &8▪ &eReach Mundane quest 2 &8(Brewing)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a6500'  
+    - '' 
+    - '&fPrefix: &8[&941&8]'
+    - ''
+    - '&fTag: &9&l❖ &8(/tags)'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_41c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 34
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.40.unlocked    
+    display_name: '&e&lLevel 41'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Awkward quest 3 &8(Brewing) &8(%supremequests_percent_brewingawkward3:brewing:45%%)'
+    - '  &8▪ &eReach Thick quest 2 &8(Brewing) &8(%supremequests_percent_brewingthick2:brewing:18%%)'
+    - '  &8▪ &eReach Mundane quest 2 &8(Brewing) &8(%supremequests_percent_brewingmundane2:brewing:18%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a6500'  
+    - '' 
+    - '&fPrefix: &8[&941&8]'
+    - ''
+    - '&fTag: &9&l❖ &8(/tags)'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_41d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 34
+    priority: 5
+    display_name: '&e&lLevel 41'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a6500'   
+    - '' 
+    - '&fPrefix: &8[&941&8]'
+    - ''
+    - '&fTag: &9&l❖ &8(/tags)'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_41e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 34
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.41.menu   	
+    display_name: '&e&lLevel 41'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &2$&a6500'   
+    - '' 
+    - '&fPrefix: &8[&941&8]'
+    - ''
+    - '&fTag: &9&l❖ &8(/tags)'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _   _           _                            
+# | \ | | _____  _| |_   _ __   __ _  __ _  ___ 
+# |  \| |/ _ \ \/ / __| | '_ \ / _` |/ _` |/ _ \
+# | |\  |  __/>  <| |_  | |_) | (_| | (_| |  __/
+# |_| \_|\___/_/\_\\__| | .__/ \__,_|\__, |\___|
+#                       |_|          |___/
+    
+  'next':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0='
+    slot: 44
+    priority: 1
+    display_name: '&eNext'
+    update: true 
+    left_click_commands:
+    - '[openguimenu] player_levels_03'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] player_levels_03'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+
+#  ____                 _                                          
+# |  _ \ _ __ _____   _(_) ___  _   _ ___   _ __   __ _  __ _  ___ 
+# | |_) | '__/ _ \ \ / / |/ _ \| | | / __| | '_ \ / _` |/ _` |/ _ \
+# |  __/| | |  __/\ V /| | (_) | |_| \__ \ | |_) | (_| | (_| |  __/
+# |_|   |_|  \___| \_/ |_|\___/ \__,_|___/ | .__/ \__,_|\__, |\___|
+#                                          |_|          |___/
+
+  'previous':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0='
+    slot: 36
+    priority: 1
+    display_name: '&ePrevious'
+    update: true 
+    left_click_commands:
+    - '[openguimenu] player_levels'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] player_levels'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'    

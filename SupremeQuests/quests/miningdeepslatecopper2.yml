@@ -1,0 +1,14 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 30
+    block: "DEEPSLATE_COPPER_ORE"
+rewards:
+  - "supremetokens give {player} 5"
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

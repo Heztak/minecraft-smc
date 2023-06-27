@@ -1,0 +1,1972 @@
+type:
+  name: '&e&lNormal Cubelet'
+  animation: animation14
+  expiration: 2w
+  icon:
+    texture: base64:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWYyMmI2YTNhMGYyNGJkZWVhYjJhNmFjZDliMWY1MmJiOTU5NGQ1ZjZiMWUyYzA1ZGRkYjIxOTQxMGM4In19fQ==
+  description:
+  - '&7This is the most common type of'
+  - '&7Cubelet. Initial scans indicate'
+  - '&7that the contents of this cubelet'
+  - '&7will be probably basic.'
+  lore:
+    opening:
+      available:
+      - '&7This cubelet contains the basic trails.'
+      - ''
+      - '&fInformation'
+      - '  &8◊ &7Received: &e%received% ago'
+      - '  &8◊ &7Expires: &eIn %expires%'
+      - ''
+      - '&6Click to open'
+      expired:
+      - '&7This cubelet contains the basic trails.'
+      - ''
+      - '&fInformation'
+      - '  &8◊ &7Received: &e%received% ago'
+      - '  &8◊ &7Expires: &cExpired'
+      - ''
+      - '&6This cubelet is expired'
+  rarities:
+    common:
+      name: '&bCommon'
+      chance: 45.0
+      duplicatePointsRange: 50-75
+    uncommon:
+      name: '&dUncommon'
+      chance: 30.0
+      duplicatePointsRange: 50-75
+    rare:
+      name: '&eRare'
+      chance: 15.0
+      duplicatePointsRange: 100-250
+    legendary:
+      name: '&6Legendary'
+      chance: 7.0
+      duplicatePointsRange: 100-350
+    mythical:
+      name: '&5Mythical'
+      chance: 3.0
+      duplicatePointsRange: 100-450
+  rewards:
+    reward_0:
+      name: Angry arrow trail
+      rarity: uncommon
+      rewardUUID: f89d0c68-bc34-4914-8c6f-d3f8d7c23c48
+      command: []
+      permission:
+      - arrow.1a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_1:
+      name: Magic arrow trail
+      rarity: common
+      rewardUUID: ed6c627e-cf31-4a46-9c55-871219db3562
+      command: []
+      permission:
+      - arrow.2a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_2:
+      name: Water arrow trail
+      rarity: common
+      rewardUUID: a980310a-99c6-4174-a868-ded29d57c78a
+      command: []
+      permission:
+      - arrow.3a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_3:
+      name: Lava arrow trail
+      rarity: uncommon
+      rewardUUID: a2ef3d86-541b-4a3f-9d24-a1f34569b56b
+      command: []
+      permission:
+      - arrow.4a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_4:
+      name: Happy arrow trail
+      rarity: common
+      rewardUUID: 7671337e-feae-4aaa-a9c2-dcfc746995ee
+      command: []
+      permission:
+      - arrow.5a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_5:
+      name: Dust arrow trail
+      rarity: common
+      rewardUUID: d832f937-e397-45f1-8418-a1ae3d798599
+      command: []
+      permission:
+      - arrow.6a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_6:
+      name: Cloud arrow trail
+      rarity: uncommon
+      rewardUUID: 07c25e19-c759-4108-b873-c65521027fdd
+      command: []
+      permission:
+      - arrow.7a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_7:
+      name: Bubble arrow trail
+      rarity: common
+      rewardUUID: a1ac79ad-f865-46c0-b463-c577aa3bf78d
+      command: []
+      permission:
+      - arrow.8a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_8:
+      name: Ash arrow trail
+      rarity: rare
+      rewardUUID: b6084c0c-e04b-4bd7-89bc-f187e8d0eb4e
+      command: []
+      permission:
+      - arrow.9a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_9:
+      name: Honey arrow trail
+      rarity: legendary
+      rewardUUID: c0291c02-e5fd-48d5-854f-0160568b5fa4
+      command: []
+      permission:
+      - arrow.11a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_10:
+      name: Nectar arrow trail
+      rarity: rare
+      rewardUUID: 1eefe953-0ada-4c71-ad32-698a57696415
+      command: []
+      permission:
+      - arrow.12a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_11:
+      name: Flame arrow trail
+      rarity: uncommon
+      rewardUUID: f8e71179-c7ca-463a-add4-3325d10cda91
+      command: []
+      permission:
+      - arrow.13a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_12:
+      name: Heart arrow trail
+      rarity: uncommon
+      rewardUUID: 9e126eff-3ba3-4b7a-a906-94bd71a1bc4d
+      command: []
+      permission:
+      - arrow.14a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_13:
+      name: Portal arrow trail
+      rarity: common
+      rewardUUID: 20b89857-5953-4f34-a422-e234e7a85fa7
+      command: []
+      permission:
+      - arrow.15a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_14:
+      name: Redstone arrow trail
+      rarity: common
+      rewardUUID: e886382d-5382-4df4-bdeb-fc4c3f7c511d
+      command: []
+      permission:
+      - arrow.16a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_15:
+      name: Spell arrow trail
+      rarity: common
+      rewardUUID: 0a8c34ff-3e6f-4599-ad8d-86cb2df206f3
+      command: []
+      permission:
+      - arrow.17a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_16:
+      name: Note arrow trail
+      rarity: rare
+      rewardUUID: 3cdd5716-4ac3-4d07-8e5f-e4215f1ce2d3
+      command: []
+      permission:
+      - arrow.18a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_17:
+      name: Dolphin arrow trail
+      rarity: common
+      rewardUUID: 22814323-d5c4-4ef1-b31a-41e2a8b5e715
+      command: []
+      permission:
+      - arrow.19a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_18:
+      name: Crit magic arrow trail
+      rarity: uncommon
+      rewardUUID: d24c343f-c39a-45f2-a2ba-e4f08d41162f
+      command: []
+      permission:
+      - arrow.20a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_19:
+      name: Ouch arrow trail
+      rarity: mythical
+      rewardUUID: c3dbc7fc-d68f-4415-9019-3ebaa567e022
+      command: []
+      permission:
+      - arrow.21a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_20:
+      name: Ink arrow trail
+      rarity: uncommon
+      rewardUUID: b89e92ee-0fd2-43dd-89e7-16c5f2b0fb82
+      command: []
+      permission:
+      - arrow.22a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_21:
+      name: Spit arrow trail
+      rarity: common
+      rewardUUID: 1f12fd89-b080-4de1-a0e2-92ef1fe80097
+      command: []
+      permission:
+      - arrow.23a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_22:
+      name: Sneeze arrow trail
+      rarity: uncommon
+      rewardUUID: be515ff3-c580-4871-8aaa-1fbdc68cf72f
+      command: []
+      permission:
+      - arrow.24a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_23:
+      name: Slime arrow trail
+      rarity: common
+      rewardUUID: 3208a0dc-537e-4cd8-ad9a-8bc736a0affd
+      command: []
+      permission:
+      - arrow.25a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_24:
+      name: Divideded arrow trail
+      rarity: mythical
+      rewardUUID: 7dc74ba4-311d-4daf-9e49-fe21241b1e88
+      command: []
+      permission:
+      - arrow.26a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_25:
+      name: Totem arrow trail
+      rarity: legendary
+      rewardUUID: 06738fab-201f-427b-9f8a-809f69ca76cf
+      command: []
+      permission:
+      - arrow.27a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_26:
+      name: Landing tears arrow trail
+      rarity: rare
+      rewardUUID: a577170c-4868-4fe9-8502-1ca1d2db4647
+      command: []
+      permission:
+      - arrow.28a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_27:
+      name: Crimson arrow trail
+      rarity: legendary
+      rewardUUID: 451ffb2d-cea1-48fc-b46a-0de2faac99d3
+      command: []
+      permission:
+      - arrow.29a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_28:
+      name: Nautilus arrow trail
+      rarity: mythical
+      rewardUUID: d6106e94-c716-482f-8267-59d475d96ae7
+      command: []
+      permission:
+      - arrow.30a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_29:
+      name: Dripping tears arrow trail
+      rarity: legendary
+      rewardUUID: 58a74796-d897-4ef4-98e5-e570a4783223
+      command: []
+      permission:
+      - arrow.31a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_30:
+      name: End rod arrow trail
+      rarity: rare
+      rewardUUID: d43fd1e0-5df1-4d6d-8614-18472d8227f7
+      command: []
+      permission:
+      - arrow.32a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_31:
+      name: Soul arrow trail
+      rarity: legendary
+      rewardUUID: 2ae521ea-2695-427f-a6c5-b1958571fd42
+      command: []
+      permission:
+      - arrow.33a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_32:
+      name: Soul fire arrow trail
+      rarity: legendary
+      rewardUUID: e5341100-a292-405b-b7c7-4da13bc4a7d1
+      command: []
+      permission:
+      - arrow.34a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_33:
+      name: White ash arrow trail
+      rarity: uncommon
+      rewardUUID: 66c6f855-13ae-4761-be9e-863147d795ba
+      command: []
+      permission:
+      - arrow.35a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_34:
+      name: Enchanting arrow trail
+      rarity: common
+      rewardUUID: 47fb1aa5-26e3-4673-9886-d0cdea81cc7e
+      command: []
+      permission:
+      - arrow.36a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_35:
+      name: Rainbow arrow trail
+      rarity: rare
+      rewardUUID: c8d29a06-6012-4bce-a9b0-86508e0c74bd
+      command: []
+      permission:
+      - arrow.37a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_36:
+      name: Water drip spin trail
+      rarity: common
+      rewardUUID: 6c24b132-ce94-4835-bd3e-37e8cab70075
+      command: []
+      permission:
+      - spin.1a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_37:
+      name: Lava drip spin trail
+      rarity: common
+      rewardUUID: 6c92dd45-d577-4c93-a169-21dd33ad0102
+      command: []
+      permission:
+      - spin.2a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_38:
+      name: Angry spin trail
+      rarity: common
+      rewardUUID: 9484081a-2189-442b-8a8b-3996e337f109
+      command: []
+      permission:
+      - spin.3a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_39:
+      name: Magic spin trail
+      rarity: common
+      rewardUUID: a0f4170c-c002-42be-ae1c-930d0c7860c8
+      command: []
+      permission:
+      - spin.4a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_40:
+      name: Happy spin trail
+      rarity: uncommon
+      rewardUUID: 0fa65320-6b6d-42ed-a023-7a66eec94136
+      command: []
+      permission:
+      - spin.5a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_41:
+      name: Dust spin trail
+      rarity: common
+      rewardUUID: 1a2953be-3058-4a4b-8063-e9a67578a09c
+      command: []
+      permission:
+      - spin.6a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_42:
+      name: Flame spin trail
+      rarity: uncommon
+      rewardUUID: 0199f001-db04-4a84-958b-9befa5c747f1
+      command: []
+      permission:
+      - spin.7a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_43:
+      name: Ash spin trail
+      rarity: common
+      rewardUUID: 0ab0c46c-7b9d-4453-ba84-c23ff64dda3c
+      command: []
+      permission:
+      - spin.8a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_44:
+      name: Honey spin trail
+      rarity: common
+      rewardUUID: a13d650b-1602-4a98-9ec0-e03f3e24698a
+      command: []
+      permission:
+      - spin.9a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_45:
+      name: Pink wax spin trail
+      rarity: uncommon
+      rewardUUID: 57c4579d-c3cc-444f-9edb-6f41a4196cca
+      command: []
+      permission:
+      - spin.10b
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_46:
+      name: Heart spin trail
+      rarity: rare
+      rewardUUID: 1cf5012b-c362-48e6-be42-bc1926199133
+      command: []
+      permission:
+      - spin.10a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_47:
+      name: Falling portal spin trail
+      rarity: rare
+      rewardUUID: fe0156c3-50e4-4274-a760-3d0e2502a1ff
+      command: []
+      permission:
+      - spin.11a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_48:
+      name: Redstone spin trail
+      rarity: common
+      rewardUUID: 3ccacf36-827c-4f50-bebd-4d0d02652ddf
+      command: []
+      permission:
+      - spin.12a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_49:
+      name: Spell spin trail
+      rarity: common
+      rewardUUID: 352093d6-c2f6-4f94-b007-efcd9f765700
+      command: []
+      permission:
+      - spin.13a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_50:
+      name: Note spin trail
+      rarity: uncommon
+      rewardUUID: c884f36a-2cbc-4dfa-a345-4eadcf5ae0e8
+      command: []
+      permission:
+      - spin.14a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_51:
+      name: Dolphin spin trail
+      rarity: common
+      rewardUUID: 9dbbc997-0e5a-450c-ba64-185ef3e11646
+      command: []
+      permission:
+      - spin.15a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_52:
+      name: Crit magic spin trail
+      rarity: common
+      rewardUUID: 769ce1b6-99f8-4800-904c-a791a4f0c274
+      command: []
+      permission:
+      - spin.16a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_53:
+      name: Damage spin trail
+      rarity: rare
+      rewardUUID: ad14fd96-dc2d-4fb0-9a35-e108569fee42
+      command: []
+      permission:
+      - spin.17a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_54:
+      name: Ink spin trail
+      rarity: rare
+      rewardUUID: f80a2134-89d1-4b6e-952f-3f92640000f7
+      command: []
+      permission:
+      - spin.18a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_55:
+      name: Spit spin trail
+      rarity: uncommon
+      rewardUUID: 9d402c7c-fed9-4a13-8ec0-e0dfca3e0f30
+      command: []
+      permission:
+      - spin.19a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_56:
+      name: Sneeze spin trail
+      rarity: uncommon
+      rewardUUID: 6b365603-248e-4199-b0f9-edbd72b7130e
+      command: []
+      permission:
+      - spin.20a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_57:
+      name: Slime spin trail
+      rarity: common
+      rewardUUID: 8d27b0b2-6625-44e1-9765-3385d584fda1
+      command: []
+      permission:
+      - spin.21a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_58:
+      name: Portal spin trail
+      rarity: common
+      rewardUUID: 0ca23491-6c97-42f5-bc2e-f4cd27827a85
+      command: []
+      permission:
+      - spin.22a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_59:
+      name: Goblin spin trail
+      rarity: legendary
+      rewardUUID: 2a9734c9-3c3b-4ea5-96d3-e6f5ae2708ce
+      command: []
+      permission:
+      - spin.23a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_60:
+      name: Landing tears spin trail
+      rarity: rare
+      rewardUUID: 663d1b06-e086-463e-8bca-f3996a9e3312
+      command: []
+      permission:
+      - spin.24a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_61:
+      name: Nautilus spin trail
+      rarity: mythical
+      rewardUUID: 95eb1fbb-3331-4e9c-82a9-ffca5968b2fa
+      command: []
+      permission:
+      - spin.25a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_62:
+      name: Dripping tears spin trail
+      rarity: legendary
+      rewardUUID: 5f134ed3-8958-4fbc-831c-fdb6c578f434
+      command: []
+      permission:
+      - spin.26a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_63:
+      name: End rod spin trail
+      rarity: rare
+      rewardUUID: f0c84816-362a-4c1f-a629-6344e5daab5c
+      command: []
+      permission:
+      - spin.27a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_64:
+      name: Soul spin trail
+      rarity: mythical
+      rewardUUID: 25ff568b-5a0d-48d1-a64c-286d95f93266
+      command: []
+      permission:
+      - spin.28a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_65:
+      name: Soul fire spin trail
+      rarity: legendary
+      rewardUUID: 2b7a2733-d47d-44b6-a9e6-576724d6953e
+      command: []
+      permission:
+      - spin.29a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_66:
+      name: Enchanting spin trail
+      rarity: uncommon
+      rewardUUID: 98b40678-a51f-499d-8dfd-318318961873
+      command: []
+      permission:
+      - spin.30a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_67:
+      name: Treasure spin trail
+      rarity: mythical
+      rewardUUID: 31e8b756-ee35-43b6-bfd7-fa26a3f636fc
+      command: []
+      permission:
+      - spin.31a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_68:
+      name: Aura spin trail
+      rarity: common
+      rewardUUID: 98c7e020-6b3b-4afa-9909-8b6fcf6221a6
+      command: []
+      permission:
+      - spin.32a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_69:
+      name: Angry trail
+      rarity: uncommon
+      rewardUUID: 664f3219-e53c-4b13-a2c9-8ba195577f08
+      command: []
+      permission:
+      - trail.1a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_70:
+      name: Magic trail
+      rarity: common
+      rewardUUID: f1c22050-908f-40ee-bf04-267868591d50
+      command: []
+      permission:
+      - trail.2a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_71:
+      name: Water trail
+      rarity: common
+      rewardUUID: d0f956d0-1ad9-428c-8bec-3c76f645646b
+      command: []
+      permission:
+      - trail.3a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_72:
+      name: Lava trail
+      rarity: uncommon
+      rewardUUID: 3bf49096-4b80-4f6e-9bc4-7632e79c6903
+      command: []
+      permission:
+      - trail.4a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_73:
+      name: Happy trail
+      rarity: common
+      rewardUUID: 87be316d-a962-44e2-bc6f-520d540bb219
+      command: []
+      permission:
+      - trail.5a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_74:
+      name: Dust trail
+      rarity: common
+      rewardUUID: 184c204a-0caf-43da-92cd-063ae4e10b3a
+      command: []
+      permission:
+      - trail.6a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_75:
+      name: Cloud trail
+      rarity: common
+      rewardUUID: da79fe88-062b-4e9b-8781-19952770271a
+      command: []
+      permission:
+      - trail.7a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_76:
+      name: Treasure trail
+      rarity: legendary
+      rewardUUID: 521fa1ae-820c-4b8c-92e3-de2774b21014
+      command: []
+      permission:
+      - trail.8a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_77:
+      name: Ash trail
+      rarity: rare
+      rewardUUID: 1481ff50-88b7-41c9-929a-94029644eb12
+      command: []
+      permission:
+      - trail.9a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_78:
+      name: Honey trail
+      rarity: uncommon
+      rewardUUID: 13656693-2733-431a-9964-f793ab3d5991
+      command: []
+      permission:
+      - trail.11a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_79:
+      name: Nectar trail
+      rarity: rare
+      rewardUUID: 2252403c-6187-43c5-afe1-4f14e4c4afba
+      command: []
+      permission:
+      - trail.12a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_80:
+      name: Flame trail
+      rarity: common
+      rewardUUID: ffec3ad2-11b7-482f-97b0-bb985033af4a
+      command: []
+      permission:
+      - trail.13a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_81:
+      name: Heart trail
+      rarity: rare
+      rewardUUID: 62efbb84-25fd-4b17-8e37-038d2a9f4182
+      command: []
+      permission:
+      - trail.14a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_82:
+      name: Portal trail
+      rarity: common
+      rewardUUID: 716a0c5d-b8c1-4ce8-9c7d-d7d660cde8b2
+      command: []
+      permission:
+      - trail.15a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_83:
+      name: Redstone trail
+      rarity: common
+      rewardUUID: d3a2ed4e-1a66-46a3-95f2-0d785e7f901f
+      command: []
+      permission:
+      - trail.16a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_84:
+      name: Spell trail
+      rarity: common
+      rewardUUID: 07817131-4607-475e-9151-73b5d68189fc
+      command: []
+      permission:
+      - trail.17a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_85:
+      name: Note trail
+      rarity: rare
+      rewardUUID: 8bcae5c9-4fe4-4ad6-8452-0faac4bbf28e
+      command: []
+      permission:
+      - trail.18a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_86:
+      name: Dolphin trail
+      rarity: uncommon
+      rewardUUID: 328f57cb-dc82-4ab3-abba-b4acae11ae9c
+      command: []
+      permission:
+      - trail.19a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_87:
+      name: Crit magic trail
+      rarity: uncommon
+      rewardUUID: 741ad494-65b0-43a7-9186-0ae0b3642606
+      command: []
+      permission:
+      - trail.20a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_88:
+      name: Ouch trail
+      rarity: legendary
+      rewardUUID: 6eafff2c-846f-44b3-a39b-6d5a0d194388
+      command: []
+      permission:
+      - trail.21a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_89:
+      name: Ink trail
+      rarity: rare
+      rewardUUID: f9c44a1f-6469-443b-8a77-f225921017b5
+      command: []
+      permission:
+      - trail.22a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_90:
+      name: Spit trail
+      rarity: common
+      rewardUUID: 3700ec2b-dcfd-4b0a-8533-e9b1c18a93ab
+      command: []
+      permission:
+      - trail.23a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_91:
+      name: Sneeze trail
+      rarity: uncommon
+      rewardUUID: 98792533-4c14-47bb-bb6c-2b4d9ebe5c53
+      command: []
+      permission:
+      - trail.24a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_92:
+      name: Slime trail
+      rarity: common
+      rewardUUID: b9cdf37d-ce98-4c3b-8bb9-720fed748c59
+      command: []
+      permission:
+      - trail.25a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_93:
+      name: Divideded trail
+      rarity: mythical
+      rewardUUID: 7a87114c-7231-49a0-95b2-ebc6cf312a97
+      command: []
+      permission:
+      - trail.26a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_94:
+      name: Totem trail
+      rarity: rare
+      rewardUUID: f007358a-2388-4530-b457-01221fe68841
+      command: []
+      permission:
+      - trail.27a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_95:
+      name: Landing tears trail
+      rarity: rare
+      rewardUUID: 4d7f26ca-056c-487a-8e0f-d0ddcd63c35e
+      command: []
+      permission:
+      - trail.28a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_96:
+      name: Crimson trail
+      rarity: legendary
+      rewardUUID: 2a21c3a4-c713-49d4-9de6-15c954599488
+      command: []
+      permission:
+      - trail.29a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_97:
+      name: Nautilus trail
+      rarity: mythical
+      rewardUUID: 1c0b2762-dc17-4701-ba2b-790fc5c3e6cb
+      command: []
+      permission:
+      - trail.30a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_98:
+      name: Dripping tears trail
+      rarity: mythical
+      rewardUUID: db3b6eb2-41b6-4f0e-94c3-01455b65b655
+      command: []
+      permission:
+      - trail.31a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_99:
+      name: End rod trail
+      rarity: uncommon
+      rewardUUID: 22bed7ef-b5f8-464b-9e94-cd211bb587c9
+      command: []
+      permission:
+      - trail.32a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_100:
+      name: Soul trail
+      rarity: legendary
+      rewardUUID: 010fa92b-e596-4156-99b6-b91c19fd8a0d
+      command: []
+      permission:
+      - trail.33a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_101:
+      name: Soul fire trail
+      rarity: legendary
+      rewardUUID: a667e4e4-aaff-46a2-b9da-22afed018fca
+      command: []
+      permission:
+      - trail.34a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_102:
+      name: White ash trail
+      rarity: rare
+      rewardUUID: 176d669d-9e46-4280-83e4-0c4d457b3ec8
+      command: []
+      permission:
+      - trail.35a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_103:
+      name: Enchanting trail
+      rarity: common
+      rewardUUID: 447ba7f4-60d0-4b53-99d1-430f6d3f014e
+      command: []
+      permission:
+      - trail.36a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_104:
+      name: Rainbow trail
+      rarity: rare
+      rewardUUID: c34a60bf-6342-447d-92ac-e044621facbf
+      command: []
+      permission:
+      - trail.37a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_105:
+      name: Lava break trail
+      rarity: rare
+      rewardUUID: ddcc620a-2888-476c-976d-e407bc242bb5
+      command: []
+      permission:
+      - break.1a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_106:
+      name: Clouds break trail
+      rarity: common
+      rewardUUID: 1af595d9-6dc6-4ca6-ba96-90f0330ced89
+      command: []
+      permission:
+      - break.2a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_107:
+      name: Crimson break trail
+      rarity: uncommon
+      rewardUUID: b966e681-ae40-47c1-8ad6-a522c396a4b2
+      command: []
+      permission:
+      - break.3a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_108:
+      name: Dust break trail
+      rarity: common
+      rewardUUID: d4837c89-9e5b-4a56-99b6-077464d3ed92
+      command: []
+      permission:
+      - break.4a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_109:
+      name: Guardian break trail
+      rarity: rare
+      rewardUUID: 10a73925-56c4-44f7-8c60-949718430dd4
+      command: []
+      permission:
+      - break.5a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_110:
+      name: Dragons breath break trail
+      rarity: legendary
+      rewardUUID: 1b5312a1-632c-4bd2-aa2c-288c3ec00037
+      command: []
+      permission:
+      - break.6a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_111:
+      name: Love break trail
+      rarity: uncommon
+      rewardUUID: 2b7cc4c3-a4c0-43c6-ae9c-d6a99129e6e1
+      command: []
+      permission:
+      - break.8a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_112:
+      name: Blueberry break trail
+      rarity: legendary
+      rewardUUID: 4ed3be6f-eaf9-41d9-bb65-3a0ba1029d53
+      command: []
+      permission:
+      - break.9a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_113:
+      name: Music break trail
+      rarity: rare
+      rewardUUID: 4a1c18c4-9de9-40af-a810-9ac7afeb7b94
+      command: []
+      permission:
+      - break.10a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_114:
+      name: Slime break trail
+      rarity: common
+      rewardUUID: 80b1d756-5f15-4666-9add-964e411f36d9
+      command: []
+      permission:
+      - break.11a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_115:
+      name: Ink break trail
+      rarity: uncommon
+      rewardUUID: 50d73e39-4ac2-4f7d-92a5-172f11bfd0e1
+      command: []
+      permission:
+      - break.12a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_116:
+      name: Ice flame break trail
+      rarity: mythical
+      rewardUUID: f35a159e-c1a0-48be-9b58-95313970413b
+      command: []
+      permission:
+      - break.13a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_117:
+      name: Spell break trail
+      rarity: common
+      rewardUUID: a6b71c1d-7982-41a9-bcee-07df7a75844f
+      command: []
+      permission:
+      - break.14a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_118:
+      name: Totem break trail
+      rarity: mythical
+      rewardUUID: e906bf39-b9f2-4dab-a840-d7246beb236a
+      command: []
+      permission:
+      - break.15a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_119:
+      name: Lava place trail
+      rarity: rare
+      rewardUUID: cd94b9bf-cfe4-4a98-a6fb-f4f2ad3e4886
+      command: []
+      permission:
+      - place.1a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_120:
+      name: Clouds place trail
+      rarity: common
+      rewardUUID: af9c9041-f100-49a8-99e6-ec97c7722988
+      command: []
+      permission:
+      - place.2a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_121:
+      name: Crimson place trail
+      rarity: uncommon
+      rewardUUID: cce84006-f19b-4824-a581-e1d3cf11cdb0
+      command: []
+      permission:
+      - place.3a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_122:
+      name: Dust place trail
+      rarity: common
+      rewardUUID: 7d1520c2-2a58-4988-8aa9-a1294ed8adb3
+      command: []
+      permission:
+      - place.4a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_123:
+      name: Guardian place trail
+      rarity: rare
+      rewardUUID: 848e6c3b-b371-47b4-b693-e559a3a948b6
+      command: []
+      permission:
+      - place.5a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_124:
+      name: Dragons breath place trail
+      rarity: legendary
+      rewardUUID: 1c64bcc0-745e-46be-a7b6-dbcd06bfdd3f
+      command: []
+      permission:
+      - place.6a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_125:
+      name: Explosion place trail
+      rarity: common
+      rewardUUID: 90672627-f1d2-44a5-8cff-0e2627bdbdce
+      command: []
+      permission:
+      - place.7a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_126:
+      name: Love place trail
+      rarity: uncommon
+      rewardUUID: 8799f12a-9233-449c-9d85-acf75cef414a
+      command: []
+      permission:
+      - place.8a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_127:
+      name: Blueberry place trail
+      rarity: legendary
+      rewardUUID: c624783a-e03a-4837-92de-3794fd715b7c
+      command: []
+      permission:
+      - place.9a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_128:
+      name: Music place trail
+      rarity: rare
+      rewardUUID: e8670e13-1018-4655-a027-777201a58811
+      command: []
+      permission:
+      - place.10a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_129:
+      name: Slime place trail
+      rarity: common
+      rewardUUID: 415a838a-2cdc-49cb-ab86-06285d2d0c7c
+      command: []
+      permission:
+      - place.11a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_130:
+      name: Ink place trail
+      rarity: uncommon
+      rewardUUID: 950d27fa-a962-4b85-8f36-ad9ebe9d420c
+      command: []
+      permission:
+      - place.12a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_131:
+      name: Ice flame place trail
+      rarity: mythical
+      rewardUUID: f415e76e-9956-4b9c-b913-9c6741a1f5cf
+      command: []
+      permission:
+      - place.13a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_132:
+      name: Spell place trail
+      rarity: common
+      rewardUUID: f70f291d-111c-4c58-a760-0dc6acff8058
+      command: []
+      permission:
+      - place.14a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_133:
+      name: Totem place trail
+      rarity: mythical
+      rewardUUID: 2eb07c5f-d543-4834-84c8-e088115a5841
+      command: []
+      permission:
+      - place.15a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_134:
+      name: Lava hurt trail
+      rarity: uncommon
+      rewardUUID: dab15d47-d6df-48ac-8883-fb2126f7011a
+      command: []
+      permission:
+      - hurt.1a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_135:
+      name: Angry villager hurt trail
+      rarity: rare
+      rewardUUID: 1310c883-fea5-4fea-a752-e4d2ff429e2e
+      command: []
+      permission:
+      - hurt.2a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_136:
+      name: Totem hurt trail
+      rarity: legendary
+      rewardUUID: 5fce7569-e43b-454f-90b3-67bfbfeda2bc
+      command: []
+      permission:
+      - hurt.3a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_137:
+      name: Stop hurt trail
+      rarity: mythical
+      rewardUUID: 2fe16812-79df-43ad-93b1-8d39bbcd0dc8
+      command: []
+      permission:
+      - hurt.4a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_138:
+      name: Damage hurt trail
+      rarity: uncommon
+      rewardUUID: 03c2e06c-160e-40ae-95b4-2643b6a0d733
+      command: []
+      permission:
+      - hurt.5a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_139:
+      name: Heart hurt trail
+      rarity: legendary
+      rewardUUID: 076d7bf5-d48a-4447-83c7-481ee1d0fa62
+      command: []
+      permission:
+      - hurt.6a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_140:
+      name: Enchantment hurt trail
+      rarity: rare
+      rewardUUID: baa740af-554f-429b-a887-e3b0bc18881b
+      command: []
+      permission:
+      - hurt.7a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_141:
+      name: Flame hurt trail
+      rarity: rare
+      rewardUUID: 1c63bc19-a6a2-475c-ab59-605fff8f85f1
+      command: []
+      permission:
+      - hurt.8a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_142:
+      name: Sweep attack damage trail
+      rarity: uncommon
+      rewardUUID: 56ff1ccd-1cd3-4fee-8ade-4df04368c338
+      command: []
+      permission:
+      - damage.1a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_143:
+      name: Happy damage trail
+      rarity: legendary
+      rewardUUID: 28203c50-1548-4927-9343-ce290f678522
+      command: []
+      permission:
+      - damage.2a
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_144:
+      name: Dark blue glow color
+      rarity: rare
+      rewardUUID: 72af9eba-c494-4608-8943-32d54515b78e
+      command: []
+      permission:
+      - glow.color.darkblue
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_145:
+      name: Dark green glow color
+      rarity: rare
+      rewardUUID: 89c0b0ef-9818-4745-a841-ed9229d469aa
+      command: []
+      permission:
+      - glow.color.darkgreen
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_146:
+      name: Dark aqua glow color
+      rarity: rare
+      rewardUUID: 1d40c63d-8e7c-427c-86da-fb51d4bf280b
+      command: []
+      permission:
+      - glow.color.darkaqua
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_147:
+      name: Dark red glow color
+      rarity: rare
+      rewardUUID: 53dec1cc-b0eb-48e2-8dfc-668fd2bea153
+      command: []
+      permission:
+      - glow.color.darkred
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_148:
+      name: Dark purple glow color
+      rarity: rare
+      rewardUUID: e7f4acf0-50b5-4976-8050-e90adbc103ef
+      command: []
+      permission:
+      - glow.color.darkpurple
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_149:
+      name: Gold glow color
+      rarity: rare
+      rewardUUID: 8d4696cf-c634-4c85-a402-eef43e4cdc97
+      command: []
+      permission:
+      - glow.color.gold
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_150:
+      name: Gray glow color
+      rarity: rare
+      rewardUUID: b76b1b56-5d1a-4633-8680-6cffdae76678
+      command: []
+      permission:
+      - glow.color.gray
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_151:
+      name: Dark gray glow color
+      rarity: rare
+      rewardUUID: cbeaa0db-ea1a-42a5-b441-d54b9ba4805b
+      command: []
+      permission:
+      - glow.color.darkgray
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_152:
+      name: Blue glow color
+      rarity: rare
+      rewardUUID: fd3cbb6e-1252-43a3-8aae-2cdb8a3e0c44
+      command: []
+      permission:
+      - glow.color.blue
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_153:
+      name: Green glow color
+      rarity: rare
+      rewardUUID: c44db930-8c45-4219-a5ab-75cc900a8b51
+      command: []
+      permission:
+      - glow.color.green
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_154:
+      name: Aqua glow color
+      rarity: rare
+      rewardUUID: 0e10c5d8-03ff-465a-add6-65fff8483533
+      command: []
+      permission:
+      - glow.color.aqua
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_155:
+      name: Red glow color
+      rarity: rare
+      rewardUUID: 7eeb29e9-9ae7-4bb2-8f96-305a84c55f35
+      command: []
+      permission:
+      - glow.color.red
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_156:
+      name: Light purple glow color
+      rarity: rare
+      rewardUUID: a035613e-f73a-4b6d-bff4-27e858cf6194
+      command: []
+      permission:
+      - glow.color.pink
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_157:
+      name: Yellow glow color
+      rarity: rare
+      rewardUUID: 1a8745a8-8761-43f8-bd00-3a3e12b2d2a8
+      command: []
+      permission:
+      - glow.color.yellow
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+    reward_158:
+      name: Rainbow glow color
+      rarity: mythical
+      rewardUUID: 00e05d75-6281-4106-9edd-0ebf57ae256e
+      command: []
+      permission:
+      - glow.color.rainbow
+      item: []
+      icon:
+        material: PLAYER_HEAD
+        unbreakable: false
+        enchanted: false
+  key:
+    name: '&e&lNormal Cubelet''s key'
+    lore:
+    - '&8&oGo to a Cubelets Machine to'
+    - '&8&oopen this key.'
+    - ' '
+    - '&a&lLeft-Click: &6Preview rewards'
+    - '&a&lRight-Click: &6Open cubelet key'
+    material: TRIPWIRE_HOOK
+    enchants:
+      DURABILITY: 1
+    flags:
+    - HIDE_ENCHANTS

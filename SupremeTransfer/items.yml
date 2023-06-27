@@ -1,0 +1,572 @@
+TotemOfUndying:
+  name: '&6&lTotem of Undying'
+  command: 'give %name% totem_of_undying 1'
+  price: 30
+  material: 'TOTEM_OF_UNDYING'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea' 
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 5
+
+CyanShulkerBox:
+  name: '&3&lCyan Shulker Box'
+  command: 'give %name% cyan_shulker_box 1'
+  price: 30
+  material: 'CYAN_SHULKER_BOX'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 10
+
+OrangeShulkerBox:
+  name: '&6&lOrange Shulker Box'
+  command: 'give %name% orange_shulker_box 1'
+  price: 30
+  material: 'ORANGE_SHULKER_BOX'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea' 
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 10
+
+PinkShulkerBox:
+  name: '&d&lPink Shulker Box'
+  command: 'give %name% pink_shulker_box 1'
+  price: 30
+  material: 'PINK_SHULKER_BOX'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea' 
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 10
+
+GoldChatColor:
+  name: '&6&lGold Chat Color Voucher'
+  command: 'supremevouchers %name% goldchatcolor'
+  price: 120
+  material: 'PAPER'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 3
+
+GreenChatColor:
+  name: '&a&lGreen Chat Color Voucher'
+  command: 'supremevouchers %name% greenchatcolor'
+  price: 120
+  material: 'PAPER'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 3
+
+AquaChatColor:
+  name: '&b&lAqua Chat Color Voucher'
+  command: 'supremevouchers %name% aquachatcolor'
+  price: 120
+  material: 'PAPER'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 3
+
+BlueChatColor:
+  name: '&9&lBlue Chat Color Voucher'
+  command: 'supremevouchers %name% bluechatcolor'
+  price: 120
+  material: 'PAPER'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 3
+
+PinkChatColor:
+  name: '&d&lPink Chat Color Voucher'
+  command: 'supremevouchers %name% pinkchatcolor'
+  price: 120
+  material: 'PAPER'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 3
+
+GoldNameColor:
+  name: '&6&lGold Name Color Voucher'
+  command: 'supremevouchers %name% goldnamecolor'
+  price: 120
+  material: 'MAP'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 3
+
+GreenNameColor:
+  name: '&a&lGreen Name Color Voucher'
+  command: 'supremevouchers %name% greennamecolor'
+  price: 120
+  material: 'MAP'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 3
+
+AquaNameColor:
+  name: '&b&lAqua Name Color Voucher'
+  command: 'supremevouchers %name% aquanamecolor'
+  price: 120
+  material: 'MAP'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 3
+
+BlueNameColor:
+  name: '&9&lBlue Name Color Voucher'
+  command: 'supremevouchers %name% bluenamecolor'
+  price: 120
+  material: 'MAP'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 3
+
+PinkNameColor:
+  name: '&d&lPink Name Color Voucher'
+  command: 'supremevouchers %name% pinknamecolor'
+  price: 120
+  material: 'MAP'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 3
+
+50ClaimBlocks:
+  name: '&e&l+50 Claim Blocks Voucher'
+  command: 'supremevouchers %name% 50claimblocks'
+  price: 15
+  material: 'GOLD_BLOCK'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 30
+
+100ClaimBlocks:
+  name: '&e&l+100 Claim Blocks Voucher'
+  command: 'supremevouchers %name% 100claimblocks'
+  price: 25
+  material: 'GOLD_BLOCK'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 20
+
+250ClaimBlocks:
+  name: '&e&l+250 Claim Blocks Voucher'
+  command: 'supremevouchers %name% 250claimblocks'
+  price: 50
+  material: 'GOLD_BLOCK'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 15
+
+500ClaimBlocks:
+  name: '&e&l+500 Claim Blocks Voucher'
+  command: 'supremevouchers %name% 500claimblocks'
+  price: 90
+  material: 'GOLD_BLOCK'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 10
+
+1000ClaimBlocks:
+  name: '&e&l+1000 Claim Blocks Voucher'
+  command: 'supremevouchers %name% 1000claimblocks'
+  price: 165
+  material: 'GOLD_BLOCK'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 5
+
+30minflytime:
+  name: '&b&l30 Minutes FlyTime Voucher'
+  command: 'supremevouchers %name% flytime30'
+  price: 15
+  material: 'FEATHER'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 45
+
+60minflytime:
+  name: '&b&l60 Minutes FlyTime Voucher'
+  command: 'supremevouchers %name% flytime60'
+  price: 25
+  material: 'FEATHER'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 20
+
+6hourflytime:
+  name: '&b&l6 Hours FlyTime Voucher'
+  command: 'supremevouchers %name% flytime6h'
+  price: 100
+  material: 'FEATHER'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 10
+
+1gravestone:
+  name: '&d&l+1 Gravestone Voucher'
+  command: 'supremevouchers %name% 1gravestone'
+  price: 10
+  material: 'COBBLESTONE_WALL'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 20
+
+3gravestone:
+  name: '&d&l+3 Gravestone Voucher'
+  command: 'supremevouchers %name% 3gravestone'
+  price: 25
+  material: 'COBBLESTONE_WALL'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 15
+
+5gravestone:
+  name: '&d&l+5 Gravestone Voucher'
+  command: 'supremevouchers %name% 5gravestone'
+  price: 40
+  material: 'COBBLESTONE_WALL'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 10
+
+normalcubelet:
+  name: '&e&lNormal Cubelet'
+  command: 'acubelets:cubelets give %name% normal 1'
+  price: 75
+  material: 'PLAYER_HEAD'
+  skin: 'http://textures.minecraft.net/texture/af22b6a3a0f24bdeeab2a6acd9b1f52bb9594d5f6b1e2c05dddb219410c8'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 5
+
+supercubelet:
+  name: '&e&lSuper Cubelet'
+  command: 'acubelets:cubelets give %name% super 1'
+  price: 120
+  material: 'PLAYER_HEAD'
+  skin: 'http://textures.minecraft.net/texture/1682de72bf61c6d23364e2fe2d7cc28ddf83145d18f193857d369cf9df692'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 5
+
+ultracubelet:
+  name: '&e&lUltra Cubelet'
+  command: 'acubelets:cubelets give %name% ultra 1'
+  price: 200
+  material: 'PLAYER_HEAD'
+  skin: 'http://textures.minecraft.net/texture/73403ac7f0cf0c749bd8cfa8064060bdab242a3602cfd44a51c3ea0bdfed55a1'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 5
+
+1dayadvertisementgem:
+  name: '&a&lAdvertisement Gem 1 Day'
+  command: 'supremeplayershops %name% 1day'
+  price: 30
+  material: 'EMERALD'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 20
+
+3dayadvertisementgem:
+  name: '&a&lAdvertisement Gem 3 Day'
+  command: 'supremeplayershops %name% 3days'
+  price: 75
+  material: 'EMERALD'
+  amount: 1
+  lore:
+    - '&7Item from the Mystery Wizard.'   
+    - ''
+    - '&fInformation:'        
+    - '  &8◊ &7Buy price: &c{price} tokens/ea'  
+    - ''    
+    - '  &a➥ &7Stock: &e{stock-amount}'    
+    - ''
+    - '&a&lClick &7to purchase'
+  durability: 0
+  glow: false
+  stock: 20

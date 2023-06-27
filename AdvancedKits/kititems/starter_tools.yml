@@ -1,0 +1,25 @@
+'1':
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: STONE_SWORD
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: STONE_PICKAXE
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: STONE_AXE
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_SHOVEL
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_HOE
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SHEARS

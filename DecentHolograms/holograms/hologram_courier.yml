@@ -1,0 +1,23 @@
+location: world:7.458:84.000:-12.547
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lThe Courier'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fPick up your daily deliveries'
+    height: 0.3
+  - content: '&for choose from one of our other'
+    height: 0.3
+  - content: '&a&l3 &fpremium packages!'
+    height: 0.3
+  - content: '<#ANIM:wave:&#FBBF24,&#FBE72E&l>%supremeessentials_available_rewards% Available</#ANIM>'
+    height: 0.3
+  actions: {}

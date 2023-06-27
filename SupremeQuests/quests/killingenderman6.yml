@@ -1,0 +1,14 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 425
+    mob: ENDERMAN
+    worlds:
+     - 'survival'
+rewards:
+  - "supremetokens give {player} 12"
+  - "eco give {player} 2000"
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

@@ -1,0 +1,241 @@
+menu_title: '&cEarnings Digger (page 1/1)'
+open_command:
+- jobs earnings digger
+size: 45
+items:
+  'filler':
+    material: 'GRAY_STAINED_GLASS_PANE'
+    priority: 1
+    slots:
+    - 28
+    - 29
+    - 30    
+    - 31
+    - 32
+    - 33
+    - 34
+  '1':
+    material: 'red_sand'
+    display_name: '&e&lRed Sand'
+    priority: 1
+    slots:
+    - 10
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.4 Exp'
+    - '  &8◊ &7Points: &e0.3 Points'
+  '2':
+    material: 'coarse_dirt'
+    display_name: '&e&lCoarse Dirt'
+    priority: 1
+    slots:
+    - 11
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.3 Exp'
+    - '  &8◊ &7Points: &e0.3 Points'
+  '3':
+    material: 'dirt'
+    display_name: '&e&lDirt'
+    priority: 1
+    slots:
+    - 12
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.05'
+    - '  &8◊ &7Exp: &d0.04 Exp'
+    - '  &8◊ &7Points: &e0.02 Points'
+  '4':
+    material: 'grass_block'
+    display_name: '&e&lGrass Block'
+    priority: 1
+    slots:
+    - 13
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.15 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '5':
+    material: 'gravel'
+    display_name: '&e&lGravel'
+    priority: 1
+    slots:
+    - 14
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.03'
+    - '  &8◊ &7Exp: &d0.025 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '6':
+    material: 'sand'
+    display_name: '&e&lSand'
+    priority: 1
+    slots:
+    - 15
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.1'
+    - '  &8◊ &7Exp: &d0.1 Exp'
+    - '  &8◊ &7Points: &e0.05 Points'
+  '7':
+    material: 'clay'
+    display_name: '&e&lClay'
+    priority: 1
+    slots:
+    - 16
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.6'
+    - '  &8◊ &7Exp: &d0.5 Exp'
+    - '  &8◊ &7Points: &e0.4 Points'
+  '8':
+    material: 'podzol'
+    display_name: '&e&lPodzol'
+    priority: 1
+    slots:
+    - 19
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.3 Exp'
+    - '  &8◊ &7Points: &e0.3 Points'
+  '9':
+    material: 'crimson_nylium'
+    display_name: '&e&lCrimson Nylium'
+    priority: 1
+    slots:
+    - 20
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.2'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '10':
+    material: 'warped_nylium'
+    display_name: '&e&lWarped Nylium'
+    priority: 1
+    slots:
+    - 21
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.2'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '11':
+    material: 'soul_soil'
+    display_name: '&e&lSoul Soil'
+    priority: 1
+    slots:
+    - 22
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.15'
+    - '  &8◊ &7Exp: &d0.25 Exp'
+    - '  &8◊ &7Points: &e0.15 Points'
+  '12':
+    material: 'SOUL_SAND'
+    display_name: '&e&lSoul Sand'
+    priority: 1
+    slots:
+    - 23
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.15'
+    - '  &8◊ &7Exp: &d0.25 Exp'
+    - '  &8◊ &7Points: &e0.15 Points'
+  '13':
+    material: 'White_CONCRETE_POWDER'
+    display_name: '&e&lAny types of Concrete Powder'
+    priority: 1
+    slots:
+    - 24
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.15'
+    - '  &8◊ &7Exp: &d0.25 Exp'
+    - '  &8◊ &7Points: &e0.15 Points'
+  '14':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I0NWFhYjA3MjdkYjVmYzkxMjg5Y2MwMWFiODk2NzA2MTg1MTQ4ZjRkYWNkODE5ZjgzYTZhMjU2MDI3YjRmMCJ9fX0='
+    display_name: '&e&lPlayer'
+    priority: 1
+    slots:
+    - 25
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fKill actions:'
+    - '  &8◊ &7Money: &2$&a7.5'
+    - '  &8◊ &7Exp: &d7.5 Exp'
+    - '  &8◊ &7Points: &e7.5 Points'
+  'back':
+    material: BARRIER
+    priority: 1
+    display_name: '&C⤾ Back'
+    slot: 40
+    left_click_commands:
+    - '[openguimenu] jobsreborn_page_3'    
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_page_3'     
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'nextpage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0=
+    priority: 1
+    display_name: '&8Next Page'
+    slot: 26
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'previouspage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    priority: 1
+    display_name: '&8Previous Page'
+    slot: 18
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'    

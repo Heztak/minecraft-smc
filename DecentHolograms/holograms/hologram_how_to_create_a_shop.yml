@@ -1,0 +1,21 @@
+location: world:6.538:81.700:-34.467
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&a&lPlayer Shops!'
+    height: 0.3
+  - content: '&fCreate your own chest shop'
+    height: 0.3
+  - content: '&fby clicking on a chest with the'
+    height: 0.3
+  - content: '&fitem you want to &asell &for &cbuy&f!'
+    height: 0.3
+  - content: '#ICON: RAW_GOLD'
+    height: 0.6
+  actions: {}

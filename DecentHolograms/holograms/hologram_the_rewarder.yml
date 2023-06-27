@@ -1,0 +1,26 @@
+location: world:-77.464:74.700:119.528
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&lThe Rewarder'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fThe rewarder &arewards &fyou for the monsters'
+    height: 0.3
+  - content: '&fyou manage to defeat inside the &cdungeons world&f.'
+    height: 0.3
+  - content: '&fHand in your &bshards &fto him and unlock'
+    height: 0.3
+  - content: '&fmysterious prizes.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3    
+  actions: {}

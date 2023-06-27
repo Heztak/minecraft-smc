@@ -1,0 +1,443 @@
+menu_title: '&cSurvival Ranks'
+open_command:
+- pranks
+- ranks
+- playerranks
+size: 45
+items:
+  'KNIGHT_RANK':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTVhNWUxNDJhODg5ZDczYTBkYzRlOTUzNDNkZTI2ODk1NDlkMjNhYzc3ZWRiOWE3ZWMxMjc4MzlkNDk3M2NiZiJ9fX0='
+    slot: 10
+    priority: 2
+    display_name: '&e&lKnight Rank'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'LORD_RANK':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE4YmMxNmZhYTVmMmNlOTZkZmY3NmRmZTMxMTI0YzFlZTc3ZThiNDM5NjZlMTlmMzE5ODE0NjlhMzQ1In19fQ=='
+    slot: 11
+    priority: 2
+    display_name: '&e&lLord Rank'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'BARON_RANK':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDkxM2E0YWYyZDMwNjQ3MTNmNzA0MTg3ZTU3ZTZiZWMzZGVlYzk0ZjFjMzM3MWIyYjM1YzZjNWU0MjdjYjAifX19'
+    slot: 12
+    priority: 2
+    display_name: '&e&lBaron Rank'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5' 
+  'PALADIN_RANK':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBmZDJjYzkxMTZjMGY3MjRiZGNkYmYyZTk2MzNjYjBhN2Q0NTNmOGIzYTFhZDlkMTQ5M2U1ZTZmMTI4MTU1NSJ9fX0='
+    slot: 14
+    priority: 2
+    display_name: '&e&lPaladin Rank'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5' 
+  'DUKE_RANK':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYyNjZlODE2NjBjMTA1NmU5YWM0MzRmODBmNDlkYWI0MzcyZDJmOWYwZjBkNjdhNWUzNWVlNmIxOGY4ZjE2NSJ9fX0='
+    slot: 15
+    priority: 2
+    display_name: '&e&lDuke Rank'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'KING_RANK':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZkYTQ4OGNjZGViOTdjMzYxYTA4Mzc2MGUxZGUxMDIzMGQwMjQ4NDg1OTdjNWY3YzA3OTUyODYzZjk1YTA5NyJ9fX0='
+    slot: 16
+    priority: 2
+    display_name: '&e&lKing Rank'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'    
+  'KNIGHT':
+    material: BOOK
+    slot: 19
+    priority: 2
+    display_name: '&e&lKnight Rank'
+    lore:
+    - ''
+    - '&fCommands:'    
+    - '  &8◊ &7Access to &e/fix all'
+    - '  &8◊ &7Access to &e/workbench'
+    - '  &8◊ &7Access to &e/feed'    
+    - '  &8◊ &7Access to &e/ptime'
+    - '  &8◊ &7Access to &e/tptoggle'
+    - '  &8◊ &7Access to &e/trash'    
+    - ''
+    - '&fYou can purchase ranks in'
+    - '&four store &6/buy'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'  
+  'LORD':
+    material: BOOK
+    slot: 20
+    priority: 2
+    display_name: '&e&lLord Rank'
+    lore:
+    - ''
+    - '&fCommands:'    
+    - '  &8◊ &7Access to &e/fix all'
+    - '  &8◊ &7Access to &e/workbench'
+    - '  &8◊ &7Access to &e/feed'    
+    - '  &8◊ &7Access to &e/ptime'
+    - '  &8◊ &7Access to &e/tptoggle'
+    - '  &8◊ &7Access to &e/trash'    
+    - '  &8◊ &7Access to &e/hat'
+    - '  &8◊ &7Access to &e/nightvision'    
+    - ''
+    - '&fYou can purchase ranks in'
+    - '&four store &6/buy'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'    
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'   
+  'BARON':
+    material: BOOK
+    slot: 21
+    priority: 2
+    display_name: '&e&lBaron Rank'
+    lore:
+    - ''
+    - '&fCommands:'    
+    - '  &8◊ &7Access to &e/fix all'
+    - '  &8◊ &7Access to &e/workbench'
+    - '  &8◊ &7Access to &e/feed'    
+    - '  &8◊ &7Access to &e/ptime'
+    - '  &8◊ &7Access to &e/tptoggle'
+    - '  &8◊ &7Access to &e/trash'    
+    - '  &8◊ &7Access to &e/hat'
+    - '  &8◊ &7Access to &e/nightvision'
+    - '  &8◊ &7Access to &e/back'
+    - '  &8◊ &7Access to &e/afk'    
+    - ''
+    - '&fYou can purchase ranks in'
+    - '&four store &6/buy'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'     
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'     
+  'PALADIN':
+    material: BOOK
+    slot: 23
+    priority: 2
+    display_name: '&e&lPaladin Rank'
+    lore:
+    - ''
+    - '&fCommands:'    
+    - '  &8◊ &7Access to &e/fix all'
+    - '  &8◊ &7Access to &e/workbench'
+    - '  &8◊ &7Access to &e/feed'    
+    - '  &8◊ &7Access to &e/ptime'
+    - '  &8◊ &7Access to &e/tptoggle'
+    - '  &8◊ &7Access to &e/trash'    
+    - '  &8◊ &7Access to &e/hat'
+    - '  &8◊ &7Access to &e/nightvision'
+    - '  &8◊ &7Access to &e/back'
+    - '  &8◊ &7Access to &e/afk'
+    - '  &8◊ &7Access to &e/near'
+    - '  &8◊ &7Access to &e/pweather'    
+    - ''
+    - '&fYou can purchase ranks in'
+    - '&four store &6/buy'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'     
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'      
+  'DUKE':
+    material: BOOK
+    slot: 24
+    priority: 2
+    display_name: '&e&lDuke Rank'
+    lore:
+    - ''
+    - '&fCommands:'    
+    - '  &8◊ &7Access to &e/fix all'
+    - '  &8◊ &7Access to &e/workbench'
+    - '  &8◊ &7Access to &e/feed'    
+    - '  &8◊ &7Access to &e/ptime'
+    - '  &8◊ &7Access to &e/tptoggle'
+    - '  &8◊ &7Access to &e/trash'    
+    - '  &8◊ &7Access to &e/hat'
+    - '  &8◊ &7Access to &e/nightvision'
+    - '  &8◊ &7Access to &e/back'
+    - '  &8◊ &7Access to &e/afk'
+    - '  &8◊ &7Access to &e/near'
+    - '  &8◊ &7Access to &e/pweather'
+    - '  &8◊ &7Access to &e/fly &8(Within your land)'    
+    - ''
+    - '&fYou can purchase ranks in'
+    - '&four store &6/buy'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'     
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'    
+  'KING':
+    material: BOOK
+    slot: 25
+    priority: 2
+    display_name: '&e&lKing Rank'
+    lore:
+    - ''
+    - '&fCommands:'    
+    - '  &8◊ &7Access to &e/fix all'
+    - '  &8◊ &7Access to &e/workbench'
+    - '  &8◊ &7Access to &e/feed'    
+    - '  &8◊ &7Access to &e/ptime'
+    - '  &8◊ &7Access to &e/tptoggle'
+    - '  &8◊ &7Access to &e/trash'    
+    - '  &8◊ &7Access to &e/hat'
+    - '  &8◊ &7Access to &e/nightvision'
+    - '  &8◊ &7Access to &e/back'
+    - '  &8◊ &7Access to &e/afk'
+    - '  &8◊ &7Access to &e/near'
+    - '  &8◊ &7Access to &e/pweather'
+    - '  &8◊ &7Access to &e/fly &8(Within your land)'
+    - '  &8◊ &7Access to &e/invsee'    
+    - ''
+    - '&fYou can purchase ranks in'
+    - '&four store &6/buy'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'   
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'KNIGHT_2':
+    material: paper
+    slot: 28
+    priority: 2
+    display_name: '&e&lKnight Rank'
+    lore:
+    - ''
+    - '&fPerks:'
+    - '  &8◊ &7The color rank will be &3&k|&3Knight&3&k|&r'    
+    - '  &8◊ &7The color of your messages in chat will be white'
+    - '  &8◊ &7The ability to acces 3 Player Vaults'
+    - '  &8◊ &7The size of the Backpack will increase with 1 row'
+    - '  &8◊ &7You will have the ability to set up to 5 homes'
+    - '  &8◊ &7Ability to AFK without being kicked'
+    - '  &8◊ &7You can list 5 items in the auctionhouse'
+    - '  &8◊ &7The ability to create 20 player shops'
+    - '  &8◊ &7The ability to fly in spawn'
+    - '  &8◊ &7Access to the Knight cosmetics'    
+    - ''
+    - '&fYou can purchase ranks in'
+    - '&four store &6/buy'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'  
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'  
+  'LORD_2':
+    material: PAPER
+    slot: 29
+    priority: 2
+    display_name: '&e&lLord Rank'
+    lore:
+    - ''
+    - '&fPerks:'
+    - '  &8◊ &7The color rank will be &e&k|&eLord&e&k|&r'    
+    - '  &8◊ &7The color of your messages in chat will be white'
+    - '  &8◊ &7You don''t need lapis when enchanting'
+    - '  &8◊ &7The ability to acces 4 Player Vaults'
+    - '  &8◊ &7The size of the Backpack will increase with 0 rows'
+    - '  &8◊ &7You will have the ability to set up to 7 homes'
+    - '  &8◊ &7Ability to AFK without being kicked'
+    - '  &8◊ &7You can list 10 items in the auctionhouse'
+    - '  &8◊ &7The ability to create 30 player shops'
+    - '  &8◊ &7The ability to fly in spawn'
+    - '  &8◊ &7Access to the Lord cosmetics'    
+    - ''
+    - '&fYou can purchase ranks in'
+    - '&four store &6/buy'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'    
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'   
+  'BARON_2':
+    material: PAPER
+    slot: 30
+    priority: 2
+    display_name: '&e&lBaron Rank'
+    lore:
+    - ''
+    - '&fPerks:'
+    - '  &8◊ &7The color rank will be &a&k|&aBaron&a&k|&r' 
+    - '  &8◊ &7The color of your messages in chat will be white'
+    - '  &8◊ &7You don''t need lapis when enchanting'
+    - '  &8◊ &7The ability to acces 5 Player Vaults'
+    - '  &8◊ &7The size of the Backpack will increase with 2 rows'
+    - '  &8◊ &7You will have the ability to set up to 10 homes'
+    - '  &8◊ &7Ability to AFK without being kicked'
+    - '  &8◊ &7You can list 15 items in the auctionhouse'
+    - '  &8◊ &7The ability to create 40 player shops'
+    - '  &8◊ &7The ability to fly in spawn'
+    - '  &8◊ &7Access to the Baron cosmetics'    
+    - ''
+    - '&fYou can purchase ranks in'
+    - '&four store &6/buy'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'     
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'     
+  'PALADIN_2':
+    material: PAPER
+    slot: 32
+    priority: 2
+    display_name: '&e&lPaladin Rank'
+    lore:
+    - ''
+    - '&fPerks:'
+    - '  &8◊ &7The color rank will be &5&k|&5Paladin&5&k|&r'    
+    - '  &8◊ &7The color of your messages in chat will be white'
+    - '  &8◊ &7You don''t need lapis when enchanting'
+    - '  &8◊ &7The ability to acces 6 Player Vaults'
+    - '  &8◊ &7The size of the Backpack will increase with 0 rows'
+    - '  &8◊ &7You will have the ability to set up to 15 homes'   
+    - '  &8◊ &7Ability to AFK without being kicked'
+    - '  &8◊ &7You can list 20 items in the auctionhouse'
+    - '  &8◊ &7The ability to create 50 player shops'
+    - '  &8◊ &7The ability to fly in spawn'
+    - '  &8◊ &7Access to the Paladin cosmetics'    
+    - ''
+    - '&fYou can purchase ranks in'
+    - '&four store &6/buy'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'     
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'      
+  'DUKE_2':
+    material: PAPER
+    slot: 33
+    priority: 2
+    display_name: '&e&lDuke Rank'
+    lore:
+    - ''
+    - '&fPerks:'
+    - '  &8◊ &7The color rank will be &b&k|&bDuke&b&k|&r'    
+    - '  &8◊ &7The color of your messages in chat will be white'
+    - '  &8◊ &7You don''t need lapis when enchanting'
+    - '  &8◊ &7The ability to acces 8 Player Vaults'
+    - '  &8◊ &7The size of the Backpack will increase with 2 rows'
+    - '  &8◊ &7You will have the ability to set up to 20 homes'
+    - '  &8◊ &7Ability to AFK without being kicked'
+    - '  &8◊ &7You can list 25 items in the auctionhouse'
+    - '  &8◊ &7The ability to create 60 player shops'
+    - '  &8◊ &7The ability to fly in spawn'
+    - '  &8◊ &7Access to the Duke cosmetics'    
+    - '  &8◊ &7You will be able to use colors on signs'    
+    - ''
+    - '&fYou can purchase ranks in'
+    - '&four store &6/buy'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'     
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'    
+  'KING_2':
+    material: PAPER
+    slot: 34
+    priority: 2
+    display_name: '&e&lKing Rank'
+    lore:
+    - ''
+    - '&fPerks:'
+    - '  &8◊ &7The color rank will be &6&k|&eK&6i&en&6g&e&k|&r'      
+    - '  &8◊ &7The color of your messages in chat will be white'
+    - '  &8◊ &7You don''t need lapis when enchanting'
+    - '  &8◊ &7The ability to acces 12 Player Vaults'
+    - '  &8◊ &7The size of the Backpack will increase with 0 rows'
+    - '  &8◊ &7You will have the ability to set up to 25 homes'
+    - '  &8◊ &7Ability to AFK without being kicked'
+    - '  &8◊ &7You can list 30 items in the auctionhouse'
+    - '  &8◊ &7The ability to create 75 player shops'
+    - '  &8◊ &7The ability to fly in spawn'
+    - '  &8◊ &7Access to the King cosmetics'    
+    - '  &8◊ &7You will be able to use colors on signs'  
+    - ''
+    - '&fYou can purchase ranks in'
+    - '&four store &6/buy'
+    left_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'   
+    right_click_commands:
+    - '[close]'
+    - '[player] buy'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'   

@@ -1,0 +1,28 @@
+location: world_dungeons:1995.533:17.000:2475.521
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '#ICON: PRISMARINE_SHARD'
+    height: 0.6
+  - content: '&3&lRare Shard'
+    height: 0.3
+  - content: '&7Drop rate: &8&l18%'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&7Found in:'
+    height: 0.3
+  - content: '&#d0973dArea II'
+    height: 0.3
+  - content: '&#ec5408Area III'
+    height: 0.3
+  - content: '&#ad180aArea IV'
+    height: 0.3
+  actions: {}
+  always-face-player: true

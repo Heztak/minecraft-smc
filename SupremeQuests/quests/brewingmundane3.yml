@@ -1,0 +1,17 @@
+tasks:
+  brewing:
+    type: 'brewing'
+    item: POTION
+    data: MUNDANE
+    amount: 45
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "eco give {player} 1000"
+options:
+  category: "brewing"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

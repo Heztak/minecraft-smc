@@ -1,0 +1,214 @@
+menu_title: '&c          Normal Delivery'
+inventory_type: HOPPER
+open_command: 
+- normal_reward_selector
+size: 5
+update_interval: 1
+items:
+  'reward_1':
+    material: TRIPWIRE_HOOK
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true   
+    hide_attributes: true     
+    slot: 0
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: knight.rank    
+    display_name: '&e&lCrate key'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a crate key.'  
+    - ''    
+    - '  &8◊ &7Amount: &e1 Rare key'    
+    - ''
+    - '&a&lClick here &7to claim this reward!'        
+    left_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Normal Delivery: &e+1 Rare key!<n>'    
+    - '[console] crazycrate give physical rare 1 %player_name%'
+    - '[console] lp user %player_name% permission settemp normal.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Normal Delivery: &e+1 Rare key!<n>'    
+    - '[console] crazycrate give physical rare 1 %player_name%'
+    - '[console] lp user %player_name% permission settemp normal.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'
+  'reward_1_cooldown':
+    material: 'FURNACE_MINECART'
+    slot: 0
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: normal.reward.cooldown 
+    display_name: '&e&lCrate key'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a crate key.'  
+    - ''    
+    - '  &8◊ &7Amount: &e1 Rare key'    
+    - ''
+    - '&a&lClick here &7to claim this reward!' 
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'  
+  'reward_1_noperm':
+    material: 'MINECART'
+    slot: 0
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: deluxemenu.use
+    display_name: '&c&lReward 1'
+    lore: []
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'        
+  'reward_2':
+    material: COBBLESTONE_WALL
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true   
+    hide_attributes: true     
+    slot: 2
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: knight.rank    
+    display_name: '&e&lGravestone'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a Gravestone.'  
+    - ''    
+    - '  &8◊ &7Amount: &e1'    
+    - ''
+    - '&a&lClick here &7to claim this reward!'          
+    left_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Normal Delivery: &e+1 Gravestone!<n>'  
+    - '[console] gravestones give %player_name% 1'
+    - '[console] lp user %player_name% permission settemp normal.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Normal Delivery: &e+1 Gravestone!<n>'  
+    - '[console] gravestones give %player_name% 1'
+    - '[console] lp user %player_name% permission settemp normal.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'
+  'reward_2_cooldown':
+    material: 'FURNACE_MINECART'
+    slot: 2
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: normal.reward.cooldown 
+    display_name: '&e&lGravestone'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a Gravestone.'  
+    - ''    
+    - '  &8◊ &7Amount: &e1'  
+    - ''
+    - '&a&lClick here &7to claim this reward!'        
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'reward_2_noperm':
+    material: 'MINECART'
+    slot: 2
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: deluxemenu.use
+    display_name: '&c&lReward 2'
+    lore: []
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'          
+  'reward_3':
+    material: EXPERIENCE_BOTTLE
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true   
+    hide_attributes: true     
+    slot: 4
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: knight.rank     
+    display_name: '&e&lExperience boost'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a experience boost.'  
+    - ''    
+    - '  &8◊ &7Amount: &e250 EXP'    
+    - ''
+    - '&a&lClick here &7to claim this reward!'         
+    left_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Normal Delivery: &e+250 Experience!<n>'        
+    - '[console] exp give %player_name% 250'
+    - '[console] lp user %player_name% permission settemp normal.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Normal Delivery: &e+250 Experience!<n>'        
+    - '[console] exp give %player_name% 250'
+    - '[console] lp user %player_name% permission settemp normal.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'  
+  'reward_3_cooldown':
+    material: 'FURNACE_MINECART'
+    slot: 4
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: normal.reward.cooldown 
+    display_name: '&e&lExperience boost'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a experience boost.'  
+    - ''    
+    - '  &8◊ &7Amount: &e250 EXP'    
+    - ''
+    - '&a&lClick here &7to claim this reward!'         
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'reward_3_noperm':
+    material: 'MINECART'
+    slot: 4
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: deluxemenu.use
+    display_name: '&c&lReward 3'
+    lore: []
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'       

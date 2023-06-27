@@ -1,0 +1,392 @@
+
+#  ____  _             _              _    _ _       
+# / ___|| |_ __ _ _ __| |_ ___ _ __  | | _(_) |_ ___ 
+# \___ \| __/ _` | '__| __/ _ \ '__| | |/ / | __/ __|
+#  ___) | || (_| | |  | ||  __/ |    |   <| | |_\__ \
+# |____/ \__\__,_|_|   \__\___|_|    |_|\_\_|\__|___/
+#
+      
+starter_tools:
+  title: '&cPreviewing Kit Tools'
+  rows: 3
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+starter_food:
+  title: '&cPreviewing Kit Food'
+  rows: 3
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+starter_armor:
+  title: '&cPreviewing Kit Armor'
+  rows: 3
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+starter_claimtools:
+  title: '&cPreviewing Kit Claim Tools'
+  rows: 3
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+
+#  ____             _            _   _    _ _       
+# |  _ \ __ _ _ __ | | _____  __| | | | _(_) |_ ___ 
+# | |_) / _` | '_ \| |/ / _ \/ _` | | |/ / | __/ __|
+# |  _ < (_| | | | |   <  __/ (_| | |   <| | |_\__ \
+# |_| \_\__,_|_| |_|_|\_\___|\__,_| |_|\_\_|\__|___/
+#
+
+ranked_knight_kit:
+  title: '&cPreviewing Knight Kit'
+  rows: 4
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+ranked_knight_once:
+  title: '&cPreviewing Knight Once Kit'
+  rows: 3
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true      
+ranked_lord_kit:
+  title: '&cPreviewing Lord Kit'
+  rows: 5
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+ranked_lord_once:
+  title: '&cPreviewing Lord Once Kit'
+  rows: 3
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true      
+ranked_baron_kit:
+  title: '&cPreviewing Baron Kit'
+  rows: 5
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+ranked_baron_once:
+  title: '&cPreviewing Baron Once Kit'
+  rows: 3
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true      
+ranked_paladin_kit:
+  title: '&cPreviewing Paladin Kit'
+  rows: 6
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+ranked_paladin_once:
+  title: '&cPreviewing Paladin Once Kit'
+  rows: 3
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true      
+ranked_duke_kit:
+  title: '&cPreviewing Duke Kit'
+  rows: 6
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+ranked_duke_once:
+  title: '&cPreviewing Duke Once Kit'
+  rows: 3
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true      
+ranked_king_kit:
+  title: '&cPreviewing King Kit'
+  rows: 6
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+ranked_king_once:
+  title: '&cPreviewing King Once Kit'
+  rows: 3
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+
+#   ____ _  ___ _       
+#  / ___| |/ (_) |_ ___ 
+# | |  _| ' /| | __/ __|
+# | |_| | . \| | |_\__ \
+#  \____|_|\_\_|\__|___/
+#
+
+gkit_keys:
+  title: '&cPreviewing GKit Keys'
+  rows: 3
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+gkit_miner:
+  title: '&cPreviewing GKit Miner'
+  rows: 4
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+gkit_tools:
+  title: '&cPreviewing GKit Tools'
+  rows: 3
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+gkit_grinder:
+  title: '&cPreviewing GKit Grinder'
+  rows: 3
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+gkit_blocks:
+  title: '&cPreviewing GKit Blocks'
+  rows: 6
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+gkit_enchants:
+  title: '&cPreviewing GKit Enchants'
+  rows: 4
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true
+gkit_potions:
+  title: '&cPreviewing GKit Potions'
+  rows: 5
+  menu-fillers: []
+  kit-items:
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+    start-delay: 3
+    repeat-delay: 3
+  upgrade-buttons:
+    enabled: false
+    slots:
+      previous-page: 48
+      next-page: 50
+      upgrade: 49
+    settings:
+      reset-kit-cooldown: true      

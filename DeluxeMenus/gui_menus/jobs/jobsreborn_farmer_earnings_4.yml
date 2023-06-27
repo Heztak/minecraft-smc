@@ -1,0 +1,230 @@
+menu_title: '&cEarnings Farmer (page 4/4)' 
+open_command:
+- jobs earnings farmer4
+size: 45
+items:
+  'filler':
+    material: 'GRAY_STAINED_GLASS_PANE'
+    priority: 1
+    slots:
+    - 25    
+    - 28
+    - 29
+    - 30    
+    - 31
+    - 32
+    - 33
+    - 34
+  '1':
+    material: 'blue_orchid'
+    display_name: '&e&lBlue Orchid'
+    priority: 1
+    slots:
+    - 10
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '2':
+    material: 'allium'
+    display_name: '&e&lAllium'
+    priority: 1
+    slots:
+    - 11
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '3':
+    material: 'azure_bluet'
+    display_name: '&e&lAzure Bluet'
+    priority: 1
+    slots:
+    - 12
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '4':
+    material: 'red_tulip'
+    display_name: '&e&lRed Tulip'
+    priority: 1
+    slots:
+    - 13
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '5':
+    material: 'orange_tulip'
+    display_name: '&e&lOrange Tulip'
+    priority: 1
+    slots:
+    - 14
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '6':
+    material: 'white_tulip'
+    display_name: '&e&lWhite Tulip'
+    priority: 1
+    slots:
+    - 15
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '7':
+    material: 'dead_brain_coral_fan'
+    display_name: '&e&lDead Brain Coral Fan'
+    priority: 1
+    slots:
+    - 16
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '8':
+    material: 'dead_bubble_coral_fan'
+    display_name: '&e&lDead Bubble Coral Fan'
+    priority: 1
+    slots:
+    - 19
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '9':
+    material: 'dead_bubble_coral_fan'
+    display_name: '&e&lNether Bricks'
+    priority: 1
+    slots:
+    - 20
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '10':
+    material: 'DEAD_HORN_CORAL_FAN'
+    display_name: '&e&lDead Horn Coral Fan'
+    priority: 1
+    slots:
+    - 21
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '11':
+    material: 'wheat'
+    display_name: '&e&lWheat'
+    priority: 1
+    slots:
+    - 22
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.15'
+    - '  &8◊ &7Exp: &d0.1 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '12':
+    material: 'potato'
+    display_name: '&e&lPotato'
+    priority: 1
+    slots:
+    - 23
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.2'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '13':
+    material: 'carrot'
+    display_name: '&e&lCarrot'
+    priority: 1
+    slots:
+    - 24
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.2'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'    
+  'back':
+    material: BARRIER
+    priority: 1
+    display_name: '&C⤾ Back'
+    slot: 40
+    left_click_commands:
+    - '[openguimenu] jobsreborn_page_1'    
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_page_1'     
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'nextpage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0=
+    priority: 1
+    display_name: '&8Next Page'
+    slot: 26
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'previouspage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    priority: 1
+    display_name: '&8Previous Page'
+    slot: 18
+    left_click_commands:
+    - '[openguimenu] jobsreborn_farmer_earnings_3'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_farmer_earnings_3'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'

@@ -1,0 +1,105 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+
+#   ____                _           _                           _      _                     
+#  / ___|___  _ __ ___ | |__   __ _| |_    ___ ___  _   _ _ __ | |_ __| | _____      ___ __  
+# | |   / _ \| '_ ` _ \| '_ \ / _` | __|  / __/ _ \| | | | '_ \| __/ _` |/ _ \ \ /\ / / '_ \ 
+# | |__| (_) | | | | | | |_) | (_| | |_  | (_| (_) | |_| | | | | || (_| | (_) \ V  V /| | | |
+#  \____\___/|_| |_| |_|_.__/ \__,_|\__|  \___\___/ \__,_|_| |_|\__\__,_|\___/ \_/\_/ |_| |_|
+#
+
+# Progress bar which will be shown once in combat-mode
+progress-bar:
+  symbol: '☠' # Countdown symbol
+  length: 10 # Amount of symbols
+  color-filled: '&8' 
+  color-empty: '&c'
+message: '{bar}' # Do not change
+timer: 10 # Duration of combat-mode in seconds
+
+
+#  _                                  _                       _     _                          _   
+# | |    ___   __ _        ___  _   _| |_   _ __  _   _ _ __ (_)___| |__  _ __ ___   ___ _ __ | |_ 
+# | |   / _ \ / _` |_____ / _ \| | | | __| | '_ \| | | | '_ \| / __| '_ \| '_ ` _ \ / _ \ '_ \| __|
+# | |__| (_) | (_| |_____| (_) | |_| | |_  | |_) | |_| | | | | \__ \ | | | | | | | |  __/ | | | |_ 
+# |_____\___/ \__, |      \___/ \__,_|\__| | .__/ \__,_|_| |_|_|___/_| |_|_| |_| |_|\___|_| |_|\__|
+#             |___/                        |_|                                                     
+
+punishment:
+  death-logout: # Drop items when logging out while in combat
+    enabled: true
+    disable-fly: true
+
+
+#  ____  _            _            _                                                 _     
+# | __ )| | ___   ___| | _____  __| |   ___ ___  _ __ ___  _ __ ___   __ _ _ __   __| |___ 
+# |  _ \| |/ _ \ / __| |/ / _ \/ _` |  / __/ _ \| '_ ` _ \| '_ ` _ \ / _` | '_ \ / _` / __|
+# | |_) | | (_) | (__|   <  __/ (_| | | (_| (_) | | | | | | | | | | | (_| | | | | (_| \__ \
+# |____/|_|\___/ \___|_|\_\___|\__,_|  \___\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|\__,_|___/
+#
+
+# Commands that will be blocked/whitelisted once in combat-mode
+commands:
+  block-commands: true # block all commands while in combat
+  command-whitelist: # commands that are allowed to be used
+    - '/kits'  
+    - '/msg'
+    - '/r'
+
+
+#      _                                         _     
+#     | |_   _ _ __ ___  _ __    _ __   __ _  __| |___ 
+#  _  | | | | | '_ ` _ \| '_ \  | '_ \ / _` |/ _` / __|
+# | |_| | |_| | | | | | | |_) | | |_) | (_| | (_| \__ \
+#  \___/ \__,_|_| |_| |_| .__/  | .__/ \__,_|\__,_|___/
+#                       |_|     |_|                    
+
+# Disable jump-pads on combat
+disable-on-combat: true
+jumppad-disable-message: '&cYou can''t use this jumppad while in combat.'
+
+combat-jumppads:
+  '1':
+    world: world
+    locations: # Locations that will serve as a "jump pad"
+      - '-17;65;201'
+      - '-18;65;201'
+      - '-19;65;201'
+    length: 0.5
+    height: 1.2
+    sounds: # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+      - 'BLOCK_PISTON_EXTEND;0.5;1.0'
+    particles: # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Particle.html
+      - 'CLOUD;0;0.0;0.0;0.0;0.0'
+
+
+#  __  __                                     
+# |  \/  | ___  ___ ___  __ _  __ _  ___  ___ 
+# | |\/| |/ _ \/ __/ __|/ _` |/ _` |/ _ \/ __|
+# | |  | |  __/\__ \__ \ (_| | (_| |  __/\__ \
+# |_|  |_|\___||___/___/\__,_|\__, |\___||___/
+#                             |___/           
+
+messages:
+  tag-message: '&6&lCombat&e&lMode&r &8➠ &eCombat mode &cactivated&e, do not log out!'
+  combat-deny-message: '&cYou cannot take advantage of this action while in combat mode!'
+  expire-message: '&6&lCombat&e&lMode&r &8➠ &eCombat mode &adeactivated&e, you may log out.'
+
+# Blocked tp message when in combat mode  
+teleport-message: '&cYou can''t use this command while in combat.'  

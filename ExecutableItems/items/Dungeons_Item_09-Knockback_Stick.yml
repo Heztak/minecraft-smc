@@ -1,0 +1,82 @@
+name: '#40F408&lK#38F628&ln#30F748&lo#28F968&lc#1FFB89&lk#17FCA9&lb#0FFEC9&la#0AF3DA&lc#08DCDD&lk
+  #07C4E0&lS#05ADE2&lt#0395E5&li#027EE7&lc#0066EA&lk'
+lore:
+- ''
+- '&7&oForged from an &7&o&nancient&r &7&otree which'
+- '&7&oProperties allows this stick to knock'
+- '&7&oAll it''s &9&o&nenemies&7&o into the far abyss...'
+material: STICK
+glow: true
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 65
+usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDye: false
+enchantments:
+  enchantment1:
+    enchantment: knockback
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+variables: {}
+activators:
+  activator1:
+    name: Activator name
+    option: PLAYER_CLICK_ON_PLAYER
+    detailedClick: LEFT
+    usageModification: -1
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems:
+      errorMessage: ''
+    requiredExecutableItems:
+      errorMessage: ''
+    detailedSlots:
+    - -1
+    commands:
+    - PARTICLE SWEEP_ATTACK 10 1.5 1
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    targetCommands: []
+    targetConditions: {}
+    variablesModification: {}
+recognitions: []
+attributes: {}
+config_5: true
+config_update: false

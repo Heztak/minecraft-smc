@@ -1,0 +1,24 @@
+location: world:27.458:83.300:-1.466
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&lServer Warps'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&aWarp &fyour way around and travel across'
+    height: 0.3
+  - content: '&fthe spawn and beyond in &cno time&f! This NPC'
+    height: 0.3
+  - content: '&fwill make your life a whole lot easier!'
+    height: 0.3
+  - content: ''
+    height: 0.3    
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3
+  actions: {}

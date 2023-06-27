@@ -1,0 +1,44 @@
+command: earnmoney
+permission: survivalguide.perm
+Title: Guide
+Author: Guide
+pages:
+  '1':
+  - '     &6&lEarn Money'
+  - '  &0To start dominating'
+  - '  &0survival you should'
+  - '   &0make money. Here'
+  - '    &0are some ways:'  
+  - ' ' 
+  - '{auctionhouse}'
+  - '{sellitems}'
+  - '{opencrates}'
+  - '{sellheads}'  
+  - ' '
+  - ' '  
+  - '{goback}'  
+auctionhouse:
+  TEXT: '    &2□ Use auctionhouse'
+  HOVER_TEXT: '&7"Use /ah to auction items"'
+  CLICK_EVENT:
+    RUN_COMMAND: '/ah'
+sellitems:
+  TEXT: '    &2□ Sell items'
+  HOVER_TEXT: '&7"Sell resources in /shop"'
+  CLICK_EVENT:
+    RUN_COMMAND: '/warps'
+opencrates:
+  TEXT: '    &2□ Open crates'
+  HOVER_TEXT: '&7"Go to /warp crates and vote for keys"'
+  CLICK_EVENT:
+    RUN_COMMAND: '/warps'
+sellheads:
+  TEXT: '    &2□ Sell heads'
+  HOVER_TEXT: '&7"Sell mob heads in /sellhead"'
+  CLICK_EVENT:
+    RUN_COMMAND: '/warps'
+goback:
+  TEXT: '         &cGo back'
+  HOVER_TEXT: '&7"Click to go back"'
+  CLICK_EVENT:
+    RUN_COMMAND: '/guide'    

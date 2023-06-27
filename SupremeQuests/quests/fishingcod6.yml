@@ -1,0 +1,15 @@
+tasks:
+  fishingcertain:
+    type: 'fishingcertain'
+    amount: 125
+    item: COD
+    worlds:
+     - 'survival'
+rewards:
+  - "supremetokens give {player} 12"
+  - "eco give {player} 2000"
+  - "lp user {player} permission set level.68a"  
+options:
+  category: "fishing"
+  requires: []
+  repeatable: true

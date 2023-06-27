@@ -1,0 +1,15 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 500
+    block: "NETHERRACK"
+rewards:
+  - "eco give {player} 1000"
+  - "lp user {player} permission set level.22"
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

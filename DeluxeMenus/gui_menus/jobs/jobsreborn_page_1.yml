@@ -1,0 +1,730 @@
+menu_title: '&cSurvival Jobs (Page 1/3)'
+open_command:
+- jobs
+- job
+- job menu
+- jobs menu
+- jobs join
+- jobs browse
+- jobs leave
+size: 45
+items:
+  'statistical':
+    material: CLOCK
+    priority: 1
+    slot: 4
+    display_name: '&e&lJobs'
+    lore:
+    - '&7Start earning some extra cash by'
+    - '&7joining different jobs. Each job will'
+    - '&7reward you for different actions.'    
+    - ''
+    - ' &fInformation:'    
+    - '  &8◊ &7Max Jobs: &e%jobsr_user_joinedjobcount%/%jobsr_maxjobs%'
+    - '  &8◊ &7Joined: &e%jobsr_user_jobs%'
+    - ''
+    - '&a&lLeft Click &r&7for more information'
+    left_click_commands:
+    - '[openguimenu] jobsreborn_information_page_1'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_information_page_1'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'miner':
+    material: IRON_PICKAXE
+    priority: 3
+    slot: 20
+    display_name: '&e&lMiner'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money by mining minerals and ores!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Break'
+    - '  &8◊ &7Place'
+    - '  &8◊ &7TNTBreak'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''    
+    - '&a&lLeft Click &r&7to join this job'  
+    left_click_commands:
+    - '[player] jobs join Miner'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_miner_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'miner2':
+    material: IRON_PICKAXE
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true     
+    priority: 2
+    slot: 20
+    display_name: '&e&lMiner &7(Lvl %jobsr_user_jlevel_miner%/%jobsr_maxlvl_miner%)'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money by mining minerals and ores!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Break'
+    - '  &8◊ &7Place'
+    - '  &8◊ &7TNTBreak'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''    
+    - '&c&lLeft Click &r&7to leave this job'  
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_Miner%"
+         output: "True" 
+    left_click_commands:
+    - '[player] jobs leave Miner'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_miner_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'miner3':
+    material: IRON_PICKAXE
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true     
+    priority: 1
+    slot: 20
+    display_name: '&e&lMiner &7(Lvl %jobsr_user_jlevel_miner%/%jobsr_maxlvl_miner%)'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money by mining minerals and ores!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Break'
+    - '  &8◊ &7Place'
+    - '  &8◊ &7TNTBreak'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''
+    - '&c&lLeft Click &r&7to leave this job'
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_Miner%"
+         output: "True" 
+        anythings1:
+         type: javascript
+         expression: "%jobsr_user_joinedjobcount% == %jobsr_maxjobs%"
+    left_click_commands:
+    - '[player] jobs leave Miner'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_miner_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'miner4':
+    material: IRON_PICKAXE
+    priority: 0
+    slot: 20
+    display_name: '&e&lMiner'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money by mining minerals and ores!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Break'
+    - '  &8◊ &7Place'
+    - '  &8◊ &7TNTBreak'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''    
+    - '&a&lLeft Click &r&7to join this job' 
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_Miner%"
+         output: "False" 
+        anythings1:
+         type: javascript
+         expression: "%jobsr_user_joinedjobcount% == %jobsr_maxjobs%"
+    left_click_commands:
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    - '[message] &cYou have reached the maximum number of jobs.'
+    - '[close]'    
+    right_click_commands:
+    - '[openguimenu] jobsreborn_miner_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'hunter':
+    material: IRON_SWORD
+    priority: 3
+    slot: 21
+    display_name: '&e&lHunter'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money by killing hostile mobs and animals!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Kill'
+    - '  &8◊ &7Tame'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''    
+    - '&a&lLeft Click &r&7to join this job'   
+    left_click_commands:
+    - '[player] jobs join hunter'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_hunter_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'hunter2':
+    material: IRON_SWORD
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true    
+    priority: 2
+    slot: 21
+    display_name: '&e&lHunter &7(Lvl %jobsr_user_jlevel_hunter%/%jobsr_maxlvl_hunter%)'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money by killing hostile mobs and animals!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Kill'
+    - '  &8◊ &7Tame'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''
+    - '&c&lLeft Click &r&7to leave this job'
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_hunter%"
+         output: "True" 
+    left_click_commands:
+    - '[player] jobs leave hunter'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_hunter_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'hunter3':
+    material: IRON_SWORD
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true    
+    priority: 1
+    slot: 21
+    display_name: '&e&lHunter &7(Lvl %jobsr_user_jlevel_hunter%/%jobsr_maxlvl_hunter%)'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money by killing hostile mobs and animals!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Kill'
+    - '  &8◊ &7Tame'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''
+    - '&c&lLeft Click &r&7to leave this job' 
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_hunter%"
+         output: "True" 
+        anythings1:
+         type: javascript
+         expression: "%jobsr_user_joinedjobcount% == %jobsr_maxjobs%"
+    left_click_commands:
+    - '[player] jobs leave hunter'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_hunter_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'hunter4':
+    material: IRON_SWORD
+    priority: 0
+    slot: 21
+    display_name: '&e&lHunter'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money by killing hostile mobs and animals!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Kill'
+    - '  &8◊ &7Tame'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''    
+    - '&a&lLeft Click &r&7to join this job' 
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_hunter%"
+         output: "False" 
+        anythings1:
+         type: javascript
+         expression: "%jobsr_user_joinedjobcount% == %jobsr_maxjobs%"
+    left_click_commands:
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    - '[message] &cYou have reached the maximum number of jobs.'
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_hunter_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'farmer':
+    material: IRON_HOE
+    priority: 3
+    slot: 22
+    display_name: '&e&lFarmer'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money from farming crops and breeding animals!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Break'
+    - '  &8◊ &7Place'
+    - '  &8◊ &7Kill'
+    - '  &8◊ &7Breed'
+    - '  &8◊ &7Tame'
+    - '  &8◊ &7Shear'
+    - '  &8◊ &7Milk'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''    
+    - '&a&lLeft Click &r&7to join this job'  
+    left_click_commands:
+    - '[player] jobs join farmer'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_farmer_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'farmer2':
+    material: IRON_HOE
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true     
+    priority: 2
+    slot: 22
+    display_name: '&e&lFarmer &7(Lvl %jobsr_user_jlevel_hunter%/%jobsr_maxlvl_farmer%)'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money from farming crops and breeding animals!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Break'
+    - '  &8◊ &7Place'
+    - '  &8◊ &7Kill'
+    - '  &8◊ &7Breed'
+    - '  &8◊ &7Tame'
+    - '  &8◊ &7Shear'
+    - '  &8◊ &7Milk'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''
+    - '&c&lLeft Click &r&7to leave this job'
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_farmer%"
+         output: "True" 
+    left_click_commands:
+    - '[player] jobs leave farmer'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_farmer_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'farmer3':
+    material: IRON_HOE
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true     
+    priority: 1
+    slot: 22
+    display_name: '&e&lFarmer &7(Lvl %jobsr_user_jlevel_hunter%/%jobsr_maxlvl_farmer%)'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money from farming crops and breeding animals!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Break'
+    - '  &8◊ &7Place'
+    - '  &8◊ &7Kill'
+    - '  &8◊ &7Breed'
+    - '  &8◊ &7Tame'
+    - '  &8◊ &7Shear'
+    - '  &8◊ &7Milk'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''
+    - '&c&lLeft Click &r&7to leave this job'
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_farmer%"
+         output: "True" 
+        anythings1:
+         type: javascript
+         expression: "%jobsr_user_joinedjobcount% == %jobsr_maxjobs%"
+    left_click_commands:
+    - '[player] jobs leave farmer'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_farmer_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'farmer4':
+    material: IRON_HOE
+    priority: 0
+    slot: 22
+    display_name: '&e&lFarmer'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money from farming crops and breeding animals!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Break'
+    - '  &8◊ &7Place'
+    - '  &8◊ &7Kill'
+    - '  &8◊ &7Breed'
+    - '  &8◊ &7Tame'
+    - '  &8◊ &7Shear'
+    - '  &8◊ &7Milk'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''    
+    - '&a&lLeft Click &r&7to join this job'
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_farmer%"
+         output: "False" 
+        anythings1:
+         type: javascript
+         expression: "%jobsr_user_joinedjobcount% == %jobsr_maxjobs%"
+    left_click_commands:
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    - '[message] &cYou have reached the maximum number of jobs.'
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_farmer_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'woodcutter':
+    material: IRON_AXE
+    priority: 3
+    slot: 23
+    display_name: '&e&lWoodcutter'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money from chopping and planting trees!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Break'
+    - '  &8◊ &7Kill'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''    
+    - '&a&lLeft Click &r&7to join this job' 
+    left_click_commands:
+    - '[player] jobs join Woodcutter'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_woodcutter_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'woodcutter2':
+    material: IRON_AXE
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true     
+    priority: 2
+    slot: 23
+    display_name: '&e&lWoodcutter&7(Lvl %jobsr_user_jlevel_woodcutter%/%jobsr_maxlvl_woodcutter%)'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money from chopping and planting trees!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Break'
+    - '  &8◊ &7Kill'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''
+    - '&c&lLeft Click &r&7to leave this job'
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_Woodcutter%"
+         output: "True" 
+    left_click_commands:
+    - '[player] jobs leave Woodcutter'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_woodcutter_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'woodcutter3':
+    material: IRON_AXE
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true     
+    priority: 1
+    slot: 23
+    display_name: '&e&lWoodcutter&7(Lvl %jobsr_user_jlevel_woodcutter%/%jobsr_maxlvl_woodcutter%)'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money from chopping and planting trees!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Break'
+    - '  &8◊ &7Kill'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''
+    - '&c&lLeft Click &r&7to leave this job'
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_Woodcutter%"
+         output: "True" 
+        anythings1:
+         type: javascript
+         expression: "%jobsr_user_joinedjobcount% == 3"
+    left_click_commands:
+    - '[player] jobs leave Woodcutter'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_woodcutter_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'woodcutter4':
+    material: IRON_AXE
+    priority: 0
+    slot: 23
+    display_name: '&e&lWoodcutter'
+    hide_attributes: true
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money from chopping and planting trees!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Break'
+    - '  &8◊ &7Kill'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''    
+    - '&a&lLeft Click &r&7to join this job' 
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_Woodcutter%"
+         output: "False" 
+        anythings1:
+         type: javascript
+         expression: "%jobsr_user_joinedjobcount% == 3"
+    left_click_commands:
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    - '[message] &cYou have reached the maximum number of jobs.'
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_woodcutter_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'fisherman':
+    material: FISHING_ROD
+    priority: 3
+    slot: 24
+    display_name: '&e&lFisherman'
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money from catching fish!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Catching Fish'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''    
+    - '&a&lLeft Click &r&7to join this job'
+    left_click_commands:
+    - '[player] jobs join fisherman'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_fisherman_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'fisherman2':
+    material: FISHING_ROD
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true     
+    priority: 2
+    slot: 24
+    display_name: '&e&lFisherman&7 (Lvl %jobsr_user_jlevel_fisherman%/%jobsr_maxlvl_fisherman%)'
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money from catching fish!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Catching Fish'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''
+    - '&c&lLeft Click &r&7to leave this job'
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_fisherman%"
+         output: "True" 
+    left_click_commands:
+    - '[player] jobs leave fisherman'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_fisherman_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'fisherman3':
+    material: FISHING_ROD
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true     
+    priority: 1
+    slot: 24
+    display_name: '&e&lFisherman&7 (Lvl %jobsr_user_jlevel_fisherman%/%jobsr_maxlvl_fisherman%)'
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money from catching fish!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Catching Fish'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''
+    - '&c&lLeft Click &r&7to leave this job'
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_fisherman%"
+         output: "True" 
+        anythings1:
+         type: javascript
+         expression: "%jobsr_user_joinedjobcount% == %jobsr_maxjobs%"
+    left_click_commands:
+    - '[player] jobs leave fisherman'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_fisherman_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'fisherman4':
+    material: FISHING_ROD
+    priority: 0
+    slot: 24
+    display_name: '&e&lFisherman'
+    lore:
+    - '&7Once joined you will start earning'
+    - '&7money from catching fish!'
+    - ''
+    - ' &fPaid actions:'
+    - '  &8◊ &7Catching Fish'
+    - ''
+    - ' &a➥ &fRight Click to see earnings'
+    - ''    
+    - '&a&lLeft Click &r&7to join this job'
+    view_requirement:
+      requirements:
+        anythings:
+         type: string contains
+         input: "%jobsr_user_isin_fisherman%"
+         output: "False" 
+        anythings1:
+         type: javascript
+         expression: "%jobsr_user_joinedjobcount% == %jobsr_maxjobs%"
+    left_click_commands:
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    - '[message] &cYou have reached the maximum number of jobs.'
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_fisherman_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'close':
+    material: BARRIER
+    priority: 1
+    display_name: '&c× Close'
+    slots:
+    - 40
+    left_click_commands:
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'nextpage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0=
+    priority: 1
+    display_name: '&eNext Page'
+    slot: 25
+    left_click_commands:
+    - '[openguimenu] jobsreborn_page_2'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_page_2'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'previouspage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    priority: 1
+    display_name: '&8Previous Page'
+    slot: 19
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'    

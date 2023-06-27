@@ -1,0 +1,27 @@
+location: world:17.407:82.500:-28.491
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lEntity Clear'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fTo keep our servers in &bperfect condition&f,'
+    height: 0.3
+  - content: '&fa so-called entity clear is regularly performed,'
+    height: 0.3
+  - content: '&fthis ensures that all superfluous entities'
+    height: 0.3
+  - content: '&fare removed to &#ffb16eprevent &fserver lag.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&a&lClearance&r starts in: &c&l%supremeclear_time%'
+    height: 0.3
+  actions: {}

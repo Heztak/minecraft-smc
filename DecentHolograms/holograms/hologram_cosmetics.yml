@@ -1,0 +1,33 @@
+location: world:22.450:84.600:17.443
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lCosmetics'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fSelect the cosmetic that suits you!'
+    height: 0.3
+  - content: '&fThere is a wide variety of different'
+    height: 0.3
+  - content: '&dcosmetics &fyou can choose from.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fCosmetics can be obtained with'
+    height: 0.3
+  - content: '&acubelets &fwhich can be redeemed at'
+    height: 0.3
+  - content: '&fthe &eCubelet Machine&f.'
+    height: 0.3    
+  - content: ''
+    height: 0.3    
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3
+  actions: {}

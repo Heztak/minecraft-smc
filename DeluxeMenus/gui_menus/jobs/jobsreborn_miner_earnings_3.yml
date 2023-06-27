@@ -1,0 +1,332 @@
+menu_title: '&cEarnings Miner (page 3/3)'
+open_command:
+- jobs payouts miner3
+size: 45
+items:
+  '1':
+    material: 'Polished_Basalt'
+    display_name: '&e&lPolished Basalt'
+    priority: 1
+    slots:
+    - 10
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.1'
+    - '  &8◊ &7Exp: &d0.1 Exp'
+    - '  &8◊ &7Points: &e0.09 Points'
+  '2':
+    material: 'Smooth_Basalt'
+    display_name: '&e&lSmooth Basalt'
+    priority: 1
+    slots:
+    - 11
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a5'
+    - '  &8◊ &7Exp: &d7.35 Exp'
+    - '  &8◊ &7Points: &e2.5 Points'
+  '3':
+    material: 'STONE'
+    display_name: '&e&lStone'
+    priority: 1
+    slots:
+    - 12
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fTNT break actions:'
+    - '  &8◊ &7Money: &2$&a0.01'
+    - '  &8◊ &7Exp: &d0.01 Exp'
+    - '  &8◊ &7Points: &e0.01 Points'
+  '4':
+    material: 'GRANITE'
+    display_name: '&e&lGranite'
+    priority: 1
+    slots:
+    - 13
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fTNT break actions:'
+    - '  &8◊ &7Money: &2$&a0.02'
+    - '  &8◊ &7Exp: &d0.02 Exp'
+    - '  &8◊ &7Points: &e0.02 Points'
+  '5':
+    material: 'DIORITE'
+    display_name: '&e&lDiorite'
+    priority: 1
+    slots:
+    - 14
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fTNT break actions:'
+    - '  &8◊ &7Money: &2$&a0.02'
+    - '  &8◊ &7Exp: &d0.02 Exp'
+    - '  &8◊ &7Points: &e0.02 Points'
+  '6':
+    material: 'ANDESITE'
+    display_name: '&e&lAndesite'
+    priority: 1
+    slots:
+    - 15
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fTNT break actions:'
+    - '  &8◊ &7Money: &2$&a0.02'
+    - '  &8◊ &7Exp: &d0.02 Exp'
+    - '  &8◊ &7Points: &e0.02 Points'
+  '7':
+    material: 'RAIL'
+    display_name: '&e&lRail'
+    priority: 1
+    slots:
+    - 16
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.06'
+    - '  &8◊ &7Exp: &d0.08 Exp'
+    - '  &8◊ &7Points: &e0.02 Points'
+  '8':
+    material: 'COBBLESTONE_WALL'
+    display_name: '&e&lCobblestone Wall'
+    priority: 1
+    slots:
+    - 19
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.05'
+    - '  &8◊ &7Exp: &d0.05 Exp'
+    - '  &8◊ &7Points: &e0.01 Points'
+  '9':
+    material: 'MOSSY_COBBLESTONE_WALL'
+    display_name: '&e&lMossy Cobblestone Wall'
+    priority: 1
+    slots:
+    - 20
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.05'
+    - '  &8◊ &7Exp: &d0.05 Exp'
+    - '  &8◊ &7Points: &e0.01 Points'
+  '10':
+    material: 'NETHER_BRICKS'
+    display_name: '&e&lNether Bricks'
+    priority: 1
+    slots:
+    - 21
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.08'
+    - '  &8◊ &7Exp: &d0.08 Exp'
+    - '  &8◊ &7Points: &e0.04 Points'
+  '11':
+    material: 'NETHER_BRICK_STAIRS'
+    display_name: '&e&lNether Brick Stars'
+    priority: 1
+    slots:
+    - 22
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.06'
+    - '  &8◊ &7Exp: &d0.06 Exp'
+    - '  &8◊ &7Points: &e0.02 Points'
+  '12':
+    material: 'NETHER_BRICK_FENCE'
+    display_name: '&e&lNether Brick Fence'
+    priority: 1
+    slots:
+    - 23
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.06'
+    - '  &8◊ &7Exp: &d0.06 Exp'
+    - '  &8◊ &7Points: &e0.02 Points'
+  '13':
+    material: 'NETHERRACK'
+    display_name: '&e&lNetherrack'
+    priority: 1
+    slots:
+    - 24
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.02'
+    - '  &8◊ &7Exp: &d0.03 Exp'
+    - '  &8◊ &7Points: &e0.02 Points'
+  '14':
+    material: 'PRISMARINE'
+    display_name: '&e&lPrismarine'
+    priority: 1
+    slots:
+    - 25
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.1'
+    - '  &8◊ &7Exp: &d0.09 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'    
+  '15':
+    material: 'Deepslate_Copper_Ore'
+    display_name: '&e&lDeepslate Copper Ore'
+    priority: 1
+    slots:
+    - 28
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.05'
+    - '  &8◊ &7Exp: &d0.05 Exp'
+    - '  &8◊ &7Points: &e0.01 Points'
+  '16':
+    material: 'Deepslate_Gold_Ore'
+    display_name: '&e&lDeepslate Gold Ore'
+    priority: 1
+    slots:
+    - 29
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.05'
+    - '  &8◊ &7Exp: &d0.05 Exp'
+    - '  &8◊ &7Points: &e0.01 Points'
+  '17':
+    material: 'Deepslate_Redstone_Ore'
+    display_name: '&e&lDeepslate Redstone Ore'
+    priority: 1
+    slots:
+    - 30
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.08'
+    - '  &8◊ &7Exp: &d0.08 Exp'
+    - '  &8◊ &7Points: &e0.04 Points'
+  '18':
+    material: 'Deepslate_Emerald_Ore'
+    display_name: '&e&lDeepslate Emerald Ore'
+    priority: 1
+    slots:
+    - 31
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.06'
+    - '  &8◊ &7Exp: &d0.06 Exp'
+    - '  &8◊ &7Points: &e0.02 Points'
+  '19':
+    material: 'Deepslate_Lapis_Ore'
+    display_name: '&e&lDeepslate Lapis Lazuli Ore'
+    priority: 1
+    slots:
+    - 32
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.06'
+    - '  &8◊ &7Exp: &d0.06 Exp'
+    - '  &8◊ &7Points: &e0.02 Points'
+  '20':
+    material: 'Deepslate_Diamond_Ore'
+    display_name: '&e&lDeepslate Diamond Ore'
+    priority: 1
+    slots:
+    - 33
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.02'
+    - '  &8◊ &7Exp: &d0.03 Exp'
+    - '  &8◊ &7Points: &e0.02 Points'
+  '21':
+    material: 'Basalt'
+    display_name: '&e&lBasalt'
+    priority: 1
+    slots:
+    - 34
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.02'
+    - '  &8◊ &7Exp: &d0.03 Exp'
+    - '  &8◊ &7Points: &e0.02 Points'
+  'back':
+    material: BARRIER
+    priority: 1
+    display_name: '&C⤾ Back'
+    slot: 40
+    left_click_commands:
+    - '[openguimenu] jobsreborn_page_1'    
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_page_1'     
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'nextpage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0=
+    priority: 1
+    display_name: '&8Next Page'
+    slot: 26
+    left_click_commands:
+    - '[openguimenu] jobsreborn_miner_earnings_3'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_miner_earnings_3'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'previouspage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    priority: 1
+    display_name: '&ePrevious Page'
+    slot: 18
+    left_click_commands:
+    - '[openguimenu] jobsreborn_miner_earnings_2'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_miner_earnings_2'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'    

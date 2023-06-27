@@ -1,0 +1,221 @@
+Settings:
+  Spawn-Chance: 35
+  Use-Chance: false
+  Placed-Block: 'CHEST' 
+  Bulk-Prizes:
+    Toggle: false 
+    Random: true 
+    Max-Bulk: 3 
+  Hologram-Toggle: true 
+  Hologram-Height: 1.5 
+  Hologram: 
+    - '&f♦ &b&lSupply Drop &7[Tier II] &f♦'
+  Firework-Toggle: true 
+  Firework-Colors:
+    - 'Green'
+    - 'White'    
+  Signal-Flare:
+    Toggle: false
+    Time: '60s'
+    Colors:
+     - 'Green'
+     - 'White'
+Prizes: 
+  '1':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found &b&l1x Shield&f.'
+      - ''
+    Items:
+      - 'Item:SHIELD, Amount:1, Name:&b&lShield &7[TII]'
+  '2':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found &b&l16x Golden Apple&f.'
+      - ''
+    Items:
+      - 'Item:GOLDEN_APPLE, Amount:16, Name:&b&lGolden Apple &7[TII]'
+  '3':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found a &b&lSpyglass&f.'
+      - ''
+    Items:
+      - 'Item:SPYGLASS, Amount:1, Name:&b&lSpyglass &7[TII]'
+  '4':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found &b&l4x Diamond&f.'
+      - ''
+    Items:
+      - 'Item:DIAMOND, Amount:4, Name:&b&lDiamond &7[TII]'
+  '5':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found &b&l2x Phantom Membrane&f.'
+      - ''
+    Items:
+      - 'Item:PHANTOM_MEMBRANE, Amount:2, Name:&b&lPhantom Membrane &7[TII]'
+  '6':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found &b&l3x Glistering Melon Slice&f.'
+      - ''
+    Items:
+      - 'Item:GLISTERING_MELON_SLICE, Amount:3, Name:&b&lGlistering Melon Slice &7[TII]'
+  '7':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found &b&l3x Golden Carrot&f.'
+      - ''
+    Items:
+      - 'Item:GOLDEN_CARROT, Amount:3, Name:&b&lGolden Carrot &7[TII]'
+  '8':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found a &b&lDiamond Pickaxe&f.'
+      - ''
+    Items:
+      - 'Item:DIAMOND_PICKAXE, Amount:1, Name:&b&lDiamond Pickaxe &7[TII]'
+  '9':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found a &b&lDiamond Axe&f.'
+      - ''
+    Items:
+      - 'Item:DIAMOND_AXE, Amount:1, Name:&b&lDiamond Axe &7[TII]'
+  '10':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found a &b&lDiamond Shovel&f.'
+      - ''
+    Items:
+      - 'Item:DIAMOND_SHOVEL, Amount:1, Name:&b&lDiamond Shovel &7[TII]'
+  '11':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found a &b&lDiamond Hoe&f.'
+      - ''
+    Items:
+      - 'Item:DIAMOND_HOE, Amount:1, Name:&b&lDiamond Hoe &7[TII]'
+  '12':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found a &b&lDiamond Helmet&f.'
+      - ''
+    Items:
+      - 'Item:DIAMOND_HELMET, Amount:1, Name:&b&lDiamond Helmet &7[TII]'
+  '13':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found a &b&lDiamond Chestplate&f.'
+      - ''
+    Items:
+      - 'Item:DIAMOND_CHESTPLATE, Amount:1, Name:&b&lDiamond Chestplate &7[TII]'
+  '14':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found a &b&lDiamond Leggings&f.'
+      - ''
+    Items:
+      - 'Item:DIAMOND_LEGGINGS, Amount:1, Name:&b&lDiamond Leggings &7[TII]'
+  '15':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found a &b&lDiamond Boots&f.'
+      - ''
+    Items:
+      - 'Item:DIAMOND_BOOTS, Amount:1, Name:&b&lDiamond Boots &7[TII]'
+  '16':
+    Chance: 100
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found a &b&lVery Special Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:efficiency,lvl:3}]} 1'
+  '17':
+    Chance: 100
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found a &b&lVery Special Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:unbreaking,lvl:3}]} 1'
+  '18':
+    Chance: 100
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found a &b&lVery Special Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:silk_touch,lvl:1}]} 1'
+  '19':
+    Chance: 100
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found a &b&lVery Special Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:protection,lvl:3}]} 1'
+  '20':
+    Chance: 100
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found a &b&lVery Special Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:fire_aspect,lvl:1}]} 1'
+  '21':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found a &b&lAxolotl Spawn Egg&f.'
+      - ''
+    Items:
+      - 'Item:AXOLOTL_SPAWN_EGG, Amount:1, Name:&b&lAxolotl Spawn Egg &7[TII]'
+  '22':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier II] &fYou found a &b&lVillager Spawn Egg&f.'
+      - ''
+    Items:
+      - 'Item:VILLAGER_SPAWN_EGG, Amount:1, Name:&b&lVillager Spawn Egg &7[TII]'      

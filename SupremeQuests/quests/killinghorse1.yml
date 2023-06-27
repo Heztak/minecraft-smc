@@ -1,0 +1,13 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 10
+    mob: HORSE
+    worlds:
+     - 'survival'
+rewards:
+  - "exp give {player} 50"
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

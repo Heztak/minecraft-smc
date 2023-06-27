@@ -1,0 +1,389 @@
+menu_title: '&cUpgrade your slots'
+open_command: inventory_restorer-upgrade
+size: 36
+items:
+  'Inventory1':
+    material: COBBLESTONE_WALL
+    amount: 2
+    enchantments:
+      - LUCK;1
+    hide_enchantments: true    
+    slot: 11
+    priority: 3
+    display_name: '&e&l2 Inventory Slots'
+    lore:
+    - ''
+    - '&fNext upgrade:'
+    - '  &8◊ &7Space: &e2 Slots'
+    - '  &8◊ &7Price: &2$&a55,000'
+    - ''
+    - '&fCurrent slots:'
+    - '  &8◊ &7Default: &81 Slot'
+    - ''
+    - '&a&lRight Click &7to purchase'    
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 55000
+          deny_commands:
+          - '[close]'
+          - '[message] &cYou can''t afford this.'
+    left_click_commands:
+    - '[sound] ENTITY_ITEM_PICKUP'    
+    - '[console] eco take %player_name% 55000'
+    - '[console] lp user %player_name% permission set supremedeath.slot.2'
+    - '[close]' 
+    - '[console] RawMsg %player_name% false <n>&e&l+1 Inventory Slot<n>&r&6Your purchase was successfull!<n>&fYou now have a total of 2 slots available<n>'
+    right_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 55000
+          deny_commands:
+          - '[close]'   
+          - '[message] &cYou can''t afford this.'
+    right_click_commands:
+    - '[sound] ENTITY_ITEM_PICKUP'    
+    - '[console] eco take %player_name% 55000'
+    - '[console] lp user %player_name% permission set supremedeath.slot.2'
+    - '[close]'
+    - '[console] RawMsg %player_name% false <n>&e&l+1 Inventory Slot<n>&r&6Your purchase was successfull!<n>&fYou now have a total of 2 slots available<n>'
+  'Inventory_1':
+    material: COBBLESTONE_WALL
+    amount: 2
+    slot: 11
+    priority: 2
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: supremedeath.slot.2
+    display_name: '&a&lUnlocked &r&8(2 Slots)'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'Inventory2a':
+    material: FURNACE_MINECART
+    slot: 12
+    priority: 3
+    display_name: '&c&lLocked'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'Inventory2':
+    material: COBBLESTONE_WALL
+    amount: 4
+    enchantments:
+      - LUCK;1
+    hide_enchantments: true    
+    slot: 12
+    priority: 2
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: supremedeath.slot.2
+    display_name: '&e&l4 Inventory Slots'
+    lore:
+    - ''
+    - '&fNext upgrade:'
+    - '  &8◊ &7Space: &e4 Slots'
+    - '  &8◊ &7Price: &2$&a50,000'
+    - ''
+    - '&fCurrent slots:'
+    - '  &8◊ &7Currenlty: &82 Slots'
+    - ''
+    - '&a&lRight Click &7to purchase'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 50000
+          deny_commands:
+          - '[close]'
+          - '[message] &cYou can''t afford this.'
+    left_click_commands:
+    - '[console] eco take %player_name% 50000'
+    - '[console] lp user %player_name% permission set supremedeath.slot.3'
+    - '[console] lp user %player_name% permission set supremedeath.slot.4'
+    - '[close]'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[console] RawMsg %player_name% false <n>&e&l+2 Inventory Slots<n>&r&6Your purchase was successfull!<n>&fYou now have a total of 4 slots available<n>'
+    right_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 50000
+          deny_commands:
+          - '[close]'
+          - '[message] &cYou can''t afford this.'
+    right_click_commands:
+    - '[console] eco take %player_name% 50000'
+    - '[console] lp user %player_name% permission set supremedeath.slot.3'
+    - '[console] lp user %player_name% permission set supremedeath.slot.4'
+    - '[close]'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[console] RawMsg %player_name% false <n>&e&l+2 Inventory Slots<n>&r&6Your purchase was successfull!<n>&fYou now have a total of 4 slots available<n>'
+  'Inventory_2':
+    material: COBBLESTONE_WALL
+    amount: 4
+    slot: 12
+    priority: 1
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: supremedeath.slot.4
+    display_name: '&a&lUnlocked &r&8(4 Slots)'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'Inventory3a':
+    material: FURNACE_MINECART
+    slot: 13
+    priority: 3
+    display_name: '&c&lLocked'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'Inventory3':
+    material: COBBLESTONE_WALL
+    amount: 5
+    enchantments:
+      - LUCK;1
+    hide_enchantments: true      
+    slot: 13
+    priority: 2
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: supremedeath.slot.4
+    display_name: '&e&l5 Inventory Slots'
+    lore:
+    - ''
+    - '&fNext upgrade:'
+    - '  &8◊ &7Space: &e5 Slots'
+    - '  &8◊ &7Price: &2$&a45,000'
+    - ''
+    - '&fCurrent slots:'
+    - '  &8◊ &7Currenlty: &84 Slots'
+    - ''
+    - '&a&lRight Click &7to purchase'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 45000
+          deny_commands:
+          - '[close]'
+          - '[message] &cYou can''t afford this.'
+    left_click_commands:
+    - '[console] eco take %player_name% 45000'
+    - '[console] lp user %player_name% permission set supremedeath.slot.5'
+    - '[close]'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[console] RawMsg %player_name% false <n>&e&l+1 Inventory Slot<n>&r&6Your purchase was successfull!<n>&fYou now have a total of 5 slots available<n>'
+    right_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 45000
+          deny_commands:
+          - '[close]'
+          - '[message] &cYou can''t afford this.'
+    right_click_commands:
+    - '[console] eco take %player_name% 45000'
+    - '[console] lp user %player_name% permission set supremedeath.slot.5'
+    - '[close]'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[console] RawMsg %player_name% false <n>&e&l+1 Inventory Slot<n>&r&6Your purchase was successfull!<n>&fYou now have a total of 5 slots available<n>'
+  'Inventory_3':
+    material: COBBLESTONE_WALL
+    amount: 5
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: supremedeath.slot.5
+    display_name: '&a&lUnlocked &r&8(5 Slots)'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'  
+  'Inventory4a':
+    material: FURNACE_MINECART
+    slot: 14
+    priority: 3
+    display_name: '&c&lLocked'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'Inventory4':
+    material: COBBLESTONE_WALL
+    amount: 7
+    enchantments:
+      - LUCK;1
+    hide_enchantments: true    
+    slot: 14
+    priority: 2
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: supremedeath.slot.5
+    display_name: '&e&l7 Inventory Slots'
+    lore:
+    - ''
+    - '&fNext upgrade:'
+    - '  &8◊ &7Space: &e7 Slots'
+    - '  &8◊ &7Price: &2$&a40,000'
+    - ''
+    - '&fCurrent slots:'
+    - '  &8◊ &7Currenlty: &85 Slots'
+    - ''
+    - '&a&lRight Click &7to purchase'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 40000
+          deny_commands:
+          - '[close]'
+          - '[message] &cYou can''t afford this.'
+    left_click_commands:
+    - '[console] eco take %player_name% 40000'
+    - '[console] lp user %player_name% permission set supremedeath.slot.6'
+    - '[console] lp user %player_name% permission set supremedeath.slot.7'
+    - '[close]'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[console] RawMsg %player_name% false <n>&e&l+2 Inventory Slots<n>&r&6Your purchase was successfull!<n>&fYou now have a total of 7 slots available<n>'
+    right_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 40000
+          deny_commands:
+          - '[close]'
+          - '[message] &cYou can''t afford this.'
+    right_click_commands:
+    - '[console] eco take %player_name% 40000'
+    - '[console] lp user %player_name% permission set supremedeath.slot.6'
+    - '[console] lp user %player_name% permission set supremedeath.slot.7'
+    - '[close]'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[console] RawMsg %player_name% false <n>&e&l+2 Inventory Slots<n>&r&6Your purchase was successfull!<n>&fYou now have a total of 7 slots available<n>'
+  'Inventory_4':
+    material: COBBLESTONE_WALL
+    amount: 7
+    slot: 14
+    priority: 1
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: supremedeath.slot.7
+    display_name: '&a&lUnlocked &r&8(7 Slots)'
+    left_click_commands:
+    - '[refresh]'  
+    right_click_commands:
+    - '[refresh]'  
+  'Inventory5a':
+    material: FURNACE_MINECART
+    slot: 15
+    priority: 3
+    display_name: '&c&lLocked'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'  
+  'Inventory5':
+    material: COBBLESTONE_WALL
+    amount: 9
+    enchantments:
+      - LUCK;1
+    hide_enchantments: true    
+    slot: 15
+    priority: 2
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: supremedeath.slot.7
+    display_name: '&e&l5 Inventory'
+    lore:
+    - ''
+    - '&fNext upgrade:'
+    - '  &8◊ &7Space: &e9 Slots'
+    - '  &8◊ &7Price: &2$&a35,000'
+    - ''
+    - '&fCurrent slots:'
+    - '  &8◊ &7Currenlty: &87 Slots'
+    - ''
+    - '&a&lRight Click &7to purchase'
+    left_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 35000
+          deny_commands:
+          - '[close]'
+          - '[message] &cYou can''t afford this.'
+    left_click_commands:
+    - '[console] eco take %player_name% 35000'
+    - '[console] lp user %player_name% permission set supremedeath.slot.8'
+    - '[console] lp user %player_name% permission set supremedeath.slot.9'
+    - '[close]'
+    - '[sound] UI_TOAST_CHALLENGE_COMPLETE'
+    - '[console] RawMsg %player_name% false <n>&e&l+2 Inventory Slots<n>&r&6Your purchase was successfull!<n>&fYou now have a total of 9 slots available.<n>'
+    right_click_requirement:
+      requirements:
+        money:
+          type: has money
+          amount: 35000
+          deny_commands:
+          - '[close]'
+          - '[message] &cYou can''t afford this.'
+    right_click_commands:
+    - '[console] eco take %player_name% 35000'
+    - '[console] lp user %player_name% permission set supremedeath.slot.8'
+    - '[console] lp user %player_name% permission set supremedeath.slot.9'
+    - '[close]'
+    - '[sound] UI_TOAST_CHALLENGE_COMPLETE'
+    - '[console] RawMsg %player_name% false <n>&e&l+2 Inventory Slots<n>&r&6Your purchase was successfull!<n>&fYou now have a total of 9 slots available.<n>'
+  'Inventory_5':
+    material: COBBLESTONE_WALL
+    amount: 9
+    slot: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: supremedeath.slot.9
+    display_name: '&a&lUnlocked &r&8(9 Slots)'
+    left_click_commands:
+    - '[refresh]'   
+    right_click_commands:
+    - '[refresh]'  
+  'back':
+    material: BARRIER
+    data: 1
+    slot: 31
+    priority: 1
+    display_name: '&C⤾ Back'
+    lore: []
+    left_click_commands:
+    - '[openguimenu] inventory_restorer'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'    
+    right_click_commands:
+    - '[openguimenu] inventory_restorer'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'    

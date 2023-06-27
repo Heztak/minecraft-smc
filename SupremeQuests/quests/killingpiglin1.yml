@@ -1,0 +1,14 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 10
+    mob: PIGLIN
+    worlds:
+     - 'survival'
+rewards:
+  - "exp give {player} 50"
+  - "lp user {player} permission set level.21b"  
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

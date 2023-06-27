@@ -1,0 +1,714 @@
+YellowDye1:
+  name: '&6&lYellow dye'
+  price: 0.5
+  material: 'YELLOW_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea' 
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+OrangeDye1:
+  name: '&6&lOrange dye'
+  price: 0.5
+  material: 'ORANGE_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+WhiteDye1:
+  name: '&6&lWhite dye'
+  price: 0.5
+  material: 'WHITE_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+MagentaDye1:
+  name: '&6&lMagenta dye'
+  price: 0.5
+  material: 'MAGENTA_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+LightBlueDye1:
+  name: '&6&lLight blue dye'
+  price: 0.5
+  material: 'LIGHT_BLUE_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+LimeDye1:
+  name: '&6&lLime dye'
+  price: 0.5
+  material: 'LIME_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+PinkDye1:
+  name: '&6&lPink dye'
+  price: 0.5
+  material: 'PINK_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+GrayDye1:
+  name: '&6&lGray dye'
+  price: 0.5
+  material: 'GRAY_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+LightGrayDye1:
+  name: '&6&lLight gray dye'
+  price: 0.5
+  material: 'LIGHT_GRAY_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+CyanDye1:
+  name: '&6&lCyan dye'
+  price: 0.5
+  material: 'CYAN_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+PurpleDye1:
+  name: '&6&lPurple dye'
+  price: 0.5
+  material: 'PURPLE_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+BlueDye1:
+  name: '&6&lBlue dye'
+  price: 0.5
+  material: 'BLUE_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+BrownDye1:
+  name: '&6&lBrown dye'
+  price: 0.5
+  material: 'BROWN_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+GreenDye1:
+  name: '&6&lGreen dye'
+  price: 0.5
+  material: 'GREEN_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+RedDye1:
+  name: '&6&lRed dye'
+  price: 0.5
+  material: 'RED_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+BlackDye1:
+  name: '&6&lBlack dye'
+  price: 0.5
+  material: 'BLACK_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+Vine1:
+  name: '&6&lVines'
+  price: 0.5
+  material: 'VINE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+InkSac1:
+  name: '&6&lInk sac'
+  price: 4.8
+  material: 'INK_SAC'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+BlockOfGold1:
+  name: '&6&lBlock of gold'
+  price: 57.6
+  material: 'GOLD_BLOCK'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+GrayWool1:
+  name: '&6&lGray wool'
+  price: 0.4
+  material: 'GRAY_WOOL'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+GhastTear1:
+  name: '&6&lGhast tear'
+  price: 11.0
+  material: 'GHAST_TEAR'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+MelonSeeds1:
+  name: '&6&lMelon seeds'
+  price: 0.4
+  material: 'MELON_SEEDS'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+Paper1:
+  name: '&6&lPaper'
+  price: 0.3
+  material: 'PAPER'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+Andesite1:
+  name: '&6&lAndesite'
+  price: 0.4
+  material: 'ANDESITE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+Flint1:
+  name: '&6&lFlint'
+  price: 0.3
+  material: 'FLINT'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+RottenFlesh1:
+  name: '&6&lRotten flesh'
+  price: 0.2
+  material: 'ROTTEN_FLESH'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+LavaBucket1:
+  name: '&6&lLava bucket'
+  price: 18.7
+  material: 'LAVA_BUCKET'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+Compass1:
+  name: '&6&lComapass'
+  price: 6.3
+  material: 'COMPASS'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+GoldIngot1:
+  name: '&6&lGold ingot'
+  price: 6.3
+  material: 'GOLD_INGOT'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+TropicalFish1:
+  name: '&6&lTropical fish'
+  price: 3.1
+  material: 'TROPICAL_FISH'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+BeetrootSeeds1:
+  name: '&6&lBeetroot seeds'
+  price: 0.4
+  material: 'BEETROOT_SEEDS'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+NetherWartBlock1:
+  name: '&6&lNether wart block'
+  price: 2.1
+  material: 'NETHER_WART_BLOCK'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+PumpkinSeeds1:
+  name: '&6&lPumpkin seeds'
+  price: 0.4
+  material: 'PUMPKIN_SEEDS'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+Stick1:
+  name: '&6&lStick'
+  price: 0.2
+  material: 'STICK'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+Coal1:
+  name: '&6&lCoal'
+  price: 1.4
+  material: 'COAL'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+Glowstone1:
+  name: '&6&lGlowstone'
+  price: 5.8
+  material: 'GLOWSTONE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+Diamond1:
+  name: '&6&lDiamond'
+  price: 31.2
+  material: 'DIAMOND'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+RawBeef1:
+  name: '&6&lRaw beef'
+  price: 0.6
+  material: 'BEEF'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+NetherQuartz1:
+  name: '&6&lNether quartz'
+  price: 0.5
+  material: 'QUARTZ'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+BlazeRod1:
+  name: '&6&lBlaze rod'
+  price: 2.1
+  material: 'BLAZE_ROD'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+EnderPearl1:
+  name: '&6&lEnder pearl'
+  price: 5.7
+  material: 'ENDER_PEARL'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+NetherWart1:
+  name: '&6&lNether wart'
+  price: 0.3
+  material: 'NETHER_WART'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+Stone1:
+  name: '&6&lStone'
+  price: 0.3
+  material: 'STONE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+Wheat1:
+  name: '&6&lWheat'
+  price: 0.4
+  material: 'WHEAT'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+TubeCoralBlock1:
+  name: '&6&lTube coral block'
+  price: 0.3
+  material: 'TUBE_CORAL_BLOCK'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+RawMutton1:
+  name: '&6&lRaw mutton'
+  price: 0.9
+  material: 'MUTTON'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+BubbleCoralBlock1:
+  name: '&6&lBubble coral block'
+  price: 0.3
+  material: 'BUBBLE_CORAL_BLOCK'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+Bone1:
+  name: '&6&lBone'
+  price: 0.9
+  material: 'BONE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+SweetBerries1:
+  name: '&6&lSweet berries'
+  price: 0.6
+  material: 'SWEET_BERRIES'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+RawSalmon1:
+  name: '&6&lRaw salmon'
+  price: 0.5
+  material: 'SALMON'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+SpiderEye1:
+  name: '&6&lSpider eye'
+  price: 4.0
+  material: 'SPIDER_EYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+RedMushroom1:
+  name: '&6&lRed mushroom'
+  price: 0.6
+  material: 'RED_MUSHROOM'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+Egg1:
+  name: '&6&lEgg'
+  price: 0.4
+  material: 'EGG'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+CookedCod1:
+  name: '&6&lCooked cod'
+  price: 0.7
+  material: 'COOKED_COD'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false
+
+BrownWool1:
+  name: '&6&lBrown wool'
+  price: 0.4
+  material: 'BROWN_WOOL'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fSell Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+  durability: 0
+  glow: false

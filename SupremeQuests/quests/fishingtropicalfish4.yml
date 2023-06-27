@@ -1,0 +1,14 @@
+tasks:
+  fishingcertain:
+    type: 'fishingcertain'
+    amount: 50
+    item: TROPICAL_FISH
+    worlds:
+     - 'survival'
+rewards:
+  - "supremetokens give {player} 10"
+  - "lp user {player} permission set level.68d"  
+options:
+  category: "fishing"
+  requires: []
+  repeatable: true

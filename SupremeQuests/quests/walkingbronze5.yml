@@ -1,0 +1,12 @@
+tasks:
+  walking:
+    type: 'walking'
+    distance: 1000
+    worlds:
+     - 'survival'
+rewards:
+  - "eco give {player} 500"
+options:
+  category: "walking"
+  requires: []
+  repeatable: true

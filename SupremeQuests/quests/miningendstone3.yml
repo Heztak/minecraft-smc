@@ -1,0 +1,14 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 500
+    block: "END_STONE"
+rewards:
+  - "eco give {player} 1000"
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

@@ -1,0 +1,16 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 350
+    block: "IRON_ORE"
+rewards:
+  - "supremetokens give {player} 10" 
+  - "eco give {player} 1750"
+  - "lp user {player} permission set level.52b"  
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

@@ -1,0 +1,14 @@
+tasks:
+  lumberjack:
+    type: "blockbreakcertain"
+    amount: 500
+    block: "ACACIA_LOG"
+rewards:
+  - "eco give {player} 2500"
+options:
+  category: "lumberjack"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

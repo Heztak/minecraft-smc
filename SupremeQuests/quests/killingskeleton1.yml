@@ -1,0 +1,14 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 25
+    mob: SKELETON
+    worlds:
+     - 'survival'
+rewards:
+  - "exp give {player} 250"
+  - "lp user {player} permission set level.7b"  
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

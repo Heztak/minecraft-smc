@@ -1,0 +1,18 @@
+tasks:
+  brewing:
+    type: 'brewing'
+    item: POTION
+    data: INSTANT_HEAL
+    amount: 18
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "eco give {player} 1000"
+  - "lp user {player} permission set level.60b"  
+options:
+  category: "brewing"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

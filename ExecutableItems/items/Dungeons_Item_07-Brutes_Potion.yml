@@ -1,0 +1,112 @@
+name: '&#ffe1e1&lB&#f4d3e3&lr&#e8c5e6&lu&#ddb6e8&lt&#d1a8ea&le&#c69aed&l''&#bb8cef&ls
+  &#af7df1&lP&#a46ff4&lo&#9861f6&lt&#8d53f8&li&#8144fb&lo&#7636fd&ln'
+lore:
+- '&7Forged with the &cblood&r &7of a'
+- '&dLegendary &7and menacing &bBrute &7who'
+- '&7once terrorised these mystical lands...'
+- '&8Gives you Strength III, Mining Fatigue II,'
+- '&8Slowness II & Resistance.'
+material: POTION
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: true
+  hideUsage: false
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+variables: {}
+activators:
+  activator1:
+    name: '&4Brute Strength'
+    option: PLAYER_CONSUME
+    usageModification: -1
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownOptions:
+      cooldown: 10
+      isCooldownInTicks: false
+      cooldownMsg: '&cⓘ &fThis item can be used again in &a%time_M%m %time_S%s&f.'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cⓘ &fThis item can be used again in &a%time_M%m %time_S%s&f.'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems:
+      errorMessage: ''
+    requiredExecutableItems:
+      errorMessage: ''
+    detailedSlots:
+    - -1
+    commands:
+    - PARTICLE FLAME 20 1.5 0.1
+    - PARTICLE CLOUD 20 1.5 0.1
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    variablesModification: {}
+recognitions: []
+potionSettings:
+  potionColor: 9180696
+  potionType: WATER
+  potionExtended: true
+  potionUpgraded: true
+  potionEffects:
+    '1':
+      isAmbient: true
+      duration: 1000
+      potionEffectType: DAMAGE_RESISTANCE
+      amplifier: 0
+      hasParticles: false
+      hasIcon: false
+    '2':
+      isAmbient: false
+      duration: 1000
+      potionEffectType: SLOW_DIGGING
+      amplifier: 1
+      hasParticles: false
+      hasIcon: false
+    '3':
+      isAmbient: false
+      duration: 1000
+      potionEffectType: SLOW
+      amplifier: 1
+      hasParticles: false
+      hasIcon: false
+    '4':
+      isAmbient: false
+      duration: 1000
+      potionEffectType: INCREASE_DAMAGE
+      amplifier: 2
+      hasParticles: false
+      hasIcon: false
+attributes: {}
+config_5: true
+config_update: false

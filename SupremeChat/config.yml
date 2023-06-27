@@ -1,0 +1,283 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+
+# Permission to bypass every requirement 
+bypass-permission: supremechat.bypass
+
+
+#   ____ _           _                               _         _             
+#  / ___| |__   __ _| |_   _ __   ___ _ __ _ __ ___ (_)___ ___(_) ___  _ __  
+# | |   | '_ \ / _` | __| | '_ \ / _ \ '__| '_ ` _ \| / __/ __| |/ _ \| '_ \ 
+# | |___| | | | (_| | |_  | |_) |  __/ |  | | | | | | \__ \__ \ | (_) | | | |
+#  \____|_| |_|\__,_|\__| | .__/ \___|_|  |_| |_| |_|_|___/___/_|\___/|_| |_|
+#                         |_|                                                
+#
+
+# Permission to talk in chat
+group-permission:
+  # group name
+  default:
+    # Permission needed to talk in chat
+    enabled: true
+    # Message shown when not having the permission to talk in chat
+    no-permission: '&cYou must be level 1 to be able to talk in the chat. /level'
+    # Comparators: ==, >=, <=, !=, >, <
+    type: ">="
+    input: "%supremelevels_undisguised%"
+    output: "0" # Needs to be player level 1 in order to talk in chat
+
+# With type "has permission", this means that the "knight" rank needs the "supremechat.chat" permission in order to talk in chat
+#  knight: 
+#    enabled: true
+#    no-permission: '&cYou don''t have permission to talk in chat.'
+#    type: has permission
+#    permission: supremechat.chat
+
+
+#   ____ _           _      __                            _   
+#  / ___| |__   __ _| |_   / _| ___  _ __ _ __ ___   __ _| |_ 
+# | |   | '_ \ / _` | __| | |_ / _ \| '__| '_ ` _ \ / _` | __|
+# | |___| | | | (_| | |_  |  _| (_) | |  | | | | | | (_| | |_ 
+#  \____|_| |_|\__,_|\__| |_|  \___/|_|  |_| |_| |_|\__,_|\__|
+#
+
+group-formats:
+  default:
+    chat-format: '&8[%supremelevels_levels%&8] &8&l▸ &r&8|Villein| %supremecolor_name_color%%player_name%&r&f:'
+    chat-color: '&7%supremecolor_chat_color%'
+  knight:
+    chat-format: '&8[%supremelevels_levels%&8] &8&l▸ &#41a5dd&k|&#0f65b4K&#1972bcn&#237fc4i&#2d8bcdg&#3798d5h&#41a5ddt&#0f65b4&k|&r %supremecolor_name_color%%player_name%&r&f:'
+    chat-color: '&f%supremecolor_chat_color%'
+  lord:
+    chat-format: '&8[%supremelevels_levels%&8] &8&l▸ &#DDD020&k|&#ddd56bL&#ddd352o&#ddd239r&#ddd020d&#DDD56B&k|&r %supremecolor_name_color%%player_name%&r&f:'
+    chat-color: '&f%supremecolor_chat_color%'
+  baron:
+    chat-format: '&8[%supremelevels_levels%&8] &8&l▸ &#46FF7A&k|&a&#42c813B&#43d62da&#44e447r&#45f160o&#46ff7an&#42C813&k|&r %supremecolor_name_color%%player_name%&r&f:'
+    chat-color: '&f%supremecolor_chat_color%'
+  paladin:
+    chat-format: '&8[%supremelevels_levels%&8] &8&l▸ &#FC64FF&k|&5&#d51fadP&#dc2bbba&#e236c8l&#e942d6a&#ef4de4d&#f659f1i&#fc64ffn&#D51FAD&k|&r %supremecolor_name_color%%player_name%&r&f:'
+    chat-color: '&f%supremecolor_chat_color%'
+  duke:
+    chat-format: '&8[%supremelevels_levels%&8] &8&l▸ &#46D3FF&k|&#83ffe1D&#6ff0ebu&#5ae2f5k&#46d3ffe&#83FFE1&k|&r %supremecolor_name_color%%player_name%&r&f:'
+    chat-color: '&f%supremecolor_chat_color%'
+  king:
+    chat-format: '&8[%supremelevels_levels%&8] &8&l▸ &#FFD43C&k|&#ffa63e&lK&#ffb53d&li&#ffc53d&ln&#ffd43c&lg&#FFA63E&k|&r %supremecolor_name_color%%player_name%&r&f:'
+    chat-color: '&f%supremecolor_chat_color%'
+  trial:
+    chat-format: '&3&k|&3Trial&3&k|&r %supremecolor_name_color%%player_name%&r&f:'
+    chat-color: '&f%supremecolor_chat_color%'
+  helper:
+    chat-format: '&a&k|&aHelper&a&k|&r %supremecolor_name_color%%player_name%&r&f:'
+    chat-color: '&f%supremecolor_chat_color%'
+  moderator:
+    chat-format: '&d&k|&dModerator&d&k|&r %supremecolor_name_color%%player_name%&r&f:'
+    chat-color: '&f%supremecolor_chat_color%'
+  manager:
+    chat-format: '&9&k|&9Manager&9&k|&r %supremecolor_name_color%%player_name%&r&f:'
+    chat-color: '&f%supremecolor_chat_color%'
+  owner:
+    chat-format: '&c&k|&cOwner&c&k|&r %supremecolor_name_color%%player_name%&r&f:'
+    chat-color: '&f%supremecolor_chat_color%'    
+
+
+#   ____ _           _     _       _                      _   _
+#  / ___| |__   __ _| |_  (_)_ __ | |_ ___ _ __ __ _  ___| |_(_) ___  _ __  ___ 
+# | |   | '_ \ / _` | __| | | '_ \| __/ _ \ '__/ _` |/ __| __| |/ _ \| '_ \/ __|
+# | |___| | | | (_| | |_  | | | | | ||  __/ | | (_| | (__| |_| | (_) | | | \__ \
+#  \____|_| |_|\__,_|\__| |_|_| |_|\__\___|_|  \__,_|\___|\__|_|\___/|_| |_|___/
+#
+
+item-display:
+  # Enables or disables the "display item" feature
+  enabled: true
+  # Message shown when not having the permission to use the item display feature
+  no-permission: '&cYou must be level 5 to be able to display your items. /level'
+  # Permission needed to use the "display item" feature
+  type: ">="
+  input: "%supremelevels_undisguised%"
+  output: "5"
+  # Text that activates the "display item" feature
+  activator: '[item]'
+  # Prefix and suffix for when an item is displayed in chat
+  prefix: '&7[&r'
+  suffix: ' &7x{amount}]'
+  # Items that cannot be showcased
+  blacklisted-items:
+   - 'BEDROCK'
+  # Message when a player tried to show nothing 
+  no-item: '&cYou have nothing in your hand.'
+  # Message when a player tried to show a blacklisted item 
+  blacklist-item: '&cYou cannot display this item.'
+  # Message when a player tried to use multiple activators in one sentence
+  limit: '&cYou can only use the {activator} ones in a message.'
+
+inventory-display:
+  # Enables or disables the "display inventory" feature
+  enabled: true
+  # Message shown when not having the permission to use the inventory display feature
+  no-permission: '&cYou must be level 10 to be able to share your inventory. /level'
+  # Permission needed to use the "display item" feature
+  type: ">="
+  input: "%supremelevels_undisguised%"
+  output: "10"
+  # Text that activates the "display inventory" feature  
+  activator: '[inv]'
+  # Title of the showcased inventory
+  gui-name: '%player_name%''s inventory'
+  # Message when a player tried to use multiple activators in one sentence  
+  limit: '&cYou can only use the {activator} ones in a message.'
+  # Message for when the inventory can't be accessed anymore  
+  invalid: '&cThis menu is not available anymore.'
+  # Inventory layout of the player's equipment (e.g. tools & armor)
+  inventory-add-ons:
+    # Automatically fills the empty slots with the input material
+    divider:
+      enabled: true
+      glow: false
+      material: GRAY_STAINED_GLASS_PANE
+      name: '&r'
+      lore: []      
+    # Head of the player that shared the inventory 
+    player-head:
+      enabled: true
+      slot: 46
+      name: '%player_name%''s inventory'
+      lore: []
+
+enderchest-display:
+  # Enables or disables the "display ender chest" feature
+  enabled: true
+  # Message shown when not having the permission to use the enderchest display feature
+  no-permission: '&cYou must be level 20 to be able to share your enderchest. /level'
+  # Permission needed to use the "enderchest display" feature
+  type: ">="
+  input: "%supremelevels_undisguised%"
+  output: "20"
+  # Text that activates the "enderchest display" feature  
+  activator: '[end]'
+  # Title of the showcased ender chest
+  gui-name: '%player_name%''s ender'
+  # Message when a player tried to use multiple activators in one sentence
+  limit: '&cYou can only use the {activator} ones in a message.'
+  # Message for when the ender chest can't be accessed anymore
+  invalid: '&cThis menu is not available anymore.'
+  
+position-display:
+  # Enables or disables the "position" feature
+  enabled: true
+  # Message shown when not having the permission to use the position display feature
+  no-permission: '&cYou must be level 35 to be able to share your location. /level'
+  # Permission needed to use the "position display" feature
+  type: ">="
+  input: "%supremelevels_undisguised%"
+  output: "35"
+  # Text that activates the "position" feature  
+  activator: '[pos]'
+  # Message sent when using the position activator
+  position-message: '&fI''m in the &a{world} &fat &aX:{x} Y:{y} Z:{z}&f!'
+  world-aliases: # {world}
+    world: 'Spawn'
+    world_dungeons: 'Dungeons world'
+    world_end: 'End world'
+    world_nether: 'Nether world'
+    world_resources: 'Resource world'
+    world_survival: 'Survival world'
+  # Message when a player tried to use multiple activators in one sentence
+  limit: '&cYou can only use the {activator} ones in a message.'
+
+player-name-hover:
+  # Enables or disables the "player name hover" feature
+  enabled: true
+  # information shown when hovering over a playername
+  hover-text:
+    - '&r'  
+    - '   &e&l%player_name%''s statistics:   &r'
+    - '&r'
+    - '&8  ◊ &fRank: &e%luckperms_groups%'
+    - '&8  ◊ &fLevel: &e%supremelevels_levels%'
+    - '&r'
+    - '&8  ◊ &fPlaytime: &b%PlayTimes_playtime%'
+    - '&8  ◊ &fBalance: &2$&a%javascript_money%'
+    - '&8  ◊ &fExperience: &d%player_total_exp% EXP'
+    - '&8  ◊ &fTokens: &c⌬%supremetokens_tokens%'
+    - '&r'
+    - '&8  ◊ &fKills: &a%statistic_player_kills%'
+    - '&8  ◊ &fDeaths: &c%statistic_deaths%'
+    - '&r'
+
+# Click on a player's name to start a conversation
+click-interaction:
+  enabled: true
+  click-message: '/msg {player} '
+
+
+#  __  __            _   _                 
+# |  \/  | ___ _ __ | |_(_) ___  _ __  ___ 
+# | |\/| |/ _ \ '_ \| __| |/ _ \| '_ \/ __|
+# | |  | |  __/ | | | |_| | (_) | | | \__ \
+# |_|  |_|\___|_| |_|\__|_|\___/|_| |_|___/
+#
+
+player-mention:
+  # Enables or disables the "mention" feature
+  enabled: true
+  # Message shown when not having the permission to use the position display feature
+  no-permission: '&cYou must be level 50 to be able to mention other players. /level'  
+  # Permission needed to use the "mention" feature  
+  type: ">="
+  input: "%supremelevels_undisguised%"
+  output: "50"
+  # Title that will appear when being mentioned
+  title-appearance:
+    title: '&e{player}'
+    subtitle: '&7Has mentioned you!'
+  # Appearance of mentioned player name in chat 
+  chat-appearance: '&a@{playername}'
+  # Command executed after clicking the mentioned playername
+  click-mention: '/msg {player} '
+  # Notification sound when being mentioned
+  notification-sounds: # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+    - 'BLOCK_NOTE_BLOCK_BANJO;1.0;1.0'
+
+
+#   ____ _           _                                                 
+#  / ___| |__   __ _| |_   _ __ ___   __ _ _ __   __ _  __ _  ___ _ __ 
+# | |   | '_ \ / _` | __| | '_ ` _ \ / _` | '_ \ / _` |/ _` |/ _ \ '__|
+# | |___| | | | (_| | |_  | | | | | | (_| | | | | (_| | (_| |  __/ |   
+#  \____|_| |_|\__,_|\__| |_| |_| |_|\__,_|_| |_|\__,_|\__, |\___|_|   
+#                                                      |___/
+
+anti-bot:
+# Delay between player logging in again in seconds.
+  rejoin-delay-seconds: 10 # set to 0 to disable
+  reject-join-message:
+   - '&cPlease wait another {seconds} seconds before joining again.'
+
+anti-chat-spam:
+  enabled: true
+  # Amount of messages that can be sent within the set amount of time
+  message-sent-allowed: 3
+  # Time in which the set amount of messages can be sent
+  time-frame-message-sent: 3 #in seconds
+  # Message sent when those numbers are exceeded
+  slow-down-message: '&cPlease slow down, you might get kicked for spamming.'
+
+# Display player messages in console
+enable-console-messages: true
+

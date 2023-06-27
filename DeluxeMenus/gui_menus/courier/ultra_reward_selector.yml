@@ -1,0 +1,214 @@
+menu_title: '&c           Ultra Delivery'
+inventory_type: HOPPER
+open_command: 
+- ultra_reward_selector
+size: 5
+update_interval: 1
+items:
+  'reward_1':
+    material: EMERALD
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true   
+    hide_attributes: true     
+    slot: 0
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: duke.rank    
+    display_name: '&e&lAdvertise your shop'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a shop advertisement boost.'  
+    - ''    
+    - '  &8◊ &7Duration: &e7 Days'
+    - ''
+    - '&a&lClick here &7to claim this reward!'     
+    left_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Ultra Delivery: &eShop Advertisement Gem &8(7 Days)<n>'
+    - '[console] supremeplayershops %player_name% 7days'
+    - '[console] lp user %player_name% permission settemp ultra.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Ultra Delivery: &eShop Advertisement Gem &8(7 Days)<n>'  
+    - '[console] supremeplayershops %player_name% 7days'
+    - '[console] lp user %player_name% permission settemp ultra.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'
+  'reward_1_cooldown':
+    material: 'FURNACE_MINECART'
+    slot: 0
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: ultra.reward.cooldown 
+    display_name: '&e&lAdvertise your shop'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a shop advertisement boost.'  
+    - ''    
+    - '  &8◊ &7Duration: &e7 Days'
+    - ''
+    - '&a&lClick here &7to claim this reward!' 
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'  
+  'reward_1_noperm':
+    material: 'MINECART'
+    slot: 0
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: deluxemenu.use
+    display_name: '&c&lReward 1'
+    lore: []
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'        
+  'reward_2':
+    material: TRIPWIRE_HOOK
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true   
+    hide_attributes: true     
+    slot: 2
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: duke.rank    
+    display_name: '&e&lCrate key'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a crate key.'  
+    - ''    
+    - '  &8◊ &7Amount: &e1 Ultra key'
+    - ''
+    - '&a&lClick here &7to pickup this delivery!'       
+    left_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Ultra Delivery: &e+1 Ultra key!<n>'    
+    - '[console] crazycrate give physical ultra 1 %player_name%'
+    - '[console] lp user %player_name% permission settemp ultra.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Ultra Delivery: &e+1 Ultra key!<n>'    
+    - '[console] crazycrate give physical ultra 1 %player_name%'
+    - '[console] lp user %player_name% permission settemp ultra.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'
+  'reward_2_cooldown':
+    material: 'FURNACE_MINECART'
+    slot: 2
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: ultra.reward.cooldown 
+    display_name: '&e&lCrate key'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a crate key.'  
+    - ''    
+    - '  &8◊ &7Amount: &e1 Ultra key'
+    - ''
+    - '&a&lClick here &7to pickup this delivery!'  
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'reward_2_noperm':
+    material: 'MINECART'
+    slot: 2
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: deluxemenu.use
+    display_name: '&c&lReward 2'
+    lore: []
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'          
+  'reward_3':
+    material: SUNFLOWER
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true   
+    hide_attributes: true     
+    slot: 4
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: duke.rank     
+    display_name: '&e&lToken boost'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a Token boost.'  
+    - ''    
+    - '  &8◊ &7Amount: &e100'    
+    - ''
+    - '&a&lClick here &7to pickup this delivery!'  
+    left_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Ultra Delivery: &e+100 Tokens!<n>'     
+    - '[console] supremetokens give %player_name% 100'
+    - '[console] lp user %player_name% permission settemp ultra.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Ultra Delivery: &e+100 Tokens!<n>'     
+    - '[console] supremetokens give %player_name% 100'
+    - '[console] lp user %player_name% permission settemp ultra.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'  
+  'reward_3_cooldown':
+    material: 'FURNACE_MINECART'
+    slot: 4
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: ultra.reward.cooldown 
+    display_name: '&e&lToken boost'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a Token boost.'  
+    - ''    
+    - '  &8◊ &7Amount: &e100'    
+    - ''
+    - '&a&lClick here &7to pickup this delivery!'  
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'reward_3_noperm':
+    material: 'MINECART'
+    slot: 4
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: deluxemenu.use
+    display_name: '&c&lReward 3'
+    lore: []
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'       

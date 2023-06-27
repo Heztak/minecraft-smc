@@ -1,0 +1,33 @@
+location: world:-57.596:81.000:-20.519
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&#FF9820&lTop Balances'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&e2. &f%supremeessentials_balance_name_2% &7- &e%supremeessentials_balance_value_2%'
+    height: 0.3
+  - content: '&e3. &f%supremeessentials_balance_name_3% &7- &e%supremeessentials_balance_value_3%'
+    height: 0.3
+  - content: '&e4. &f%supremeessentials_balance_name_4% &7- &e%supremeessentials_balance_value_4%'
+    height: 0.3
+  - content: '&e5. &f%supremeessentials_balance_name_5% &7- &e%supremeessentials_balance_value_5%'
+    height: 0.3
+  - content: '&e6. &f%supremeessentials_balance_name_6% &7- &e%supremeessentials_balance_value_6%'
+    height: 0.3
+  - content: '&e7. &f%supremeessentials_balance_name_7% &7- &e%supremeessentials_balance_value_7%'
+    height: 0.3
+  - content: '&e8. &f%supremeessentials_balance_name_8% &7- &e%supremeessentials_balance_value_8%'
+    height: 0.3
+  - content: '&e9. &f%supremeessentials_balance_name_9% &7- &e%supremeessentials_balance_value_9%'
+    height: 0.3
+  - content: '&e10. &f%supremeessentials_balance_name_10% &7- &e%supremeessentials_balance_value_10%'
+    height: 0.3
+  actions: {}

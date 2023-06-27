@@ -1,0 +1,65 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+CavelingLvl10:
+  Type: SKELETON
+  Display: '&6&lLvl. 10 &8▪ &eCaveling'
+  Disguise: player Caveling setCustomName "&6&lLvl. 10 &8▪ &eCaveling" setSkin Caveling
+  Health: 150
+  Damage: 9
+  Equipment:
+  - BONE HAND
+  Drops:
+  - Common_Shard 1 0.25
+  - Rare_Shard 1 0.18
+  - Legendary_Shard 1 0.08 
+  LevelModifiers:
+  - health 10
+  Options:
+    MovementSpeed: 0.23
+    AlwaysShowName: true
+    PreventSunburn: true
+    ShowHealth: true
+    Silent: true
+    Despawn: true
+    FollowRange: 11
+    KnockbackResistance: 0.5
+    PreventOtherDrops: true
+  Skills:
+  - damage{a=6;pkb=true} ~onAttack
+  - skill{s=FlowerHit} =100
+  - skill{s=FlowerHit} =50  
+  - message{m="&7You defeated A <caster.name>&7!"} @Trigger ~onDeath 
+  - message{m="&c♡ <caster.hp> HP"} @Trigger ~onDamaged
+  - effect:particles{particle=reddust;color=#B20000;amount=10;speed=0.5;hS=0.15;vS=.15} @target ~onDeath
+  - sound{s=entity.zombie.destroy_egg} @self ~onDeath
+HydraLvl7:
+  Type: VEX
+  Display: '&7&lLvl. 7 &8▪ &bHydra'
+  Health: 30
+  Damage: 9
+  Equipment:
+  - IRON_SWORD HAND
+  Drops:
+  - Common_Shard 1 0.25
+  - Rare_Shard 1 0.18
+  - Legendary_Shard 1 0.08 
+  LevelModifiers:
+  - health 10
+  Options:
+    MovementSpeed: 0.23
+    AlwaysShowName: true
+    PreventSunburn: true
+    ShowHealth: true
+    Silent: true
+    Despawn: true
+    FollowRange: 20
+    KnockbackResistance: 0.5
+    PreventOtherDrops: true
+  Skills:
+  - damage{a=6;pkb=true} ~onAttack
+  - message{m="&7You defeated A <caster.name>&7!"} @Trigger ~onDeath 
+  - message{m="&c♡ <caster.hp> HP"} @Trigger ~onDamaged
+  - effect:particles{particle=reddust;color=#B20000;amount=10;speed=0.5;hS=0.15;vS=.15} @target ~onDeath
+  - sound{s=entity.zombie.destroy_egg} @self ~onDeath  

@@ -1,0 +1,17 @@
+tasks:
+  gathering:
+    type: 'inventory'
+    item: BLAZE_ROD
+    amount: 125
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "eco give {player} 1000"
+  - "lp user {player} permission set level.67c"   
+options:
+  category: "gathering"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

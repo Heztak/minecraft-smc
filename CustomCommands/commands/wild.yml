@@ -1,0 +1,23 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for CustomCommands
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+# Aliases for the command
+# Our command can be used with /spawn, /gotospawn and /lobby
+aliases: [wild, rtp]
+
+# Patterns for the command
+patterns:
+
+  - pattern: ''  # here, we don't need arguments for the command, so we set only one empty pattern
+    description: go to the spawn
+    permission: custom.commands
+    worlds:
+      whitelist: []  # our command can only be used in the default world
+      blacklist: []
+    cooldown: 0 SECOND
+    actions:
+      - type: EXECUTE_COMMANDS
+        commands: dm open worldsmenu {player}
+        as_player: false

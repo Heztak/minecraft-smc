@@ -1,0 +1,29 @@
+location: world:-22.484:83.000:-19.456
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lWorlds Information'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&aSurvival world: &f10,000 x 10,000'
+    height: 0.3
+  - content: '&6Resource world: &f5,000 x 5,000'
+    height: 0.3
+  - content: '&#e75050Nether world: &f10,000 x 10,000'
+    height: 0.3
+  - content: '&dEnd world: &f10,000 x 10,000'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&7(You can recognize a world border by'
+    height: 0.3
+  - content: '&7its diagonal, narrow stripes)'
+    height: 0.3
+  actions: {}

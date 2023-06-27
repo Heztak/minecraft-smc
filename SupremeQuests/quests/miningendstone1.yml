@@ -1,0 +1,16 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 50
+    block: "END_STONE"
+rewards:
+  - "exp give {player} 50"
+  - "lp user {player} permission set level.1"
+options:
+  category: "mining"
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

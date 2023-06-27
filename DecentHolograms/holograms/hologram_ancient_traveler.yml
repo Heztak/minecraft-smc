@@ -1,0 +1,27 @@
+location: world:-6.010:75.600:105.970
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lAncient Traveler'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fEvery day the &aAncient Traveler &fwill'
+    height: 0.3
+  - content: '&fenter the spawn with &b&l3&r new items he found'
+    height: 0.3
+  - content: '&fwhile traveling. These items will be sold for'
+    height: 0.3
+  - content: '&fa &cfixed price &fwith unlimited quantities.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3
+  actions: {}

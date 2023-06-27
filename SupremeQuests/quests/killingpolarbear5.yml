@@ -1,0 +1,14 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 50
+    mob: POLAR_BEAR
+    worlds:
+     - 'survival'
+rewards:
+  - "eco give {player} 1500"
+  - "exp give {player} 350"
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

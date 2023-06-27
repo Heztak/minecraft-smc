@@ -1,0 +1,16 @@
+tasks:
+  harvesting:
+    type: 'inventory'
+    item: COCOA_BEANS
+    amount: 350
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "eco give {player} 1000"
+options:
+  category: "harvesting"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

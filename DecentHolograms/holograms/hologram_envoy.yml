@@ -1,0 +1,23 @@
+location: world:-0.486:77.000:193.426
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lServer Envoy'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fClaim the supply chests by simply'
+    height: 0.3
+  - content: '&fright clicking them and obtaining the rewards!'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&a&lDROPS: &r&fStarting in &c&l%crazyenvoys_cooldown%'
+    height: 0.3
+  actions: {}

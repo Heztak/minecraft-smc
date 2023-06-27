@@ -1,0 +1,1510 @@
+menu_title: '&cThe Rewarder'
+open_command: 
+- the_rewarder_dungeons
+size: 45
+items:
+
+#  ___ _                   _ 
+# |_ _| |_ ___ _ __ ___   / |
+#  | || __/ _ \ '_ ` _ \  | |
+#  | || ||  __/ | | | | | | |
+# |___|\__\___|_| |_| |_| |_|
+# 
+
+  'item_1_dungeons_locked': 
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 10
+    priority: 3
+    display_name: '&#8d00fb&lJ&#9801f9&li&#a303f7&lt&#af04f4&lt&#ba06f2&le&#c507f0&lr &#d008ee&lJ&#db0aec&lu&#e70be9&li&#f20de7&lc&#fd0ee5&le'
+    lore:
+    - '&7After drinking a jitter juice,'
+    - '&7all your hearts will be'
+    - '&7magically filled.'    
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &9&l10 Common Shards'
+    - ''    
+    - '&a&lClick here&r&7 to collect this item'
+    update: true
+    left_click_commands:
+    - '[close]'
+    - '[message] &cYou don''t have access to the dungeons world. Unlock this world first before collecting your rewards.'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cYou don''t have access to the dungeons world. Unlock this world first before collecting your rewards.'
+  'item_1': 
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 10
+    priority: 2
+    view_requirement:
+      requirements:
+        has-level:
+          type: ">="
+          input: '%supremelevels_undisguised%'
+          output: '25'
+    display_name: '&#8d00fb&lJ&#9801f9&li&#a303f7&lt&#af04f4&lt&#ba06f2&le&#c507f0&lr &#d008ee&lJ&#db0aec&lu&#e70be9&li&#f20de7&lc&#fd0ee5&le &8(1)'
+    lore:
+    - '&7After drinking a jitter juice,'
+    - '&7all your &chearts &7will be'
+    - '&7magically filled.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &910 Common Shards'
+    - ''    
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "10"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "10"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'    
+    left_click_commands:
+    - '[close]'
+    - '[console] ei give %player_name% Dungeons_Item_01-Jitter_Juice 3'
+    - '[console] supremeessentialstook %player_name% commonshard 10'   
+    - '[console] lp user %player_name% permission set dungeons.item.1.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l1&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP'    
+    right_click_commands:
+    - '[close]'
+    - '[console] ei give %player_name% Dungeons_Item_01-Jitter_Juice 3'
+    - '[console] supremeessentialstook %player_name% commonshard 10'    
+    - '[console] lp user %player_name% permission set dungeons.item.1.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l1&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_1b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 10
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.1.unlocked
+    display_name: '&#8d00fb&lJ&#9801f9&li&#a303f7&lt&#af04f4&lt&#ba06f2&le&#c507f0&lr &#d008ee&lJ&#db0aec&lu&#e70be9&li&#f20de7&lc&#fd0ee5&le &8(1) &#27FD56☑'
+    lore:
+    - '&7After drinking a jitter juice,'
+    - '&7all your &chearts &7will be'
+    - '&7magically filled.'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+    
+#  ___ _                   ____  
+# |_ _| |_ ___ _ __ ___   |___ \ 
+#  | || __/ _ \ '_ ` _ \    __) |
+#  | || ||  __/ | | | | |  / __/ 
+# |___|\__\___|_| |_| |_| |_____|
+#
+  
+  'item_2':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 19
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.1.unlocked
+    display_name: '&#94ea6c&lGoblins Bag Of Gold &8(2)'
+    lore:
+    - '&7This mysterious bag of &egold &7belongs'
+    - '&7to a goblin, open it quickly to'   
+    - '&7see how much is in it!'
+    - ''    
+    - '&fRequires:'
+    - '  &8▪ &925 Common Shards'
+    - ''
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "25"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "25"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'    
+    left_click_commands:
+    - '[close]'
+    - '[console] supremecontainers give %player_name% GoblinsBagOfGold 1'
+    - '[console] supremeessentialstook %player_name% commonshard 25'    
+    - '[console] lp user %player_name% permission set dungeons.item.2.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l2&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    right_click_commands:
+    - '[close]'
+    - '[console] supremecontainers give %player_name% GoblinsBagOfGold 1'
+    - '[console] supremeessentialstook %player_name% commonshard 25'    
+    - '[console] lp user %player_name% permission set dungeons.item.2.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l2&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_2b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 19
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.2.unlocked
+    display_name: '&#94ea6c&lGoblins Bag Of Gold &8(2) &#27FD56☑'
+    lore:
+    - '&7This mysterious bag of &egold &7belongs'
+    - '&7to a goblin, open it quickly to'   
+    - '&7see how much is in it!'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'item_2c':
+    material: RED_STAINED_GLASS_PANE
+    slot: 19
+    priority: 5
+    display_name: '&c&lLocked'
+    update: true
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+    
+#  ___ _                   _____ 
+# |_ _| |_ ___ _ __ ___   |___ / 
+#  | || __/ _ \ '_ ` _ \    |_ \ 
+#  | || ||  __/ | | | | |  ___) |
+# |___|\__\___|_| |_| |_| |____/ 
+#
+
+  'item_3':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 28
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.2.unlocked
+    display_name: "&#e915fb&lW&#eb1af4&li&#ed1fed&lz&#ef24e5&la&#f129de&lr&#f32ed7&ld&#f532d0&l'&#f737c9&ls &#f93cc2&lM&#fb41ba&la&#fd46b3&ln&#ff4bac&la &8(3)"
+    lore:
+    - '&7An &aelixir &7made using the mana of an'
+    - '&7infamous and evil &5wizard&r&7, those unfortunate'
+    - '&7enough to feel its wrath, perish in agony...'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &920 Common Shards'
+    - '  &8▪ &31 Rare Shard'
+    - ''
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "25"
+        rare_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_rareshard%"
+          output: "1"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "25"
+        rare_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_rareshard%"
+          output: "1"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    left_click_commands:
+    - '[close]'
+    - '[console] ei give %player_name% Dungeons_Item_03-Wizards_Mana'
+    - '[console] supremeessentialstook %player_name% commonshard 20'
+    - '[console] supremeessentialstook %player_name% rareshard 1'
+    - '[console] lp user %player_name% permission set dungeons.item.3.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l3&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    right_click_commands:
+    - '[close]'
+    - '[console] ei give %player_name% Dungeons_Item_03-Wizards_Mana'
+    - '[console] supremeessentialstook %player_name% commonshard 20'
+    - '[console] supremeessentialstook %player_name% rareshard 1'
+    - '[console] lp user %player_name% permission set dungeons.item.3.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l3&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_3b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 28
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.3.unlocked
+    display_name: "&#e915fb&lW&#eb1af4&li&#ed1fed&lz&#ef24e5&la&#f129de&lr&#f32ed7&ld&#f532d0&l'&#f737c9&ls &#f93cc2&lM&#fb41ba&la&#fd46b3&ln&#ff4bac&la &8(3) &#27FD56☑"
+    lore:
+    - '&7An &aelixir &7made using the mana of an'
+    - '&7infamous and evil &5wizard&r&7, those unfortunate'
+    - '&7enough to feel its wrath, perish in agony...'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'item_3c':
+    material: RED_STAINED_GLASS_PANE
+    slot: 28
+    priority: 5
+    display_name: '&c&lLocked'
+    update: true
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  ___ _                   _  _   
+# |_ _| |_ ___ _ __ ___   | || |  
+#  | || __/ _ \ '_ ` _ \  | || |_ 
+#  | || ||  __/ | | | | | |__   _|
+# |___|\__\___|_| |_| |_|    |_|  
+#
+
+  'item_4':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 29
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.3.unlocked
+    display_name: '&#29eefb&lW&#31e3fb&li&#39d8fb&lt&#41ccfb&lc&#49c1fb&lh&#51b6fc&l''&#59abfc&ls &#619ffc&lC&#6994fc&lu&#7189fc&lr&#787efc&ls&#8073fc&le&#8867fc&ld &#905cfc&lP&#9851fd&lo&#a046fd&lt&#a83afd&li&#b02ffd&lo&#b824fd&ln &8(4)'
+    lore:
+    - '&7A potion created in the depths of'
+    - '&7Hell, forged by &5witches&r &7to grant'
+    - '&7Great &bhealth&r &7to the one who drinks it...'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &310 Rare Shards'
+    - ''
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        rare_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_rareshard%"
+          output: "10"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        rare_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_rareshard%"
+          output: "10"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    left_click_commands:
+    - '[close]'
+    - '[console] ei give %player_name% Dungeons_Item_04-Witchs_Cursed_Potion'
+    - '[console] supremeessentialstook %player_name% rareshard 10'
+    - '[console] lp user %player_name% permission set dungeons.item.4.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l4&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    right_click_commands:
+    - '[close]'
+    - '[console] ei give %player_name% Dungeons_Item_04-Witchs_Cursed_Potion'    
+    - '[console] supremeessentialstook %player_name% rareshard 10'
+    - '[console] lp user %player_name% permission dungeons.item.4.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l4&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_4b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 29
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.4.unlocked
+    display_name: '&#29eefb&lW&#31e3fb&li&#39d8fb&lt&#41ccfb&lc&#49c1fb&lh&#51b6fc&l''&#59abfc&ls &#619ffc&lC&#6994fc&lu&#7189fc&lr&#787efc&ls&#8073fc&le&#8867fc&ld &#905cfc&lP&#9851fd&lo&#a046fd&lt&#a83afd&li&#b02ffd&lo&#b824fd&ln &8(4) &#27FD56☑'
+    lore:
+    - '&7A potion created in the depths of'
+    - '&7Hell, forged by &5witches&r &7to grant'
+    - '&7Great &bhealth&r &7to the one who drinks it...'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'item_4c':
+    material: RED_STAINED_GLASS_PANE
+    slot: 29
+    priority: 5
+    display_name: '&c&lLocked'
+    update: true
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  ___ _                   ____  
+# |_ _| |_ ___ _ __ ___   | ___| 
+#  | || __/ _ \ '_ ` _ \  |___ \ 
+#  | || ||  __/ | | | | |  ___) |
+# |___|\__\___|_| |_| |_| |____/ 
+#
+
+  'item_5':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 30
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.4.unlocked
+    display_name: '&#ffe70e&lB&#fdea20&ll&#fbed32&li&#f9ef44&lt&#f8f256&lz &#f6f568&lS&#f4f87a&lt&#f2fa8c&la&#f0fd9e&lr &8(5)'
+    lore:
+    - '&7Use the power within this &estar'
+    - '&7to gain &bstrength&r &7for you to run'
+    - '&7faster than you have ever before.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &950 Common Shards'
+    - ''
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "50"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "50"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'    
+    left_click_commands:
+    - '[close]'
+    - '[console] ei give %player_name% Dungeons_Item_05-Blitz_Star'
+    - '[console] supremeessentialstook %player_name% commonshard 50'
+    - '[console] lp user %player_name% permission set dungeons.item.5.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l5&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    right_click_commands:
+    - '[close]'
+    - '[console] ei give %player_name% Dungeons_Item_05-Blitz_Star'    
+    - '[console] supremeessentialstook %player_name% commonshard 50'
+    - '[console] lp user %player_name% permission dungeons.item.5.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l5&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_5b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 30
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.5.unlocked
+    display_name: '&#ffe70e&lB&#fdea20&ll&#fbed32&li&#f9ef44&lt&#f8f256&lz &#f6f568&lS&#f4f87a&lt&#f2fa8c&la&#f0fd9e&lr &8(5) &#27FD56☑'
+    lore:
+    - '&7Use the power within this &estar'
+    - '&7to gain &bstrength&r &7for you to run'
+    - '&7faster than you have ever before.'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'item_5c':
+    material: RED_STAINED_GLASS_PANE
+    slot: 30
+    priority: 5
+    display_name: '&c&lLocked'
+    update: true
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  ___ _                    __   
+# |_ _| |_ ___ _ __ ___    / /_  
+#  | || __/ _ \ '_ ` _ \  | '_ \ 
+#  | || ||  __/ | | | | | | (_) |
+# |___|\__\___|_| |_| |_|  \___/ 
+#
+
+  'item_6':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 21
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.5.unlocked
+    display_name: '&#ff1d1d&lT&#ff2b1d&li&#ff381e&lt&#ff461e&la&#fe531e&ln&#fe611f&l''&#fe6e1f&ls &#fe7c20&lL&#fe8920&le&#fe9720&lg&#fea421&lg&#fdb221&li&#fdbf21&ln&#fdcd22&lg&#fdda22&ls &8(6)'
+    lore:
+    - '&7Found in a battlefield after'
+    - '&7A &cblazing war&r &7with the treacherous'
+    - '&7And unmoveable Titans...'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &325 Rare Shards'
+    - '  &8▪ &bPlayer Level 35'    
+    - ''
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        rare_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_rareshard%"
+          output: "25"
+        player_level:
+          type: ">="
+          input: "%supremelevels_undisguised%"
+          output: "35"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        rare_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_rareshard%"
+          output: "25"
+        player_level:
+          type: ">="
+          input: "%supremelevels_undisguised%"
+          output: "35"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'    
+    left_click_commands:
+    - '[close]'
+    - '[console] ei give %player_name% Dungeons_Item_06-Titans_Leggings'
+    - '[console] supremeessentialstook %player_name% rareshard 25'
+    - '[console] lp user %player_name% permission set dungeons.item.6.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l6&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    right_click_commands:
+    - '[close]'
+    - '[console] ei give %player_name% Dungeons_Item_06-Titans_Leggings'
+    - '[console] supremeessentialstook %player_name% rareshard 25'
+    - '[console] lp user %player_name% permission dungeons.item.6.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l6&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_6b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 21
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.6.unlocked
+    display_name: '&#ff1d1d&lT&#ff2b1d&li&#ff381e&lt&#ff461e&la&#fe531e&ln&#fe611f&l''&#fe6e1f&ls &#fe7c20&lL&#fe8920&le&#fe9720&lg&#fea421&lg&#fdb221&li&#fdbf21&ln&#fdcd22&lg&#fdda22&ls &8(6) &#27FD56☑'
+    lore:
+    - '&7Found in a battlefield after'
+    - '&7A &cblazing war&r &7with the treacherous'
+    - '&7And unmoveable Titans...'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'item_6c':
+    material: RED_STAINED_GLASS_PANE
+    slot: 21
+    priority: 5
+    display_name: '&c&lLocked'
+    update: true
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  ___ _                   _____ 
+# |_ _| |_ ___ _ __ ___   |___  |
+#  | || __/ _ \ '_ ` _ \     / / 
+#  | || ||  __/ | | | | |   / /  
+# |___|\__\___|_| |_| |_|  /_/   
+#
+
+  'item_7':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 12
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.6.unlocked
+    display_name: '&#ffe1e1&lB&#f4d3e3&lr&#e8c5e6&lu&#ddb6e8&lt&#d1a8ea&le&#c69aed&l''&#bb8cef&ls &#af7df1&lP&#a46ff4&lo&#9861f6&lt&#8d53f8&li&#8144fb&lo&#7636fd&ln &8(7)'
+    lore:
+    - '&7Forged with the &cblood&r &7of a'
+    - '&dLegendary &7and menacing &bBrute &7who'
+    - '&7once terrorised these mystical lands...'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &d3 Legendary Shards'
+    - ''
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        legendary_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_legendaryshard%"
+          output: "3"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        legendary_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_legendaryshard%"
+          output: "3"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'    
+    left_click_commands:
+    - '[close]'
+    - '[console] ei give %player_name% Dungeons_Item_07-Brutes_Potion'
+    - '[console] supremeessentialstook %player_name% legendaryshard 3'
+    - '[console] lp user %player_name% permission set dungeons.item.7.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l7&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    right_click_commands:
+    - '[close]'
+    - '[console] ei give %player_name% Dungeons_Item_07-Brutes_Potion'
+    - '[console] supremeessentialstook %player_name% legendaryshard 3'
+    - '[console] lp user %player_name% permission dungeons.item.7.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l7&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_7b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 12
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.7.unlocked
+    display_name: '&#ffe1e1&lB&#f4d3e3&lr&#e8c5e6&lu&#ddb6e8&lt&#d1a8ea&le&#c69aed&l''&#bb8cef&ls &#af7df1&lP&#a46ff4&lo&#9861f6&lt&#8d53f8&li&#8144fb&lo&#7636fd&ln &8(7) &#27FD56☑'
+    lore:
+    - '&7Forged with the &cblood&r &7of a'
+    - '&dLegendary &7and menacing &bBrute &7who'
+    - '&7once terrorised these mystical lands...'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'item_7c':
+    material: RED_STAINED_GLASS_PANE
+    slot: 12
+    priority: 5
+    display_name: '&c&lLocked'
+    update: true
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  ___ _                    ___  
+# |_ _| |_ ___ _ __ ___    ( _ ) 
+#  | || __/ _ \ '_ ` _ \   / _ \ 
+#  | || ||  __/ | | | | | | (_) |
+# |___|\__\___|_| |_| |_|  \___/ 
+#
+
+  'item_8':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 13
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.7.unlocked
+    display_name: '&#efff39&lE&#d2ff51&la&#b6ff6a&ls&#99ff82&lt&#7dff9b&le&#60ffb3&lr &#80dab8&lB&#a0b5bd&lu&#bf90c1&ln&#df6bc6&ln&#ff46cb&ly&#fb5bb4&l''&#f6709d&ls &#f28585&lF&#ed9a6e&lu&#e9af57&lr &8(8)'
+    lore:
+    - '&7A &dlegendary&r &7item created using'
+    - '&7the hide of the &eEaster Bunny'
+    - '&7harnessing all of his powers...'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &320 Rare Shards'
+    - '  &8▪ &d3 Legendary Shards'
+    - '  &8▪ &bPlayer Level 40'
+    - ''
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        rare_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_rareshard%"
+          output: "20"
+        legendary_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_legendaryshard%"
+          output: "3"          
+        player_level:
+          type: ">="
+          input: "%supremelevels_undisguised%"
+          output: "40"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        rare_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_rareshard%"
+          output: "20"
+        legendary_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_legendaryshard%"
+          output: "3"          
+        player_level:
+          type: ">="
+          input: "%supremelevels_undisguised%"
+          output: "40"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'    
+    left_click_commands:
+    - '[close]'
+    - '[console] ei give %player_name% Dungeons_Item_08-Easter_Bunnys_Fur'    
+    - '[console] supremeessentialstook %player_name% rareshard 20'
+    - '[console] supremeessentialstook %player_name% legendaryshard 3'
+    - '[console] lp user %player_name% permission set dungeons.item.8.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l8&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    right_click_commands:
+    - '[close]'
+    - '[console] ei give %player_name% Dungeons_Item_08-Easter_Bunnys_Fur'    
+    - '[console] supremeessentialstook %player_name% rareshard 20'
+    - '[console] supremeessentialstook %player_name% legendaryshard 3'
+    - '[console] lp user %player_name% permission dungeons.item.8.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l8&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_8b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 13
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.8.unlocked
+    display_name: '&#efff39&lE&#d2ff51&la&#b6ff6a&ls&#99ff82&lt&#7dff9b&le&#60ffb3&lr &#80dab8&lB&#a0b5bd&lu&#bf90c1&ln&#df6bc6&ln&#ff46cb&ly&#fb5bb4&l''&#f6709d&ls &#f28585&lF&#ed9a6e&lu&#e9af57&lr &8(8) &#27FD56☑'
+    lore:
+    - '&7A &dlegendary&r &7item created using'
+    - '&7the hide of the &eEaster Bunny'
+    - '&7harnessing all of his powers...'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'item_8c':
+    material: RED_STAINED_GLASS_PANE
+    slot: 13
+    priority: 5
+    display_name: '&c&lLocked'
+    update: true
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  ___ _                    ___  
+# |_ _| |_ ___ _ __ ___    / _ \ 
+#  | || __/ _ \ '_ ` _ \  | (_) |
+#  | || ||  __/ | | | | |  \__, |
+# |___|\__\___|_| |_| |_|    /_/ 
+#
+
+  'item_9':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 14
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.8.unlocked
+    display_name: '&#8a00cb&lK&#8016d3&ln&#762cda&lo&#6c42e2&lc&#6159ea&lk&#576ff1&lb&#4d85f9&la&#4f99fd&lc&#5caafd&lk &#69bbfe&lS&#77ccfe&lt&#84ddfe&li&#92eeff&lc&#9fffff&lk &8(9)'
+    lore:
+    - '&7Forged from an &aancient&r &7tree which'
+    - '&7properties allows this stick to knock'
+    - '&dAll &7it''s enemies&7 into the far abyss...'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &9100 Common Shards'
+    - '  &8▪ &325 Rare Shards'    
+    - ''
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "100"
+        rare_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_rareshard%"
+          output: "25"          
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "100"
+        rare_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_rareshard%"
+          output: "25"          
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'    
+    left_click_commands:
+    - '[close]'
+    - '[console] ei give %player_name% Dungeons_Item_09-Knockback_Stick'    
+    - '[console] supremeessentialstook %player_name% commonshard 100'   
+    - '[console] supremeessentialstook %player_name% rareshard 25'
+    - '[console] lp user %player_name% permission set dungeons.item.9.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l9&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    right_click_commands:
+    - '[close]'
+    - '[console] ei give %player_name% Dungeons_Item_09-Knockback_Stick'    
+    - '[console] supremeessentialstook %player_name% commonshard 100'   
+    - '[console] supremeessentialstook %player_name% rareshard 25'
+    - '[console] lp user %player_name% permission dungeons.item.9.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l9&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_9b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 14
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.9.unlocked
+    display_name: '&#8a00cb&lK&#8016d3&ln&#762cda&lo&#6c42e2&lc&#6159ea&lk&#576ff1&lb&#4d85f9&la&#4f99fd&lc&#5caafd&lk &#69bbfe&lS&#77ccfe&lt&#84ddfe&li&#92eeff&lc&#9fffff&lk &8(9) &#27FD56☑'
+    lore:
+    - '&7Forged from an &aancient&r &7tree which'
+    - '&7properties allows this stick to knock'
+    - '&dAll &7it''s enemies&7 into the far abyss...'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'item_9c':
+    material: RED_STAINED_GLASS_PANE
+    slot: 14
+    priority: 5
+    display_name: '&c&lLocked'
+    update: true
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  ___ _                   _  ___  
+# |_ _| |_ ___ _ __ ___   / |/ _ \ 
+#  | || __/ _ \ '_ ` _ \  | | | | |
+#  | || ||  __/ | | | | | | | |_| |
+# |___|\__\___|_| |_| |_| |_|\___/ 
+#
+
+  'item_10':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 23
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.9.unlocked
+    display_name: '&#d5ff2f&lL&#caff33&le&#bfff38&lp&#b4ff3c&lr&#a9ff41&le&#9eff45&lc&#93ff4a&lh&#88ff4e&la&#7dff53&lu&#70f850&ln&#63ea46&l''&#55dc3c&ls &#47ce32&lE&#3ac128&ll&#2cb31e&li&#1ea514&lx&#11970a&li&#038900&lr &8(10)'
+    lore:
+    - '&7This shovel was used to quickly'
+    - '&7dig their burrows. Use it &dwisely&7,'
+    - '&7it is very powerful...'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &d10 Legendary Shards'
+    - '  &8▪ &bPlayer Level 50'
+    - '  &8▪ &2$&a5.000'
+    - ''
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: "has money"
+          amount: "5000"
+        legendary_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_legendaryshard%"
+          output: "10"
+        player_level:
+          type: ">="
+          input: "%supremelevels_undisguised%"
+          output: "50"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        has_money:
+          type: "has money"
+          amount: "5000"
+        legendary_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_legendaryshard%"
+          output: "10"
+        player_level:
+          type: ">="
+          input: "%supremelevels_undisguised%"
+          output: "50"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'    
+    left_click_commands:
+    - '[close]'
+    - '[console] eco take %player_name% 5000'
+    - '[console] supremeessentialstook %player_name% legendaryshard 10'
+    - '[console] wildtools:tools give %player_name% goblins_digger'
+    - '[console] lp user %player_name% permission set dungeons.item.10.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l10&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    right_click_commands:
+    - '[close]'
+    - '[console] eco take %player_name% 5000'
+    - '[console] supremeessentialstook %player_name% legendaryshard 10'
+    - '[console] wildtools:tools give %player_name% goblins_digger'    
+    - '[console] lp user %player_name% permission dungeons.item.10.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l10&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_10b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 23
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.10.unlocked
+    display_name: '&#d5ff2f&lG&#cbff33&lo&#c1ff37&lb&#b7ff3b&ll&#acff40&li&#a2ff44&ln&#98ff48&l''&#88f644&ls &#72e439&lD&#5cd22e&li&#45bf22&lg&#2fad17&lg&#199b0b&le&#038900&lr &8(10) &#27FD56☑'
+    lore:
+    - '&7This shovel was used to quickly'
+    - '&7dig their burrows. Use it &dwisely&7,'
+    - '&7it is very powerful...'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'item_10c':
+    material: RED_STAINED_GLASS_PANE
+    slot: 23
+    priority: 5
+    display_name: '&c&lLocked'
+    update: true
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  ___ _                   _ _ 
+# |_ _| |_ ___ _ __ ___   / / |
+#  | || __/ _ \ '_ ` _ \  | | |
+#  | || ||  __/ | | | | | | | |
+# |___|\__\___|_| |_| |_| |_|_|
+#
+
+  'item_11':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 32
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.10.unlocked
+    display_name: '&f&lItem 11'
+    lore:
+    - '&7<Description>'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &f<requirements>'
+    - ''
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "1"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "1"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'    
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeessentialstook %player_name% commonshard 1'
+    - '[console] lp user %player_name% permission set dungeons.item.11.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l11&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeessentialstook %player_name% commonshard 1'
+    - '[console] lp user %player_name% permission dungeons.item.11.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l11&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_11b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 32
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.11.unlocked
+    display_name: '&a&lCollected'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'item_11c':
+    material: RED_STAINED_GLASS_PANE
+    slot: 32
+    priority: 5
+    display_name: '&c&lLocked'
+    update: true
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  ___ _                   _ ____  
+# |_ _| |_ ___ _ __ ___   / |___ \ 
+#  | || __/ _ \ '_ ` _ \  | | __) |
+#  | || ||  __/ | | | | | | |/ __/ 
+# |___|\__\___|_| |_| |_| |_|_____|
+#
+
+  'item_12':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 32
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.11.unlocked
+    display_name: '&f&lItem 12'
+    lore:
+    - '&7<Description>'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &f<requirements>'
+    - ''
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "1"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "1"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'    
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeessentialstook %player_name% commonshard 1'
+    - '[console] lp user %player_name% permission set dungeons.item.12.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l12&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeessentialstook %player_name% commonshard 1'
+    - '[console] lp user %player_name% permission dungeons.item.12.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l12&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_12b':
+    material: RED_STAINED_GLASS_PANE #LIME_STAINED_GLASS_PANE
+    slot: 32
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.12.unlocked
+    display_name: '&c&lLocked' #'&a&lCollected'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'item_12c':
+    material: RED_STAINED_GLASS_PANE
+    slot: 32
+    priority: 5
+    display_name: '&c&lLocked'
+    update: true
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  ___ _                   _ _____ 
+# |_ _| |_ ___ _ __ ___   / |___ / 
+#  | || __/ _ \ '_ ` _ \  | | |_ \ 
+#  | || ||  __/ | | | | | | |___) |
+# |___|\__\___|_| |_| |_| |_|____/ 
+#
+
+  'item_13':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 33
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.12.unlocked
+    display_name: '&f&lItem 13'
+    lore:
+    - '&7<Description>'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &f<requirements>'
+    - ''
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "1"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "1"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'    
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeessentialstook %player_name% commonshard 1'
+    - '[console] lp user %player_name% permission set dungeons.item.13.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l13&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeessentialstook %player_name% commonshard 1'
+    - '[console] lp user %player_name% permission dungeons.item.13.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l13&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_13b':
+    material: RED_STAINED_GLASS_PANE #LIME_STAINED_GLASS_PANE
+    slot: 33
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.13.unlocked
+    display_name: '&c&lLocked' #'&a&lCollected'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'item_13c':
+    material: RED_STAINED_GLASS_PANE
+    slot: 33
+    priority: 5
+    display_name: '&c&lLocked'
+    update: true
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  ___ _                   _ _  _   
+# |_ _| |_ ___ _ __ ___   / | || |  
+#  | || __/ _ \ '_ ` _ \  | | || |_ 
+#  | || ||  __/ | | | | | | |__   _|
+# |___|\__\___|_| |_| |_| |_|  |_|  
+#
+
+  'item_14':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 34
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.13.unlocked
+    display_name: '&f&lItem 14'
+    lore:
+    - '&7<Description>'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &f<requirements>'
+    - ''
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "1"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "1"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'    
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeessentialstook %player_name% commonshard 1'
+    - '[console] lp user %player_name% permission set dungeons.item.14.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l14&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeessentialstook %player_name% commonshard 1'
+    - '[console] lp user %player_name% permission dungeons.item.14.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l14&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_14b':
+    material: RED_STAINED_GLASS_PANE #LIME_STAINED_GLASS_PANE
+    slot: 34
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.14.unlocked
+    display_name: '&c&lLocked' #'&a&lCollected'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'item_14c':
+    material: RED_STAINED_GLASS_PANE
+    slot: 34
+    priority: 5
+    display_name: '&c&lLocked'
+    update: true
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+    
+#  ___ _                   _ ____  
+# |_ _| |_ ___ _ __ ___   / | ___| 
+#  | || __/ _ \ '_ ` _ \  | |___ \ 
+#  | || ||  __/ | | | | | | |___) |
+# |___|\__\___|_| |_| |_| |_|____/ 
+#
+
+  'item_15':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 25
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.14.unlocked
+    display_name: '&f&lItem 15'
+    lore:
+    - '&7<Description>'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &f<requirements>'
+    - ''
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "1"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "1"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'    
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeessentialstook %player_name% commonshard 1'
+    - '[console] lp user %player_name% permission set dungeons.item.15.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l15&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeessentialstook %player_name% commonshard 1'
+    - '[console] lp user %player_name% permission dungeons.item.15.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l15&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_15b':
+    material: RED_STAINED_GLASS_PANE #LIME_STAINED_GLASS_PANE
+    slot: 25
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.15.unlocked
+    display_name: '&c&lLocked' #'&a&lCollected'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'item_15c':
+    material: RED_STAINED_GLASS_PANE
+    slot: 25
+    priority: 5
+    display_name: '&c&lLocked'
+    update: true
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  ___ _                   _  __   
+# |_ _| |_ ___ _ __ ___   / |/ /_  
+#  | || __/ _ \ '_ ` _ \  | | '_ \ 
+#  | || ||  __/ | | | | | | | (_) |
+# |___|\__\___|_| |_| |_| |_|\___/ 
+#
+
+  'item_16':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 16
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.15.unlocked
+    display_name: '&f&lItem 16'
+    lore:
+    - '&7<Description>'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &f<requirements>'
+    - ''
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "1"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "1"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'    
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeessentialstook %player_name% commonshard 1'
+    - '[console] lp user %player_name% permission set dungeons.item.16.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l16&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeessentialstook %player_name% commonshard 1'
+    - '[console] lp user %player_name% permission dungeons.item.16.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l16&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_16b':
+    material: RED_STAINED_GLASS_PANE #LIME_STAINED_GLASS_PANE
+    slot: 16
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.16.unlocked
+    display_name: '&c&lLocked' #'&a&lCollected'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'item_16c':
+    material: RED_STAINED_GLASS_PANE
+    slot: 16
+    priority: 5
+    display_name: '&c&lLocked'
+    update: true
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  ___ _                   _ _____ 
+# |_ _| |_ ___ _ __ ___   / |___  |
+#  | || __/ _ \ '_ ` _ \  | |  / / 
+#  | || ||  __/ | | | | | | | / /  
+# |___|\__\___|_| |_| |_| |_|/_/   
+#
+
+  'item_17':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 17
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.16.unlocked
+    display_name: '&f&lItem 17'
+    lore:
+    - '&7<Description>'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &f<requirements>'
+    - ''
+    - '&a&lClick here&r&7 to collect this item'
+    left_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "1"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'
+    right_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "1"
+      deny_commands:
+       - '[message] &cYou do not meet the requirements to collect this item.'
+       - '[close]'    
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeessentialstook %player_name% commonshard 1'
+    - '[console] lp user %player_name% permission set dungeons.item.17.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l17&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeessentialstook %player_name% commonshard 1'
+    - '[console] lp user %player_name% permission dungeons.item.17.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⤮ &rYou have collected item &c&l17&r! <n>'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'item_17b':
+    material: RED_STAINED_GLASS_PANE #LIME_STAINED_GLASS_PANE
+    slot: 17
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: dungeons.item.17.unlocked
+    display_name: '&c&lLocked' #'&a&lCollected'
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'item_17c':
+    material: RED_STAINED_GLASS_PANE
+    slot: 17
+    priority: 5
+    display_name: '&c&lLocked'
+    update: true
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+    

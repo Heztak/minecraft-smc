@@ -1,0 +1,937 @@
+#  ____  _             _              _    _ _       
+# / ___|| |_ __ _ _ __| |_ ___ _ __  | | _(_) |_ ___ 
+# \___ \| __/ _` | '__| __/ _ \ '__| | |/ / | __/ __|
+#  ___) | || (_| | |  | ||  __/ |    |   <| | |_\__ \
+# |____/ \__\__,_|_|   \__\___|_|    |_|\_\_|\__|___/
+#
+
+starter_tools:
+  permission: group.g-bukkit_default
+  preview-menu: starter_tools
+  levels:
+    '1':
+      cooldown: 86400 # in seconds
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7Kit Tools;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '&#ff2525&lO&#fd2929&ln &#fc2e2e&lc&#fa3232&lo&#f93636&lo&#f73b3b&ll&#f53f3f&ld&#f44343&lo&#f24747&lw&#f14c4c&ln&#ef5050&l!;&7Available in {cooldown};3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '&#ff2525&lL&#fc2e2e&lo&#f93636&lc&#f53f3f&lk&#f24747&le&#ef5050&ld;&7You do not have permission to this kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+starter_food:
+  permission: group.g-bukkit_default
+  preview-menu: starter_food  
+  levels:
+    '1':
+      cooldown: 86400
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7Kit Food;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '&#ff2525&lO&#fd2929&ln &#fc2e2e&lc&#fa3232&lo&#f93636&lo&#f73b3b&ll&#f53f3f&ld&#f44343&lo&#f24747&lw&#f14c4c&ln&#ef5050&l!;&7Available in {cooldown};3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '&#ff2525&lL&#fc2e2e&lo&#f93636&lc&#f53f3f&lk&#f24747&le&#ef5050&ld;&7You do not have permission to this kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+starter_armor:
+  permission: group.g-bukkit_default
+  preview-menu: starter_armor  
+  levels:
+    '1':
+      cooldown: 86400
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7Kit Armor;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '&#ff2525&lO&#fd2929&ln &#fc2e2e&lc&#fa3232&lo&#f93636&lo&#f73b3b&ll&#f53f3f&ld&#f44343&lo&#f24747&lw&#f14c4c&ln&#ef5050&l!;&7Available in {cooldown};3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '&#ff2525&lL&#fc2e2e&lo&#f93636&lc&#f53f3f&lk&#f24747&le&#ef5050&ld;&7You do not have permission to this kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+starter_claimtools:
+  permission: group.g-bukkit_default
+  preview-menu: starter_claimtools
+  levels:
+    '1':
+      cooldown: 3600
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7Kit Claim Tools;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '&#ff2525&lO&#fd2929&ln &#fc2e2e&lc&#fa3232&lo&#f93636&lo&#f73b3b&ll&#f53f3f&ld&#f44343&lo&#f24747&lw&#f14c4c&ln&#ef5050&l!;&7Available in {cooldown};3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '&#ff2525&lL&#fc2e2e&lo&#f93636&lc&#f53f3f&lk&#f24747&le&#ef5050&ld;&7You do not have permission to this kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+
+#  ____             _            _   _    _ _       
+# |  _ \ __ _ _ __ | | _____  __| | | | _(_) |_ ___ 
+# | |_) / _` | '_ \| |/ / _ \/ _` | | |/ / | __/ __|
+# |  _ < (_| | | | |   <  __/ (_| | |   <| | |_\__ \
+# |_| \_\__,_|_| |_|_|\_\___|\__,_| |_|\_\_|\__|___/
+#
+
+ranked_knight_kit:
+  permission: knight.rank
+  preview-menu: ranked_knight_kit
+  levels:
+    '1':
+      cooldown: 604800
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7Knight Ranked Kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '&#ff2525&lO&#fd2929&ln &#fc2e2e&lc&#fa3232&lo&#f93636&lo&#f73b3b&ll&#f53f3f&ld&#f44343&lo&#f24747&lw&#f14c4c&ln&#ef5050&l!;&7Available in {cooldown};3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '&#ff2525&lL&#fc2e2e&lo&#f93636&lc&#f53f3f&lk&#f24747&le&#ef5050&ld;&7You do not have permission to this kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+ranked_knight_once:
+  permission: knight.rank
+  preview-menu: ranked_knight_once  
+  levels:
+    '1':
+      cooldown: 2147483647
+      give-items: false
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7Knight Ranked Once Kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands:
+            - 'supremevouchers {player} 5000claimblocks'
+            - 'cc give physical vote 2 {player}'
+            - 'cc give physical rare 1 {player}'
+          messages: []
+        unavailable:
+          titles:
+            - '&#ff2525&lA&#fe2828&ll&#fd2b2b&lr&#fc2e2e&le&#fa3131&la&#f93434&ld&#f83737&ly &#f73b3b&lc&#f63e3e&ll&#f54141&la&#f44444&li&#f24747&lm&#f14a4a&le&#f04d4d&ld&#ef5050&l!;&7This kit can''t be claimed again;3;20;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '&#ff2525&lL&#fc2e2e&lo&#f93636&lc&#f53f3f&lk&#f24747&le&#ef5050&ld;&7You do not have permission to this kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+ranked_lord_kit:
+  permission: lord.rank
+  preview-menu: ranked_lord_kit  
+  levels:
+    '1':
+      cooldown: 604800
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7Lord Ranked Kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '&#ff2525&lO&#fd2929&ln &#fc2e2e&lc&#fa3232&lo&#f93636&lo&#f73b3b&ll&#f53f3f&ld&#f44343&lo&#f24747&lw&#f14c4c&ln&#ef5050&l!;&7Available in {cooldown};3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '&#ff2525&lL&#fc2e2e&lo&#f93636&lc&#f53f3f&lk&#f24747&le&#ef5050&ld;&7You do not have permission to this kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+ranked_lord_once:
+  permission: lord.rank
+  preview-menu: ranked_lord_once  
+  levels:
+    '1':
+      cooldown: 2147483647
+      give-items: false
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7Lord Ranked Once Kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands:
+            - 'supremevouchers {player} 7500claimblocks'
+            - 'cc give physical vote 3 {player}'
+            - 'cc give physical rare 2 {player}'
+          messages: []
+        unavailable:
+          titles:
+            - '&#ff2525&lA&#fe2828&ll&#fd2b2b&lr&#fc2e2e&le&#fa3131&la&#f93434&ld&#f83737&ly &#f73b3b&lc&#f63e3e&ll&#f54141&la&#f44444&li&#f24747&lm&#f14a4a&le&#f04d4d&ld&#ef5050&l!;&7This kit can''t be claimed again;3;20;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '&#ff2525&lL&#fc2e2e&lo&#f93636&lc&#f53f3f&lk&#f24747&le&#ef5050&ld;&7You do not have permission to this kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+ranked_baron_kit:
+  permission: baron.rank
+  preview-menu: ranked_baron_kit  
+  levels:
+    '1':
+      cooldown: 604800
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7Baron Ranked Kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '&#ff2525&lO&#fd2929&ln &#fc2e2e&lc&#fa3232&lo&#f93636&lo&#f73b3b&ll&#f53f3f&ld&#f44343&lo&#f24747&lw&#f14c4c&ln&#ef5050&l!;&7Available in {cooldown};3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '&#ff2525&lL&#fc2e2e&lo&#f93636&lc&#f53f3f&lk&#f24747&le&#ef5050&ld;&7You do not have permission to this kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+ranked_baron_once:
+  permission: baron.rank
+  preview-menu: ranked_baron_once
+  levels:
+    '1':
+      cooldown: 2147483647
+      give-items: false
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7Baron Ranked Once Kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands:
+            - 'supremevouchers {player} 10000claimblocks'
+            - 'cc give physical vote 3 {player}'
+            - 'cc give physical rare 2 {player}'
+            - 'cc give physical ultra 1 {player}'
+          messages: []
+        unavailable:
+          titles:
+            - '&#ff2525&lA&#fe2828&ll&#fd2b2b&lr&#fc2e2e&le&#fa3131&la&#f93434&ld&#f83737&ly &#f73b3b&lc&#f63e3e&ll&#f54141&la&#f44444&li&#f24747&lm&#f14a4a&le&#f04d4d&ld&#ef5050&l!;&7This kit can''t be claimed again;3;20;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '&#ff2525&lL&#fc2e2e&lo&#f93636&lc&#f53f3f&lk&#f24747&le&#ef5050&ld;&7You do not have permission to this kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+ranked_paladin_kit:
+  permission: paladin.rank
+  preview-menu: ranked_paladin_kit  
+  levels:
+    '1':
+      cooldown: 604800
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7Paladin Ranked Kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '&#ff2525&lO&#fd2929&ln &#fc2e2e&lc&#fa3232&lo&#f93636&lo&#f73b3b&ll&#f53f3f&ld&#f44343&lo&#f24747&lw&#f14c4c&ln&#ef5050&l!;&7Available in {cooldown};3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '&#ff2525&lL&#fc2e2e&lo&#f93636&lc&#f53f3f&lk&#f24747&le&#ef5050&ld;&7You do not have permission to this kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+ranked_paladin_once:
+  permission: paladin.rank
+  preview-menu: ranked_paladin_once 
+  levels:
+    '1':
+      cooldown: 2147483647
+      give-items: false
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7Paladin Ranked Once Kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands:
+            - 'supremevouchers {player} 15000claimblocks'
+            - 'cc give physical vote 3 {player}'
+            - 'cc give physical rare 2 {player}'
+            - 'cc give physical ultra 2 {player}'
+          messages: []
+        unavailable:
+          titles:
+            - '&#ff2525&lA&#fe2828&ll&#fd2b2b&lr&#fc2e2e&le&#fa3131&la&#f93434&ld&#f83737&ly &#f73b3b&lc&#f63e3e&ll&#f54141&la&#f44444&li&#f24747&lm&#f14a4a&le&#f04d4d&ld&#ef5050&l!;&7This kit can''t be claimed again;3;20;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '&#ff2525&lL&#fc2e2e&lo&#f93636&lc&#f53f3f&lk&#f24747&le&#ef5050&ld;&7You do not have permission to this kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+ranked_duke_kit:
+  permission: duke.rank
+  preview-menu: ranked_duke_kit  
+  levels:
+    '1':
+      cooldown: 604800
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7Duke Ranked Kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '&#ff2525&lO&#fd2929&ln &#fc2e2e&lc&#fa3232&lo&#f93636&lo&#f73b3b&ll&#f53f3f&ld&#f44343&lo&#f24747&lw&#f14c4c&ln&#ef5050&l!;&7Available in {cooldown};3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '&#ff2525&lL&#fc2e2e&lo&#f93636&lc&#f53f3f&lk&#f24747&le&#ef5050&ld;&7You do not have permission to this kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+ranked_duke_once:
+  permission: duke.rank
+  preview-menu: ranked_duke_once 
+  levels:
+    '1':
+      cooldown: 2147483647
+      give-items: false
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7Duke Ranked Once Kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands:
+            - 'supremevouchers {player} 20000claimblocks'
+            - 'cc give physical vote 4 {player}'
+            - 'cc give physical rare 3 {player}'
+            - 'cc give physical ultra 1 {player}'
+            - 'cc give physical god 1 {player}'
+          messages: []
+        unavailable:
+          titles:
+            - '&#ff2525&lA&#fe2828&ll&#fd2b2b&lr&#fc2e2e&le&#fa3131&la&#f93434&ld&#f83737&ly &#f73b3b&lc&#f63e3e&ll&#f54141&la&#f44444&li&#f24747&lm&#f14a4a&le&#f04d4d&ld&#ef5050&l!;&7This kit can''t be claimed again;3;20;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '&#ff2525&lL&#fc2e2e&lo&#f93636&lc&#f53f3f&lk&#f24747&le&#ef5050&ld;&7You do not have permission to this kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+ranked_king_kit:
+  permission: king.rank
+  preview-menu: ranked_king_kit 
+  levels:
+    '1':
+      cooldown: 604800
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7King Ranked Kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles:
+            - '&#ff2525&lO&#fd2929&ln &#fc2e2e&lc&#fa3232&lo&#f93636&lo&#f73b3b&ll&#f53f3f&ld&#f44343&lo&#f24747&lw&#f14c4c&ln&#ef5050&l!;&7Available in {cooldown};3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '&#ff2525&lL&#fc2e2e&lo&#f93636&lc&#f53f3f&lk&#f24747&le&#ef5050&ld;&7You do not have permission to this kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+ranked_king_once:
+  permission: king.rank
+  preview-menu: ranked_king_once  
+  levels:
+    '1':
+      cooldown: 2147483647
+      give-items: false
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7King Ranked Once Kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands:
+            - 'supremevouchers {player} 30000claimblocks'
+            - 'cc give physical vote 5 {player}'
+            - 'cc give physical rare 3 {player}'
+            - 'cc give physical ultra 2 {player}'
+            - 'cc give physical god 1 {player}'          
+          messages: []
+        unavailable:
+          titles:
+            - '&#ff2525&lA&#fe2828&ll&#fd2b2b&lr&#fc2e2e&le&#fa3131&la&#f93434&ld&#f83737&ly &#f73b3b&lc&#f63e3e&ll&#f54141&la&#f44444&li&#f24747&lm&#f14a4a&le&#f04d4d&ld&#ef5050&l!;&7This kit can''t be claimed again;3;20;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+        locked:
+          titles:
+            - '&#ff2525&lL&#fc2e2e&lo&#f93636&lc&#f53f3f&lk&#f24747&le&#ef5050&ld;&7You do not have permission to this kit;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: []
+
+#   ____ _  ___ _       
+#  / ___| |/ (_) |_ ___ 
+# | |  _| ' /| | __/ __|
+# | |_| | . \| | |_\__ \
+#  \____|_|\_\_|\__|___/
+#
+
+gkit_keys:
+  permission: gkit.keys.not_used
+  preview-menu: gkit_keys
+  levels:
+    '1':
+      cooldown: 0
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7GKit Keys;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles: []
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          messages: 
+            - '&cYou do not have permission to claim this kit.'
+        locked:
+          titles: []
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: 
+            - '&cYou do not have permission to claim this kit.'
+gkit_miner:
+  permission: gkit.miner.not_used
+  preview-menu: gkit_miner  
+  levels:
+    '1':
+      cooldown: 0
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7GKit Miner;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles: []
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          messages: 
+            - '&cYou do not have permission to claim this kit.'
+        locked:
+          titles: []
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: 
+            - '&cYou do not have permission to claim this kit.'
+gkit_tools:
+  permission: gkit.tools.not_used
+  preview-menu: gkit_tools
+  levels:
+    '1':
+      cooldown: 0
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7GKit Tools;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles: []
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          messages: 
+            - '&cYou do not have permission to claim this kit.'
+        locked:
+          titles: []
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: 
+            - '&cYou do not have permission to claim this kit.'
+gkit_grinder:
+  permission: gkit.grinder.not_used
+  preview-menu: gkit_grinder  
+  levels:
+    '1':
+      cooldown: 0
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7GKit Grinder;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles: []
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          messages: 
+            - '&cYou do not have permission to claim this kit.'
+        locked:
+          titles: []
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: 
+            - '&cYou do not have permission to claim this kit.'
+gkit_blocks:
+  permission: gkit.blocks.not_used
+  preview-menu: gkit_blocks  
+  levels:
+    '1':
+      cooldown: 0
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7GKit Blocks;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles: []
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          messages: 
+            - '&cYou do not have permission to claim this kit.'
+        locked:
+          titles: []
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: 
+            - '&cYou do not have permission to claim this kit.'
+gkit_enchants:
+  permission: gkit.enchants.not_used
+  preview-menu: gkit_enchants  
+  levels:
+    '1':
+      cooldown: 0
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7GKit Enchants;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles: []
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          messages: 
+            - '&cYou do not have permission to claim this kit.'
+        locked:
+          titles: []
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: 
+            - '&cYou do not have permission to claim this kit.'
+gkit_potions:
+  permission: gkit.potions.not_used
+  preview-menu: gkit_potions  
+  levels:
+    '1':
+      cooldown: 0
+      give-items: true
+      cost: 'VAULT;0'
+      redeem:
+        available:
+          titles: # {kit}, {current_level}, {total}
+            - '&#44ef35&lC&#4bef40&ll&#53ef4c&la&#5aef57&li&#62ef62&lm&#69ef6d&le&#71ef79&ld&#78ef84&l!;&7GKit Potions;3;17;20;0'
+          fireworks: []
+          sounds:
+            - 'ITEM_ARMOR_EQUIP_LEATHER;VOICE;1.0;0.3'
+          particles:
+            - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+          console-commands: []
+          messages: []
+        unavailable:
+          titles: []
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          messages: 
+            - '&cYou do not have permission to claim this kit.'
+        locked:
+          titles: []
+          fireworks: []
+          sounds:
+            - 'ENTITY_VILLAGER_NO;VOICE;1.0;1.0'
+          particles:
+            - 'CLOUD;20;0.5;0.5;0.1;0.1'
+          console-commands: []
+          messages: 
+            - '&cYou do not have permission to claim this kit.'

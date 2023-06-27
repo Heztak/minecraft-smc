@@ -1,0 +1,17 @@
+tasks:
+  harvesting:
+    type: 'inventory'
+    item: BEETROOT
+    amount: 125
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "supremetokens give {player} 5"
+  - "lp user {player} permission set level.24a"  
+options:
+  category: "harvesting"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

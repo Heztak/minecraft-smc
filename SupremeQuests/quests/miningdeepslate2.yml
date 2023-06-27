@@ -1,0 +1,15 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 100
+    block: "DEEPSLATE"
+rewards:
+  - "supremetokens give {player} 5"
+  - "lp user {player} permission set level.34a"
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

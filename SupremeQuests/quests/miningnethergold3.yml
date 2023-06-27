@@ -1,0 +1,15 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 75
+    block: "NETHER_GOLD_ORE"
+rewards:
+  - "eco give {player} 1000"
+  - "lp user {player} permission set level.62d"  
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

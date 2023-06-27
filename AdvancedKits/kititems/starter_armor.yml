@@ -1,0 +1,27 @@
+'1':
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: GOLDEN_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: LEATHER_CHESTPLATE
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: LEATHER_LEGGINGS
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: GOLDEN_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1

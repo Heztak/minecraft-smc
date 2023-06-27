@@ -1,0 +1,18 @@
+tasks:
+  harvesting:
+    type: 'inventory'
+    item: CARROT
+    amount: 3000
+    remove-items-when-complete: false
+    update-progress: true 
+rewards:
+  - "eco give {player} 1250"
+  - "exp give {player} 250"
+  - "lp user {player} permission set level.56b"  
+options:
+  category: "harvesting"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

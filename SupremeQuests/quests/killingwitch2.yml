@@ -1,0 +1,14 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 10
+    mob: WITCH
+    worlds:
+     - 'survival'
+rewards:
+  - "supremetokens give {player} 5"
+  - "lp user {player} permission set level.33c"  
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

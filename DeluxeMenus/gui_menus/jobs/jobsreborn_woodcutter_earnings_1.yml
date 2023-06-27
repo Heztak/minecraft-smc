@@ -1,0 +1,328 @@
+menu_title: '&cEarnings Woodcutter (page 1/1)'
+open_command:
+- jobs earnings woodcutter
+size: 45
+items:
+  '1':
+    material: 'oak_log'
+    display_name: '&e&lOak Log'
+    priority: 1
+    slots:
+    - 10
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.3 Exp'
+    - '  &8◊ &7Points: &e0.15 Points'
+  '2':
+    material: 'spruce_log'
+    display_name: '&e&lSpruce Log'
+    priority: 1
+    slots:
+    - 11
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.3 Exp'
+    - '  &8◊ &7Points: &e0.15 Points'
+  '3':
+    material: 'birch_log'
+    display_name: '&e&lBirch Log'
+    priority: 1
+    slots:
+    - 12
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.3 Exp'
+    - '  &8◊ &7Points: &e0.15 Points'
+  '4':
+    material: 'jungle_log'
+    display_name: '&e&lJungle Log'
+    priority: 1
+    slots:
+    - 13
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.3 Exp'
+    - '  &8◊ &7Points: &e0.15 Points'
+  '5':
+    material: 'acacia_log'
+    display_name: '&e&lAcacia Log'
+    priority: 1
+    slots:
+    - 14
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.6'
+    - '  &8◊ &7Exp: &d0.4 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '6':
+    material: 'dark_oak_log'
+    display_name: '&e&lDark Oak Log'
+    priority: 1
+    slots:
+    - 15
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.6'
+    - '  &8◊ &7Exp: &d0.4 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '7':
+    material: 'stripped_oak_log'
+    display_name: '&e&lStripped Oak Log'
+    priority: 1
+    slots:
+    - 16
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.15 Exp'
+    - '  &8◊ &7Points: &e0.05 Points'
+  '8':
+    material: 'stripped_spruce_log'
+    display_name: '&e&lStripped Spruce Log'
+    priority: 1
+    slots:
+    - 19
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.15 Exp'
+    - '  &8◊ &7Points: &e0.05 Points'
+  '9':
+    material: 'stripped_birch_log'
+    display_name: '&e&lStripped Birch Log'
+    priority: 1
+    slots:
+    - 20
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.15 Exp'
+    - '  &8◊ &7Points: &e0.05 Points'
+  '10':
+    material: 'stripped_jungle_log'
+    display_name: '&e&lStripped Jungle Log'
+    priority: 1
+    slots:
+    - 21
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.15 Exp'
+    - '  &8◊ &7Points: &e0.05 Points'
+  '11':
+    material: 'stripped_acacia_log'
+    display_name: '&e&lStripped Acacia Log'
+    priority: 1
+    slots:
+    - 22
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.15 Exp'
+    - '  &8◊ &7Points: &e0.05 Points'
+  '12':
+    material: 'stripped_dark_oak_log'
+    display_name: '&e&lStripped Dark Oak Log'
+    priority: 1
+    slots:
+    - 23
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.15 Exp'
+    - '  &8◊ &7Points: &e0.05 Points'
+  '13':
+    material: 'warped_stem'
+    display_name: '&e&lWarped Stem'
+    priority: 1
+    slots:
+    - 24
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.8'
+    - '  &8◊ &7Exp: &d0.6 Exp'
+    - '  &8◊ &7Points: &e0.3 Points'
+  '14':
+    material: 'crimson_stem'
+    display_name: '&e&lCrimson Stem'
+    priority: 1
+    slots:
+    - 25
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.8'
+    - '  &8◊ &7Exp: &d0.6 Exp'
+    - '  &8◊ &7Points: &e0.3 Points'
+  '15':
+    material: 'oak_wood'
+    display_name: '&e&lOak Wood'
+    priority: 1
+    slots:
+    - 28
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.3 Exp'
+    - '  &8◊ &7Points: &e0.15 Points'
+  '16':
+    material: 'birch_wood'
+    display_name: '&e&lBirch Wood'
+    priority: 1
+    slots:
+    - 29
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.3 Exp'
+    - '  &8◊ &7Points: &e0.15 Points'
+  '17':
+    material: 'spruce_wood'
+    display_name: '&e&lSpruce Wood'
+    priority: 1
+    slots:
+    - 30
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.3 Exp'
+    - '  &8◊ &7Points: &e0.15 Points'
+  '18':
+    material: 'jungle_wood'
+    display_name: '&e&lJungle Wood'
+    priority: 1
+    slots:
+    - 31
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.3 Exp'
+    - '  &8◊ &7Points: &e0.15 Points'
+  '19':
+    material: 'acacia_wood'
+    display_name: '&e&lAcacia Wood'
+    priority: 1
+    slots:
+    - 32
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.3 Exp'
+    - '  &8◊ &7Points: &e0.15 Points'
+  '20':
+    material: 'dark_oak_wood'
+    display_name: '&e&lDark Oak Wood'
+    priority: 1
+    slots:
+    - 33
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.3 Exp'
+    - '  &8◊ &7Points: &e0.15 Points'
+  '21':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I0NWFhYjA3MjdkYjVmYzkxMjg5Y2MwMWFiODk2NzA2MTg1MTQ4ZjRkYWNkODE5ZjgzYTZhMjU2MDI3YjRmMCJ9fX0='
+    display_name: '&e&lPlayer'
+    priority: 1
+    slots:
+    - 34
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fKill actions:'
+    - '  &8◊ &7Money: &2$&a1'
+    - '  &8◊ &7Exp: &d1 Exp'
+    - '  &8◊ &7Points: &e1 Points'
+  'back':
+    material: BARRIER
+    priority: 1
+    display_name: '&C⤾ Back'
+    slot: 40
+    left_click_commands:
+    - '[openguimenu] jobsreborn_page_1'    
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_page_1'     
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'nextpage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0=
+    priority: 1
+    display_name: '&8Next Page'
+    slot: 26
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'previouspage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    priority: 1
+    display_name: '&8Previous Page'
+    slot: 18
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'    

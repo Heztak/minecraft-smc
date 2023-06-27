@@ -1,0 +1,1501 @@
+menu_title: '&cPlayer Levels (Page 4/4)'
+open_command: 
+- plevel4
+size: 45
+update_interval: 1
+items:
+
+#  _                   _    __  _____ 
+# | |    _____   _____| |  / /_|___ / 
+# | |   / _ \ \ / / _ \ | | '_ \ |_ \ 
+# | |__|  __/\ V /  __/ | | (_) |__) |
+# |_____\___| \_/ \___|_|  \___/____/ 
+#
+
+  'level_63':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 10
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: '>='
+          input: "%supremedrops_sold%"
+          output: "1250"
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.62.unlocked        
+    display_name: '&e&lLevel 63'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eSell at least 1250 mob heads &8(%supremedrops_sold%/1250)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &ex1 Ultra Crate Key'
+    - '  &8◊ &cx1 God Crate Key'    
+    - '' 
+    - '&fPrefix: &8[&b63&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] cc give physical ultra 1 %player_name%'
+    - '[console] cc give physical god 1 %player_name%'    
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.63.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] cc give physical ultra 1 %player_name%'
+    - '[console] cc give physical god 1 %player_name%'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.63.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_63b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 10
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.63.unlocked
+    display_name: '&e&lLevel 63'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eSell at least 1250 mob heads'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &ex1 Ultra Crate Key'
+    - '  &8◊ &cx1 God Crate Key'
+    - '' 
+    - '&fPrefix: &8[&b63&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_63c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 10
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.62.unlocked    
+    display_name: '&e&lLevel 63'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eSell at least 1250 mob heads &8(%supremedrops_sold%/1250)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &ex1 Ultra Crate Key'
+    - '  &8◊ &cx1 God Crate Key'
+    - '' 
+    - '&fPrefix: &8[&b63&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_63d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 10
+    priority: 5
+    display_name: '&e&lLevel 63'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &ex1 Ultra Crate Key'
+    - '  &8◊ &cx1 God Crate Key'
+    - '' 
+    - '&fPrefix: &8[&b63&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_63e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 10
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.63.menu   	
+    display_name: '&e&lLevel 63'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &ex1 Ultra Crate Key'
+    - '  &8◊ &cx1 God Crate Key'
+    - '' 
+    - '&fPrefix: &8[&b63&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _    __   _  _   
+# | |    _____   _____| |  / /_ | || |  
+# | |   / _ \ \ / / _ \ | | '_ \| || |_ 
+# | |__|  __/\ V /  __/ | | (_) |__   _|
+# |_____\___| \_/ \___|_|  \___/   |_|  
+#
+
+  'level_64':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 11
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.64a
+        hasPermission2:
+          type: has permission
+          permission: level.64b
+        hasPermission3:
+          type: has permission
+          permission: level.64c
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.63.unlocked          
+    display_name: '&e&lLevel 64'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Prismarine Shard quest 6 &8(Gathering) &8(%supremequests_percent_gatheringprismarineshard6:gathering:75%%)'
+    - '  &8▪ &eReach Kelp quest 6 &8(Gathering) &8(%supremequests_percent_gatheringkelp6:gathering:4750%%)'
+    - '  &8▪ &eReach Guardian quest 6 &8(Killing) &8(%supremequests_percent_killingguardian6:killing:150%%)'  
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &c75 Tokens'    
+    - '  &8◊ &bDiamond Sword &8(Looting V)'
+    - '' 
+    - '&fPrefix: &8[&b64&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] supremetokens give %player_name% 75'
+    - '[console] minecraft:give %player_name% diamond_sword{Enchantments:[{id:looting,lvl:5}]} 1'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.64.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] supremetokens give %player_name% 75'
+    - '[console] minecraft:give %player_name% diamond_sword{Enchantments:[{id:looting,lvl:5}]} 1'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.64.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_64b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 11
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.64.unlocked
+    display_name: '&e&lLevel 64'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Prismarine Shard quest 6 &8(Gathering)'
+    - '  &8▪ &eReach Kelp quest 6 &8(Gathering)'
+    - '  &8▪ &eReach Guardian quest 6 &8(Killing)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &c75 Tokens'    
+    - '  &8◊ &bDiamond Sword &8(Looting V)'
+    - '' 
+    - '&fPrefix: &8[&b64&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_64c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 11
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.63.unlocked    
+    display_name: '&e&lLevel 64'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Prismarine Shard quest 6 &8(Gathering) &8(%supremequests_percent_gatheringprismarineshard6:gathering:75%%)'
+    - '  &8▪ &eReach Kelp quest 6 &8(Gathering) &8(%supremequests_percent_gatheringkelp6:gathering:4750%%)'
+    - '  &8▪ &eReach Guardian quest 6 &8(Killing) &8(%supremequests_percent_killingguardian6:killing:150%%)'  
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &c75 Tokens'    
+    - '  &8◊ &bDiamond Sword &8(Looting V)'
+    - '' 
+    - '&fPrefix: &8[&b64&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_64d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 11
+    priority: 5
+    display_name: '&e&lLevel 64'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &c75 Tokens'    
+    - '  &8◊ &bDiamond Sword &8(Looting V)'
+    - '' 
+    - '&fPrefix: &8[&b64&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_64e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 11
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.64.menu   	
+    display_name: '&e&lLevel 64'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &c75 Tokens'    
+    - '  &8◊ &bDiamond Sword &8(Looting V)'
+    - '' 
+    - '&fPrefix: &8[&b64&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _    __  ____  
+# | |    _____   _____| |  / /_| ___| 
+# | |   / _ \ \ / / _ \ | | '_ \___ \ 
+# | |__|  __/\ V /  __/ | | (_) |__) |
+# |_____\___| \_/ \___|_|  \___/____/ 
+#
+
+  'level_65':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 12
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: '>='
+          input: "%supremevote_votes%"
+          output: "50"
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.64.unlocked     
+    display_name: '&e&lLevel 65'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eHave a total of 50 Votes &8(%supremevote_votes%/50)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &6King Kit Voucher'    
+    - '  &8◊ &2$&a25000'
+    - '' 
+    - '&fPrefix: &8[&b65&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] supremevouchers %player_name% kitking'
+    - '[console] eco give %player_name% 25000'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.65.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] supremevouchers %player_name% kitking'
+    - '[console] eco give %player_name% 25000'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.65.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_65b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 12
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.65.unlocked
+    display_name: '&e&lLevel 65'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eHave a total of 50 Votes'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &6King Kit Voucher'    
+    - '  &8◊ &2$&a25000'
+    - '' 
+    - '&fPrefix: &8[&b65&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_65c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 12
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.64.unlocked    
+    display_name: '&e&lLevel 65'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eHave a total of 50 Votes &8(%supremevote_votes%/50)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &6King Kit Voucher'    
+    - '  &8◊ &2$&a25000'  
+    - '' 
+    - '&fPrefix: &8[&b65&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_65d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 12
+    priority: 5
+    display_name: '&e&lLevel 65'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &6King Kit Voucher'    
+    - '  &8◊ &2$&a25000'
+    - '' 
+    - '&fPrefix: &8[&b65&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_65e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 12
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.65.menu   	
+    display_name: '&e&lLevel 65'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &6King Kit Voucher'    
+    - '  &8◊ &2$&a25000'
+    - '' 
+    - '&fPrefix: &8[&b65&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _    __    __   
+# | |    _____   _____| |  / /_  / /_  
+# | |   / _ \ \ / / _ \ | | '_ \| '_ \ 
+# | |__|  __/\ V /  __/ | | (_) | (_) |
+# |_____\___| \_/ \___|_|  \___/ \___/ 
+#
+
+  'level_66':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 13
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.66a
+        hasPermission2:
+          type: has permission
+          permission: level.66b
+        hasPermission3:
+          type: has permission
+          permission: level.66c
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.65.unlocked          
+    display_name: '&e&lLevel 66'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Slime quest 4 &8(Killing) &8(%supremequests_percent_killingslime4:killing:150%%)'
+    - '  &8▪ &eReach Witch quest 4 &8(Killing) &8(%supremequests_percent_killingwitch4:killing:75%%)'
+    - '  &8▪ &eReach Husk quest 4 &8(Killing) &8(%supremequests_percent_killinghusk4:killing:75%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &#6a6084Protection V Unbreaking V Netherite; Helmet, Chestplate,'
+    - '         &#6a6084Leggings, Boots and Efficiency X Netherite Shovel.'
+    - '' 
+    - '&fPrefix: &8[&b66&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] minecraft:give %player_name% netherite_helmet{Enchantments:[{id:protection,lvl:5},{id:unbreaking,lvl:5}]} 1'
+    - '[console] minecraft:give %player_name% netherite_chestplate{Enchantments:[{id:protection,lvl:5},{id:unbreaking,lvl:5}]} 1'
+    - '[console] minecraft:give %player_name% netherite_leggings{Enchantments:[{id:protection,lvl:5},{id:unbreaking,lvl:5}]} 1'
+    - '[console] minecraft:give %player_name% netherite_boots{Enchantments:[{id:protection,lvl:5},{id:unbreaking,lvl:5}]} 1'
+    - '[console] minecraft:give %player_name% netherite_shovel{Enchantments:[{id:efficiency,lvl:10}]} 1'    
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.66.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] minecraft:give %player_name% netherite_helmet{Enchantments:[{id:protection,lvl:5},{id:unbreaking,lvl:5}]} 1'
+    - '[console] minecraft:give %player_name% netherite_chestplate{Enchantments:[{id:protection,lvl:5},{id:unbreaking,lvl:5}]} 1'
+    - '[console] minecraft:give %player_name% netherite_leggings{Enchantments:[{id:protection,lvl:5},{id:unbreaking,lvl:5}]} 1'
+    - '[console] minecraft:give %player_name% netherite_boots{Enchantments:[{id:protection,lvl:5},{id:unbreaking,lvl:5}]} 1'
+    - '[console] minecraft:give %player_name% netherite_shovel{Enchantments:[{id:efficiency,lvl:10}]} 1'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.66.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_66b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 13
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.66.unlocked
+    display_name: '&e&lLevel 66'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Slime quest 4 &8(Killing)'
+    - '  &8▪ &eReach Witch quest 4 &8(Killing)'
+    - '  &8▪ &eReach Husk quest 4 &8(Killing)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &#6a6084Protection V Unbreaking V Netherite; Helmet, Chestplate,'
+    - '         &#6a6084Leggings, Boots and Efficiency X Netherite Shovel.'
+    - '' 
+    - '&fPrefix: &8[&b66&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_66c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 13
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.65.unlocked    
+    display_name: '&e&lLevel 66'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Slime quest 4 &8(Killing) &8(%supremequests_percent_killingslime4:killing:150%%)'
+    - '  &8▪ &eReach Witch quest 4 &8(Killing) &8(%supremequests_percent_killingwitch4:killing:75%%)'
+    - '  &8▪ &eReach Husk quest 4 &8(Killing) &8(%supremequests_percent_killinghusk4:killing:75%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &#6a6084Protection V Unbreaking V Netherite; Helmet, Chestplate,'
+    - '         &#6a6084Leggings, Boots and Efficiency X Netherite Shovel.'  
+    - '' 
+    - '&fPrefix: &8[&b66&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_66d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 13
+    priority: 5
+    display_name: '&e&lLevel 66'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &#6a6084Protection V Unbreaking V Netherite; Helmet, Chestplate,'
+    - '         &#6a6084Leggings, Boots and Efficiency X Netherite Shovel.'
+    - '' 
+    - '&fPrefix: &8[&b66&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_66e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.66.menu   	
+    display_name: '&e&lLevel 66'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &#6a6084Protection V Unbreaking V Netherite; Helmet, Chestplate,'
+    - '         &#6a6084Leggings, Boots and Efficiency X Netherite Shovel.'     
+    - '' 
+    - '&fPrefix: &8[&b66&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _    __ _____ 
+# | |    _____   _____| |  / /|___  |
+# | |   / _ \ \ / / _ \ | | '_ \ / / 
+# | |__|  __/\ V /  __/ | | (_) / /  
+# |_____\___| \_/ \___|_|  \___/_/   
+#
+
+  'level_67':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 14
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.67a
+        hasPermission2:
+          type: has permission
+          permission: level.67b
+        hasPermission3:
+          type: has permission
+          permission: level.67c
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.66.unlocked          
+    display_name: '&e&lLevel 67'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Ender pearl quest 6 &8(Gathering) &8(%supremequests_percent_gatheringenderpearl6:gathering:525%%)'
+    - '  &8▪ &eReach Rabbit''s foot quest 6 &8(Gathering) &8(%supremequests_percent_gatheringrabbitfoot6:gathering:75%%)'
+    - '  &8▪ &eReach Blaze Rod quest 3 &8(Gathering) &8(%supremequests_percent_gatheringblazerod3:gathering:125%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &#b266b2x3 Nether Stars'
+    - '  &8◊ &#222e34x6 Wither Skeleton Skulls'    
+    - '' 
+    - '&fPrefix: &8[&b67&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] give %player_name% nether_star 3'
+    - '[console] give %player_name% wither_skeleton_skull 6'    
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.67.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] give %player_name% nether_star 3'
+    - '[console] give %player_name% wither_skeleton_skull 6'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.67.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_67b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 14
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.67.unlocked
+    display_name: '&e&lLevel 67'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Ender pearl quest 6 &8(Gathering)'
+    - '  &8▪ &eReach Rabbit''s foot quest 6 &8(Gathering)'
+    - '  &8▪ &eReach Blaze Rod quest 3 &8(Gathering)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &#b266b2x3 Nether Stars'
+    - '  &8◊ &#222e34x6 Wither Skeleton Skulls'
+    - '' 
+    - '&fPrefix: &8[&b67&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_67c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 14
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.66.unlocked    
+    display_name: '&e&lLevel 67'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Ender pearl quest 6 &8(Gathering) &8(%supremequests_percent_gatheringenderpearl6:gathering:525%%)'
+    - '  &8▪ &eReach Rabbit''s foot quest 6 &8(Gathering) &8(%supremequests_percent_gatheringrabbitfoot6:gathering:75%%)'
+    - '  &8▪ &eReach Blaze Rod quest 3 &8(Gathering) &8(%supremequests_percent_gatheringblazerod3:gathering:125%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &#b266b2x3 Nether Stars'
+    - '  &8◊ &#222e34x6 Wither Skeleton Skulls' 
+    - '' 
+    - '&fPrefix: &8[&b67&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_67d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 14
+    priority: 5
+    display_name: '&e&lLevel 67'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &#b266b2x3 Nether Stars'
+    - '  &8◊ &#222e34x6 Wither Skeleton Skulls'
+    - '' 
+    - '&fPrefix: &8[&b67&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_67e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 14
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.67.menu   	
+    display_name: '&e&lLevel 67'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &#b266b2x3 Nether Stars'
+    - '  &8◊ &#222e34x6 Wither Skeleton Skulls'
+    - '' 
+    - '&fPrefix: &8[&b67&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _    __    ___  
+# | |    _____   _____| |  / /_  ( _ ) 
+# | |   / _ \ \ / / _ \ | | '_ \ / _ \ 
+# | |__|  __/\ V /  __/ | | (_) | (_) |
+# |_____\___| \_/ \___|_|  \___/ \___/ 
+#
+
+  'level_68':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 15
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.68a
+        hasPermission2:
+          type: has permission
+          permission: level.68b
+        hasPermission3:
+          type: has permission
+          permission: level.68c
+        hasPermission4:
+          type: has permission
+          permission: level.68d
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.67.unlocked          
+    display_name: '&e&lLevel 68'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Cod quest 6 &8(Fishing) &8(%supremequests_percent_fishingcod6:fishingcertain:125%%)'
+    - '  &8▪ &eReach Salmon quest 5 &8(Fishing) &8(%supremequests_percent_fishingsalmon5:fishingcertain:75%%)'
+    - '  &8▪ &eReach Pufferfish quest 5 &8(Fishing) &8(%supremequests_percent_fishingpufferfish5:fishingcertain:75%%)'
+    - '  &8▪ &eReach Tropical Fish quest 4 &8(Fishing) &8(%supremequests_percent_fishingtropicalfish4:fishingcertain:50%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &9x5 Totem of Undying'
+    - '  &8◊ &d+15 Gravestones'
+    - '  &8◊ &ex5 Splash potion of Invisibility &8(8 minutes)'    
+    - '' 
+    - '&fPrefix: &8[&b68&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] give %player_name% totem_of_undying 5'
+    - '[console] gravestones give %player_name% 15'
+    - '[console] give %player_name% invisibility2splashpotion 5'    
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.68.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] give %player_name% totem_of_undying 5'
+    - '[console] gravestones give %player_name% 15'
+    - '[console] give %player_name% invisibility2splashpotion 5'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.68.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_68b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 15
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.68.unlocked
+    display_name: '&e&lLevel 68'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Cod quest 6 &8(Fishing)'
+    - '  &8▪ &eReach Salmon quest 6 &8(Fishing)'
+    - '  &8▪ &eReach Pufferfish quest 6 &8(Fishing)'
+    - '  &8▪ &eReach Tropical Fish quest 6 &8(Fishing)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &9x5 Totem of Undying'
+    - '  &8◊ &d+15 Gravestones'
+    - '  &8◊ &ex5 Splash potion of Invisibility &8(8 minutes)' 
+    - '' 
+    - '&fPrefix: &8[&b68&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_68c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 15
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.67.unlocked    
+    display_name: '&e&lLevel 68'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Cod quest 6 &8(Fishing) &8(%supremequests_percent_fishingcod6:fishingcertain:125%%)'
+    - '  &8▪ &eReach Salmon quest 5 &8(Fishing) &8(%supremequests_percent_fishingsalmon5:fishingcertain:75%%)'
+    - '  &8▪ &eReach Pufferfish quest 5 &8(Fishing) &8(%supremequests_percent_fishingpufferfish5:fishingcertain:75%%)'
+    - '  &8▪ &eReach Tropical Fish quest 4 &8(Fishing) &8(%supremequests_percent_fishingtropicalfish4:fishingcertain:50%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &9x5 Totem of Undying'
+    - '  &8◊ &d+15 Gravestones'
+    - '  &8◊ &ex5 Splash potion of Invisibility &8(8 minutes)' 
+    - '' 
+    - '&fPrefix: &8[&b68&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_68d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 15
+    priority: 5
+    display_name: '&e&lLevel 68'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &9x5 Totem of Undying'
+    - '  &8◊ &d+15 Gravestones'
+    - '  &8◊ &ex5 Splash potion of Invisibility &8(8 minutes)' 
+    - '' 
+    - '&fPrefix: &8[&b68&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_68e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.68.menu   	
+    display_name: '&e&lLevel 68'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &9x5 Totem of Undying'
+    - '  &8◊ &d+15 Gravestones'
+    - '  &8◊ &ex5 Splash potion of Invisibility &8(8 minutes)' 
+    - '' 
+    - '&fPrefix: &8[&b68&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _    __   ___  
+# | |    _____   _____| |  / /_ / _ \ 
+# | |   / _ \ \ / / _ \ | | '_ \ (_) |
+# | |__|  __/\ V /  __/ | | (_) \__, |
+# |_____\___| \_/ \___|_|  \___/  /_/ 
+#
+
+  'level_69':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 16
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.69
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.68.unlocked          
+    display_name: '&e&lLevel 69'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Walking quest 18 &8(Walking) &8(%supremequests_percent_walkinggold6:walking:1000000%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &cx3 God key'
+    - '' 
+    - '&fPrefix: &8[&b69&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] cc give physical god 3 %player_name%'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.69.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[close]'
+    - '[console] cc give physical god 3 %player_name%'
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.69.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+  'level_69b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 16
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.69.unlocked
+    display_name: '&e&lLevel 69'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Walking quest 18 &8(Walking)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &cx3 God key'
+    - '' 
+    - '&fPrefix: &8[&b69&8]'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_69c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 16
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.68.unlocked    
+    display_name: '&e&lLevel 69'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Walking quest 18 &8(Walking) &8(%supremequests_percent_walkinggold6:walking:1000000%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &cx3 God key'   
+    - '' 
+    - '&fPrefix: &8[&b69&8]'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_69d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 16
+    priority: 5
+    display_name: '&e&lLevel 69'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &cx3 God key'
+    - '' 
+    - '&fPrefix: &8[&b69&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_69e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 16
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.69.menu   	
+    display_name: '&e&lLevel 69'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &cx3 God key'
+    - '' 
+    - '&fPrefix: &8[&b69&8]'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  _                   _   _____ ___  
+# | |    _____   _____| | |___  / _ \ 
+# | |   / _ \ \ / / _ \ |    / / | | |
+# | |__|  __/\ V /  __/ |   / /| |_| |
+# |_____\___| \_/ \___|_|  /_/  \___/ 
+#
+
+  'level_70':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 19
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.70a
+        hasPermission2:
+          type: has permission
+          permission: level.70b
+        hasPermission3:
+          type: has permission
+          permission: level.70c
+        hasPermission4:
+          type: has permission
+          permission: level.70d
+        hasPermission5:
+          type: has permission
+          permission: level.70e
+        hasPermissionUnlocked:
+          type: has permission
+          permission: level.69.unlocked          
+    display_name: '&e&lLevel 70'
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Emerald quest 6 &8(Mining) &8(%supremequests_percent_miningemerald6:mining:100%%)'
+    - '  &8▪ &eReach Diamond quest 6 &8(Mining) &8(%supremequests_percent_miningdiamond6:mining:100%%)'
+    - '  &8▪ &eReach Ancient Debris quest 6 &8(Mining) &8(%supremequests_percent_miningancientdebris6:mining:100%%)'
+    - '  &8▪ &eReach Obsidian quest 6 &8(Mining) &8(%supremequests_percent_miningobsidian6:mining:500%%)'
+    - '  &8▪ &eReach Nether Gold quest 6 &8(Mining) &8(%supremequests_percent_mininggold6:mining:100%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a100000'
+    - '  &8◊ &c250 Tokens'
+    - '  &8◊ &#0d5afa&lS&#1260fa&le&#1666f9&la&#1b6df9&ls&#1f73f9&lo&#2479f9&ln&#297ff8&la&#2d86f8&ll &#3692f7&lB&#3b98f7&la&#409ff7&lr&#44a5f6&lo&#49abf6&ln &#52b8f5&lR&#57bef5&la&#5bc4f5&ln&#60caf4&lk &#69d7f4&lV&#6eddf3&lo&#72e3f3&lu&#77eaf3&lc&#7bf0f2&lh&#80f6f2&le&#84fcf2&lr'
+    - '' 
+    - '&fPrefix: &8[&5&l70&r&8]'
+    - ''
+    - '&fTag: &5&l♚ &8(/tags)'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level'         
+    left_click_commands:
+    - '[close]'
+    - '[console] eco give %player_name% 100000'
+    - '[console] supremetokens give %player_name% 250'
+    - '[console] supremevouchers %player_name% rankbaron' 
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.70.unlocked'   
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set tag.level70'    
+    right_click_commands:
+    - '[close]'
+    - '[console] eco give %player_name% 100000'
+    - '[console] supremetokens give %player_name% 250'
+    - '[console] supremevouchers %player_name% rankbaron' 
+    - '[console] supremelevels give %player_name% 1'
+    - '[console] lp user %player_name% permission set level.70.unlocked'
+    - '[console] RawMsg %player_name% false <n>  &a&l⇮ &fLevel up! &e+1 Level<n>'
+    - '[console] RawMsg all false &5&l➜ &r&d&l%player_name% &r&fhas reached Player Level &8[%supremelevels_levels%&8]&7!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] lp user %player_name% permission set tag.level70'    
+  'level_70b':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 19
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.70.unlocked
+    display_name: '&e&lLevel 70'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Emerald quest 6 &8(Mining)'
+    - '  &8▪ &eReach Diamond quest 6 &8(Mining)'
+    - '  &8▪ &eReach Ancient Debris quest 6 &8(Mining)'
+    - '  &8▪ &eReach Obsidian quest 6 &8(Mining)'
+    - '  &8▪ &eReach Nether Gold quest 6 &8(Mining)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a100000'
+    - '  &8◊ &c250 Tokens'
+    - '  &8◊ &#0d5afa&lS&#1260fa&le&#1666f9&la&#1b6df9&ls&#1f73f9&lo&#2479f9&ln&#297ff8&la&#2d86f8&ll &#3692f7&lB&#3b98f7&la&#409ff7&lr&#44a5f6&lo&#49abf6&ln &#52b8f5&lR&#57bef5&la&#5bc4f5&ln&#60caf4&lk &#69d7f4&lV&#6eddf3&lo&#72e3f3&lu&#77eaf3&lc&#7bf0f2&lh&#80f6f2&le&#84fcf2&lr'    
+    - '' 
+    - '&fPrefix: &8[&5&l70&r&8]'
+    - ''
+    - '&fTag: &5&l♚ &8(/tags)'
+    - ''
+    - '&a&lUnlocked'     
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'level_70c':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 19
+    priority: 4
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.69.unlocked    
+    display_name: '&e&lLevel 70'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &eReach Emerald quest 6 &8(Mining) &8(%supremequests_percent_miningemerald6:mining:100%%)'
+    - '  &8▪ &eReach Diamond quest 6 &8(Mining) &8(%supremequests_percent_miningdiamond6:mining:100%%)'
+    - '  &8▪ &eReach Ancient Debris quest 6 &8(Mining) &8(%supremequests_percent_miningancientdebris6:mining:100%%)'
+    - '  &8▪ &eReach Obsidian quest 6 &8(Mining) &8(%supremequests_percent_miningobsidian6:mining:500%%)'
+    - '  &8▪ &eReach Nether Gold quest 6 &8(Mining) &8(%supremequests_percent_mininggold6:mining:100%%)'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a100000'
+    - '  &8◊ &c250 Tokens'
+    - '  &8◊ &#0d5afa&lS&#1260fa&le&#1666f9&la&#1b6df9&ls&#1f73f9&lo&#2479f9&ln&#297ff8&la&#2d86f8&ll &#3692f7&lB&#3b98f7&la&#409ff7&lr&#44a5f6&lo&#49abf6&ln &#52b8f5&lR&#57bef5&la&#5bc4f5&ln&#60caf4&lk &#69d7f4&lV&#6eddf3&lo&#72e3f3&lu&#77eaf3&lc&#7bf0f2&lh&#80f6f2&le&#84fcf2&lr' 
+    - '' 
+    - '&fPrefix: &8[&5&l70&r&8]'
+    - ''
+    - '&fTag: &5&l♚ &8(/tags)'
+    - ''
+    - '&a&lClick here&r&7 to unlock this level' 
+    left_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+    right_click_commands:
+    - '[message] &cYou do not meet the requirements to level-up this level.'
+  'level_70d':
+    material: RED_STAINED_GLASS_PANE
+    slot: 19
+    priority: 5
+    display_name: '&e&lLevel 70'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'   
+    - '  &8◊ &2$&a100000'
+    - '  &8◊ &c250 Tokens'
+    - '  &8◊ &#0d5afa&lS&#1260fa&le&#1666f9&la&#1b6df9&ls&#1f73f9&lo&#2479f9&ln&#297ff8&la&#2d86f8&ll &#3692f7&lB&#3b98f7&la&#409ff7&lr&#44a5f6&lo&#49abf6&ln &#52b8f5&lR&#57bef5&la&#5bc4f5&ln&#60caf4&lk &#69d7f4&lV&#6eddf3&lo&#72e3f3&lu&#77eaf3&lc&#7bf0f2&lh&#80f6f2&le&#84fcf2&lr'    
+    - '' 
+    - '&fPrefix: &8[&5&l70&r&8]'
+    - ''
+    - '&fTag: &5&l♚ &8(/tags)'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'level_70e':
+    material: RED_STAINED_GLASS_PANE
+    slot: 19
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: level.70.menu   	
+    display_name: '&e&lLevel 70'
+    update: true
+    lore:
+    - '&7Upgrade your personal level'
+    - '&7to unlock new features&7.'   
+    - ''
+    - '&fRequires:'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'
+    - '  &8▪ &c&l???'    
+    - '&7Requirements are only visible'
+    - '&7for your next level.'
+    - ''
+    - '&fRewards:'
+    - '  &8◊ &2$&a100000'
+    - '  &8◊ &c250 Tokens'
+    - '  &8◊ &#0d5afa&lS&#1260fa&le&#1666f9&la&#1b6df9&ls&#1f73f9&lo&#2479f9&ln&#297ff8&la&#2d86f8&ll &#3692f7&lB&#3b98f7&la&#409ff7&lr&#44a5f6&lo&#49abf6&ln &#52b8f5&lR&#57bef5&la&#5bc4f5&ln&#60caf4&lk &#69d7f4&lV&#6eddf3&lo&#72e3f3&lu&#77eaf3&lc&#7bf0f2&lh&#80f6f2&le&#84fcf2&lr'  
+    - '' 
+    - '&fPrefix: &8[&5&l70&r&8]'
+    - ''
+    - '&fTag: &5&l♚ &8(/tags)'
+    - ''
+    - '&c&lLocked'    
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+
+#  ____                 _                                          
+# |  _ \ _ __ _____   _(_) ___  _   _ ___   _ __   __ _  __ _  ___ 
+# | |_) | '__/ _ \ \ / / |/ _ \| | | / __| | '_ \ / _` |/ _` |/ _ \
+# |  __/| | |  __/\ V /| | (_) | |_| \__ \ | |_) | (_| | (_| |  __/
+# |_|   |_|  \___| \_/ |_|\___/ \__,_|___/ | .__/ \__,_|\__, |\___|
+#                                          |_|          |___/
+
+  'previous':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0='
+    slot: 36
+    priority: 1
+    display_name: '&ePrevious'
+    update: true 
+    left_click_commands:
+    - '[openguimenu] player_levels_03'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] player_levels_03'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'

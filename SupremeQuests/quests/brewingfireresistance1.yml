@@ -1,0 +1,18 @@
+tasks:
+  brewing:
+    type: 'brewing'
+    item: POTION
+    data: FIRE_RESISTANCE
+    amount: 3
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "exp give {player} 50"
+  - "lp user {player} permission set level.43c"  
+options:
+  category: "brewing"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

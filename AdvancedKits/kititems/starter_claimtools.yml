@@ -1,0 +1,25 @@
+'1':
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: GOLDEN_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Claim
+        "},{"bold":true,"italic":false,"color":"gold","text":"Tool"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Use
+        this to claim land"}],"text":""}'
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: STICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Claim
+        "},{"bold":true,"italic":false,"color":"gold","text":"Tool"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Right
+        click to check claims"}],"text":""}'

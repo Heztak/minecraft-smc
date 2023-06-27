@@ -1,0 +1,81 @@
+# PlaceholderAPI
+# Version: 2.10.10-DEV-133
+# Created by: extended_clip
+# Contributors: https://github.com/PlaceholderAPI/PlaceholderAPI/graphs/contributors
+# Issues: https://github.com/PlaceholderAPI/PlaceholderAPI/issues
+# Expansions: https://api.extendedclip.com/all/
+# Wiki: https://github.com/PlaceholderAPI/PlaceholderAPI/wiki
+# Discord: https://helpch.at/discord
+# No placeholders are provided with this plugin by default.
+# Download placeholders: /papi ecloud
+check_updates: false
+cloud_enabled: true
+cloud_enable_unverified_expansions: true
+auto_install_expansions: true
+boolean:
+  'true': 'yes'
+  'false': 'no'
+date_format: MM/dd/yy HH:mm:ss
+expansions:
+  vault:
+    formatting:
+      thousands: k
+      trillions: T
+      quadrillions: Q
+      billions: B
+      millions: M
+    baltop:
+      check_delay: 30
+      cache_size: 100
+      enabled: true
+  pt:
+    perm: '&a%perm%'
+    time: '&e%time%'
+  javascript:
+    engine: javascript
+    debug: false
+    github_script_downloads: false
+    argument_split: ','
+    use_quick_js: false
+  player:
+    ping_color:
+      medium: '&e'
+      high: '&a'
+      low: '&c'
+    ping_value:
+      high: 100
+      medium: 50
+    direction:
+      north: N
+      south: S
+      north_west: NW
+      north_east: NE
+      east: E
+      south_east: SE
+      west: W
+      south_west: SW
+  server:
+    tps_color:
+      high: '&a'
+      low: '&c'
+      medium: '&e'
+    server_name: A Minecraft Server
+  griefprevention:
+    formatting:
+      thousands: k
+      trillions: T
+      quadrillions: Q
+      billions: B
+      millions: M
+    color:
+      trusted: '&a'
+      enemy: '&4'
+      neutral: '&7'
+    translate:
+      not-owner: You don't own this claim!
+      unclaimed: Unclaimed
+  math:
+    Rounding: half_up
+    Debug: false
+    Decimals: 3
+    Precision: 3

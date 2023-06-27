@@ -1,0 +1,35 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for CustomCommands
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+# Aliases for the command
+# Our command can be used with /spawn, /gotospawn and /lobby
+aliases: [helpshop]
+
+# Patterns for the command
+patterns:
+
+  - pattern: ''  # here, we don't need arguments for the command, so we set only one empty pattern
+    description: shop information
+    permission: custom.commands
+    worlds:
+      whitelist: []  # our command can only be used in the default world
+      blacklist: []
+    cooldown: 0 SECOND
+    actions:
+      - type: NOTIFY
+        notify:
+          message:
+            - '&r'
+            - '     &6&lServer Shop &e&lInfo'
+            - '   &7"Usefull information for free!"'
+            - '&r'
+            - '     &fList your own shop on the &eglobal shop &flist with an advertisement'
+            - '     &agem&f. This new approach to shops brings a whole new player'
+            - '     &fexperience to the game.'
+            - '&r' 
+            - '     &7You now decide what will be in the shop!'
+            - '&r'
+            - '     &fUse &e/shop &fto browse the items.'
+            - '&r'            

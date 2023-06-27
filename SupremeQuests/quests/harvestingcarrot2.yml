@@ -1,0 +1,16 @@
+tasks:
+  harvesting:
+    type: 'inventory'
+    item: CARROT
+    amount: 375
+    remove-items-when-complete: false
+    update-progress: true 
+rewards:
+  - "supremetokens give {player} 5"
+options:
+  category: "harvesting"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

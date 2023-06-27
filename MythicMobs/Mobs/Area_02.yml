@@ -1,0 +1,93 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+GullyLevel3:
+  Type: BABY_ZOMBIE
+  Display: '&6&lLvl. 3 &8▪ &2Gully'
+  Health: 35
+  Damage: 8
+  Equipment:
+  - STONE_AXE HAND
+  - PLAYER_HEAD{skullTexture=eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI2MGQ5NDA0ZDg4YjA2YmI4NGUwZjllMGM3N2JjYTY1MGUwNDVjYzRmNGNlY2NmYTZjOTlkMWRiZDg0OWFhOCJ9fX0=} HEAD  
+  - LEATHER_CHESTPLATE CHEST  
+  Drops:
+  - Common_Shard 1 0.25
+  - Rare_Shard 1 0.18
+  LevelModifiers:
+  - health 7
+  Options:
+    MovementSpeed: 0.26
+    AlwaysShowName: true
+    PreventSunburn: true
+    ShowHealth: true
+    Silent: true
+    Despawn: true
+    FollowRange: 9
+    KnockbackResistance: 0.5
+    PreventOtherDrops: true
+  Skills:
+  - message{m="&7You defeated A <caster.name>&7!"} @Trigger ~onDeath 
+  - message{m="&c♡ <caster.hp> HP"} @Trigger ~onDamaged
+  - effect:particles{particle=reddust;color=#B20000;amount=10;speed=0.5;hS=0.15;vS=.15} @target ~onDeath
+  - sound{s=entity.zombie.destroy_egg} @self ~onDeath
+FughLevel7:
+  Type: SKELETON
+  Display: '&6&lLvl. 7 &8▪ &2Fugh'
+  Disguise: player MudGoblin setCustomName "&6&lLvl. 7 &8▪ &2Fugh" setSkin MudGoblin
+  Health: 40
+  Damage: 9
+  Equipment:
+  - STONE_AXE HAND
+  - LEATHER_CHESTPLATE CHEST  
+  Drops:
+  - Common_Shard 1 0.25
+  - Rare_Shard 1 0.18
+  LevelModifiers:
+  - health 10
+  Options:
+    MovementSpeed: 0.23
+    AlwaysShowName: true
+    PreventSunburn: true
+    ShowHealth: true
+    Silent: true
+    Despawn: true
+    FollowRange: 9
+    KnockbackResistance: 0.5
+    PreventOtherDrops: true
+  Skills:
+  - message{m="&7You defeated A <caster.name>&7!"} @Trigger ~onDeath 
+  - message{m="&c♡ <caster.hp> HP"} @Trigger ~onDamaged
+  - effect:particles{particle=reddust;color=#B20000;amount=10;speed=0.5;hS=0.15;vS=.15} @target ~onDeath
+  - sound{s=entity.zombie.destroy_egg} @self ~onDeath
+GrishnarBoss:
+  Type: SKELETON
+  Display: '&c&lLvl. 10 &8▪ &aGrishnar'
+  Disguise: player Crazling setCustomName "&c&lLvl. 10 &8▪ &aGrishnar" setSkin Crazling
+  Health: 1500
+  Damage: 8
+  Equipment:
+  - NETHERITE_AXE HAND
+  - Grishnar_Chestplate CHEST
+  Drops:
+  - Common_Shard 1 0.25
+  - Rare_Shard 1 0.18
+  LevelModifiers:
+  - health 10
+  Options:
+    MovementSpeed: 0.19
+    AlwaysShowName: true
+    PreventSunburn: true
+    ShowHealth: true
+    Silent: true
+    Despawn: true
+    FollowRange: 12
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+  Skills:
+  - skill{s=FlowerAura} =1000-900 
+  - skill{s=FlowerAura} =400-300
+  - message{m="&7You defeated A <caster.name>&7!"} @Trigger ~onDeath 
+  - message{m="&c♡ <caster.hp> HP"} @Trigger ~onDamaged
+  - effect:particles{particle=reddust;color=#B20000;amount=10;speed=0.5;hS=0.15;vS=.15} @target ~onDeath
+  - sound{s=entity.zombie.destroy_egg} @self ~onDeath  

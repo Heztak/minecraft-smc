@@ -1,0 +1,82 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+
+# Slots where the items are being displayed
+item-slots: [11, 13, 15]
+
+# Update time for the traveling merchant to update
+money_shop_update_hours: 24
+
+gui:
+  title: '&cAncient Traveler'
+  rows: 4
+
+  decoration:
+    info_item:
+      material: BOOK
+      name: '&e&lWhat is this?'
+      lore:
+        - ''
+        - '&7Every day the &aAncient Traveler &7will'
+        - '&7enter the spawn with &b&l3 &7new items he found'
+        - '&7while traveling. These items will be sold for'
+        - '&7a &cfixed price &7with unlimited quantities.'        
+        - ''
+        - '&7This means that each day you can check this'
+        - '&7Merchant and see what he has to offer, it'
+        - '&7might just have something youre looking for!'
+        - ''        
+        - '  &8◊ &fNew shop items: &6{time}'
+        - ''        
+      durability: 0
+      glow: false
+      slot: 31
+
+  filler:
+    enabled: false
+    item:
+      material: 'GRAY_STAINED_GLASS_PANE'
+      name: ' '
+      durability: 0
+      glow: false
+
+# Messages
+invalid-number: '&cInvalid number.'
+invalid-cancel-action: '&cYou can''t perform this action again.'
+invalid-confirm-action: '&cYou can''t perform this action again.'
+canceled-payment: '&cPurchase cancelled.'
+process-already-running: '&cYour purchase is already in process, please be patient.'
+no_permission_message: '&cYou do not have permission to execute this command'
+not_enough_money_message: '&cYou do not have enough money to do that.'
+bought_reward_message: '&6&lAncient&e&lTraveler&r &8➠ &eYou bought {count} {reward} &efor ${amount}.'
+money_shop_updated_message: '&6&lAncient&e&lTraveler&r &8➠ &eThe Ancient Traveler has brought 3 new items with him.'
+inventory_full_message: '&cYour inventory is full'
+not_player_message: '&cUsage: /suprememerchant refresh'
+
+# Purchase GUI
+transaction-menu-title: '&cBuy {item}'
+transaction-menu-item-displayname: '&6&l{item}'
+transaction-menu-item-lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e{price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+
+transaction-successfully-sounds:
+  - BLOCK_COMPARATOR_CLICK;1.0;5.0

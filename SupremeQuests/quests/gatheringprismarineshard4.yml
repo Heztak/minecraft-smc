@@ -1,0 +1,16 @@
+tasks:
+  gathering:
+    type: 'inventory'
+    item: PRISMARINE_SHARD
+    amount: 25
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "supremetokens give {player} 10"
+options:
+  category: "gathering"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

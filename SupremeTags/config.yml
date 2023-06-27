@@ -1,0 +1,283 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+# Shown text when not have a tag
+default-tag: '&r'
+
+# Date format {date}
+date-format: 'dd-MM-yy' 
+
+# The sound when you scroll through the particles
+switch-button-sounds:
+  - BLOCK_STONE_BUTTON_CLICK_OFF;1.0;5.0
+sub-categories-general-sounds:
+  - BLOCK_COMPARATOR_CLICK;1.0;5.0  
+
+# Message when you selected a trail
+choose-tag-message: '&aYour tag has been applied.'
+
+# Message when deleting your trail
+clear-tag-message: '&cYou have removed your tag.'
+menus:
+  tags:
+    '0':
+      rows: 5
+      title: '&cServer Tags'
+      close-button:
+        material: BARRIER
+        name: '&C⤾ Close'
+        lore: []        
+        glow: false
+        slot: 28
+      info-button:
+        material: MAP
+        name: '&e&lInfo'
+        lore: 
+        - '&7Stand out from the crowd' 
+        - '&7with your own &ftag&7!'
+        - ''            
+        - '&6Click them to equip!'            
+        glow: false
+        slot: 19
+      clear-button:
+        material: TNT
+        name: '&e&lClear'
+        lore: 
+         - '&fUnequip &7your currently selected'
+         - '&7player tag.'
+        glow: false
+        slot: 10
+      next-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499
+        name: '&eNext page'
+        lore: []
+        glow: false
+        slot: 42
+        open-page: 1
+      previous-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
+        name: '&ePrevious Page'
+        lore: []
+        glow: false
+        slot: 40
+        open-page: 0
+      filler:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&r'
+        lore: []       
+        glow: false        
+      tags:
+        LEVEL1120:
+          locked:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/f9ba7fef6a1a8bd899abae4a5b54cb0ece53badc677c1668bee0a4621a8
+            name: '&e&lLevel 11-20'
+            lore:
+             - '&7Tags can be &funlocked &7when'
+             - '&7you aquire the required'
+             - '&7 player level.'
+             - ''             
+             - '  &8◊ &7Tag: &f&l✦'
+             - ''  
+             - '&c&lLocked'
+            glow: false
+          available:
+            material: NAME_TAG
+            name: '&e&lLevel 11-20'
+            lore:
+             - '&7Tags can be &funlocked &7when'
+             - '&7you aquire the required'
+             - '&7 player level.'
+             - ''      
+             - '  &8◊ &7Tag: &f&l✦'
+             - ''
+             - '&a&lLeft click &7to equip'
+            glow: false
+          slot: 12
+          permission: tag.level11
+          tag: ' &f&l✦'
+        LEVEL2130:
+          locked:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/f9ba7fef6a1a8bd899abae4a5b54cb0ece53badc677c1668bee0a4621a8
+            name: '&e&lLevel 21-30'
+            lore:
+             - '&7Tags can be &funlocked &7when'
+             - '&7you aquire the required'
+             - '&7 player level.'
+             - ''            
+             - '  &8◊ &7Tag: &e&l❃'
+             - ''
+             - '&c&lLocked'          
+            glow: false
+          available:
+            material: NAME_TAG
+            name: '&e&lLevel 21-30' 
+            lore:
+             - '&7Tags can be &funlocked &7when'
+             - '&7you aquire the required'
+             - '&7 player level.'
+             - ''            
+             - '  &8◊ &7Tag: &e&l❃'
+             - ''
+             - '&a&lLeft click &7to equip'
+            glow: false
+          slot: 13
+          permission: tag.leve21
+          tag: ' &e&l❃'
+        LEVEL3140:
+          locked:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/f9ba7fef6a1a8bd899abae4a5b54cb0ece53badc677c1668bee0a4621a8
+            name: '&e&lLevel 31-40'
+            lore:
+             - '&7Tags can be &funlocked &7when'
+             - '&7you aquire the required'
+             - '&7 player level.'
+             - ''
+             - '  &8◊ &7Tag: &6&l✜'
+             - ''
+             - '&c&lLocked'           
+            glow: false
+          available:
+            material: NAME_TAG
+            name: '&e&lLevel 31-40'
+            lore:
+             - '&7Tags can be &funlocked &7when'
+             - '&7you aquire the required'
+             - '&7 player level.'
+             - ''
+             - '  &8◊ &7Tag: &6&l✜'
+             - ''
+             - '&a&lLeft click &7to equip'
+            glow: false
+          slot: 14
+          permission: tag.level31
+          tag: ' &6&l✜'  
+        LEVEL4150:
+          locked:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/f9ba7fef6a1a8bd899abae4a5b54cb0ece53badc677c1668bee0a4621a8
+            name: '&e&lLevel 41-50'
+            lore:
+             - '&7Tags can be &funlocked &7when'
+             - '&7you aquire the required'
+             - '&7 player level.'
+             - ''            
+             - '  &8◊ &7Tag: &9&l❖'
+             - ''
+             - '&c&lLocked'             
+            glow: false
+          available:
+            material: NAME_TAG
+            name: '&e&lLevel 41-50'
+            lore:
+             - '&7Tags can be &funlocked &7when'
+             - '&7you aquire the required'
+             - '&7 player level.'
+             - ''            
+             - '  &8◊ &7Tag: &9&l❖'
+             - ''
+             - '&a&lLeft click &7to equip'
+            glow: false
+          slot: 15
+          permission: tag.level41
+          tag: ' &9&l❖' 
+        LEVEL5160:
+          locked:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/f9ba7fef6a1a8bd899abae4a5b54cb0ece53badc677c1668bee0a4621a8
+            name: '&e&lLevel 51-60'
+            lore:
+             - '&7Tags can be &funlocked &7when'
+             - '&7you aquire the required'
+             - '&7 player level.'
+             - ''
+             - '  &8◊ &7Tag: &d&l◈'
+             - ''
+             - '&c&lLocked'                 
+            glow: false
+          available:
+            material: NAME_TAG
+            name: '&e&lLevel 51-60'
+            lore:
+             - '&7Tags can be &funlocked &7when'
+             - '&7you aquire the required'
+             - '&7 player level.'
+             - ''            
+             - '  &8◊ &7Tag: &d&l◈'
+             - ''
+             - '&a&lLeft click &7to equip'
+            glow: false
+          slot: 16
+          permission: tag.level51
+          tag: ' &d&l◈'   
+        LEVEL6169:
+          locked:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/f9ba7fef6a1a8bd899abae4a5b54cb0ece53badc677c1668bee0a4621a8
+            name: '&e&lLevel 61-69'
+            lore:
+             - '&7Tags can be &funlocked &7when'
+             - '&7you aquire the required'
+             - '&7 player level.'
+             - ''            
+             - '  &8◊ &7Tag: &b&l₪'
+             - ''
+             - '&c&lLocked'                
+            glow: false
+          available:
+            material: NAME_TAG
+            name: '&e&lLevel 61-69'
+            lore:
+             - '&7Tags can be &funlocked &7when'
+             - '&7you aquire the required'
+             - '&7 player level.'
+             - ''            
+             - '  &8◊ &7Tag: &b&l₪'
+             - ''
+             - '&a&lLeft click &7to equip'
+            glow: false
+          slot: 21
+          permission: tag.level61
+          tag: ' &b&l₪'    
+        LEVEL70:
+          locked:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/f9ba7fef6a1a8bd899abae4a5b54cb0ece53badc677c1668bee0a4621a8
+            name: '&e&lLevel 70'
+            lore:
+             - '&7Tags can be &funlocked &7when'
+             - '&7you aquire the required'
+             - '&7 player level.'
+             - ''            
+             - '  &8◊ &7Tag: &5&l♚'
+             - ''
+             - '&c&lLocked'            
+            glow: false
+          available:
+            material: NAME_TAG
+            name: '&e&lLevel 70'
+            lore:
+             - '&7Tags can be &funlocked &7when'
+             - '&7you aquire the required'
+             - '&7 player level.'
+             - ''            
+             - '  &8◊ &7Tag: &5&l♚'
+             - ''
+             - '&a&lLeft click &7to equip'
+            glow: false
+          slot: 22
+          permission: tag.level70
+          tag: ' &5&l♚'
+          

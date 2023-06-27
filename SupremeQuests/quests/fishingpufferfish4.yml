@@ -1,0 +1,13 @@
+tasks:
+  fishingcertain:
+    type: 'fishingcertain'
+    amount: 50
+    item: PUFFERFISH
+    worlds:
+     - 'survival'
+rewards:
+  - "supremetokens give {player} 10"
+options:
+  category: "fishing"
+  requires: []
+  repeatable: true

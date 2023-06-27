@@ -1,0 +1,14 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 1
+    block: "ANCIENT_DEBRIS"
+rewards:
+  - "exp give {player} 50"
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

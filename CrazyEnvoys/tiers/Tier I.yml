@@ -1,0 +1,384 @@
+Settings:
+  Spawn-Chance: 75 
+  Use-Chance: false
+  Placed-Block: 'CHEST' 
+  Bulk-Prizes:
+    Toggle: false 
+    Random: true 
+    Max-Bulk: 3 
+  Hologram-Toggle: true 
+  Hologram-Height: 1.5 
+  Hologram: 
+    - '&f♦ &a&lSupply Drop &7[Tier I] &f♦'
+  Firework-Toggle: true 
+  Firework-Colors:
+    - 'Green'
+    - 'White'    
+  Signal-Flare:
+    Toggle: false
+    Time: '60s'
+    Colors:
+     - 'Green'
+     - 'White'
+    
+Prizes:
+  '1':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l1x Basic Helmet &7[TI]&f.'
+      - ''
+    Items:
+      - 'Item:IRON_HELMET, Amount:1, Name:&a&lBasic Helmet &7[TI], Protection:1'
+  '2':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l16x Oak Logs&f.'
+      - ''
+    Items:
+      - 'Item:OAK_LOG, Amount:16, Name:&a&lOak Log &7[TI]'
+  '3':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l1x Glow Ink Sac&f.'
+      - ''
+    Items:
+      - 'Item:GLOW_INK_SAC, Amount:1, Name:&a&lGlow Ink Sac &7[TI]'
+  '4':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found a &a&lBirthday Cake&f!'
+      - ''
+    Items:
+      - 'Item:CAKE, Amount:1, Name:&a&lBirthday Cake &7[TI]'
+  '5':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l3x Golden Apple&f.'
+      - ''
+    Items:
+      - 'Item:GOLDEN_APPLE, Amount:3, Name:&a&lGolden Apple &7[TI]'
+  '6':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l1x Basic Sword &7[TI]&f.'
+      - ''
+    Items:
+      - 'Item:IRON_SWORD, Amount:1, Name:&a&lBasic Sword &7[TI], Sharpness:1'
+  '7':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l16x Arrows&f.'
+      - ''
+    Items:
+      - 'Item:ARROW, Amount:16, Name:&a&lArrow &7[TI]'
+  '8':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l1x Basic Bow &7[TI]&f.'
+      - ''
+    Items:
+      - 'Item:BOW, Amount:1, Name:&a&lBasic Bow &7[TI], Power:1'
+  '9':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l1x Basic Pickaxe &7[TI]&f.'
+      - ''
+    Items:
+      - 'Item:IRON_PICKAXE, Amount:1, Name:&a&lBasic Pickaxe &7[TI], Efficiency:1'
+  '10':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l1x Basic Axe &7[TI]&f.'
+      - ''
+    Items:
+      - 'Item:IRON_AXE, Amount:1, Name:&a&lBasic Axe &7[TI], Efficiency:1'
+  '11':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l1x Basic Shovel &7[TI]&f.'
+      - ''
+    Items:
+      - 'Item:IRON_SHOVEL, Amount:1, Name:&a&lBasic Shovel &7[TI], Efficiency:1'
+  '12':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l4x Slime Balls&f.'
+      - ''
+    Items:
+      - 'Item:SLIME_BALL, Amount:4, Name:&a&lSlime Ball &7[TI]'
+  '13':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l8x Lime Dye&f.'
+      - ''
+    Items:
+      - 'Item:LIME_DYE, Amount:8, Name:&a&lLime Dye &7[TI]'
+  '14':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l8x Red Dye&f.'
+      - ''
+    Items:
+      - 'Item:RED_DYE, Amount:8, Name:&a&lRed Dye &7[TI]'
+  '15':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l8x Blue Dye&f.'
+      - ''
+    Items:
+      - 'Item:BLUE_DYE, Amount:8, Name:&a&lBlue Dye &7[TI]'
+  '16':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l8x Black Dye&f.'
+      - ''
+    Items:
+      - 'Item:BLACK_DYE, Amount:8, Name:&a&lBlack Dye &7[TI]'
+  '17':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l6x Raw Copper&f.'
+      - ''
+    Items:
+      - 'Item:RAW_COPPER, Amount:6, Name:&a&lRaw Copper &7[TI]'
+  '18':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l6x Raw Iron&f.'
+      - ''
+    Items:
+      - 'Item:RAW_IRON, Amount:6, Name:&a&lRaw Iron &7[TI]'
+  '19':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l6x Raw Gold&f.'
+      - ''
+    Items:
+      - 'Item:RAW_GOLD, Amount:6, Name:&a&lRaw Gold &7[TI]'
+  '20':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l32x Coal&f.'
+      - ''
+    Items:
+      - 'Item:COAL, Amount:32, Name:&a&lCoal &7[TI]'
+  '21':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l16x Cookies&f.'
+      - ''
+    Items:
+      - 'Item:COOKIE, Amount:16, Name:&a&lCookie &7[TI]'
+  '22':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l3x Melon Seeds&f.'
+      - ''
+    Items:
+      - 'Item:MELON_SEEDS, Amount:3, Name:&a&lMelon Seeds &7[TI]'
+  '23':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l3x Pumpkin Seeds&f.'
+      - ''
+    Items:
+      - 'Item:PUMPKIN_SEEDS, Amount:3, Name:&a&lPumpkin Seeds &7[TI]'
+  '24':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l3x Fire Charge&f.'
+      - ''
+    Items:
+      - 'Item:FIRE_CHARGE, Amount:3, Name:&a&lFire Charge &7[TI]'
+  '25':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l8x Mycelium&f.'
+      - ''
+    Items:
+      - 'Item:MYCELIUM, Amount:8, Name:&a&lMycelium &7[TI]'
+  '26':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l4x Hay Bale&f.'
+      - ''
+    Items:
+      - 'Item:HAY_BLOCK, Amount:4, Name:&a&lHay bale&7[TI]'
+  '27':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l16x Glass&f.'
+      - ''
+    Items:
+      - 'Item:GLASS, Amount:16, Name:&a&lGlass &7[TI]'
+  '28':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l4x Rail&f.'
+      - ''
+    Items:
+      - 'Item:RAIL, Amount:4, Name:&a&lRail &7[TI]'
+  '29':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l8x Flint&f.'
+      - ''
+    Items:
+      - 'Item:FLINT, Amount:8, Name:&a&lFlint &7[TI]'
+  '30':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l25x Bone Meal&f.'
+      - ''
+    Items:
+      - 'Item:BONE_MEAL, Amount:25, Name:&a&lBone Meal &7[TI]'
+  '31':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l3x Soul Torch&f.'
+      - ''
+    Items:
+      - 'Item:SOUL_TORCH, Amount:3, Name:&a&lSoul Torch &7[TI]'
+  '32':
+    Chance: 30
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found &a&l16x Paper&f.'
+      - ''
+    Items:
+      - 'Item:PAPER, Amount:16, Name:&a&lPaper &7[TI]'
+  '33':
+    Chance: 100
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found a &a&lSpecial Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:fire_protection,lvl:1}]} 1'
+  '34':
+    Chance: 100
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found a &a&lSpecial Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:unbreaking,lvl:1}]} 1'
+  '35':
+    Chance: 100
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found a &a&lSpecial Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:efficiency,lvl:1}]} 1'
+  '36':
+    Chance: 100
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found a &a&lSpecial Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:sharpness,lvl:1}]} 1'
+  '37':
+    Chance: 100
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found a &a&lSpecial Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:blast_protection,lvl:1}]} 1'
+  '38':
+    Chance: 100
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found a &a&lSpecial Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:sweeping,lvl:1}]} 1'
+  '39':
+    Chance: 100
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found a &a&lSpecial Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:respiration,lvl:1}]} 1'
+  '40':
+    Chance: 100
+    Drop-Items: true
+    Messages:
+      - ''
+      - '&7[Tier I] &fYou found a &a&lSpecial Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:lure,lvl:1}]} 1'  

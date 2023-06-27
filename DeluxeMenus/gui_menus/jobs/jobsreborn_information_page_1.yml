@@ -1,0 +1,69 @@
+menu_title: '&cSurvival Jobs'
+open_command:
+- information page 1
+update_interval: 1
+size: 36
+items:
+  'quests':
+    material: BOOK
+    priority: 1
+    slot: 12
+    display_name: '&e&lQuests'
+    lore:
+    - '&7Completing quests will give'
+    - '&7you a money boost each time'
+    - '&7you finish one!'    
+    - ''
+    - ' &fInformation:'    
+    - '  &8◊ &7Finished: &e%jobsr_user_dailyquests_completed%'
+    - '  &8◊ &7Available: &e%jobsr_user_quests%'
+    - ''
+    - '&a&lLeft Click &r&7to show your progress'
+    left_click_commands:
+    - '[player] jobs quests'    
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[player] jobs quests'    
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'statistics':
+    material: AMETHYST_SHARD
+    priority: 3
+    slot: 14
+    update: true    
+    display_name: '&e&lStatistics'
+    hide_attributes: true
+    lore:
+    - '&7Your job statistics and history!'
+    - ''
+    - ' &fWorking for &e%jobsr_user_seen%'
+    - ''    
+    - ' &fStatistics:'    
+    - '  &8◊ &7Jobs achieved: &e%jobsr_user_archived_jobs%'
+    - '  &8◊ &7Total job level: &e%jobsr_user_totallevels%'
+    - ''
+    - '  &8◊ &7Brewing Stand: &e%jobsr_user_bstandcount%/%jobsr_user_maxbstandcount%'
+    - '  &8◊ &7Furnaces: &e%jobsr_user_furncount%/%jobsr_user_maxfurncount%'
+    - '  &8◊ &7Smoker: &e%jobsr_user_smokercount%/%jobsr_user_maxsmokercount%'
+    - '  &8◊ &7Blast Furnace: &e%jobsr_user_blastcount%/%jobsr_user_maxblastcount%'
+    - ''    
+    left_click_commands:
+    - '[player] jobs:jobs join Miner'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_miner_earnings_1'
+    - '[close]'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'back':
+    material: BARRIER
+    priority: 1
+    display_name: '&C⤾ Back'
+    slot: 31
+    left_click_commands:
+    - '[openguimenu] jobsreborn_page_1'    
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_page_1'     
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'

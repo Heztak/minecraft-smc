@@ -1,0 +1,204 @@
+menu_title: '&c          Super Delivery'
+inventory_type: HOPPER
+open_command: 
+- super_reward_selector
+size: 5
+update_interval: 1
+items:
+  'reward_1':
+    material: GOLD_INGOT
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true   
+    hide_attributes: true     
+    slot: 0
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: baron.rank    
+    display_name: '&e&lMoney boost'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a money boost.'
+    - ''    
+    - '  &8◊ &7Amount: &e$2,500'    
+    - ''
+    - '&a&lClick here &7to claim this reward!'       
+    left_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Super Delivery: &e+$2,500 Money!<n>'     
+    - '[console] eco give %player_name% 2500'
+    - '[console] lp user %player_name% permission settemp super.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Super Delivery: &e+$2,500 Money!<n>'     
+    - '[console] eco give %player_name% 2500'
+    - '[console] lp user %player_name% permission settemp super.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'
+  'reward_1_cooldown':
+    material: 'FURNACE_MINECART'
+    slot: 0
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: super.reward.cooldown 
+    display_name: '&e&lMoney boost'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a money boost.'  
+    - ''    
+    - '  &8◊ &7Amount: &e$2,500'  
+    - ''
+    - '&a&lClick here &7to claim this reward!' 
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'  
+  'reward_1_noperm':
+    material: 'MINECART'
+    slot: 0
+    priority: 3
+    display_name: '&c&lReward 1'
+    lore: []
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'        
+  'reward_2':
+    material: PAINTING
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true   
+    hide_attributes: true     
+    slot: 2
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: baron.rank    
+    display_name: '&e&lGKit'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a GKit.'  
+    - ''    
+    - '  &8◊ &7GKit: &eGrinder'     
+    - ''
+    - '&a&lClick here &7to claim this reward!'        
+    left_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Super Delivery: &eGKit Grinder!<n>'         
+    - '[console] gkit Grinder %player_name%'
+    - '[console] lp user %player_name% permission settemp super.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Super Delivery: &eGKit Grinder!<n>'         
+    - '[console] gkit Grinder %player_name%'
+    - '[console] lp user %player_name% permission settemp super.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'
+  'reward_2_cooldown':
+    material: 'FURNACE_MINECART'
+    slot: 2
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: super.reward.cooldown 
+    display_name: '&e&lServer Kit'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a GKit.'  
+    - ''    
+    - '  &8◊ &7GKit: &eGrinder' 
+    - ''
+    - '&a&lClick here &7to claim this reward!'       
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'reward_2_noperm':
+    material: 'MINECART'
+    slot: 2
+    priority: 3
+    display_name: '&c&lReward 2'
+    lore: []
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'          
+  'reward_3':
+    material: NOTE_BLOCK
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true   
+    hide_attributes: true     
+    slot: 4
+    priority: 2
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: baron.rank     
+    display_name: '&e&l1x Cubelet'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a Cubelet.'  
+    - ''    
+    - '  &8◊ &7Type: &eNormal'    
+    - ''
+    - '&a&lClick here &7to claim this reward!'        
+    left_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Super Delivery: &e+1 Normal Cubelet!<n>'    
+    - '[console] acubelets:cubelets give %player_name% normal 1'
+    - '[console] lp user %player_name% permission settemp super.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] RawMsg %player_name% false <n>  &7&l⤕ &fYou claimed your Super Delivery: &e+1 Normal Cubelet!<n>'      
+    - '[console] acubelets:cubelets give %player_name% normal 1'
+    - '[console] lp user %player_name% permission settemp super.reward.cooldown true 1month'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'  
+  'reward_3_cooldown':
+    material: 'FURNACE_MINECART'
+    slot: 4
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: super.reward.cooldown 
+    display_name: '&e&lMobcoin boost'
+    lore: 
+    - '&#e5e5e5This reward will give'   
+    - '&#e5e5e5you a Cubelet.'  
+    - ''    
+    - '  &8◊ &7Type: &eNormal'    
+    - ''
+    - '&a&lClick here &7to claim this reward!'      
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]' 
+  'reward_3_noperm':
+    material: 'MINECART'
+    slot: 4
+    priority: 3
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: deluxemenu.use
+    display_name: '&c&lReward 3'
+    lore: []
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'       

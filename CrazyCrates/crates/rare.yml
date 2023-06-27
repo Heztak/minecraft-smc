@@ -1,0 +1,806 @@
+Crate:
+  CrateType: Roulette
+  CrateName: '&cRare crate'
+  Preview-Name: '&cRare crate'
+  StartingKeys: 0
+  InGUI: false
+  Slot: 21
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &7&lBasic Chest&7.'
+  Item: CHEST
+  Glowing: false
+  Name: '&7&lBasic Chest'
+  Lore:
+  - '&7This crate contains strange objects.'
+  - '&7You have &6%Keys% keys &7to open this crate with.'
+  - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  Preview:
+    Toggle: true
+    ChestLines: 5
+    Glass:
+      Toggle: false
+      Item: ORANGE_STAINED_GLASS_PANE
+  PhysicalKey:
+    Name: '&b&lRare Crate Key'
+    Lore:
+    - '&7Click the &bRare &7crate chest'
+    - '&7to use this key'
+    - ''
+    - '&a&lRight click &r&7on a Rare Crate'
+    Item: TRIPWIRE_HOOK
+    Glowing: true
+  Hologram:
+    Toggle: false
+    Height: 1.5
+    Message:
+    - '&r'
+  Prizes:
+    '1':
+      DisplayName: '&a&l+$500 Banknote'
+      DisplayItem: PAPER
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦&7✦✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Commands:
+      - beastwithdraw givecashnote %Player% 500
+    '2':
+      DisplayName: '&a&l+$1000 Banknote'
+      DisplayItem: PAPER
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦&7✦✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Commands:
+      - beastwithdraw givecashnote %Player% 1000
+    '3':
+      DisplayName: '&a&l+$2500 Banknote'
+      DisplayItem: PAPER
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦&7✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Commands:
+      - beastwithdraw givecashnote %Player% 2500
+    '4':
+      DisplayName: '&a&l+$5000 Banknote'
+      DisplayItem: PAPER
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦&7✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Commands:
+      - beastwithdraw givecashnote %Player% 5000
+    '5':
+      DisplayName: '&a&l+10 Diamond Blocks'
+      DisplayItem: DIAMOND_BLOCK
+      DisplayAmount: 10
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦&7✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Commands:
+      - give %Player% diamond_block 10
+    '6':
+      DisplayName: '&a&l+10 Emerald Blocks'
+      DisplayItem: EMERALD_BLOCK
+      DisplayAmount: 10
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦&7✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Commands:
+      - give %Player% emerald_block 10     
+    '7':
+      DisplayName: '&a&l+10 Gold Blocks'
+      DisplayItem: GOLD_BLOCK
+      DisplayAmount: 10
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦&7✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Commands:
+      - give %Player% gold_block 10
+    '8':
+      DisplayName: '&e&lEnchanting Bundle'
+      DisplayItem: ENCHANTING_TABLE
+      DisplayAmount: 1
+      Lore:
+      - '&7Bookshelf 15x'
+      - '&7Enchanting table 1x'      
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦&7✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Commands:
+      - give %Player% bookshelf 15
+      - give %Player% enchanting_table 1
+    '9':
+      DisplayName: '&e&l+8 Hoppers '
+      DisplayItem: HOPPER
+      DisplayAmount: 8
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦&7✦✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Commands:
+      - give %Player% hopper 8      
+    '10':
+      DisplayName: '&e&l+64 Firework Rockets'
+      DisplayItem: FIREWORK_ROCKET
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦&7✦✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 50
+      Items:
+      - Item:FIREWORK_ROCKET, Amount:64     
+    '11':
+      DisplayName: '&b&lDiamond Helmet'
+      DisplayItem: DIAMOND_HELMET
+      HideItemFlags: true
+      DisplayAmount: 1
+      Lore:
+      - '&7Protection I'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦&7✦✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      DisplayEnchantments:
+      - PROTECTION_ENVIRONMENTAL:1      
+      Chance: 50
+      Items:
+      - Item:DIAMOND_HELMET, Amount:1, PROTECTION_ENVIRONMENTAL:1
+    '12':
+      DisplayName: '&b&lDiamond Chestplate'
+      DisplayItem: DIAMOND_CHESTPLATE
+      HideItemFlags: true      
+      DisplayAmount: 1
+      Lore:
+      - '&7Protection I'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦&7✦✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      DisplayEnchantments:
+      - PROTECTION_ENVIRONMENTAL:1      
+      Chance: 50
+      Items:
+      - Item:DIAMOND_CHESTPLATE, Amount:1, PROTECTION_ENVIRONMENTAL:1
+    '13':
+      DisplayName: '&b&lDiamond Leggings'
+      DisplayItem: DIAMOND_LEGGINGS
+      HideItemFlags: true      
+      DisplayAmount: 1
+      Lore:
+      - '&7Protection I'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦&7✦✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      DisplayEnchantments:
+      - PROTECTION_ENVIRONMENTAL:1      
+      Chance: 50
+      Items:
+      - Item:DIAMOND_LEGGINGS, Amount:1, PROTECTION_ENVIRONMENTAL:1
+    '14':
+      DisplayName: '&b&lDiamond Boots'
+      DisplayItem: DIAMOND_BOOTS
+      HideItemFlags: true
+      DisplayAmount: 1
+      Lore:
+      - '&7Protection I'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦&7✦✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      DisplayEnchantments:
+      - PROTECTION_ENVIRONMENTAL:1      
+      Chance: 50
+      Items:
+      - Item:DIAMOND_BOOTS, Amount:1, PROTECTION_ENVIRONMENTAL:1    
+    '15':
+      DisplayName: '&b&lDiamond Sword'
+      DisplayItem: DIAMOND_SWORD
+      HideItemFlags: true      
+      DisplayAmount: 1
+      Lore:
+      - '&7Looting I'
+      - '&7Sharpness I'
+      - ''      
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦&7✦✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      DisplayEnchantments:
+      - DAMAGE_ALL:1
+      - LOOTING:1      
+      Chance: 50
+      Items:
+      - Item:DIAMOND_SWORD, Amount:1, DAMAGE_ALL:1, LOOTING:1
+    '16':
+      DisplayName: '&b&lDiamond Axe'
+      DisplayItem: DIAMOND_AXE
+      HideItemFlags: true      
+      DisplayAmount: 1
+      Lore:
+      - '&7Efficiency II'   
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦&7✦✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      DisplayEnchantments:
+      - EFFICIENCY:2      
+      MaxRange: 100
+      Chance: 50
+      Items:
+      - Item:DIAMOND_AXE, Amount:1, EFFICIENCY:2
+    '17':
+      DisplayName: '&b&lDiamond Pickaxe'
+      DisplayItem: DIAMOND_PICKAXE
+      HideItemFlags: true      
+      DisplayAmount: 1
+      Lore:
+      - '&7Efficiency II'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦&7✦✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      DisplayEnchantments:
+      - EFFICIENCY:2      
+      MaxRange: 100
+      Chance: 50
+      Items:
+      - Item:DIAMOND_PICKAXE, Amount:1, EFFICIENCY:2
+    '18':
+      DisplayName: '&c&l+50 Tokens'
+      DisplayItem: PRISMARINE_SHARD
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦&7✦✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Commands:
+      - supremetokens give %Player% 50
+    '19':
+      DisplayName: '&c&l+100 Tokens'
+      DisplayItem: PRISMARINE_SHARD
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦&7✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Commands:
+      - supremetokens give %Player% 100     
+    '20':
+      DisplayName: '&3&k|&3Knight&3&k|&r &3&lkit Voucher'
+      DisplayItem: PAINTING
+      DisplayAmount: 1
+      Lore:
+      - '&7Incredible, this gives you access to all'
+      - '&7the items included in the &3&k|&3Knight&3&k|&r &7kit.'
+      - '&7Gearing up has never been that easy!'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦&7✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Commands:
+      - supremevouchers %Player% kitknight
+    '21':
+      DisplayName: '&e&k|&eLord&e&k|&r &e&lkit Voucher'
+      DisplayItem: PAINTING
+      DisplayAmount: 1
+      Lore:
+      - '&7Incredible, this gives you access to all'
+      - '&7the items included in the &e&k|&eLord&e&k|&r &7kit.'
+      - '&7Gearing up has never been that easy!'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦&7✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Commands:
+      - supremevouchers %Player% kitlord
+    '22':
+      DisplayName: '&b&lLight Blue Shulker Box'
+      DisplayItem: LIGHT_BLUE_SHULKER_BOX
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦&7✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 40
+      Items:
+      - Item:LIGHT_BLUE_SHULKER_BOX, Amount:1
+    '23':
+      DisplayName: '&e&lYellow Shulker Box'
+      DisplayItem: YELLOW_SHULKER_BOX
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦&7✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 40
+      Items:
+      - Item:YELLOW_SHULKER_BOX, Amount:1
+    '24':
+      DisplayName: '&a&lLime Shulker Box'
+      DisplayItem: LIME_SHULKER_BOX
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦&7✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 40
+      Items:
+      - Item:LIME_SHULKER_BOX, Amount:1
+    '25':
+      DisplayName: '&e&l+100 Claim Blocks'
+      DisplayItem: GOLD_BLOCK
+      DisplayAmount: 1
+      Lore:
+      - '&7By using this upgrade you will grant'
+      - '&7yourself &e100 extra claim blocks&7. These extra '
+      - '&7claim blocks are useful for expanding your empire!'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦&7✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Commands:
+      - adjustbonusclaimblocks %Player% 100
+      - RawMsg %Player% false <n>&8 ▪ &fYou have received your upgrade! &e+100 Claim Blocks&f.<n>
+    '26':
+      DisplayName: '&e&l+250 Claim Blocks'
+      DisplayItem: GOLD_BLOCK
+      DisplayAmount: 1
+      Lore:
+      - '&7By using this upgrade you will grant'
+      - '&7yourself &e250 extra claim blocks&7. These extra '
+      - '&7claim blocks are useful for expanding your empire!'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦&7✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Commands:
+      - adjustbonusclaimblocks %Player% 250
+      - RawMsg %Player% false <n>&8 ▪ &fYou have received your upgrade! &e+250 Claim Blocks&f.<n>
+    '27':
+      DisplayName: '&e&l+500 Claim Blocks'
+      DisplayItem: GOLD_BLOCK
+      DisplayAmount: 1
+      Lore:
+      - '&7By using this upgrade you will grant'
+      - '&7yourself &e500 extra claim blocks&7. These extra '
+      - '&7claim blocks are useful for expanding your empire!'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦&7✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Commands:
+      - adjustbonusclaimblocks %Player% 500
+      - RawMsg %Player% false <n>&8 ▪ &fYou have received your upgrade! &e+500 Claim Blocks&f.<n>
+    '28':
+      DisplayName: '&a&lShop Advertisement Gem'
+      DisplayItem: EMERALD
+      DisplayAmount: 9
+      Lore:
+      - '&7This advertisement gem will allow'
+      - '&7you to advertise a shop that you own.'
+      - '&7Advertised shops will be displayed in'
+      - '&7the &a/shop &7menu.'
+      - ''
+      - '   &8▪ &7Advertise time: &61 Day'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦&7✦✦'   
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Commands:
+      - supremevouchers %Player% advertisementgem1day9
+    '29':
+      DisplayName: '&a&lShop Advertisement Gem'
+      DisplayItem: EMERALD
+      DisplayAmount: 9
+      Lore:
+      - '&7This advertisement gem will allow'
+      - '&7you to advertise a shop that you own.'
+      - '&7Advertised shops will be displayed in'
+      - '&7the &a/shop &7menu.'
+      - ''
+      - '   &8▪ &7Advertise time: &62 Days'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦&7✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Commands:
+      - supremevouchers %Player% advertisementgem2days9 
+    '30':
+      DisplayName: '&e&l10 Golden Apple'
+      DisplayItem: GOLDEN_APPLE
+      DisplayAmount: 10
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦&7✦✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Commands:
+      - give %Player% golden_apple 10      
+    '31':
+      DisplayName: '&d&lWorkbench Command Voucher'
+      DisplayItem: CRAFTING_TABLE
+      DisplayAmount: 1
+      Lore:
+      - '&7Get ready to become an official &dcraftsman'
+      - '&7and create new items, anytime!'
+      - ''      
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦✦&7✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Commands:
+      - supremevouchers %Player% workbenchcommand
+    '32':
+      DisplayName: '&e&lHat Command Voucher'
+      DisplayItem: WHITE_BANNER
+      DisplayAmount: 1
+      Lore:
+      - '&7Fashion is essential for anyone''s daily life..'
+      - '&7Keep a trendy look by choosing your own'
+      - '&7hat, anytime!'
+      - ''      
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦✦&7✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Commands:
+      - supremevouchers %Player% hatcommand
+    '33':
+      DisplayName: '&b&lChat &6&lC&a&lo&d&ll&c&lo&b&lr&e&ls &b&lContainer'
+      DisplayItem: PLAYER_HEAD
+      DisplayAmount: 1
+      Lore:
+      - '&7With this &dcontainer &7you have the'
+      - '&7chance to win 1 of the 15 fancy chat colors!'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦✦&7✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTcyNmQ5ZDA2MzJlNDBiZGE1YmNmNjU4MzliYTJjYzk4YTg3YmQ2MTljNTNhZGYwMDMxMGQ2ZmM3MWYwNDJiNSJ9fX0=
+      Commands:
+      - supremecontainers give %Player% chatcolors 1
+    '34':
+      DisplayName: '&b&lBeacon'
+      DisplayItem: BEACON
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦&7✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Items:
+      - Item:BEACON, Amount:1
+    '35':
+      DisplayName: '&b&lRare Crate key'
+      DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: 2
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦✦&7✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Glowing: true      
+      Commands:
+      - crazycrate give physical rare 2 %Player% 
+    '36':
+      DisplayName: '&e&lUltra Crate key'
+      DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦✦&7✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Glowing: true      
+      Commands:
+      - crazycrate give physical ultra 1 %Player%      
+    '38':
+      DisplayName: '&b&lFlytime Voucher'
+      DisplayItem: FEATHER
+      DisplayAmount: 1
+      Lore:
+      - '&7This flytime voucher will allow'
+      - '&7you to fly everywhere including your.'
+      - '&7claimed land. To see your current'
+      - '&7flytime use &b/flytime'
+      - ''
+      - '   &8▪ &7Fly time: &660 Minutes'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦&7✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Glowing: true      
+      Commands:
+      - supremevouchers %Player% flytime60
+    '39':
+      DisplayName: '&b&l+2 Flytime Voucher'
+      DisplayItem: FEATHER
+      DisplayAmount: 2
+      Lore:
+      - '&7This flytime voucher will allow'
+      - '&7you to fly everywhere including your.'
+      - '&7claimed land. To see your current'
+      - '&7flytime use &b/flytime'
+      - ''
+      - '   &8▪ &7Fly time: &660 Minutes'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦&7✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 100
+      Firework: false
+      Glowing: true      
+      Commands:
+      - supremevouchers %Player% flytime60
+      - supremevouchers %Player% flytime60
+    '40':
+      DisplayName: '&a&lNormal Cubelet'
+      DisplayItem: PLAYER_HEAD
+      DisplayAmount: 1
+      Lore:
+      - '&7Fashion is essential for anyone''s daily life..'
+      - '&7Keep a trendy look by winning one of our'
+      - '&7many outstanding &dcosmetics&7!'      
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦&7✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWYyMmI2YTNhMGYyNGJkZWVhYjJhNmFjZDliMWY1MmJiOTU5NGQ1ZjZiMWUyYzA1ZGRkYjIxOTQxMGM4In19fQ==
+      Commands:
+      - acubelets:cubelets give %Player% normal 1
+    '41':
+      DisplayName: '&b&lSuper Cubelet'
+      DisplayItem: PLAYER_HEAD
+      DisplayAmount: 1
+      Lore:
+      - '&7Fashion is essential for anyone''s daily life..'
+      - '&7Keep a trendy look by winning one of our'
+      - '&7many outstanding &dcosmetics&7!'      
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦&7✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4MmRlNzJiZjYxYzZkMjMzNjRlMmZlMmQ3Y2MyOGRkZjgzMTQ1ZDE4ZjE5Mzg1N2QzNjljZjlkZjY5MiJ9fX0=
+      Commands:
+      - acubelets:cubelets give %Player% super 1
+    '42':
+      DisplayName: '&d&l+3 Gravestones'
+      DisplayItem: COBBLESTONE_WALL
+      DisplayAmount: 3
+      Lore:
+      - '&7By using gravestones you will be'
+      - '&7able to claim your precious loot'
+      - '&7back immediately!'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦✦&7✦'     
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Commands:
+      - gravestones give %Player% 3
+    '43':
+      DisplayName: '&b&lCrate Key Container'
+      DisplayItem: CHEST
+      DisplayAmount: 1
+      Lore:
+      - '&7With this &acontainer &7you have the'
+      - '&7chance to win 1 of the 4 Crate Keys!'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦✦&7✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Glowing: true      
+      Commands:
+      - supremecontainers give %Player% KeyRare 1
+    '45':
+      DisplayName: '&3&k|&3Knight&3&k|&r &3&lRank Voucher'
+      DisplayItem: PLAYER_HEAD
+      DisplayAmount: 1
+      Lore:
+      - '&7This voucher will give you &afree &7access'
+      - '&7to the &3&k|&3Knight&3&k|&r &7rank!'
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTVhNWUxNDJhODg5ZDczYTBkYzRlOTUzNDNkZTI2ODk1NDlkMjNhYzc3ZWRiOWE3ZWMxMjc4MzlkNDk3M2NiZiJ9fX0=
+      Commands:
+      - supremevouchers %Player% knightrank
+    '46':
+      DisplayName: '&6&l+2 Item Name Tag'
+      DisplayItem: NAME_TAG
+      DisplayAmount: 2
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦✦&7✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Commands:
+        - itemtags give %Player% ITEM_NAME_TAG 2
+    '47':
+      DisplayName: '&6&l+2 Item Lore Tag'
+      DisplayItem: NAME_TAG
+      DisplayAmount: 2
+      Lore:
+      - ''
+      - '&fInformation:'
+      - '  &8◊ &7Rarity: &e✦✦&7✦✦✦'
+      - ''
+      - '&7Earn this by opening the &bRare Crate&7!'
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Commands:
+        - itemtags give %Player% ITEM_LORE_TAG 2

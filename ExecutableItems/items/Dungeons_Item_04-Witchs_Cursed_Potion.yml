@@ -1,0 +1,77 @@
+name: '&#29eefb&lW&#31e3fb&li&#39d8fb&lt&#41ccfb&lc&#49c1fb&lh&#51b6fc&l''&#59abfc&ls
+  &#619ffc&lC&#6994fc&lu&#7189fc&lr&#787efc&ls&#8073fc&le&#8867fc&ld &#905cfc&lP&#9851fd&lo&#a046fd&lt&#a83afd&li&#b02ffd&lo&#b824fd&ln'
+lore:
+- '&7A potion created in the depths of'
+- '&7Hell, forged by &5witches&r &7to grant'
+- '&7Great &bhealth&r &7to the one who drinks it...'
+- '&8Gives you Strength, Mining Fatigue II,'
+- '&8Hunger III & Regeneration & Absorption V.'
+material: POTION
+glow: true
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+variables: {}
+activators: {}
+recognitions: []
+potionSettings:
+  potionColor: 6360214
+  potionType: STRENGTH
+  potionExtended: false
+  potionUpgraded: false
+  potionEffects:
+    '1':
+      isAmbient: true
+      duration: 480
+      potionEffectType: ABSORPTION
+      amplifier: 4
+      hasParticles: false
+      hasIcon: false
+    '2':
+      isAmbient: false
+      duration: 480
+      potionEffectType: SLOW_DIGGING
+      amplifier: 1
+      hasParticles: false
+      hasIcon: false
+    '3':
+      isAmbient: false
+      duration: 480
+      potionEffectType: REGENERATION
+      amplifier: 0
+      hasParticles: false
+      hasIcon: false
+    '4':
+      isAmbient: false
+      duration: 480
+      potionEffectType: HUNGER
+      amplifier: 2
+      hasParticles: false
+      hasIcon: false
+attributes: {}
+config_5: true
+config_update: false

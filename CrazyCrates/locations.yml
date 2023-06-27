@@ -1,0 +1,25 @@
+Locations:
+  '1':
+    Crate: vote
+    World: world
+    X: 11
+    Y: 82
+    Z: 47
+  '2':
+    Crate: rare
+    World: world
+    X: 8
+    Y: 82
+    Z: 50
+  '3':
+    Crate: ultra
+    World: world
+    X: -6
+    Y: 82
+    Z: 50
+  '4':
+    Crate: god
+    World: world
+    X: -9
+    Y: 82
+    Z: 47

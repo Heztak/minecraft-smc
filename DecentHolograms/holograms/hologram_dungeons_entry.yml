@@ -1,0 +1,30 @@
+location: world:-86.220:74.000:120.239
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&lYou''re about to enter the merciless Dungeons Mine!'
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: '&fThis dungeon offers you the way to richdom! Do you know how'
+    height: 0.3
+  - content: '&fto defeat the monsters and collect mysterious shards?'
+    height: 0.3
+  - content: '&fThe monsters you encounter here do not shy away'
+    height: 0.3
+  - content: '&ffrom anything, so keep that in your mind...'
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: '&c&lNote! &7You need to be player level &e&l25&r &7to enter.'
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: '%supremeteleport_dungeons_entrance% '
+    height: 0.3
+  actions: {}

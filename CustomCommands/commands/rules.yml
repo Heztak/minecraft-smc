@@ -1,0 +1,34 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for CustomCommands
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+# Aliases for the command
+# Our command can be used with /spawn, /gotospawn and /lobby
+aliases: [rules]
+
+# Patterns for the command
+patterns:
+
+  - pattern: ''  # here, we don't need arguments for the command, so we set only one empty pattern
+    description: go to the spawn
+    permission: custom.commands
+    worlds:
+      whitelist: []  # our command can only be used in the default world
+      blacklist: []
+    cooldown: 0 SECOND
+    actions:
+      - type: NOTIFY
+        notify:
+          message:
+            - '&r'
+            - '   &6&lYour server rules'
+            - '&r'
+            - '   &e#1 &fDon''t use hacked mods.'
+            - '   &e#2 &fSpamming and or using caps is not allowed.'
+            - '   &e#3 &fDo not ask staff for Ranks, Items, Commands or related.'
+            - '   &e#4 &fAdvertising is not allowed.'
+            - '   &e#5 &fDo not use bugs or exploits, report them instead.'
+            - '&r'
+            - '   &7Read all rules at http://yourwebstore.com/rules'
+            - '&r'       

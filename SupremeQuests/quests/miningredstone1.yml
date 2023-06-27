@@ -1,0 +1,15 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 10
+    block: "REDSTONE_ORE"
+rewards:
+  - "exp give {player} 50"
+  - "lp user {player} permission set level.6c"  
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

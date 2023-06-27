@@ -1,0 +1,9 @@
+locations:
+  '1':
+    world: world
+    x: 5
+    y: 72
+    z: 78
+    rotation: SOUTH
+    blockHeight: 1.5
+    permanentBlockHeight: 1.5

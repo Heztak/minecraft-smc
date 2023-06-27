@@ -1,0 +1,35 @@
+location: world:62.483:83.800:-16.022
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lQuests'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fGet &amoney&f, &dexp&f and other valuable items'
+    height: 0.3
+  - content: '&fby completing the quests. This very extensive'
+    height: 0.3
+  - content: '&fseries consists of different &bchallenges &fwhere'
+    height: 0.3
+  - content: '&feach topic starts with a somewhat easier'
+    height: 0.3
+  - content: '&fassignment and becomes more &cdifficult &fas'
+    height: 0.3
+  - content: '&fthe quests progresses.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fCan you complete them all?'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3
+  actions: {}

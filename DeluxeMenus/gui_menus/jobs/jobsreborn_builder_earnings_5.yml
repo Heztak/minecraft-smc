@@ -1,0 +1,229 @@
+menu_title: '&cEarnings Builder (page 5/5)'
+open_command:
+- jobs earnings builder5
+size: 45
+items:
+  'filler':
+    material: 'GRAY_STAINED_GLASS_PANE'
+    priority: 1
+    slots:
+    - 28
+    - 29
+    - 30    
+    - 31
+    - 32
+    - 33
+    - 34
+  '1':
+    material: nether_brick_fence
+    slot: 10
+    display_name: '&e&lNether Brick Fence'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.02'
+    - '  &8◊ &7Exp: &d0.02 Exp'
+    - '  &8◊ &7Points: &e0.01 Points'
+  '2':
+    material: nether_brick_stairs
+    slot: 11
+    display_name: '&e&lNether Brick Stairs'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.02'
+    - '  &8◊ &7Exp: &d0.02 Exp'
+    - '  &8◊ &7Points: &e0.01 Points'
+  '3':
+    material: enchanting_table
+    slot: 12
+    display_name: '&e&lEnchanting Table'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a1.5'
+    - '  &8◊ &7Exp: &d3 Exp'
+    - '  &8◊ &7Points: &e2 Points'
+  '4':
+    material: end_portal_frame
+    slot: 13
+    display_name: '&e&lEnd Portal Frame'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a1.5'
+    - '  &8◊ &7Exp: &d1.5 Exp'
+    - '  &8◊ &7Points: &e2 Points'
+  '5':
+    material: redstone_lamp
+    slot: 14
+    display_name: '&e&lRedstone Lamp'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a1'
+    - '  &8◊ &7Exp: &d2 Exp'
+    - '  &8◊ &7Points: &e1 Points'
+  '6':
+    material: ender_chest
+    slot: 15
+    display_name: '&e&lEnder Chest'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a1.5'
+    - '  &8◊ &7Exp: &d2 Exp'
+    - '  &8◊ &7Points: &e1.5 Points'
+  '7':
+    material: emerald_block
+    slot: 16
+    display_name: '&e&lEmerald Block'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a1.5'
+    - '  &8◊ &7Exp: &d3 Exp'
+    - '  &8◊ &7Points: &e1.5 Points'
+  '8':
+    material: END_STONE_BRICKS
+    slot: 19
+    display_name: '&e&lEnd Stone Bricks'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.2'
+    - '  &8◊ &7Exp: &d0.1 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '9':
+    material: CRIMSON_PLANKS
+    slot: 20
+    display_name: '&e&lCrimson Planks'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.08'
+    - '  &8◊ &7Exp: &d0.08 Exp'
+    - '  &8◊ &7Points: &e0.02 Points'
+  '10':
+    material: WARPED_PLANKS
+    slot: 21
+    display_name: '&e&lWarped Planks'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.4 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '11':
+    material: CRIMSON_HYPHAE
+    slot: 22
+    display_name: '&e&lCrimson Hyphae'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.4 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '12':
+    material: WARPED_HYPHAE
+    slot: 23
+    display_name: '&e&lWarped Hyphae'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.4 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '13':
+    material: POLISHED_BLACKSTONE
+    slot: 24
+    display_name: '&e&lPolished Blackstone'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.1'
+    - '  &8◊ &7Exp: &d0.15 Exp'
+    - '  &8◊ &7Points: &e0.07 Points'
+  '14':
+    material: CHISELED_POLISHED_BLACKSTONE
+    slot: 25
+    display_name: '&e&lChiseled Polished Blackstone'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.15'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.08 Points'    
+  'back':
+    material: BARRIER
+    priority: 1
+    display_name: '&C⤾ Back'
+    slot: 40
+    left_click_commands:
+    - '[openguimenu] jobsreborn_page_2'    
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_page_2'     
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'nextpage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0=
+    priority: 1
+    display_name: '&8Next Page'
+    slot: 26
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'previouspage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    priority: 1
+    display_name: '&8Previous Page'
+    slot: 18
+    left_click_commands:
+    - '[openguimenu] jobsreborn_builder_earnings_4'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_builder_earnings_4'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'

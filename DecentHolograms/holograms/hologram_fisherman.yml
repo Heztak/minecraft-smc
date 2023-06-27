@@ -1,0 +1,27 @@
+location: world:76.588:76.500:91.481
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lFisherman'
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: '&fSell the &bfish &fyou have catched'
+    height: 0.3
+  - content: '&fthroughout fishing &acompetitions&f!'
+    height: 0.3
+  - content: '&fThe higher the &drarity&f, the higher'
+    height: 0.3
+  - content: '&fyour reward will be!'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3
+  actions: {}

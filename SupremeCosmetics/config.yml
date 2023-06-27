@@ -1,0 +1,4121 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+# Amount of ticks (1/5)
+spawn-particles-ticks: 1
+
+# Date format
+date-format: 'dd-MM-yy'
+
+# Message when deleting your cosmetic
+clear-trail-message: '&cYour cosmetic has been removed.'
+
+#Message when you selected a cosmetic
+choose-trail-message: '&eYou selected the &a{trail} &ecosmetic!'
+
+# The sound when you scroll through the particles
+switch-button-sounds:
+  - BLOCK_COMPARATOR_CLICK;1.0;5.0
+sub-categories-general-sounds:
+  - BLOCK_COMPARATOR_CLICK;1.0;5.0
+
+#   ____       _ 
+#  / ___|_   _(_)
+# | |  _| | | | |
+# | |_| | |_| | |
+#  \____|\__,_|_|
+#
+
+# Gui settings              
+menus:
+  main:
+    rows: 3
+    title: '&cSelect your trails'
+
+# Gui items    
+    items:
+      open-players:
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/dd7c2e79f00c05cfce563ce3db3a46461fc49318a2f3365481c6c1f8fd3db37c
+        name: '&e&lPlayer trails'
+        lore:
+             - '&7'         
+             - '&fProgress:'        
+             - '  &8◊ &7Available: &e{total}'
+             - '  &8◊ &7Unlocked: &e{available}'            
+             - '&r'
+             - '&a&lClick here &7to select your trail' 
+        glow: false
+        slot: 11
+      open-arrows:
+        material: APPLE
+        name: '&e&lArrows trails'
+        lore: 
+             - '&7'         
+             - '&fProgress:'        
+             - '  &8◊ &7Available: &e{total}'
+             - '  &8◊ &7Unlocked: &e{available}'            
+             - '&r'
+             - '&a&lClick here &7to select your trail'
+        glow: false
+        slot: 13        
+      open-actions:
+        material: IRON_AXE
+        name: '&e&lAction trails'
+        lore:
+             - '&7'         
+             - '&fProgress:'        
+             - '  &8◊ &7Available: &e{total}'
+             - '  &8◊ &7Unlocked: &e{available}'            
+             - '&r'
+             - '&a&lClick here &7to select your trail'      
+        glow: false
+        slot: 15
+      filler:
+        enabled: false
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        name: '&r'
+        lore: []       
+        glow: false
+
+#  ____  _                         _             _ _     
+# |  _ \| | __ _ _   _  ___ _ __  | |_ _ __ __ _(_) |___ 
+# | |_) | |/ _` | | | |/ _ \ '__| | __| '__/ _` | | / __|
+# |  __/| | (_| | |_| |  __/ |    | |_| | | (_| | | \__ \
+# |_|   |_|\__,_|\__, |\___|_|     \__|_|  \__,_|_|_|___/
+#                |___/                                   
+
+  players:
+    '0':
+      rows: 5
+      title: '&cPlayer trails (Page 1/6)'
+      main-menu-button:
+        material: BARRIER
+        name: '&C⤾ Back'
+        lore: []
+        glow: false
+        slot: 28
+      info-button:
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/dd7c2e79f00c05cfce563ce3db3a46461fc49318a2f3365481c6c1f8fd3db37c
+        name: '&e&lTrails'
+        lore:       
+         - '&fInformation:'
+         - '  &8◊ &7Unlocked: &e{available}'
+         - '  &8◊ &7Selected: &e{current}'        
+        glow: false
+        slot: 19
+      clear-button:
+        material: TNT
+        name: '&e&lClear'
+        lore: 
+         - '&fUnequip &7your currently selected'
+         - '&7arrow trail.'
+        glow: false
+        slot: 10
+      next-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499
+        name: '&eNext page'
+        lore: []
+        glow: false
+        slot: 42
+        open-page: 1
+      previous-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
+        name: '&ePrevious Page'
+        lore: []
+        glow: false
+        slot: 40
+        open-page: 0
+      filler:
+        enabled: false      
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&r'
+        lore: []       
+        glow: false
+      effects:  
+        Water drip spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/2484aa5bee898a6e8960a3f9a99759b1f39f9dcb321050f714cd72b3d8a8041
+            name: '&e&lWater drip spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'            
+            glow: false
+          slot: 12
+          permission: spin.1a
+          particles: []
+          halo-particles:
+            #- 'ITEM_CRACK:DIAMOND;1;0.0;0.0;0.0;0.0'
+            - 'DRIP_WATER;0;0.0;0.0;0.0;0.0'
+        Lava drip spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/c078f3f24b1760f9d4abb0851eb8f6c7dfff8855708e6049d15dc02042ba8436
+            name: '&e&lLava drip spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'            
+            glow: false
+          slot: 13
+          permission: spin.2a
+          particles: []
+          halo-particles:
+            - 'DRIP_LAVA;0;0.0;0.0;0.0;0.0'
+        Angry spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/3a41061ed854151fdda13f683dbe2997a2735caa5a2a59a5699314602a14f9
+            name: '&e&lAngry spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 14
+          permission: spin.3a
+          particles: []
+          halo-particles:          
+            - 'VILLAGER_ANGRY;0;0.0;0.0;0.0;0.0'
+        Magic spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/92ec9a8a90d90c78651af2f962015111fcbf11ac8738f52b8e24da862a3871ba
+            name: '&e&lMagic spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 15
+          permission: spin.4a
+          particles: []
+          halo-particles:  
+            - 'SPELL_WITCH;0;0.0;0.0;0.0;0.0' 
+        Happy spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/b89042082bb7a7618b784ee7605a134c58834e21e374c888937161057f6c7
+            name: '&e&lHappy spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 16
+          permission: spin.5a
+          particles: []
+          halo-particles:           
+            - 'VILLAGER_HAPPY;0;0.0;0.0;0.0;0.0'  
+        Dust spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/a31993e4cfda153eaf7dc138d52bba5c283d01632602262161776f0f4b86a
+            name: '&e&lDust spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 21
+          permission: spin.6a
+          particles:
+          halo-particles:           
+            - 'CRIT;0;0.0;0.0;0.0;0.0'
+        Flame spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/54f7555d05f50fa133b6a21011742346401df734399d5aa6c29880bb1e35b93d
+            name: '&e&lFlame spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 22
+          permission: spin.7a
+          particles: []
+          halo-particles:          
+            - 'FLAME;0;0.0;0.0;0.0;0.0'            
+        Ash spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/d2ecd691baf5e8966198e9f4f794c99344c3f43add130d3b99cceb3f04b7797e
+            name: '&e&lAsh spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 23
+          permission: spin.8a
+          particles: []
+          halo-particles:           
+            - 'ASH;3;0.0;0.0;0.0;0.0'
+        Honey spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/41549132dbc875d639d67d93cc713e941bb16c964d0a62e8c6794bd3de6ff8
+            name: '&e&lHoney spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 24
+          permission: spin.9a
+          particles: []
+          halo-particles:          
+            - 'ITEM_CRACK:HONEY_BLOCK;0;0.0;0.0;0.0;0.0'   
+        Pink wax spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/be5c455694b922256c9e4ef6e02ad5dd99346d37395f0a6813fe7612357d64
+            name: '&e&lPink wax spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 25
+          permission: spin.10b
+          particles: []
+          halo-particles:          
+            - 'FALLING_NECTAR;0;0.0;0.0;0.0;0.0'  
+        Heart spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/2c8fb637d6e1a7ba8fa97ee9d2915e843e8ec790d8b7bf6048be621ee4d59fba
+            name: '&e&lHeart spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 30
+          permission: spin.10a
+          particles: []
+          halo-particles:           
+            - 'HEART;0;0.0;0.0;0.0;0.0' 
+        Falling portal spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/d1c87454f1ee585b90fdb3a3e40952a5c2f80c0a49dfec62870fdff183967a84
+            name: '&e&lFalling portal spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 31
+          permission: spin.11a
+          particles: []
+          halo-particles:           
+            - 'PORTAL;4;0.0;0.0;0.0;0.0'
+        Redstone spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/569a1f114151b4521373f34bc14c2963a5011cdc25a6554c48c708cd96ebfc
+            name: '&e&lRedstone spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 32
+          permission: spin.12a
+          particles: []
+          halo-particles:             
+            - 'ITEM_CRACK:REDSTONE_ORE;0;0.0;0.0;0.0;0.0'
+        Spell spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/9c4d883fc69855e224ef56d216433500c6df167f839d9404532023fa9cba40bc
+            name: '&e&lSpell spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 33
+          permission: spin.13a
+          particles:
+          halo-particles:             
+            - 'SPELL;0;0.0;0.0;0.0;0.0'
+        Note spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/d41dfb301c0470187f907814f5943ebdb8b6a1278333369aa35299ce39409277
+            name: '&e&lNote spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 34
+          permission: spin.14a
+          particles:
+          halo-particles:             
+            - 'NOTE;1;0.0;0.0;0.0;1.0'
+    '1':
+      rows: 5
+      title: '&cPlayer trails (Page 2/6)'
+      main-menu-button:
+        material: BARRIER
+        name: '&C⤾ Back'
+        lore: []
+        glow: false
+        slot: 28
+      info-button:
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/dd7c2e79f00c05cfce563ce3db3a46461fc49318a2f3365481c6c1f8fd3db37c
+        name: '&e&lTrails'
+        lore:       
+         - '&fInformation:'
+         - '  &8◊ &7Unlocked: &e{available}'
+         - '  &8◊ &7Selected: &e{current}'        
+        glow: false
+        slot: 19
+      clear-button:
+        material: TNT
+        name: '&e&lClear'
+        lore: 
+         - '&fUnequip &7your currently selected'
+         - '&7arrow trail.'
+        glow: false
+        slot: 10
+      next-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499
+        name: '&eNext page'
+        lore: []
+        glow: false
+        slot: 42
+        open-page: 2
+      previous-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
+        name: '&ePrevious Page'
+        lore: []
+        glow: false
+        slot: 40
+        open-page: 0
+      filler:
+        enabled: false      
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&r'
+        lore: []       
+        glow: false
+      effects:
+        Dolphin spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/5a5ab05ea254c32e3c48f3fdcf9fd9d77d3cba04e6b5ec2e68b3cbdcfac3fd
+            name: '&e&lDolphin spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 12
+          permission: spin.15a
+          particles:
+          halo-particles:             
+            - 'DOLPHIN;3;0.0;0.0;0.0;0.0'
+        Crit magic spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/527b6899b1eed971c55e0dadbc10402f0ba97fad21376bbcc1643dff281fad95
+            name: '&e&lCrit magic spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 13
+          permission: spin.16a
+          particles:
+          halo-particles:             
+            - 'CRIT_MAGIC;1;0.0;0.0;0.0;0.0'
+        Damage spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/863fd78222d5988c6be1cc9fa96e8528915bb69746464d238f936ebebb23c52
+            name: '&e&lDamage spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 14
+          permission: spin.17a
+          particles:
+          halo-particles:             
+            - 'DAMAGE_INDICATOR;0;0.0;0.0;0.0;0.0'
+        Ink spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/49c2c9ce67eb5971cc5958463e6c9abab8e599adc295f4d4249936b0095769dd
+            name: '&e&lInk spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 15
+          permission: spin.18a
+          particles:
+          halo-particles:             
+            - 'SQUID_INK;0;0.0;0.0;0.0;0.0'   
+        Spit spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/818cd457fbaf327fa39f10b5b36166fd018264036865164c02d9e5ff53f45
+            name: '&e&lSpit spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 16
+          permission: spin.19a
+          particles:
+          halo-particles:             
+            - 'SPIT;0;0.0;0.0;0.0;0.0'
+        Sneeze spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/9330af17f8512ed3b49e78bca7ef2d83f2dc1e598a8cb542ecc3b6becee9f57
+            name: '&e&lSneeze spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 21
+          permission: spin.20a
+          particles:
+          halo-particles:             
+            - 'SNEEZE;0;0.0;0.0;0.0;0.0'                  
+        Slime spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/b711315e3701d66c53154aac995d64ff7f80be8e11d2712d9298dbabd71d6
+            name: '&e&lSlime spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 22
+          permission: spin.21a
+          particles:
+          halo-particles:             
+            - 'SLIME;0;0.0;0.0;0.0;0.0'
+        Portal spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/b0bfc2577f6e26c6c6f7365c2c4076bccee653124989382ce93bca4fc9e39b
+            name: '&e&lPortal spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 23
+          permission: spin.22a
+          particles:
+          halo-particles:             
+            - 'REVERSE_PORTAL;0;0.0;0.0;0.0;0.0'
+        Goblin spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/f4b9b9116837baa851183428f9a8d548c5bce764d8ffa23d2662c3a5048a56a8
+            name: '&e&lGoblin spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 24
+          permission: spin.23a
+          particles:
+          halo-particles:             
+            - 'TOTEM;0;0.0;0.0;0.0;0.0'    
+        Toxic spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/a0a516871f4664dea41e39f73fdd2545ffd6835e3ea16557435bfbcb96dcd52b
+            name: '&e&lToxic spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 25
+          permission: spin.24a
+          particles:
+          halo-particles:             
+            - 'DRIPPING_OBSIDIAN_TEAR;0;0.0;0.0;0.0;0.0'
+        Nautilus spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/42697f3ef8f4629b645fd2e644641324a1c11835498e638f757f278afbce5db1
+            name: '&e&lNautilus spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &5Mythical'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 30
+          permission: spin.25a
+          particles:
+          halo-particles:             
+            - 'NAUTILUS;0;0.0;0.0;0.0;0.0'
+        Witch dust spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/29502ab33bb2c8d6a90fff8501bcb9585d1c2efe445a11e3807b18618b0cdd2b
+            name: '&e&lWitch Dust Spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 31
+          permission: spin.26a
+          particles:
+          halo-particles:             
+            - 'DRAGON_BREATH;0;0.0;0.0;0.0;0.0'
+        End rod spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/525739ca14f15cbb3eec22b7714f3f08e17a2900347a8ddd06e26b027e5578ea
+            name: '&e&lEnd rod spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 32
+          permission: spin.27a
+          particles:
+          halo-particles:             
+            - 'END_ROD;0;0.0;0.0;0.0;0.0'     
+        Soul spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/7384f7352932b836cbc8b5de6c88b82593bc7da35db5b6e1e075dc0bf7afd471
+            name: '&e&lSoul spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &5Mythical'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 33
+          permission: spin.28a
+          particles:
+          halo-particles:             
+            - 'SOUL;0;0.0;0.0;0.0;0.0'  
+        Soul fire spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/75d3a90f471c95fcc9702f6fe573cc113cdf6d8c539b261ee3c30771b18e2ac
+            name: '&e&lSoul fire spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 34
+          permission: spin.29a
+          particles:
+          halo-particles:             
+            - 'SOUL_FIRE_FLAME;0;0.0;0.0;0.0;0.0'    
+    '2':
+      rows: 5
+      title: '&cPlayer trails (Page 3/6)'
+      main-menu-button:
+        material: BARRIER
+        name: '&C⤾ Back'
+        lore: []
+        glow: false
+        slot: 28
+      info-button:
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/dd7c2e79f00c05cfce563ce3db3a46461fc49318a2f3365481c6c1f8fd3db37c
+        name: '&e&lTrails'
+        lore:       
+         - '&fInformation:'
+         - '  &8◊ &7Unlocked: &e{available}'
+         - '  &8◊ &7Selected: &e{current}'        
+        glow: false
+        slot: 19
+      clear-button:
+        material: TNT
+        name: '&e&lClear'
+        lore: 
+         - '&fUnequip &7your currently selected'
+         - '&7arrow trail.'
+        glow: false
+        slot: 10
+      next-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499
+        name: '&eNext page'
+        lore: []
+        glow: false
+        slot: 42
+        open-page: 3
+      previous-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
+        name: '&ePrevious Page'
+        lore: []
+        glow: false
+        slot: 40
+        open-page: 1
+      filler:
+        enabled: false      
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&r'
+        lore: []       
+        glow: false
+      effects:
+        Enchanting spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/1762a15b04692a2e4b3fb3663bd4b78434dce1732b8eb1c7a9f7c0fbf6f
+            name: '&e&lEnchanting spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 12
+          permission: spin.30a
+          particles:
+          halo-particles:             
+            - 'ENCHANTMENT_TABLE;0;0.0;0.0;0.0;0.0'
+        Treasure spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/61df49f3d3971adc6f024625a3ecc8a43878c301eb7efc099b68e3824944f
+            name: '&e&lTreasure spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &5Mythical'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 13
+          permission: spin.31a
+          particles:
+          halo-particles:                 
+            - 'ITEM_CRACK:EMERALD;0;0.0;0.0;0.0;0.0' 
+            - 'ITEM_CRACK:DIAMOND;0;0.0;0.0;0.0;0.0'
+            - 'ITEM_CRACK:GOLD_INGOT;0;0.0;0.0;0.0;0.0'  
+        Aura spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/5c9ee1d558a89f11cd577a90b7b1b96fda34c21c400960390815c23db54b6471
+            name: '&e&lAura spin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 14
+          permission: spin.32a
+          particles:
+          halo-particles:             
+            - 'TOWN_AURA;3;0.0;0.0;0.0;0.0'    
+        Knight rank spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/55a5e142a889d73a0dc4e95343de2689549d23ac77edb9a7ec127839d4973cbf
+            name: '&e&lKnight spin'
+            lore: 
+             - '&7Unlocked with the &3Knight &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 15
+          permission: knight.rank
+          particles:
+          halo-particles:          
+            - 'ITEM_CRACK:IRON_HORSE_ARMOR;0;0.0;0.0;0.0;0.0'
+        Lord rank spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/118bc16faa5f2ce96dff76dfe31124c1ee77e8b43966e19f31981469a345
+            name: '&e&lLord spin'
+            lore: 
+             - '&7Unlocked with the &eLord &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 16
+          permission: lord.rank
+          particles:
+          halo-particles:          
+            - 'ITEM_CRACK:GOLDEN_HORSE_ARMOR;0;0.0;0.0;0.0;0.0'
+        Baron rank spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/4913a4af2d3064713f704187e57e6bec3deec94f1c3371b2b35c6c5e427cb0
+            name: '&e&lBaron spin'
+            lore: 
+             - '&7Unlocked with the &aBaron &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 21
+          permission: baron.rank
+          particles:
+          halo-particles:          
+            - 'ITEM_CRACK:DIAMOND_HORSE_ARMOR;0;0.0;0.0;0.0;0.0'
+        Paladin rank spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/60fd2cc9116c0f724bdcdbf2e9633cb0a7d453f8b3a1ad9d1493e5e6f1281555
+            name: '&e&lPaladin spin'
+            lore: 
+             - '&7Unlocked with the &5Paladin &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 22
+          permission: paladin.rank
+          particles:
+          halo-particles:          
+            - 'ITEM_CRACK:AMETHYST_SHARD;0;0.0;0.0;0.0;0.0'  
+        Duke rank spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/d3a88cdc3519e9d4be65fd171ee372c2ba15d0e6925cffb9d6531aa1799891c3
+            name: '&e&lDuke spin'
+            lore: 
+             - '&7Unlocked with the &bDuke &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 23
+          permission: duke.rank
+          particles:
+          halo-particles:          
+            - 'ITEM_CRACK:DIAMOND_BLOCK;0;0.0;0.0;0.0;0.0' 
+        King rank spin:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/7fda488ccdeb97c361a083760e1de10230d024848597c5f7c07952863f95a097
+            name: '&e&lKing spin'
+            lore: 
+             - '&7Unlocked with the &6King &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 24
+          permission: king.rank
+          particles:
+          halo-particles:          
+            - 'ITEM_CRACK:RAW_GOLD;0;0.0;0.0;0.0;0.0'
+        Lava trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/b6965e6a58684c277d18717cec959f2833a72dfa95661019dbcdf3dbf66b048
+            name: '&e&lLava'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 25
+          permission: trail.4a
+          particles:
+            - 'DRIP_LAVA;1;0.1;0.1;0.1;5.0;-1.0' 
+        Happy trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/158337a5285a6458543c77aa8f90c276ae537ad16a4e9af8b45733e99f4cbd
+            name: '&e&lHappy'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 30
+          permission: trail.5a
+          particles:
+            - 'VILLAGER_HAPPY;1;0.1;0.1;0.1;5.0;-1.0'  
+        Dust trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/a31993e4cfda153eaf7dc138d52bba5c283d01632602262161776f0f4b86a
+            name: '&e&lDust'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 31
+          permission: trail.6a
+          particles:
+            - 'CRIT;3;0.1;0.1;0.1;0.1'              
+        Angry trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/4fb97b17c6395392658f32718aa46befa1c31d3572651c30f7d2bf3b93f6ead9
+            name: '&e&lAngry'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 32
+          permission: trail.1a
+          particles:
+            - 'VILLAGER_ANGRY;0;0.1;0.1;0.1;1.0'
+        Magic trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/b16cc5755cdd260f7b4b5c1a1f1f3bd31851fc1d98b74437b2fb4bd6eb8d2
+            name: '&e&lMagic'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 33
+          permission: trail.2a
+          particles:
+            - 'SPELL_WITCH;1;0.1;0.1;0.1;5.0'
+        Water trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/34fcbc256d0be7e683af84e38c4bcdb71afb9398538a29aa96cbfa318b2ea
+            name: '&e&lWater'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 34
+          permission: trail.3a
+          particles:
+            - 'DRIP_WATER;1;0.1;0.1;0.1;5.0;-1.0'
+    '3':
+      rows: 5
+      title: '&cPlayer trails (Page 4/6)'
+      main-menu-button:
+        material: BARRIER
+        name: '&C⤾ Back'
+        lore: []
+        glow: false
+        slot: 28
+      info-button:
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/dd7c2e79f00c05cfce563ce3db3a46461fc49318a2f3365481c6c1f8fd3db37c
+        name: '&e&lTrails'
+        lore:       
+         - '&fInformation:'
+         - '  &8◊ &7Unlocked: &e{available}'
+         - '  &8◊ &7Selected: &e{current}'        
+        glow: false
+        slot: 19
+      clear-button:
+        material: TNT
+        name: '&e&lClear'
+        lore: 
+         - '&fUnequip &7your currently selected'
+         - '&7arrow trail.'
+        glow: false
+        slot: 10
+      next-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499
+        name: '&eNext page'
+        lore: []
+        glow: false
+        slot: 42
+        open-page: 4
+      previous-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
+        name: '&ePrevious Page'
+        lore: []
+        glow: false
+        slot: 40
+        open-page: 2
+      filler:
+        enabled: false      
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&r'
+        lore: []       
+        glow: false
+      effects:
+        Cloud trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/70d05642b417d5a9b36af257ec38e0325db28fd7106b16a0b89a2f9b7c9d6c0d
+            name: '&e&lCloud'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 12
+          permission: trail.7a
+          particles:
+            - 'CLOUD;0;0.0;0.0;0.0;0.0;-0.5'   
+        Treasure trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/a564e55380d399002e01cf0b12774cda6a7a26d86b59bf8629284ef1a387d4d0
+            name: '&e&lTreasure'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &5Mythical'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 13
+          permission: trail.8a
+          particles:
+            - 'ITEM_CRACK:EMERALD;1;0.1;0.1;0.1;0.0;-0.3' 
+            - 'ITEM_CRACK:DIAMOND;1;0.1;0.1;0.1;0.0;-0.3'
+            - 'ITEM_CRACK:GOLD_INGOT;1;0.1;0.1;0.1;0.0;-0.3'    
+        Ash trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/280d44ca15e303a1714d8d688bc3d0c4848af48bbe16b38893e64298ddcfe10e
+            name: '&e&lAsh'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 14
+          permission: trail.9a
+          particles:
+            - 'ASH;5;0.1;0.1;0.1;0.1;-1.0' 
+        Honey trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/c7cbf258a0e2de34c818aa8a8986313f72929e5aba9879715f4134bdc6c402d4
+            name: '&e&lHoney'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 15
+          permission: trail.11a
+          particles:
+            - 'ITEM_CRACK:HONEY_BLOCK;1;0.1;0.1;0.1;0.1;-1.0'
+        Nectar trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/ffcd4c593cd64236c9efd96bf8f173910efc15a763159b7435560c97a0848d16
+            name: '&e&lNectar'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 16
+          permission: trail.12a
+          particles:
+            - 'FALLING_NECTAR;3;0.1;0.1;0.1;0.1;-0.3'
+        Flame trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/8ac959a62d44ae76dd6ee5a4e6a28e96f3971c8b1a359b0922fc67b6fdb71
+            name: '&e&lFlame'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 21
+          permission: trail.13a
+          particles:
+            - 'FLAME;2;0.0;0.0;0.0;0.0;-0.3' 
+        Heart trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/6d36c3291fe02d142c4af28df2f55bb0397e198554e8345990dbbcd4c140316b
+            name: '&e&lHeart'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 22
+          permission: trail.14a
+          particles:
+            - 'HEART;1;0.1;0.1;0.1;0.0;-0.3'
+        Portal trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/277e3d0f7dd66a261cf962aa0c1333b49bfcf3639faaeeb174d595757df611
+            name: '&e&lPortal'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 23
+          permission: trail.15a
+          particles:
+            - 'PORTAL;3;0.1;0.1;0.1;0.1;-0.3'
+        Redstone trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/54d943a6e9c755685b98b4f12a228767e0c6f980dfc1ea2650a8a06726c7d22f
+            name: '&e&lRedstone'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 24
+          permission: trail.16a
+          particles:
+            - 'ITEM_CRACK:REDSTONE_ORE;2;0.1;0.1;0.0;0.0;-0.3' 
+        Spell trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/b24070c9b6659ed25b2ca126915f4d8820fafce4324ed9a8f4b8a506345307f
+            name: '&e&lSpell'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 25
+          permission: trail.17a
+          particles:
+            - 'SPELL;1;0.1;0.1;0.0;0.0;-0.3' 
+        Note trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/4ceeb77d4d25724a9caf2c7cdf2d88399b1417c6b9ff5213659b653be4376e3
+            name: '&e&lNote'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 30
+          permission: trail.18a
+          particles:
+            - 'NOTE;1;0.1;0.1;0.1;0.1;-0.3'  
+        Dolphin trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/8e9688b950d880b55b7aa2cfcd76e5a0fa94aac6d16f78e833f7443ea29fed3
+            name: '&e&lDolphin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 31
+          permission: trail.19a
+          particles:
+            - 'DOLPHIN;3;0.1;0.1;0.1;0.1;-0.3'      
+        Crit magic trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/d936bb1cc4ab6ecce65b64298394fafc5fe3f7876d7c941d05a9294fa392b7c
+            name: '&e&lCrit magic'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 32
+          permission: trail.20a
+          particles:
+            - 'CRIT_MAGIC;3;0.1;0.1;0.1;0.1;-0.3'    
+        Ouch trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/b371e4e1cf6a1a36fdae27137fd9b8748e6169299925f9af2be301e54298c73
+            name: '&e&lOuch'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 33
+          permission: trail.21a
+          particles:
+            - 'DAMAGE_INDICATOR;1;0.1;0.1;0.1;0.1' 
+        Ink trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/49c2c9ce67eb5971cc5958463e6c9abab8e599adc295f4d4249936b0095769dd
+            name: '&e&lInk'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 34
+          permission: trail.22a
+          particles:
+            - 'SQUID_INK;0;0.1;0.1;0.0;0.0;-0.3'
+    '4':
+      rows: 5
+      title: '&cPlayer trails (Page 5/6)'
+      main-menu-button:
+        material: BARRIER
+        name: '&C⤾ Back'
+        lore: []
+        glow: false
+        slot: 28
+      info-button:
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/dd7c2e79f00c05cfce563ce3db3a46461fc49318a2f3365481c6c1f8fd3db37c
+        name: '&e&lTrails'
+        lore:       
+         - '&fInformation:'
+         - '  &8◊ &7Unlocked: &e{available}'
+         - '  &8◊ &7Selected: &e{current}'        
+        glow: false
+        slot: 19
+      clear-button:
+        material: TNT
+        name: '&e&lClear'
+        lore: 
+         - '&fUnequip &7your currently selected'
+         - '&7arrow trail.'
+        glow: false
+        slot: 10
+      next-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499
+        name: '&eNext page'
+        lore: []
+        glow: false
+        slot: 42
+        open-page: 5
+      previous-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
+        name: '&ePrevious Page'
+        lore: []
+        glow: false
+        slot: 40
+        open-page: 3
+      filler:
+        enabled: false      
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&r'
+        lore: []       
+        glow: false
+      effects:
+        Spit trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/818cd457fbaf327fa39f10b5b36166fd018264036865164c02d9e5ff53f45
+            name: '&e&lSpit'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 12
+          permission: trail.23a
+          particles:
+            - 'SPIT;1;0.1;0.1;0.0;0.0;-0.3'
+        Sneeze trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/9330af17f8512ed3b49e78bca7ef2d83f2dc1e598a8cb542ecc3b6becee9f57
+            name: '&e&lSneeze'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 13
+          permission: trail.24a
+          particles:
+            - 'SNEEZE;1;0.1;0.1;0.1;0.0;-0.3'
+        Slime trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/a20e84d32d1e9c919d3fdbb53f2b37ba274c121c57b2810e5a472f40dacf004f
+            name: '&e&lSlime'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 14
+          permission: trail.25a
+          particles:
+            - 'SLIME;1;0.1;0.1;0.0;0.0;-0.3' 
+        Divideded trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/7d255fee5f7cf9081f2c0d5a0442ac3f3fd1fc24cb956e3f1d331863d11de176
+            name: '&e&lDivideded'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &5Mythical'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 15
+          permission: trail.26a
+          particles:
+            - 'REVERSE_PORTAL;5;0.1;0.1;0.1;0.1' 
+        Totem trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/7dba10a0726b8b6ffaaec268adc01500dcdc393ad039bed6a43adbc43f712cf4
+            name: '&e&lTotem'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 16
+          permission: trail.27a
+          particles:
+            - 'TOTEM;5;0.1;0.1;0.1;0.1'  
+        Voltage trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/25ba8456e92f0790222c19c06f61180a195af1008569ed352b93a3c6d9ec7a98
+            name: '&e&lVoltage'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 21
+          permission: trail.28a
+          particles:
+            - 'ELECTRIC_SPARK;1;0.1;0.1;0.1;0.1;-0.3'   
+        Crimson trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/93554f5d387022ad760c2b06ce913c066a1c0c43247057eb8e4f8f6369be2aa6
+            name: '&e&lCrimson'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 22
+          permission: trail.29a
+          particles:
+            - 'CRIMSON_SPORE;2;0.0;0.0;0.0;0.0'
+        Nautilus trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/32805e4a7982e706ebd2ea6c8209402cd7c1cf9cc08b7aace3a8af7718cca7dc
+            name: '&e&lNautilus'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &5Mythical'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 23
+          permission: trail.30a
+          particles:
+            - 'NAUTILUS;3;0.1;0.1;0.1;0.1;-0.3' 
+        Glowy trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/f5dd16eab51a10f8dec307f86b53c04e031ef275f1d4b3104e95ebc0c3f8c6ae
+            name: '&e&lGlowy'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &5Mythical'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 24
+          permission: trail.31a
+          particles:
+            - 'GLOW;1;0.1;0.1;0.1;0.1;-1.0' 
+        End rod trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/d80b3d019cca367ce3ca6f182fcf91ac9b8fb0be29afcedfe558ecee20b817de
+            name: '&e&lEnd rod'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 25
+          permission: trail.32a
+          particles:
+            - 'END_ROD;1;0.0;0.0;0.0;0.0;-0.3'   
+        Soul trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/7384f7352932b836cbc8b5de6c88b82593bc7da35db5b6e1e075dc0bf7afd471
+            name: '&e&lSoul'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 30
+          permission: trail.33a
+          particles:
+            - 'SOUL;3;0.1;0.1;0.1;0.1'
+        Soul fire trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/c1560e618de222b98557dd3e20a500034d5736b89671a4a803cbafab73ec6212
+            name: '&e&lSoul flames'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 31
+          permission: trail.34a
+          particles:
+            - 'SOUL_FIRE_FLAME;1;0.1;0.1;0.0;0.0;-1.0' 
+        White ash trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/dcf5b8deb3d7afe0f4ffa6277def976619a67cc1631531983e8590826ede6460
+            name: '&e&lWhite ash'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 32
+          permission: trail.35a
+          particles:
+            - 'WHITE_ASH;3;0.1;0.1;0.0;0.0;-1.0'  
+        Enchanting trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/1762a15b04692a2e4b3fb3663bd4b78434dce1732b8eb1c7a9f7c0fbf6f
+            name: '&e&lEnchanting'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 33
+          permission: trail.36a
+          particles:
+            - 'ENCHANTMENT_TABLE;3;0.1;0.1;0.1;0.1;-1.0'
+        Rainbow trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/7be7545297dfd6266bbaa2051825e8879cbfa42c7e7e24e50796f27ca6a18
+            name: '&e&lRainbow'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 34
+          permission: trail.37a
+          particles:
+            - 'SPELL_MOB;3;0.1;0.1;0.0;0.1;-0.3'
+    '5':
+      rows: 5
+      title: '&cPlayer trails (Page 6/6)'
+      main-menu-button:
+        material: BARRIER
+        name: '&C⤾ Back'
+        lore: []
+        glow: false
+        slot: 28
+      info-button:
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/dd7c2e79f00c05cfce563ce3db3a46461fc49318a2f3365481c6c1f8fd3db37c
+        name: '&e&lTrails'
+        lore:       
+         - '&fInformation:'
+         - '  &8◊ &7Unlocked: &e{available}'
+         - '  &8◊ &7Selected: &e{current}'        
+        glow: false
+        slot: 19
+      clear-button:
+        material: TNT
+        name: '&e&lClear'
+        lore: 
+         - '&fUnequip &7your currently selected'
+         - '&7arrow trail.'
+        glow: false
+        slot: 10
+      next-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499
+        name: '&eNext page'
+        lore: []
+        glow: false
+        slot: 42
+        open-page: 5
+      previous-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
+        name: '&ePrevious Page'
+        lore: []
+        glow: false
+        slot: 40
+        open-page: 4
+      filler:
+        enabled: false      
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&r'
+        lore: []       
+        glow: false
+      effects:          
+        Knight rank trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/55a5e142a889d73a0dc4e95343de2689549d23ac77edb9a7ec127839d4973cbf
+            name: '&e&lKnight'
+            lore: 
+             - '&7Unlocked with the &3Knight &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic' 
+            glow: false
+          slot: 12
+          permission: knight.rank
+          particles:
+            - 'ITEM_CRACK:IRON_HORSE_ARMOR;2;0.1;0.1;0.0;0.1;-0.3'
+        Lord rank trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/118bc16faa5f2ce96dff76dfe31124c1ee77e8b43966e19f31981469a345
+            name: '&e&lLord'
+            lore: 
+             - '&7Unlocked with the &eLord &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 13
+          permission: lord.rank
+          particles:
+            - 'ITEM_CRACK:GOLDEN_HORSE_ARMOR;2;0.1;0.1;0.0;0.1;-0.3'
+        Baron rank trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/4913a4af2d3064713f704187e57e6bec3deec94f1c3371b2b35c6c5e427cb0
+            name: '&e&lBaron'
+            lore: 
+             - '&7Unlocked with the &aBaron &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 14
+          permission: baron.rank
+          particles:
+            - 'ITEM_CRACK:DIAMOND_HORSE_ARMOR;2;0.1;0.1;0.0;0.1;-0.3'
+        Paladin rank trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/60fd2cc9116c0f724bdcdbf2e9633cb0a7d453f8b3a1ad9d1493e5e6f1281555
+            name: '&e&lPaladin'
+            lore: 
+             - '&7Unlocked with the &5Paladin &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 15
+          permission: paladin.rank
+          particles:
+            - 'ITEM_CRACK:AMETHYST_SHARD;2;0.1;0.1;0.0;0.1;-0.3'  
+        Duke rank trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/d3a88cdc3519e9d4be65fd171ee372c2ba15d0e6925cffb9d6531aa1799891c3
+            name: '&e&lDuke'
+            lore: 
+             - '&7Unlocked with the &bDuke &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 16
+          permission: duke.rank
+          particles:
+            - 'ITEM_CRACK:DIAMOND_BLOCK;2;0.1;0.1;0.0;0.1;-0.3' 
+        King rank trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/7fda488ccdeb97c361a083760e1de10230d024848597c5f7c07952863f95a097
+            name: '&e&lKing'
+            lore: 
+             - '&7Unlocked with the &6King &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 21
+          permission: king.rank
+          particles:
+            - 'ITEM_CRACK:RAW_GOLD;2;0.1;0.1;0.0;0.1;-0.3'
+
+#     _                             _             _ _     
+#    / \   _ __ _ __ _____      __ | |_ _ __ __ _(_) |___ 
+#   / _ \ | '__| '__/ _ \ \ /\ / / | __| '__/ _` | | / __|
+#  / ___ \| |  | | | (_) \ V  V /  | |_| | | (_| | | \__ \
+# /_/   \_\_|  |_|  \___/ \_/\_/    \__|_|  \__,_|_|_|___/
+#
+
+  arrows:
+    '0':
+      rows: 5
+      title: '&cArrow trails (Page 1/3)'
+      main-menu-button:
+        material: BARRIER
+        name: '&C⤾ Back'
+        lore: []
+        glow: false
+        slot: 28
+      info-button:
+        material: APPLE
+        name: '&e&lTrails'
+        lore:       
+         - '&fInformation:'
+         - '  &8◊ &7Unlocked: &e{available}'
+         - '  &8◊ &7Selected: &e{current}'        
+        glow: false
+        slot: 19
+      clear-button:
+        material: TNT
+        name: '&e&lClear'
+        lore: 
+         - '&fUnequip &7your currently selected'
+         - '&7arrow trail.'
+        glow: false
+        slot: 10
+      next-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499
+        name: '&eNext page'
+        lore: []
+        glow: false
+        slot: 42
+        open-page: 1
+      previous-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
+        name: '&ePrevious Page'
+        lore: []
+        glow: false
+        slot: 40
+        open-page: 0
+      filler:
+        enabled: false      
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&r'
+        lore: []       
+        glow: false
+      effects:
+        Angry arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/4fb97b17c6395392658f32718aa46befa1c31d3572651c30f7d2bf3b93f6ead9
+            name: '&e&lAngry'
+            lore:
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 12
+          permission: arrow.1a
+          particles:
+            - 'VILLAGER_ANGRY;1;0.1;0.1;0.1;5.0'
+        Magic arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/b16cc5755cdd260f7b4b5c1a1f1f3bd31851fc1d98b74437b2fb4bd6eb8d2
+            name: '&e&lMagic'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 13
+          permission: arrow.2a
+          particles:
+            - 'SPELL_WITCH;1;0.1;0.1;0.1;5.0'
+        Water arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/34fcbc256d0be7e683af84e38c4bcdb71afb9398538a29aa96cbfa318b2ea
+            name: '&e&lWater'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 14
+          permission: arrow.3a
+          particles:
+            - 'DRIP_WATER;1;0.1;0.1;0.1;5.0'
+        Lava arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/b6965e6a58684c277d18717cec959f2833a72dfa95661019dbcdf3dbf66b048
+            name: '&e&lLava'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 15
+          permission: arrow.4a
+          particles:
+            - 'DRIP_LAVA;1;0.1;0.1;0.1;5.0' 
+        Happy arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/158337a5285a6458543c77aa8f90c276ae537ad16a4e9af8b45733e99f4cbd
+            name: '&e&lHappy'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 16
+          permission: arrow.5a
+          particles:
+            - 'VILLAGER_HAPPY;1;0.1;0.1;0.1;5.0'  
+        Dust arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/a31993e4cfda153eaf7dc138d52bba5c283d01632602262161776f0f4b86a
+            name: '&e&lDust'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 21
+          permission: arrow.6a
+          particles:
+            - 'CRIT;3;0.1;0.1;0.1;0.1'
+        Cloud arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/70d05642b417d5a9b36af257ec38e0325db28fd7106b16a0b89a2f9b7c9d6c0d
+            name: '&e&lCloud'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 22
+          permission: arrow.7a
+          particles:
+            - 'CLOUD;1;0.1;0.1;0.1;0.1'   
+        Bubble arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/f274a8a5ca66afeb2c7f162253a6c461d56b8511427a55857882a1f77aac8
+            name: '&e&lBubble'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 23
+          permission: arrow.8a
+          particles:
+            - 'BUBBLE_POP;1;0.1;0.1;0.1;0.1'    
+        Ash arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/280d44ca15e303a1714d8d688bc3d0c4848af48bbe16b38893e64298ddcfe10e
+            name: '&e&lAsh'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 24
+          permission: arrow.9a
+          particles:
+            - 'ASH;3;0.1;0.1;0.1;0.1' 
+        Honey arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/c7cbf258a0e2de34c818aa8a8986313f72929e5aba9879715f4134bdc6c402d4
+            name: '&e&lHoney'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 25
+          permission: arrow.11a
+          particles:
+            - 'FALLING_HONEY;3;0.1;0.1;0.1;0.1'
+        Nectar arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/ffcd4c593cd64236c9efd96bf8f173910efc15a763159b7435560c97a0848d16
+            name: '&e&lNectar'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 30
+          permission: arrow.12a
+          particles:
+            - 'FALLING_NECTAR;3;0.1;0.1;0.1;0.1'
+        Flame arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/8ac959a62d44ae76dd6ee5a4e6a28e96f3971c8b1a359b0922fc67b6fdb71
+            name: '&e&lFlame'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 31
+          permission: arrow.13a
+          particles:
+            - 'FLAME;2;0.1;0.1;0.1;0.1' 
+        Heart arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/6d36c3291fe02d142c4af28df2f55bb0397e198554e8345990dbbcd4c140316b
+            name: '&e&lHeart'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 32
+          permission: arrow.14a
+          particles:
+            - 'HEART;1;0.1;0.1;0.1;0.1'
+        Portal arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/277e3d0f7dd66a261cf962aa0c1333b49bfcf3639faaeeb174d595757df611
+            name: '&e&lPortal'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 33
+          permission: arrow.15a
+          particles:
+            - 'PORTAL;3;0.1;0.1;0.1;0.1'
+        Redstone arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/54d943a6e9c755685b98b4f12a228767e0c6f980dfc1ea2650a8a06726c7d22f
+            name: '&e&lRedstone'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 34
+          permission: arrow.16a
+          particles:
+            - 'ITEM_CRACK:REDSTONE_ORE;2;0.1;0.1;0.1;0.1'          
+    '1':
+      rows: 5
+      title: '&cArrow trails (Page 2/3)'
+      main-menu-button:
+        material: BARRIER
+        name: '&C⤾ Back'
+        lore: []
+        glow: false
+        slot: 28
+      info-button:
+        material: APPLE
+        name: '&e&lTrails'
+        lore:       
+         - '&fInformation:'
+         - '  &8◊ &7Unlocked: &e{available}'
+         - '  &8◊ &7Selected: &e{current}'        
+        glow: false
+        slot: 19
+      clear-button:
+        material: TNT
+        name: '&e&lClear'
+        lore: 
+         - '&fUnequip &7your currently selected'
+         - '&7arrow trail.'
+        glow: false
+        slot: 10
+      next-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499
+        name: '&eNext page'
+        lore: []
+        glow: false
+        slot: 42
+        open-page: 2
+      previous-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
+        name: '&ePrevious Page'
+        lore: []
+        glow: false
+        slot: 40
+        open-page: 0
+      filler:
+        enabled: false      
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&r'
+        lore: []       
+        glow: false
+      effects:
+        spell arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/b24070c9b6659ed25b2ca126915f4d8820fafce4324ed9a8f4b8a506345307f
+            name: '&e&lSpell'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 12
+          permission: arrow.17a
+          particles:
+            - 'SPELL;3;0.1;0.1;0.1;0.1' 
+        Note arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/4ceeb77d4d25724a9caf2c7cdf2d88399b1417c6b9ff5213659b653be4376e3
+            name: '&e&lNote'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 13
+          permission: arrow.18a
+          particles:
+            - 'NOTE;1;0.1;0.1;0.1;0.1'  
+        Dolphin arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/8e9688b950d880b55b7aa2cfcd76e5a0fa94aac6d16f78e833f7443ea29fed3
+            name: '&e&lDolphin'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 14
+          permission: arrow.19a
+          particles:
+            - 'DOLPHIN;3;0.1;0.1;0.1;0.1'      
+        Crit magic arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/d936bb1cc4ab6ecce65b64298394fafc5fe3f7876d7c941d05a9294fa392b7c
+            name: '&e&lCrit magic'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 15
+          permission: arrow.20a
+          particles:
+            - 'CRIT_MAGIC;3;0.1;0.1;0.1;0.1'    
+        Ouch arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/b371e4e1cf6a1a36fdae27137fd9b8748e6169299925f9af2be301e54298c73
+            name: '&e&lOuch'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &5Mythical'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 16
+          permission: arrow.21a
+          particles:
+            - 'DAMAGE_INDICATOR;1;0.1;0.1;0.1;0.1' 
+        Ink arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/49c2c9ce67eb5971cc5958463e6c9abab8e599adc295f4d4249936b0095769dd
+            name: '&e&lInk'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 21
+          permission: arrow.22a
+          particles:
+            - 'SQUID_INK;1;0.1;0.1;0.1;0.1'      
+        Spit trail:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/818cd457fbaf327fa39f10b5b36166fd018264036865164c02d9e5ff53f45
+            name: '&e&lSpit'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 22
+          permission: arrow.23a
+          particles:
+            - 'SPIT;1;0.1;0.1;0.1;0.1'
+        Sneeze arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/9330af17f8512ed3b49e78bca7ef2d83f2dc1e598a8cb542ecc3b6becee9f57
+            name: '&e&lSneeze'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 23
+          permission: arrow.24a
+          particles:
+            - 'SNEEZE;1;0.1;0.1;0.1;0.1'
+        Slime arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/a20e84d32d1e9c919d3fdbb53f2b37ba274c121c57b2810e5a472f40dacf004f
+            name: '&e&lSlime'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 24
+          permission: arrow.25a
+          particles:
+            - 'SLIME;1;0.1;0.1;0.1;0.1' 
+        Divideded arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/7d255fee5f7cf9081f2c0d5a0442ac3f3fd1fc24cb956e3f1d331863d11de176
+            name: '&e&lDivideded'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &5Mythical'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 25
+          permission: arrow.26a
+          particles:
+            - 'REVERSE_PORTAL;5;0.1;0.1;0.1;0.1' 
+        Totem arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/7dba10a0726b8b6ffaaec268adc01500dcdc393ad039bed6a43adbc43f712cf4
+            name: '&e&lTotem'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 30
+          permission: arrow.27a
+          particles:
+            - 'TOTEM;5;0.1;0.1;0.1;0.1'  
+        Landing tears arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/e4f476b4e1304ec98ec24919518966ca832c8403a082ef12b353b590f38d818d
+            name: '&e&lLanding tears'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 31
+          permission: arrow.28a
+          particles:
+            - 'LANDING_OBSIDIAN_TEAR;5;0.1;0.1;0.1;0.1'   
+        Crimson arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/93554f5d387022ad760c2b06ce913c066a1c0c43247057eb8e4f8f6369be2aa6
+            name: '&e&lCrimson'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 32
+          permission: arrow.29a
+          particles:
+            - 'CRIMSON_SPORE;5;0.1;0.1;0.1;0.1'
+        Nautilus arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/32805e4a7982e706ebd2ea6c8209402cd7c1cf9cc08b7aace3a8af7718cca7dc
+            name: '&e&lNautilus'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &5Mythical'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 33
+          permission: arrow.30a
+          particles:
+            - 'NAUTILUS;5;0.1;0.1;0.1;0.1' 
+        Dripping tears arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/8b6a72138d69fbbd2fea3fa251cabd87152e4f1c97e5f986bf685571db3cc0
+            name: '&e&lDripping tears'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 34
+          permission: arrow.31a
+          particles:
+            - 'DRIPPING_OBSIDIAN_TEAR;5;0.1;0.1;0.1;0.1'
+    '2':
+      rows: 5
+      title: '&cArrow trails (Page 3/3)'
+      main-menu-button:
+        material: BARRIER
+        name: '&C⤾ Back'
+        lore: []
+        glow: false
+        slot: 28
+      info-button:
+        material: APPLE
+        name: '&e&lTrails'
+        lore:       
+         - '&fInformation:'
+         - '  &8◊ &7Unlocked: &e{available}'
+         - '  &8◊ &7Selected: &e{current}'        
+        glow: false
+        slot: 19
+      clear-button:
+        material: TNT
+        name: '&e&lClear'
+        lore: 
+         - '&fUnequip &7your currently selected'
+         - '&7arrow trail.'
+        glow: false
+        slot: 10
+      next-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499
+        name: '&eNext page'
+        lore: []
+        glow: false
+        slot: 42
+        open-page: 2
+      previous-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
+        name: '&ePrevious Page'
+        lore: []
+        glow: false
+        slot: 40
+        open-page: 1
+      filler:
+        enabled: false      
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&r'
+        lore: []       
+        glow: false
+      effects:
+        End rod arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/d80b3d019cca367ce3ca6f182fcf91ac9b8fb0be29afcedfe558ecee20b817de
+            name: '&e&lEnd rod'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 12
+          permission: arrow.32a
+          particles:
+            - 'END_ROD;3;0.1;0.1;0.1;0.1'   
+        Soul arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/7384f7352932b836cbc8b5de6c88b82593bc7da35db5b6e1e075dc0bf7afd471
+            name: '&e&lSoul'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 13
+          permission: arrow.33a
+          particles:
+            - 'SOUL;3;0.1;0.1;0.1;0.1'
+        Soul fire arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/c1560e618de222b98557dd3e20a500034d5736b89671a4a803cbafab73ec6212
+            name: '&e&lSoul flames'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 14
+          permission: arrow.34a
+          particles:
+            - 'SOUL_FIRE_FLAME;3;0.1;0.1;0.1;0.1' 
+        White ash arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/dcf5b8deb3d7afe0f4ffa6277def976619a67cc1631531983e8590826ede6460
+            name: '&e&lWhite ash'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 15
+          permission: arrow.35a
+          particles:
+            - 'WHITE_ASH;5;0.1;0.1;0.1;0.1'  
+        Enchanting arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/1762a15b04692a2e4b3fb3663bd4b78434dce1732b8eb1c7a9f7c0fbf6f
+            name: '&e&lEnchanting'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 16
+          permission: arrow.36a
+          particles:
+            - 'ENCHANTMENT_TABLE;5;0.1;0.1;0.1;0.1'
+        Rainbow arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/7be7545297dfd6266bbaa2051825e8879cbfa42c7e7e24e50796f27ca6a18
+            name: '&e&lRainbow'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 21
+          permission: arrow.37a
+          particles:
+            - 'SPELL_MOB;5;0.1;0.1;0.1;0.1'
+        Knight rank arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/55a5e142a889d73a0dc4e95343de2689549d23ac77edb9a7ec127839d4973cbf
+            name: '&e&lKnight Arrow'
+            lore: 
+             - '&7Unlocked with the &3Knight &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 22
+          permission: knight.rank
+          particles:
+            - 'ITEM_CRACK:IRON_HORSE_ARMOR;2;0.1;0.1;0.1;0.1'
+        Lord rank arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/118bc16faa5f2ce96dff76dfe31124c1ee77e8b43966e19f31981469a345
+            name: '&e&lLord Arrow'
+            lore: 
+             - '&7Unlocked with the &eLord &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 23
+          permission: lord.rank
+          particles:
+            - 'ITEM_CRACK:GOLDEN_HORSE_ARMOR;2;0.1;0.1;0.1;0.1'
+        Baron rank arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/4913a4af2d3064713f704187e57e6bec3deec94f1c3371b2b35c6c5e427cb0
+            name: '&e&lBaron Arrow'
+            lore: 
+             - '&7Unlocked with the &aBaron &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 24
+          permission: baron.rank
+          particles:
+            - 'ITEM_CRACK:DIAMOND_HORSE_ARMOR;2;0.1;0.1;0.1;0.1'
+        Paladin rank arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/60fd2cc9116c0f724bdcdbf2e9633cb0a7d453f8b3a1ad9d1493e5e6f1281555
+            name: '&e&lPaladin Arrow'
+            lore: 
+             - '&7Unlocked with the &5Paladin &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 25
+          permission: paladin.rank
+          particles:
+            - 'ITEM_CRACK:AMETHYST_SHARD;2;0.1;0.1;0.1;0.1'  
+        Duke rank arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/d3a88cdc3519e9d4be65fd171ee372c2ba15d0e6925cffb9d6531aa1799891c3
+            name: '&e&lDuke Arrow'
+            lore: 
+             - '&7Unlocked with the &bDuke &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 30
+          permission: duke.rank
+          particles:
+            - 'ITEM_CRACK:REDSTONE_BLOCK;2;0.1;0.1;0.1;0.1' 
+        King rank arrow:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/7fda488ccdeb97c361a083760e1de10230d024848597c5f7c07952863f95a097
+            name: '&e&lKing Arrow'
+            lore: 
+             - '&7Unlocked with the &6King &7rank.'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 31
+          permission: king.rank
+          particles:
+            - 'ITEM_CRACK:RAW_GOLD;2;0.1;0.1;0.1;0.1'
+
+#     _        _   _               _             _ _     
+#    / \   ___| |_(_) ___  _ __   | |_ _ __ __ _(_) |___ 
+#   / _ \ / __| __| |/ _ \| '_ \  | __| '__/ _` | | / __|
+#  / ___ \ (__| |_| | (_) | | | | | |_| | | (_| | | \__ \
+# /_/   \_\___|\__|_|\___/|_| |_|  \__|_|  \__,_|_|_|___/
+#
+
+  actions:
+    '0':
+      rows: 5
+      title: '&cBreak trails (Page 1/3)'
+      main-menu-button:
+        material: BARRIER
+        name: '&C⤾ Back'
+        lore: []
+        glow: false
+        slot: 28
+      info-button:
+        material: IRON_AXE
+        name: '&e&lTrails'
+        lore:       
+         - '&fInformation:'
+         - '  &8◊ &7Unlocked: &e{available}'
+         - '  &8◊ &7Selected: &e{current}'        
+        glow: false
+        slot: 19
+      clear-button:
+        material: TNT
+        name: '&e&lClear'
+        lore: 
+         - '&fUnequip &7your currently selected'
+         - '&7arrow trail.'
+        glow: false
+        slot: 10
+      next-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499
+        name: '&eNext page'
+        lore: []
+        glow: false
+        slot: 42
+        open-page: 1
+      previous-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
+        name: '&ePrevious Page'
+        lore: []
+        glow: false
+        slot: 40
+        open-page: 0
+      filler:
+        enabled: false      
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&r'
+        lore: []       
+        glow: false
+      effects:         
+        lava break:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/6fb0917812e0aee90dcf09f37e1f6703a1382081a9eca7d6f516dc0fad3da79f
+            name: '&e&lLava'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 12
+          permission: break.1a
+          block-break-particles:
+            - 'LAVA;1;0.1;0.1;0.1;5.0'
+        cloud break:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/466b10bf6ee2cd7e3ac96d9749ea616aa9c73030bdcaeffaed249e55c84994ac
+            name: '&e&lClouds'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 13
+          permission: break.2a
+          block-break-particles:
+            - 'CLOUD;1;0.1;0.1;0.1;0.1'
+        crimson break:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/ab2064390e79d9e54ccb418b0733153cf9923fc4a8d14ab1d2b7ef5968831c93
+            name: '&e&lCrimson'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 14
+          permission: break.3a
+          block-break-particles:
+            - 'CRIMSON_SPORE;5;0.1;0.1;0.1;0.1'
+        dust break:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/a31993e4cfda153eaf7dc138d52bba5c283d01632602262161776f0f4b86a
+            name: '&e&lDust'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 15
+          permission: break.4a
+          block-break-particles:
+            - 'CRIT;5;0.1;0.1;0.1;0.1'
+        guardian break:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/a0bf34a71e7715b6ba52d5dd1bae5cb85f773dc9b0d457b4bfc5f9dd3cc7c94
+            name: '&e&lGuardian'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 16
+          permission: break.5a
+          block-break-particles:
+            - 'CRIT_MAGIC;5;0.1;0.1;0.1;0.1'
+        dragon breath break:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/f173d8da6ce88ce861c59784c81de46e1eab91fc054891ee8ede21d3d87d3
+            name: '&e&lDragon Breath'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 21
+          permission: break.6a
+          block-break-particles:
+            - 'DRAGON_BREATH;2;0.1;0.1;0.1;0.1'
+        explosion break:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/72e4246e112eba6121f49ea6de6d2f2883f72ee2b381d392209df7abef2265c7
+            name: '&e&lExplosion'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 22
+          permission: break.7a
+          block-break-particles:
+            - 'EXPLOSION_NORMAL;2;0.1;0.1;0.1;0.8'
+        love break:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/5892d1a5c7460f27814f1f6140bf481fabc9dae3c0c493b5df0b6e0a36d95d14
+            name: '&e&lLove'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 23
+          permission: break.8a
+          block-break-particles:
+            - 'HEART;2;0.1;0.1;0.1;0.8'
+        blueberry break:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/bee7ca2b4d4a088fd3262f764f3ee0d12fd625bb61964ff4a9172214e76d4b9e
+            name: '&e&lBlueberry'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 24
+          permission: break.9a
+          block-break-particles:
+            - 'NAUTILUS;3;0.1;0.1;0.1;0.1'
+        music break:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/4d1d8c504867933703da36ec11f538f6265f98441d881eac48ef2c4934c1b
+            name: '&e&lMusic'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 25
+          permission: break.10a
+          block-break-particles:
+            - 'NOTE;2;0.1;0.1;0.1;0.1'
+        slime break:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/90e65e6e5113a5187dad46dfad3d3bf85e8ef807f82aac228a59c4a95d6f6a
+            name: '&e&lSlime'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 30
+          permission: break.11a
+          block-break-particles:
+            - 'SLIME;2;0.1;0.1;0.1;0.1'
+        ink break:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/9530d20651aa38c0e82c2dafc3504443cc6a4b9e6eed145b6edce99479ce848f
+            name: '&e&lInk'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 31
+          permission: break.12a
+          block-break-particles:
+            - 'SQUID_INK;1;0.1;0.1;0.1;0.1'
+        ice flame break:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/75d3a90f471c95fcc9702f6fe573cc113cdf6d8c539b261ee3c30771b18e2ac
+            name: '&e&lIce Flame'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &5Mythical'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 32
+          permission: break.13a
+          block-break-particles:
+            - 'SOUL_FIRE_FLAME;1;0.1;0.1;0.1;0.1'
+        spell break:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/ae40fe6a9db22f2b12e605e492995bd46ac9367b26b8ab85e07266801becf71d
+            name: '&e&lSpell'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 33
+          permission: break.14a
+          block-break-particles:
+            - 'SPELL;3;0.1;0.1;0.1;0.1'
+        totem break:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/7dba10a0726b8b6ffaaec268adc01500dcdc393ad039bed6a43adbc43f712cf4
+            name: '&e&lTotem'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &5Mythical'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 34
+          permission: break.15a
+          block-break-particles:
+            - 'TOTEM;3;0.1;0.1;0.1;0.1'
+    '1':
+      rows: 5
+      title: '&cPlace trails  (Page 2/3)'
+      main-menu-button:
+        material: BARRIER
+        name: '&C⤾ Back'
+        lore: []
+        glow: false
+        slot: 28
+      info-button:
+        material: IRON_AXE
+        name: '&e&lTrails'
+        lore:       
+         - '&fInformation:'
+         - '  &8◊ &7Unlocked: &e{available}'
+         - '  &8◊ &7Selected: &e{current}'        
+        glow: false
+        slot: 19
+      clear-button:
+        material: TNT
+        name: '&e&lClear'
+        lore: 
+         - '&fUnequip &7your currently selected'
+         - '&7arrow trail.'
+        glow: false
+        slot: 10
+      next-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499
+        name: '&eNext page'
+        lore: []
+        glow: false
+        slot: 42
+        open-page: 2
+      previous-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
+        name: '&ePrevious Page'
+        lore: []
+        glow: false
+        slot: 40
+        open-page: 0
+      filler:
+        enabled: false      
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&r'
+        lore: []       
+        glow: false
+      effects:         
+        lava place:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/6fb0917812e0aee90dcf09f37e1f6703a1382081a9eca7d6f516dc0fad3da79f
+            name: '&e&lLava'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 12
+          permission: place.1a
+          block-place-particles:
+            - 'LAVA;1;0.1;0.1;0.1;5.0'
+        cloud place:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/466b10bf6ee2cd7e3ac96d9749ea616aa9c73030bdcaeffaed249e55c84994ac
+            name: '&e&lClouds'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 13
+          permission: place.2a
+          block-place-particles:
+            - 'CLOUD;1;0.1;0.1;0.1;0.1'
+        crimson place:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/ab2064390e79d9e54ccb418b0733153cf9923fc4a8d14ab1d2b7ef5968831c93
+            name: '&e&lCrimson'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 14
+          permission: place.3a
+          block-place-particles:
+            - 'CRIMSON_SPORE;5;0.1;0.1;0.1;0.1'
+        dust place:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/a31993e4cfda153eaf7dc138d52bba5c283d01632602262161776f0f4b86a
+            name: '&e&lDust'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 15
+          permission: place.4a
+          block-place-particles:
+            - 'CRIT;5;0.8;0.1;0.1;0.1'
+        guardian place:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/a0bf34a71e7715b6ba52d5dd1bae5cb85f773dc9b0d457b4bfc5f9dd3cc7c94
+            name: '&e&lGuardian'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 16
+          permission: place.5a
+          block-place-particles:
+            - 'CRIT_MAGIC;5;0.8;0.1;0.1;0.1'
+        dragon breath place:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/f173d8da6ce88ce861c59784c81de46e1eab91fc054891ee8ede21d3d87d3
+            name: '&e&lDragon Breath'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 21
+          permission: place.6a
+          block-place-particles:
+            - 'DRAGON_BREATH;2;0.8;0.1;0.1;0.1'
+        explosion place:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/72e4246e112eba6121f49ea6de6d2f2883f72ee2b381d392209df7abef2265c7
+            name: '&e&lExplosion'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 22
+          permission: place.7a
+          block-place-particles:
+            - 'EXPLOSION_NORMAL;2;0.8;0.1;0.1;0.8'
+        love place:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/5892d1a5c7460f27814f1f6140bf481fabc9dae3c0c493b5df0b6e0a36d95d14
+            name: '&e&lLove'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 23
+          permission: place.8a
+          block-place-particles:
+            - 'HEART;2;0.8;0.1;0.1;0.8'
+        blueberry place:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/bee7ca2b4d4a088fd3262f764f3ee0d12fd625bb61964ff4a9172214e76d4b9e
+            name: '&e&lBlueberry'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 24
+          permission: place.9a
+          block-place-particles:
+            - 'NAUTILUS;3;0.8;0.1;0.1;0.1'
+        music place:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/4d1d8c504867933703da36ec11f538f6265f98441d881eac48ef2c4934c1b
+            name: '&e&lMusic'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 25
+          permission: place.10a
+          block-place-particles:
+            - 'NOTE;2;0.8;0.1;0.1;0.1'
+        slime place:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/90e65e6e5113a5187dad46dfad3d3bf85e8ef807f82aac228a59c4a95d6f6a
+            name: '&e&lSlime'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 30
+          permission: place.11a
+          block-place-particles:
+            - 'SLIME;2;0.8;0.1;0.1;0.1'
+        ink place:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/9530d20651aa38c0e82c2dafc3504443cc6a4b9e6eed145b6edce99479ce848f
+            name: '&e&lInk'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 31
+          permission: place.12a
+          block-place-particles:
+            - 'SQUID_INK;1;0.8;0.1;0.1;0.1'
+        ice flame place:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/75d3a90f471c95fcc9702f6fe573cc113cdf6d8c539b261ee3c30771b18e2ac
+            name: '&e&lIce Flame'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &5Mythical'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 32
+          permission: place.13a
+          block-place-particles:
+            - 'SOUL_FIRE_FLAME;1;0.8;0.1;0.1;0.1'
+        spell place:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/ae40fe6a9db22f2b12e605e492995bd46ac9367b26b8ab85e07266801becf71d
+            name: '&e&lSpell'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &bCommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 33
+          permission: place.14a
+          block-place-particles:
+            - 'SPELL;3;0.8;0.1;0.1;0.1'
+        totem place:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/7dba10a0726b8b6ffaaec268adc01500dcdc393ad039bed6a43adbc43f712cf4
+            name: '&e&lTotem'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &5Mythical'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 34
+          permission: place.15a
+          block-place-particles:
+            - 'TOTEM;3;0.8;0.1;0.1;0.1'
+    '2':
+      rows: 5
+      title: '&cHurt/Damage trails  (Page 3/3)'
+      main-menu-button:
+        material: BARRIER
+        name: '&C⤾ Back'
+        lore: []
+        glow: false
+        slot: 28
+      info-button:
+        material: IRON_AXE
+        name: '&e&lTrails'
+        lore:       
+         - '&fInformation:'
+         - '  &8◊ &7Unlocked: &e{available}'
+         - '  &8◊ &7Selected: &e{current}'        
+        glow: false
+        slot: 19
+      clear-button:
+        material: TNT
+        name: '&e&lClear'
+        lore: 
+         - '&fUnequip &7your currently selected'
+         - '&7arrow trail.'
+        glow: false
+        slot: 10
+      next-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499
+        name: '&eNext page'
+        lore: []
+        glow: false
+        slot: 42
+        open-page: 2
+      previous-page-button:
+        enabled: true
+        material: PLAYER_HEAD:http://textures.minecraft.net/texture/816ea34a6a6ec5c051e6932f1c471b7012b298d38d179f1b487c413f51959cd4
+        name: '&ePrevious Page'
+        lore: []
+        glow: false
+        slot: 40
+        open-page: 1
+      filler:
+        enabled: false      
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&r'
+        lore: []       
+        glow: false
+      effects:         
+        lava hurt:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/c078f3f24b1760f9d4abb0851eb8f6c7dfff8855708e6049d15dc02042ba8436
+            name: '&e&lLava Hurt'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 12
+          permission: hurt.1a
+          hurt-particles:
+            - 'LAVA;1;0.1;0.1;0.1;5.0'
+        angry villager hurt:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/44403377956e3b9475e03cd17c78e402f4ed7b9208c053494ea9e663855d9c06
+            name: '&e&lAngry Villager Hurt'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 13
+          permission: hurt.2a
+          hurt-particles:
+            - 'VILLAGER_ANGRY;1;0.1;0.1;0.1;5.0' 
+        totem hurt:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/a1d1cf289165fbb112d8921d47708e49fb70925739b1cbd1798daff422806e8a
+            name: '&e&lTotem Hurt'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 14
+          permission: hurt.3a
+          hurt-particles:
+            - 'TOTEM;1;0.1;0.1;0.1;0.1'
+        toxic hurt:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/ba97d2c73811426a74c4cc5408813a718dffd12a8d0f38d619b28bb85a2ed1b5
+            name: '&e&lToxic Hurt'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &5Mythical'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 15
+          permission: hurt.4a
+          hurt-particles:
+            - 'DRIPPING_OBSIDIAN_TEAR;1;0.1;0.1;0.1;5.0'
+        damage hurt:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/e6383580eb1f9d8620a4603673df5623491a87386a7406e53f69d79ae706e00c
+            name: '&e&lDamage Hurt'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 16
+          permission: hurt.5a
+          hurt-particles:
+            - 'DAMAGE_INDICATOR;1;0.1;0.1;0.1;0.1'
+        heart hurt:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/6d36c3291fe02d142c4af28df2f55bb0397e198554e8345990dbbcd4c140316b
+            name: '&e&lHeart Hurt'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 21
+          permission: hurt.6a
+          hurt-particles:
+            - 'HEART;1;0.1;0.1;0.1;0.1'
+        enchantment hurt:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/42c8e76fcdde9a15ae3929b84bf6ffa4c1777b1e26b7d6d8938f0ef04e84874c
+            name: '&e&lEnchantment Hurt'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 22
+          permission: hurt.7a
+          hurt-particles:
+            - 'ENCHANTMENT_TABLE;3;0.1;0.1;0.1;0.1'
+        flame hurt:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/858f7951a00baea25a15b3b20f2c8d6ee06e0ae54f6f9aa4810ac0b88d698c71
+            name: '&e&lFlame Hurt'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &eRare'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 23
+          permission: hurt.8a
+          hurt-particles:
+            - 'FLAME;3;0.1;0.1;0.1;0.1' 
+        sweep attack damage:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/8e02febb4c52db1fb9e1e5c852a4e72d8dfe6c4c055a4649abf3d357d233fc1b
+            name: '&e&lSweep Attack Damage'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &dUncommon'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 24
+          permission: damage.1a
+          swords-particles:
+            - 'SWEEP_ATTACK;1;0.1;0.1;0.1;0.1'
+        Happy damage:
+          locked:
+            material: RED_STAINED_GLASS_PANE
+            name: '&c&lLocked'
+            lore: []
+            glow: false
+          available:
+            material: PLAYER_HEAD:http://textures.minecraft.net/texture/8d8f5fb387ca66fc2f65b91fcb231604548e8565895bb96c676984205e6f19
+            name: '&e&lHappy Damage'
+            lore: 
+             - '&r'            
+             - '&fInformation:'            
+             - '  &8◊ &7Unlocked: &e{date}'
+             - '  &8◊ &7Rarity: &6Legendary'
+             - '&r'
+             - '&a&lClick here &r&7to select this cosmetic'
+            glow: false
+          slot: 25
+          permission: damage.2a
+          swords-particles:
+            - 'VILLAGER_HAPPY;1;0.1;0.1;0.1;0.1'           

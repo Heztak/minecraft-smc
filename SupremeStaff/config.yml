@@ -1,0 +1,156 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+# No permission message
+no-perms: '&fUnknown command. Type "/help" for help.'
+no-perms-click: '&cYou don''t have the permission to use this punishment.'
+
+# Loading offline player for stafflist
+loading: '&6Loading all &estaff members&6. Please try again in one moment.'
+
+# Commands that cannot be used by staff members
+blacklist-commands: []
+blacklist-commands-message: ''
+ 
+
+#  ____  _         __  __        _           _   
+# / ___|| |_ __ _ / _|/ _|   ___| |__   __ _| |_ 
+# \___ \| __/ _` | |_| |_   / __| '_ \ / _` | __|
+#  ___) | || (_| |  _|  _| | (__| | | | (_| | |_ 
+# |____/ \__\__,_|_| |_|    \___|_| |_|\__,_|\__|
+#
+
+# Staff chat options
+prefix: '&a&lStaffchat'
+color: '&f'
+separator: '&7: '
+name-color: '&7'
+
+# Message when toggle staffchat
+toggle-enable: '&r  &8» &fStaff chat &a&lenabled&f. &fYou will now receive staff messages.'
+toggle-disable: '&r  &8» &fStaff chat &c&ldisabled&f. &fYou will no longer receive staff messages.'
+toggle-reminder: '&cYour staff chat is disabled. Enable it with ''/sctoggle''.'
+
+
+#  ____  _         __  __               _ 
+# / ___|| |_ __ _ / _|/ _|   __ _ _   _(_)
+# \___ \| __/ _` | |_| |_   / _` | | | | |
+#  ___) | || (_| |  _|  _| | (_| | |_| | |
+# |____/ \__\__,_|_| |_|    \__, |\__,_|_|
+#                           |___/         
+
+# Stafflist gui title
+title: '&cStaff members'
+
+# Name for staff member in gui
+name: '&e&l{player}'
+
+# Lore for staff member in gui  
+lore:
+  - '&fInformation:'
+  - '  &8◊ &7Rank: &f{rank}'
+  - '  &8◊ &7Status: {status}'
+
+# Order for stafflist gui
+display-as-staff:
+  - owner
+  - manager
+  - moderator
+  - helper
+  - trial 
+
+# Messages for the punish gui
+commands:
+  ban:
+    name:
+      - 'RawMsg {player} false <n>&eName:<n>Beware, it is case sensitive.<n><n>&aPlease enter the rule breaker in chat...<n>'
+    reason:
+      - 'RawMsg {player} false <n>&eExample reasons:<n>KillAura, X-Ray, Exploits, Etc.<n><n>&aEnter the reason...<n>'
+    duration:
+      - 'RawMsg {player} false <n>&eDurations:<n>1s, 1m, 1h, 1d, permanent<n><n>&aPlease enter the duration in chat.<n>'
+  mute:
+    name:
+      - 'RawMsg {player} false <n>&eName:<n>Beware, it is case sensitive.<n><n>&aPlease enter the player in chat...<n>'
+    reason:
+      - 'RawMsg {player} false <n>&eExample reasons:<n>Swearing, Advertise, Harassing staff, Etc.<n><n>&aEnter the reason...<n>'
+    duration:
+      - 'RawMsg {player} false <n>&eDurations:<n>1s, 1m, 1h, 1d, permanent<n><n>&aPlease enter the duration in chat.<n>'
+  kick:
+    name:
+      - 'RawMsg {player} false <n>&eName:<n>Beware, it is case sensitive.<n><n>&aPlease enter the player in chat...<n>'
+    reason:
+      - 'RawMsg {player} false <n>&eExample reasons:<n>Advertising, Spamming chat, Etc.<n><n>&aEnter the reason...<n>'
+  warn:
+    name:
+      - 'RawMsg {player} false <n>&eName:<n>Beware, it is case sensitive.<n><n>&aPlease enter the player in chat...<n>'
+    reason:
+      - 'RawMsg {player} false <n>&eExample reasons:<n>Advertising, Spamming chat, Etc.<n><n>&aEnter the reason...<n>'
+
+# Title and lore for staffgui      
+punish-gui:
+  size: 27
+  title: '&cStaff Menu'
+  items:
+    ban:
+      material: PLAYER_HEAD:http://textures.minecraft.net/texture/f01e01fed13fe3f25a05e71c482136c68d5e3ee85ff4af62183965e8e39a9e90
+      name: '&e&lBan'
+      lore:           
+        - '&7You can ban both permanently and temporarily.'
+        - ''        
+        - '&fCan be used by:'       
+        - ' &cOwners&7, &9Managers&7, &dModerators'     
+        - ''
+        - '&a&lLeft click &7to start sanction'         
+      glow: false
+      slot: 10
+    kick:
+      material: PLAYER_HEAD:http://textures.minecraft.net/texture/f01e01fed13fe3f25a05e71c482136c68d5e3ee85ff4af62183965e8e39a9e90
+      name: '&e&lKick'
+      lore: 
+        - '&7Here you can kick players from the server.'
+        - ''        
+        - '&fCan be used by:'   
+        - ' &cOwners&7, &9Managers&7, &dModerators&7, &aHelpers' 
+        - ''
+        - '&a&lLeft click &7to start sanction' 
+      glow: false
+      slot: 12
+    mute:
+      material: PLAYER_HEAD:http://textures.minecraft.net/texture/f01e01fed13fe3f25a05e71c482136c68d5e3ee85ff4af62183965e8e39a9e90
+      name: '&e&lMute'
+      lore: 
+        - '&7Here you can mute players from the server.'
+        - ''        
+        - '&fCan be used by:'
+        - ' &cOwners&7, &9Managers&7, &dModerators' 
+        - ''
+        - '&a&lLeft click &7to start sanction' 
+      glow: false
+      slot: 14
+    warn:
+      material: PLAYER_HEAD:http://textures.minecraft.net/texture/f01e01fed13fe3f25a05e71c482136c68d5e3ee85ff4af62183965e8e39a9e90
+      name: '&e&lWarn'
+      lore: 
+        - '&7Here you can warn players from the server.'
+        - ''        
+        - '&fCan be used by:'   
+        - ' &cOwners&7, &9Managers&7, &dModerators&7, &aHelpers' 
+        - ''
+        - '&a&lLeft click &7to start sanction' 
+      glow: false
+      slot: 16

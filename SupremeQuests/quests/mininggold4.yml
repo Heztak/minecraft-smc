@@ -1,0 +1,15 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 30
+    block: "GOLD_ORE"
+rewards:
+  - "supremetokens give {player} 10"
+  - "lp user {player} permission set level.23"
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

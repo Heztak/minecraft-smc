@@ -1,0 +1,448 @@
+booster2:
+  menu:
+    type: AWKWARD
+    slot: 11
+    cost: 300
+    currency: VAULT
+    name: '&e&lSpecial drink 1'
+    glow: true
+    lore:
+      - '&7Test your luck with this'    
+      - '&7special drink.'
+      - ''      
+      - '&fInformation:'      
+      - '  &8◊ &7Price: &2$&a{price}'
+      - '  &8◊ &7Jackpot: &2$&a{reward}'
+      - ''
+      - '&fJackpot:' 
+      - '  &8◊ &7Chance: &e{chance}%'       
+      - ''      
+      - '&a&lClick here &7to purchase.'
+  item:
+    type: AWKWARD
+    reward: 875
+    currency: VAULT
+    name: '&e&lSpecial drink 1'
+    glow: true
+    lore:
+      - '' 
+      - '&fJackpot: &2$&a{reward}'
+      - ''
+      - '&7The chance of winning the' 
+      - '&7jackpot is &e{chance}%&7!'
+  titles:
+    win:
+      fadein: 20
+      staytime: 60
+      fadeout: 20
+      title: '&a&lYou won!'
+      subtitle: '&2$&a{reward}'
+    lose:
+      fadein: 20
+      staytime: 60
+      fadeout: 20
+      title: ''
+      subtitle: '&7Maybe next time...'
+  chance: 30
+  win-sounds:
+    - 'ENTITY_PLAYER_LEVELUP;1.0;0.3'
+  lose-sounds:
+    - 'ENTITY_VILLAGER_NO;1.0;1.0'
+  win-particles:
+    - 'FLAME;10'
+  lose-particles:
+    - 'VILLAGER_ANGRY;10'
+  win-firework-colors:
+    - 'WHITE'
+    - 'YELLOW'
+    - 'ORANGE'
+    - 'ORANGE'
+  lose-firework-colors:
+    - 'GRAY'
+    - 'GRAY'
+    - 'GRAY'
+    - 'GRAY'
+booster3:
+  menu:
+    type: AWKWARD
+    slot: 12
+    cost: 500
+    currency: VAULT
+    name: '&e&lSpecial drink 2'
+    glow: true
+    lore:
+      - '&7Test your luck with this'    
+      - '&7special drink.'
+      - ''      
+      - '&fInformation:'      
+      - '  &8◊ &7Price: &2$&a{price}'
+      - '  &8◊ &7Jackpot: &2$&a{reward}'
+      - ''
+      - '&fJackpot:' 
+      - '  &8◊ &7Chance: &e{chance}%'       
+      - ''      
+      - '&a&lClick here &7to purchase.'
+  item:
+    type: AWKWARD
+    reward: 1250
+    currency: VAULT
+    name: '&e&lSpecial drink 2'
+    glow: true
+    lore:
+      - '' 
+      - '&fJackpot: &2$&a{reward}'
+      - ''
+      - '&7The chance of winning the' 
+      - '&7jackpot is &e{chance}%&7!'
+  titles:
+    win:
+      fadein: 20
+      staytime: 60
+      fadeout: 20
+      title: '&a&lYou won!'
+      subtitle: '&2$&a{reward}'
+    lose:
+      fadein: 20
+      staytime: 60
+      fadeout: 20
+      title: ''
+      subtitle: '&7Maybe next time...'
+  chance: 30
+  win-sounds:
+    - 'ENTITY_PLAYER_LEVELUP;1.0;0.3'
+  lose-sounds:
+    - 'ENTITY_VILLAGER_NO;1.0;1.0'
+  win-particles:
+    - 'FLAME;10'
+  lose-particles:
+    - 'VILLAGER_ANGRY;10'
+  win-firework-colors:
+    - 'WHITE'
+    - 'YELLOW'
+    - 'ORANGE'
+    - 'ORANGE'
+  lose-firework-colors:
+    - 'GRAY'
+    - 'GRAY'
+    - 'GRAY'
+    - 'GRAY'
+booster4:
+  menu:
+    type: AWKWARD
+    slot: 13
+    cost: 750
+    currency: VAULT
+    name: '&e&lSpecial drink 3'
+    glow: true
+    lore:
+      - '&7Test your luck with this'    
+      - '&7special drink.'
+      - ''      
+      - '&fInformation:'      
+      - '  &8◊ &7Price: &2$&a{price}'
+      - '  &8◊ &7Jackpot: &2$&a{reward}'
+      - ''
+      - '&fJackpot:' 
+      - '  &8◊ &7Chance: &e{chance}%'       
+      - ''      
+      - '&a&lClick here &7to purchase.'
+  item:
+    type: AWKWARD
+    reward: 1875
+    currency: VAULT
+    name: '&e&lSpecial drink 3'
+    glow: true
+    lore:
+      - '' 
+      - '&fJackpot: &2$&a{reward}'
+      - ''
+      - '&7The chance of winning the' 
+      - '&7jackpot is &e{chance}%&7!'
+  titles:
+    win:
+      fadein: 20
+      staytime: 60
+      fadeout: 20
+      title: '&a&lYou won!'
+      subtitle: '&2$&a{reward}'
+    lose:
+      fadein: 20
+      staytime: 60
+      fadeout: 20
+      title: ''
+      subtitle: '&7Maybe next time...'
+  chance: 25
+  win-sounds:
+    - 'ENTITY_PLAYER_LEVELUP;1.0;0.3'
+  lose-sounds:
+    - 'ENTITY_VILLAGER_NO;1.0;1.0'
+  win-particles:
+    - 'FLAME;10'
+  lose-particles:
+    - 'VILLAGER_ANGRY;10'
+  win-firework-colors:
+    - 'WHITE'
+    - 'YELLOW'
+    - 'ORANGE'
+    - 'ORANGE'
+  lose-firework-colors:
+    - 'GRAY'
+    - 'GRAY'
+    - 'GRAY'
+    - 'GRAY'
+booster5:
+  menu:
+    type: AWKWARD
+    slot: 14
+    cost: 1000
+    currency: VAULT
+    name: '&e&lSpecial drink 4'
+    glow: true
+    lore:
+      - '&7Test your luck with this'    
+      - '&7special drink.'
+      - ''      
+      - '&fInformation:'      
+      - '  &8◊ &7Price: &2$&a{price}'
+      - '  &8◊ &7Jackpot: &2$&a{reward}'
+      - ''
+      - '&fJackpot:' 
+      - '  &8◊ &7Chance: &e{chance}%'       
+      - ''      
+      - '&a&lClick here &7to purchase.'
+  item:
+    type: AWKWARD
+    reward: 2500
+    currency: VAULT
+    name: '&e&lSpecial drink 4'
+    glow: true
+    lore:
+      - '' 
+      - '&fJackpot: &2$&a{reward}'
+      - ''
+      - '&7The chance of winning the' 
+      - '&7jackpot is &e{chance}%&7!'
+  titles:
+    win:
+      fadein: 20
+      staytime: 60
+      fadeout: 20
+      title: '&a&lYou won!'
+      subtitle: '&2$&a{reward}'
+    lose:
+      fadein: 20
+      staytime: 60
+      fadeout: 20
+      title: ''
+      subtitle: '&7Maybe next time...'
+  chance: 25
+  win-sounds:
+    - 'ENTITY_PLAYER_LEVELUP;1.0;0.3'
+  lose-sounds:
+    - 'ENTITY_VILLAGER_NO;1.0;1.0'
+  win-particles:
+    - 'FLAME;10'
+  lose-particles:
+    - 'VILLAGER_ANGRY;10'
+  win-firework-colors:
+    - 'WHITE'
+    - 'YELLOW'
+    - 'ORANGE'
+    - 'ORANGE'
+  lose-firework-colors:
+    - 'GRAY'
+    - 'GRAY'
+    - 'GRAY'
+    - 'GRAY'
+booster6:
+  menu:
+    type: AWKWARD
+    slot: 15
+    cost: 1500
+    currency: VAULT
+    name: '&e&lSpecial drink 5'
+    glow: true
+    lore:
+      - '&7Test your luck with this'    
+      - '&7special drink.'
+      - ''      
+      - '&fInformation:'      
+      - '  &8◊ &7Price: &2$&a{price}'
+      - '  &8◊ &7Jackpot: &2$&a{reward}'
+      - ''
+      - '&fJackpot:' 
+      - '  &8◊ &7Chance: &e{chance}%'       
+      - ''      
+      - '&a&lClick here &7to purchase.'
+  item:
+    type: AWKWARD
+    reward: 3700
+    currency: VAULT
+    name: '&e&lSpecial drink 5'
+    glow: true
+    lore:
+      - '' 
+      - '&fJackpot: &2$&a{reward}'
+      - ''
+      - '&7The chance of winning the' 
+      - '&7jackpot is &e{chance}%&7!'
+  titles:
+    win:
+      fadein: 20
+      staytime: 60
+      fadeout: 20
+      title: '&a&lYou won!'
+      subtitle: '&2$&a{reward}'
+    lose:
+      fadein: 20
+      staytime: 60
+      fadeout: 20
+      title: ''
+      subtitle: '&7Maybe next time...'
+  chance: 25
+  win-sounds:
+    - 'ENTITY_PLAYER_LEVELUP;1.0;0.3'
+  lose-sounds:
+    - 'ENTITY_VILLAGER_NO;1.0;1.0'
+  win-particles:
+    - 'FLAME;10'
+  lose-particles:
+    - 'VILLAGER_ANGRY;10'
+  win-firework-colors:
+    - 'WHITE'
+    - 'YELLOW'
+    - 'ORANGE'
+    - 'ORANGE'
+  lose-firework-colors:
+    - 'GRAY'
+    - 'GRAY'
+    - 'GRAY'
+    - 'GRAY'
+booster7:
+  menu:
+    type: AWKWARD
+    slot: 16
+    cost: 2000
+    currency: VAULT
+    name: '&e&lSpecial drink 6'
+    glow: true
+    lore:
+      - '&7Test your luck with this'    
+      - '&7special drink.'
+      - ''      
+      - '&fInformation:'      
+      - '  &8◊ &7Price: &2$&a{price}'
+      - '  &8◊ &7Jackpot: &2$&a{reward}'
+      - ''
+      - '&fJackpot:' 
+      - '  &8◊ &7Chance: &e{chance}%'       
+      - ''      
+      - '&a&lClick here &7to purchase.'
+  item:
+    type: AWKWARD
+    reward: 5000
+    currency: VAULT
+    name: '&e&lSpecial drink 6'
+    glow: true
+    lore:
+      - '' 
+      - '&fJackpot: &2$&a{reward}'
+      - ''
+      - '&7The chance of winning the' 
+      - '&7jackpot is &e{chance}%&7!'
+  titles:
+    win:
+      fadein: 20
+      staytime: 60
+      fadeout: 20
+      title: '&a&lYou won!'
+      subtitle: '&2$&a{reward}'
+    lose:
+      fadein: 20
+      staytime: 60
+      fadeout: 20
+      title: ''
+      subtitle: '&7Maybe next time...'
+  chance: 20
+  win-sounds:
+    - 'ENTITY_PLAYER_LEVELUP;1.0;0.3'
+  lose-sounds:
+    - 'ENTITY_VILLAGER_NO;1.0;1.0'
+  win-particles:
+    - 'FLAME;10'
+  lose-particles:
+    - 'VILLAGER_ANGRY;10'
+  win-firework-colors:
+    - 'WHITE'
+    - 'YELLOW'
+    - 'ORANGE'
+    - 'ORANGE'
+  lose-firework-colors:
+    - 'GRAY'
+    - 'GRAY'
+    - 'GRAY'
+    - 'GRAY'
+booster8:
+  menu:
+    type: AWKWARD
+    slot: 17
+    cost: 2500
+    currency: VAULT
+    name: '&e&lSpecial drink 7'
+    glow: true
+    lore:
+      - '&7Test your luck with this'    
+      - '&7special drink.'
+      - ''      
+      - '&fInformation:'      
+      - '  &8◊ &7Price: &2$&a{price}'
+      - '  &8◊ &7Jackpot: &2$&a{reward}'
+      - ''
+      - '&fJackpot:' 
+      - '  &8◊ &7Chance: &e{chance}%'       
+      - ''      
+      - '&a&lClick here &7to purchase.'
+  item:
+    type: AWKWARD
+    reward: 6250
+    currency: VAULT
+    name: '&e&lSpecial drink 7'
+    glow: true
+    lore:
+      - '' 
+      - '&fJackpot: &2$&a{reward}'
+      - ''
+      - '&7The chance of winning the' 
+      - '&7jackpot is &e{chance}%&7!'
+  titles:
+    win:
+      fadein: 20
+      staytime: 60
+      fadeout: 20
+      title: '&a&lYou won!'
+      subtitle: '&2$&a{reward}'
+    lose:
+      fadein: 20
+      staytime: 60
+      fadeout: 20
+      title: ''
+      subtitle: '&7Maybe next time...'
+  chance: 20
+  win-sounds:
+    - 'ENTITY_PLAYER_LEVELUP;1.0;0.3'
+  lose-sounds:
+    - 'ENTITY_VILLAGER_NO;1.0;1.0'
+  win-particles:
+    - 'FLAME;10'
+  lose-particles:
+    - 'VILLAGER_ANGRY;10'
+  win-firework-colors:
+    - 'WHITE'
+    - 'YELLOW'
+    - 'ORANGE'
+    - 'ORANGE'
+  lose-firework-colors:
+    - 'GRAY'
+    - 'GRAY'
+    - 'GRAY'
+    - 'GRAY'

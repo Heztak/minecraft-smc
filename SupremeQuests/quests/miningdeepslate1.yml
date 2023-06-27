@@ -1,0 +1,14 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 25
+    block: "DEEPSLATE"
+rewards:
+  - "exp give {player} 50"
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

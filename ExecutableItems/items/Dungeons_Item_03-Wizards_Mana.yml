@@ -1,0 +1,68 @@
+name: '&#e915fb&lW&#eb1af4&li&#ed1fed&lz&#ef24e5&la&#f129de&lr&#f32ed7&ld&#f532d0&l''&#f737c9&ls
+  &#f93cc2&lM&#fb41ba&la&#fd46b3&ln&#ff4bac&la'
+lore:
+- '&7An &aelixir &7made using the mana of an'
+- '&7infamous and evil &5wizard&r&7, those unfortunate'
+- '&7enough to feel its wrath, perish in agony...'
+material: SPLASH_POTION
+glow: true
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+variables: {}
+activators: {}
+recognitions: []
+potionSettings:
+  potionColor: 13431551
+  potionType: WATER
+  potionExtended: false
+  potionUpgraded: true
+  potionEffects:
+    '1':
+      isAmbient: true
+      duration: 45
+      potionEffectType: CONFUSION
+      amplifier: 3
+      hasParticles: false
+      hasIcon: false
+    '2':
+      isAmbient: true
+      duration: 45
+      potionEffectType: WEAKNESS
+      amplifier: 1
+      hasParticles: false
+      hasIcon: false
+    '3':
+      isAmbient: true
+      duration: 45
+      potionEffectType: BLINDNESS
+      amplifier: 2
+      hasParticles: false
+      hasIcon: false
+attributes: {}
+config_5: true
+config_update: false

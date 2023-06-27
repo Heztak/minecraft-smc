@@ -1,0 +1,15 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 300
+    mob: SKELETON
+    worlds:
+     - 'survival'
+rewards:
+  - "eco give {player} 2500"
+  - "supremetokens give {player} 10"
+  - "lp user {player} permission set level.44c"  
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

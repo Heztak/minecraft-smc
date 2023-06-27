@@ -1,0 +1,137 @@
+menu_title: '&cEarnings Explorer (page 1/1)'
+open_command:
+- jobs earnings explorer
+size: 45
+items:
+  'filler':
+    material: 'GRAY_STAINED_GLASS_PANE'
+    priority: 1
+    slots:
+    - 16
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34    
+  '1':
+    material: 'COMPASS'
+    display_name: '&e&lDiscover First Time'
+    priority: 1
+    slots:
+    - 10
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fExplore actions:'
+    - '  &8◊ &7Money: &2$&a1.5'
+    - '  &8◊ &7Exp: &d1.5 Exp'
+    - '  &8◊ &7Points: &e1 Points'
+  '2':
+    material: 'COMPASS'
+    display_name: '&e&lDiscover Second Time'
+    priority: 1
+    slots:
+    - 11
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fExplore actions:'
+    - '  &8◊ &7Money: &2$&a1'
+    - '  &8◊ &7Exp: &d1 Exp'
+    - '  &8◊ &7Points: &e0.8 Points'
+  '3':
+    material: 'COMPASS'
+    display_name: '&e&lDiscover Third Time'
+    priority: 1
+    slots:
+    - 12
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fExplore actions:'
+    - '  &8◊ &7Money: &2$&a0.8'
+    - '  &8◊ &7Exp: &d0.8 Exp'
+    - '  &8◊ &7Points: &e0.6 Points'
+  '4':
+    material: 'COMPASS'
+    display_name: '&e&lDiscover Forth Time'
+    priority: 1
+    slots:
+    - 13
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fExplore actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.5 Exp'
+    - '  &8◊ &7Points: &e0.4 Points'
+  '5':
+    material: 'COMPASS'
+    display_name: '&e&lDiscover Fifth Time'
+    priority: 1
+    slots:
+    - 14
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fExplore actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.4 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '6':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I0NWFhYjA3MjdkYjVmYzkxMjg5Y2MwMWFiODk2NzA2MTg1MTQ4ZjRkYWNkODE5ZjgzYTZhMjU2MDI3YjRmMCJ9fX0='
+    display_name: '&e&lPlayer'
+    priority: 1
+    slots:
+    - 15
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fKill actions:'
+    - '  &8◊ &7Money: &2$&a7.5'
+    - '  &8◊ &7Exp: &d7.5 Exp'
+    - '  &8◊ &7Points: &e7.5 Points'
+  'back':
+    material: BARRIER
+    priority: 1
+    display_name: '&C⤾ Back'
+    slot: 40
+    left_click_commands:
+    - '[openguimenu] jobsreborn_page_2'    
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_page_2'     
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'nextpage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0=
+    priority: 1
+    display_name: '&8Next Page'
+    slot: 26
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'previouspage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    priority: 1
+    display_name: '&8Previous Page'
+    slot: 18
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'    

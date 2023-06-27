@@ -1,0 +1,16 @@
+tasks:
+  harvesting:
+    type: 'inventory'
+    item: NETHER_WART
+    amount: 25
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "exp give {player} 50"
+options:
+  category: "harvesting"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

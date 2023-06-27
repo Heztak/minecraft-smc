@@ -1,0 +1,29 @@
+location: world:1.551:87.000:52.465
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lThe Key Exchanger'
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: '&fTired of using Vote keys only? &dExchange &fthem'
+    height: 0.3
+  - content: '&fnow for &ahigher tiered&f keys! You can find'
+    height: 0.3
+  - content: '&fthe requirements in the exchange menu.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fStart saving today!'
+    height: 0.3
+  - content: ''
+    height: 0.3    
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3
+  actions: {}

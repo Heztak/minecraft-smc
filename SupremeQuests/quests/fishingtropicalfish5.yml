@@ -1,0 +1,14 @@
+tasks:
+  fishingcertain:
+    type: 'fishingcertain'
+    amount: 75
+    item: TROPICAL_FISH
+    worlds:
+     - 'survival'
+rewards:
+  - "eco give {player} 1500"
+  - "exp give {player} 350"
+options:
+  category: "fishing"
+  requires: []
+  repeatable: true

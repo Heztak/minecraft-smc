@@ -1,0 +1,57 @@
+Settings:
+  Prefix: N/A
+  Toggle-Metrics: false
+  Falling-Block-Toggle: true
+  Falling-Block: LIGHTNING_ROD
+  Fall-Height: 5
+  Max-Crate-Toggle: false
+  Random-Amount: true
+  Min-Crates: 20
+  Max-Crates: 30
+  Random-Locations: false
+  Max-Radius: 300
+  Min-Radius: 20
+  Envoy-Run-Time: 5m
+  Envoy-Timer-Toggle: true
+  Envoy-Cooldown-Toggle: true
+  Envoy-Cooldown: 4h
+  Envoy-Time: 2:00 AM
+  Minimum-Players-Toggle: true
+  Minimum-Flare-Toggle: false
+  Minimum-Players: 1
+  Broadcast-Crate-Pick-Up: false
+  Crate-Collect-Cooldown:
+    Toggle: true
+    Time: 15s
+  World-Messages:
+    Toggle: false
+    Worlds:
+    - world
+  Envoy-Warnings:
+  - 10m
+  - 5m
+  - 1m
+  - 10s
+  - 5s
+  - 4s
+  - 3s
+  - 2s
+  - 1s
+  Flares:
+    Item: REDSTONE_TORCH
+    Name: '&7&l(&4&l!&7&l) &cFlare'
+    Lore:
+    - '&7Right click me to'
+    - '&7start an crazyenvoy event.'
+    World-Guard:
+      Toggle: false
+      Regions:
+      - WarZone
+  Config-Version: 1
+  Update-Checker: true
+  Crate-Countdown:
+    Toggle: false
+    Time: 120
+    Message: '&cReady to claim.'
+    Message-Seconds: ' seconds.'
+  Envoy-Locations-Broadcast: false

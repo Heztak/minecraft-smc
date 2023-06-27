@@ -1,0 +1,25 @@
+location: world:35.001:81.400:-29.547
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lAuction House'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fThis is the &dmarketplace &ffor players to'
+    height: 0.3
+  - content: '&fsell and buy their items which are mostly'
+    height: 0.3
+  - content: '&cnot available &fon the official shop.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3
+  actions: {}

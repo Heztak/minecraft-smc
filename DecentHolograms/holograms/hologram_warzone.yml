@@ -1,0 +1,26 @@
+location: world:-15.480:76.000:195.379
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&c&lThe Warzone'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fYou are about to enter the &c&lWarzone&f.'
+    height: 0.3
+  - content: '&fTurn back now if you do not wish to PvP.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fIf you dare to leave this &aSafezone&f, you should'
+    height: 0.3
+  - content: '&flook for the &d&lSupply Drops&f. These chests are filled'
+    height: 0.3    
+  - content: '&fwith useful items for you and your &eLand&f.'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,14 @@
+location: world:-61.963:84.900:-17.986
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&a&l1. &f%supremeessentials_remaining_claims_name_1%'
+    height: 0.3
+  - content: '&a&l%supremeessentials_remaining_claims_value_1% Blocks'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,28 @@
+'1':
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: COOKED_BEEF
+    amount: 16
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: APPLE
+    amount: 12
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: BREAD
+    amount: 8
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: COOKIE
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: RABBIT_STEW
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: GOLDEN_APPLE

@@ -1,0 +1,17 @@
+tasks:
+  gathering:
+    type: 'inventory'
+    item: INK_SAC
+    amount: 125
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "supremetokens give {player} 10"
+  - "lp user {player} permission set level.55b"  
+options:
+  category: "gathering"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

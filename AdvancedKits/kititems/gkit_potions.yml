@@ -1,0 +1,121 @@
+'1':
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_strength
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_strength
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_leaping
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_leaping
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_regeneration
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_regeneration
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_healing
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_healing
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_healing
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_healing
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:long_fire_resistance
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:long_fire_resistance
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_swiftness
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_swiftness
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:long_water_breathing

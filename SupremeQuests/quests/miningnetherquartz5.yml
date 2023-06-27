@@ -1,0 +1,16 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 200
+    block: "NETHER_QUARTZ_ORE"
+rewards:
+  - "eco give {player} 1250"
+  - "exp give {player} 250"
+  - "lp user {player} permission set level.37b"  
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

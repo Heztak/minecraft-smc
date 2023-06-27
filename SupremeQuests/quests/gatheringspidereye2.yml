@@ -1,0 +1,16 @@
+tasks:
+  gathering:
+    type: 'inventory'
+    item: SPIDER_EYE
+    amount: 125
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "supremetokens give {player} 5"
+options:
+  category: "gathering"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

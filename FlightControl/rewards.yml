@@ -1,0 +1,11 @@
+# WARNING: You MUST set up the categories in the categories.yml for
+# the rewards to work properly.
+
+# This is the reward for the *global* category
+global:
+  # Every player in the global category receives this command every
+  # cooldown period. By default, global players receive nothing every 1 day.
+  cooldown: 1 day
+  # These are the commands that are executed after every cooldown period.
+  commands:
+  - ''

@@ -1,0 +1,39 @@
+location: world:-16.436:84.100:18.504
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lVote Party'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fBy &bVoting &fyou help us get a higher position in'
+    height: 0.3
+  - content: '&fthe server ranking. Of course we want to reward'
+    height: 0.3
+  - content: '&fyou for that. With every vote you will receive'
+    height: 0.3
+  - content: '&a&l&n1 Voting Crate Key&f and when the required'
+    height: 0.3    
+  - content: '&fvotes for the &dVote Party &fhave been reached'
+    height: 0.3
+  - content: '&fyou will also receive a nice gift!'
+    height: 0.3
+  - content: ''
+    height: 0.3    
+  - content: '&fThere is currently &6&l%supremevote_current_votes% &fvote for the'
+    height: 0.3
+  - content: '&fserver. &6&l%supremevote_votes_needed% &fvotes are needed for a &dVote Party&f.'
+    height: 0.3 
+  - content: '%supremevote_progress_bar%'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&7Use &a&l/vote &7to vote for our server'
+    height: 0.3
+  actions: {}

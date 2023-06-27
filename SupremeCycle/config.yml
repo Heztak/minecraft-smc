@@ -1,0 +1,142 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+# World where you are able to vote for the time
+world-name: world_survival
+ 
+# Voting options
+min-vote-time: 13900 # time when players are able to vote
+max-vote-time: 18000 # time when the voting will stop
+day-time: 23500 # time that will be set when the required votes has been reached
+ 
+# Animation in ticks 
+day-animation-ticks: 50
+ 
+# Reminder messages in seconds
+starting-remind: 300
+repeating-remind: 300
+
+# Percentages needed to set the time to day
+required-votes: 2
+
+#  __  __                                     
+# |  \/  | ___  ___ ___  __ _  __ _  ___  ___ 
+# | |\/| |/ _ \/ __/ __|/ _` |/ _` |/ _ \/ __|
+# | |  | |  __/\__ \__ \ (_| | (_| |  __/\__ \
+# |_|  |_|\___||___/___/\__,_|\__, |\___||___/
+#                             |___/
+
+# Message when reached the needed votes for daytime
+pre-day-commands:
+  - 'tellraw {player} ["",{"text":"\n"},{"text":"Hey!","bold":true,"color":"yellow"},{"text":"\nThe majority voted for "},{"text":"day","color":"#9BD5FB"},{"text":",\nhave a nice "},{"text":"sunset","color":"gold"},{"text":".\n "}]'
+ 
+# Remind message to vote for the time
+vote-remind-commands:
+  - 'tellraw {player} ["",{"text":"\n"},{"text":"Goodevening!","bold":true,"color":"yellow"},{"text":"\nYou can now vote for the time! "},{"text":"Click here. ","color":"gold","clickEvent":{"action":"run_command","value":"/votefortime"}},{"text":"\n"},{"text":"Day","color":"#9BD5FB"},{"text":" or "},{"text":"Night","color":"#324F91"},{"text":"\n "}]'
+ 
+# Personal voting message
+voted-for-night-commands:
+  - 'RawMsg {player} false <n>&e&lThank you for voting!'
+  - 'tellraw {player} ["",{"text":"You have voted for "},{"text":"night!","color":"#324F91"}]'
+  - 'RawMsg {player} false &6{progress} &fof the &62 &frequired votes.<n>'  
+voted-for-day-commands:
+  - 'RawMsg {player} false <n>&e&lThank you for voting!'
+  - 'tellraw {player} ["",{"text":"You have voted for "},{"text":"day!","color":"#9DB5FB"}]'
+  - 'RawMsg {player} false &6{progress} &fof the &62 &frequired votes.<n>'  
+ 
+# Global voting message
+voted-for-night-global-commands:
+  - 'RawMsg {player} false <n>&e&l{player_who_voted} has voted!'
+  - 'tellraw {player} ["",{"text":"The vote has gone to "},{"text":"night!","color":"#324F91"}]'
+  - 'RawMsg {player} false &6{progress} &fof the &62 &frequired votes.<n>'
+voted-for-day-global-commands:
+  - 'RawMsg {player} false <n>&e&l{player_who_voted} has voted!'
+  - 'tellraw {player} ["",{"text":"The vote has gone to "},{"text":"day!","color":"#9DB5FB"}]'
+  - 'RawMsg {player} false &6{progress} &fof the &62 &frequired votes.<n>'
+ 
+# Stay night message
+stay-night-commands: 
+  - 'tellraw {player} ["",{"text":"\n"},{"text":"Hey!","bold":true,"color":"yellow"},{"text":"\nThe majority voted for "},{"text":"night","color":"#324F91"},{"text":",\nhave a nice "},{"text":"evening","color":"gold"},{"text":".\n "}]'
+ 
+# Voting in wrong world message
+wrong-world-commands:
+  - 'RawMsg {player} false &cYou can''t vote in this world.'
+ 
+# Error messages
+already-voted-commands:
+  - 'RawMsg {player} false &cYou have already voted.'
+wrong-vote-time-commands:
+  - 'RawMsg {player} false &cYou can only vote at night.'
+no-perms-commands:
+  - 'RawMsg {player} false &cYou need to be level 10 to vote for the time.'
+ 
+#  _____ _ _   _      
+# |_   _(_) |_| | ___ 
+#   | | | | __| |/ _ \
+#   | | | | |_| |  __/
+#   |_| |_|\__|_|\___|
+#
+
+# Good morning title
+after-day-title: '&r;#9DB5FBGoodmorning;20;45;20' #;<fadein>;<staytime>;<fadeout>
+
+#    ____       _ 
+#  / ___|_   _(_)
+# | |  _| | | | |
+# | |_| | |_| | |
+#  \____|\__,_|_|
+# 
+
+# Voting GUI settings/ messages
+menu-title: '&cVote for your preference'
+
+# Animation speed
+animation-1-ticks: 3
+animation-2-ticks: 8
+animation-3-ticks: 13
+animation-4-ticks: 18
+animation-5-ticks: 23
+
+# Sounds
+animation-1-sounds:
+- ENTITY_CHICKEN_EGG;1.0;1.0
+animation-2-sounds: 
+- ENTITY_CHICKEN_EGG;1.0;1.2
+animation-3-sounds: 
+- ENTITY_CHICKEN_EGG;1.0;1.4
+animation-4-sounds: 
+- ENTITY_CHICKEN_EGG;1.0;1.6
+animation-5-sounds: 
+- ENTITY_CHICKEN_EGG;1.0;1.8
+
+# Gui items
+fill-item:
+  material: 'GRAY_STAINED_GLASS_PANE'
+  name: '&f'
+  lore: []
+  glow: false
+yes-item:
+  material: PLAYER_HEAD:http://textures.minecraft.net/texture/c11234820a1e7bfb912b522aecf34bfcb569f02bf5836e669a29bae99737e522
+  name: '&e&lVote for day'
+  lore: []
+  glow: false
+no-item:
+  material: PLAYER_HEAD:http://textures.minecraft.net/texture/d7d68bb144e159ffdb0bb2abdd583ff389ae710682ca77e6535393ae22137a
+  name: '&9&lKeep it night'
+  lore: []
+  glow: false

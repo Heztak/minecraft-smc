@@ -1,0 +1,219 @@
+Settings:
+  Spawn-Chance: 20
+  Use-Chance: false
+  Placed-Block: 'CHEST' 
+  Bulk-Prizes:
+    Toggle: false 
+    Random: true 
+    Max-Bulk: 3 
+  Hologram-Toggle: true 
+  Hologram-Height: 1.5 
+  Hologram: 
+    - '&f♦ &c&lSupply Drop &7[Tier III] &f♦'
+  Firework-Toggle: true 
+  Firework-Colors:
+    - 'Green'
+    - 'White'    
+  Signal-Flare:
+    Toggle: false
+    Time: '60s'
+    Colors:
+     - 'Green'
+     - 'White'
+Prizes:
+  '1':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found &c&l1x Wither Skeleton Skull&f.'
+      - ''
+    Items:
+      - 'Item:WITHER_SKELETON_SKULL, Amount:1, Name:&c&lWither Skeleton Skull &7[TIII]'
+  '2':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found &c&l4x Netherite Ingot&f.'
+      - ''
+    Items:
+      - 'Item:NETHERITE_INGOT, Amount:4, Name:&c&lNetherite Ingot &7[TIII]'
+  '3':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found a &c&lMythical Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:knockback,lvl:2}]} 1'
+  '4':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found a &c&lMythical Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:sharpness,lvl:4}]} 1'
+  '5':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found a &c&lMythical Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:power,lvl:4}]} 1'
+  '6':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found a &c&lMythical Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:fortune,lvl:1}]} 1'
+  '7':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found a &c&lMythical Book&f.'
+      - ''
+    Commands:
+      - 'minecraft:give %Player% enchanted_book{StoredEnchantments:[{id:unbreaking,lvl:3}]} 1'
+  '8':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found a &c&lNormal Cubelet&f.'
+      - ''
+    Commands:
+      - 'acubelets:cubelets give %Player% normal 1'
+  '9':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found a &c&lSuper Cubelet&f.'
+      - ''
+    Commands:
+      - 'acubelets:cubelets give %Player% super 1'
+  '10':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found a &c&lMoney Booster &7[3]&f.'
+      - ''
+    Commands:
+      - 'supremegamble give %Player% booster3'
+  '11':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found a &c&lMoney Booster &7[4]&f.'
+      - ''
+    Commands:
+      - 'supremegamble give %Player% booster4'
+  '12':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found a &c&lMoney Booster &7[5]&f.'
+      - ''
+    Commands:
+      - 'supremegamble give %Player% booster5'
+  '13':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found a &c&lBuilder Package&f.'
+      - ''
+    Items:
+      - 'Item:STONE, Amount:128, Name:&c&lStone &7[TII]'
+      - 'Item:OAK_LOG, Amount:128, Name:&c&lOak Log &7[TII]'
+      - 'Item:GLASS, Amount:64, Name:&c&lGlass &7[TII]'
+      - 'Item:TINTED_GLASS, Amount:32, Name:&c&lTinted Glass &7[TII]'      
+      - 'Item:CHEST, Amount:16, Name:&c&lChest &7[TII]'
+      - 'Item:GLOWSTONE, Amount:32, Name:&c&lGlowstone &7[TII]'
+      - 'Item:BRICKS, Amount:64, Name:&c&lBricks &7[TII]'
+      - 'Item:SMOOTH_QUARTZ, Amount:32, Name:&c&lSmooth Quartz Block &7[TII]'
+  '14':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found a &c&lFlytime Voucher &7[30 Mintues]&f.'
+      - ''
+    Commands:
+      - 'supremevouchers %Player% flytime30'
+  '15':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found a &c&lFlytime Voucher &7[60 Mintues]&f.'
+      - ''
+    Commands:
+      - 'supremevouchers %Player% flytime60'
+  '16':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found a &c&l100 Claim Blocks&f.'
+      - ''
+    Commands:
+      - 'supremevouchers %Player% 100claimblocks'
+  '20':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found a &c&lGravestone&f.'
+      - ''
+    Commands:
+      - 'gravestones give %Player% 1'
+  '21':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found &c&l10 Tokens&f.'
+      - ''
+    Commands:
+      - 'supremetokens give %Player% 10'
+  '22':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found &c&l5 Tokens&f.'
+      - ''
+    Commands:
+      - 'supremetokens give %Player% 5'
+  '23':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found &c&l25 Tokens&f.'
+      - ''
+    Commands:
+      - 'supremetokens give %Player% 25'
+  '24':
+    Chance: 30
+    Drop-Items: true    
+    Messages:
+      - ''
+      - '&7[Tier III] &fYou found a &c&lShop Advertisement Gem &7[1 Day]&f.'
+      - ''
+    Commands:
+      - 'supremeplayershops %Player% 1day'      

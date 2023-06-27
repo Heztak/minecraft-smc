@@ -1,0 +1,1050 @@
+
+#  ____  _             _              _    _ _       
+# / ___|| |_ __ _ _ __| |_ ___ _ __  | | _(_) |_ ___ 
+# \___ \| __/ _` | '__| __/ _ \ '__| | |/ / | __/ __|
+#  ___) | || (_| | |  | ||  __/ |    |   <| | |_\__ \
+# |____/ \__\__,_|_|   \__\___|_|    |_|\_\_|\__|___/
+#
+
+StarterKits:
+  title: '&cStarter Kits'
+  rows: 4
+  menu-fillers: []
+  
+# Item in the main kits menu
+  open-menu:
+    sounds:
+      - 'BLOCK_COMPARATOR_CLICK;VOICE;10.0;1.0'
+    particles: []
+    button:
+      slot: 12
+      material: STONE_PICKAXE
+      name: '&e&lStarter Kits'
+      glow: false
+      lore:
+        - '&7Starter kits are kits that contain'
+        - '&7items that a novice survivar can use'
+        - '&7to start their adventure.'
+        - ''
+        - '&fInformation:'        
+        - '  &8◊ &7Available kits: &e{available_kits} Starter Kits'
+        - ''
+        - '&a&lClick here &7to browse'
+
+# Kits inside the starter kits menu
+  kits:
+    starter_tools:
+      slot: 11
+      available:
+        material: STONE_PICKAXE
+        name: '&e&lTools Kit'
+        glow: true
+        lore:
+          - '&7Claim the tools kit to receive a'
+          - '&7handful of tools to get you started!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &e{total}'
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: STONE_PICKAXE
+        name: '&c&lTools Kit'
+        glow: false
+        lore:
+          - '&7Claim the tools kit to receive a'
+          - '&7handful of tools to get you started!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FD4A4A{cooldown}'
+          - '  &8◊ &7Number of items: &#FD4A4A{items} items'
+          - '  &8◊ &7Claimed: &#FD4A4A{redeemed_times} times'
+          - ''
+          - '&c&lOn cooldown'
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: '&c&lLocked'
+        glow: false
+        lore: []
+    starter_food:
+      slot: 12
+      available:
+        material: COOKED_BEEF
+        name: '&e&lFood Kit'
+        glow: true
+        lore:
+          - '&7Claim the food kit to receive'
+          - '&7a bunch of food so you will'
+          - '&7survive the night!'
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &e{total}'
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: COOKED_BEEF
+        name: '&c&lFood Kit'
+        glow: false
+        lore:
+          - '&7Claim the tools kit to receive a'
+          - '&7handful of tools to get you started!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FD4A4A{cooldown}'
+          - '  &8◊ &7Number of items: &#FD4A4A{items} items'
+          - '  &8◊ &7Claimed: &#FD4A4A{redeemed_times} times'
+          - ''
+          - '&c&lOn cooldown'
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: '&c&lLocked'
+        glow: false
+        lore: []
+    starter_armor:
+      slot: 13
+      available:
+        material: LEATHER_CHESTPLATE
+        name: '&e&lArmor Kit'
+        glow: true
+        lore:
+          - '&7Claim the armor kit to receive some'
+          - '&7beginner protection to protect you'
+          - '&7against the dangers outside!'
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &e{total}'
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: LEATHER_CHESTPLATE
+        name: '&c&lArmor Kit'
+        glow: false
+        lore:
+          - '&7Claim the armor kit to receive some'
+          - '&7beginner protection to protect you'
+          - '&7against the dangers outside!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FD4A4A{cooldown}'
+          - '  &8◊ &7Number of items: &#FD4A4A{items} items'
+          - '  &8◊ &7Claimed: &#FD4A4A{redeemed_times} times'
+          - ''
+          - '&c&lOn cooldown'
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: '&c&lLocked'
+        glow: false
+        lore: []        
+    starter_claimtools:
+      slot: 14
+      available:
+        material: GOLDEN_SHOVEL
+        name: '&e&lClaim Tools Kit'
+        glow: true
+        lore:
+          - '&7Claim the claim tools kit to receive'
+          - '&7items that are useful when claiming land!'
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &e{total}'
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: GOLDEN_SHOVEL
+        name: '&c&lClaim Tools Kit'
+        glow: false
+        lore:
+          - '&7Claim the claim tools kit to receive'
+          - '&7items that are useful when claiming land!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FD4A4A{cooldown}'
+          - '  &8◊ &7Number of items: &#FD4A4A{items} items'
+          - '  &8◊ &7Claimed: &#FD4A4A{redeemed_times} times'
+          - ''
+          - '&c&lOn cooldown'
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: '&c&lLocked'
+        glow: false
+        lore: []
+
+# Button to 'fast close' the kits menu
+  close-menu:
+    sounds:
+      - 'BLOCK_ENDER_CHEST_CLOSE;VOICE;10.0;1.0'
+    particles: []
+    button:
+      slot: 32
+      material: BARRIER
+      name: '&C× Close'
+      glow: false
+      lore: []
+
+#  ____             _            _   _    _ _       
+# |  _ \ __ _ _ __ | | _____  __| | | | _(_) |_ ___ 
+# | |_) / _` | '_ \| |/ / _ \/ _` | | |/ / | __/ __|
+# |  _ < (_| | | | |   <  __/ (_| | |   <| | |_\__ \
+# |_| \_\__,_|_| |_|_|\_\___|\__,_| |_|\_\_|\__|___/
+#
+
+RankedKits:
+  title: '&cRanked Kits'
+  rows: 5
+  menu-fillers: #menufillers.yml
+   - knight-rank
+   - lord-rank
+   - baron-rank
+   - paladin-rank
+   - duke-rank
+   - king-rank
+  
+# Item in the main kits menu
+  open-menu:
+    sounds:
+      - 'BLOCK_COMPARATOR_CLICK;VOICE;10.0;1.0'
+    particles: []
+    button:
+      slot: 14
+      material: TOTEM_OF_UNDYING
+      name: '&e&lRanked Kits'
+      glow: false
+      lore:
+        - '&7Each rank comes with its own kits. These'
+        - '&7kits can give you a boost to become'
+        - '&7the number 1 player on the server!'
+        - ''
+        - '&fInformation:'        
+        - '  &8◊ &7Available kits: &e{available_kits} Ranked Kits'
+        - '  &8◊ &7Unlocked: &a{owned_kits}'        
+        - ''
+        - '&a&lClick here &7to browse'
+
+# Kits inside the starter kits menu
+  kits:
+    ranked_knight_kit:
+      slot: 20
+      available:
+        material: PAINTING
+        name: '&#0f65b4&lK&#156db9&ln&#1c75be&li&#227dc3&lg&#2885c9&lh&#2e8dce&lt &#3595d3&lK&#3b9dd8&li&#41a5dd&lt'
+        glow: true
+        lore:
+          - '&7Everyone with a knight rank can'
+          - '&7claim this kit.'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#41a5dd{total}'
+          - '  &8◊ &7Number of items: &#41a5dd{items} items'
+          - '  &8◊ &7Claimed: &#41a5dd{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: PAINTING
+        name: '&c&lKnight Kit'
+        glow: false
+        lore:
+          - '&7Everyone with a knight rank can'
+          - '&7claim this kit.'      
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FD4A4A{cooldown}'
+          - '  &8◊ &7Number of items: &#FD4A4A{items} items'
+          - '  &8◊ &7Claimed: &#FD4A4A{redeemed_times} times'
+          - ''
+          - '&c&lOn cooldown'
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: '&c&lLocked'
+        glow: false
+        lore: []
+    ranked_knight_once:
+      slot: 29
+      available:
+        material: PAPER
+        name: '&#0f65b4&lK&#136ab7&ln&#1770bb&li&#1c75be&lg&#207ac2&lh&#2480c5&lt &#2885c9&lO&#2c8acc&ln&#3090cf&lc&#3595d3&le &#399ad6&lK&#3da0da&li&#41a5dd&lt'
+        glow: true
+        lore:
+          - '&7Everyone with a knight rank can'
+          - '&7claim this kit. But beware, you can only'
+          - '&7claim it once!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#41a5ddN/A'
+          - '  &8◊ &7Number of items: &#41a5dd{items} items'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: PAPER
+        name: '&c&lKnight Once Kit'
+        glow: false
+        lore:
+          - '&7Everyone with a knight rank can'
+          - '&7claim this kit. But beware, you can only'
+          - '&7claim it once!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FD4A4AN/A'
+          - ''
+          - '&c&lKit claimed!'
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: '&c&lLocked'
+        glow: false
+        lore: []
+    ranked_lord_kit:
+      slot: 21
+      available:
+        material: PAINTING
+        name: '&#ddd56b&lL&#ddd45f&lo&#ddd352&lr&#ddd346&ld &#ddd239&lK&#ddd12d&li&#ddd020&lt'
+        glow: true
+        lore:
+          - '&7Everyone with a lord rank can'
+          - '&7claim this kit.'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#DDCD43{total}'
+          - '  &8◊ &7Number of items: &#DDCD43{items} items'
+          - '  &8◊ &7Claimed: &#DDCD43{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: PAINTING
+        name: '&c&lLord Kit'
+        glow: false
+        lore:
+          - '&7Everyone with a lord rank can'
+          - '&7claim this kit.'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FD4A4A{cooldown}'
+          - '  &8◊ &7Number of items: &#FD4A4A{items} items'
+          - '  &8◊ &7Claimed: &#FD4A4A{redeemed_times} times'
+          - ''
+          - '&c&lOn cooldown'
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: '&c&lLocked'
+        glow: false
+        lore: []
+    ranked_lord_once:
+      slot: 30
+      available:
+        material: PAPER
+        name: '&#ddd56b&lL&#ddd564&lo&#ddd45c&lr&#ddd455&ld &#ddd34d&lO&#ddd346&ln&#ddd23e&lc&#ddd237&le &#ddd12f&lK&#ddd128&li&#ddd020&lt'
+        glow: true
+        lore:
+          - '&7Everyone with a lord rank can'
+          - '&7claim this kit. But beware, you can only'
+          - '&7claim it once!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#DDCD43N/A'
+          - '  &8◊ &7Number of items: &#DDCD43{items} items'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: PAPER
+        name: '&c&lLord Once Kit'
+        glow: false
+        lore:
+          - '&7Everyone with a lord rank can'
+          - '&7claim this kit. But beware, you can only'
+          - '&7claim it once!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FD4A4AN/A'
+          - ''
+          - '&c&lKit claimed!'
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: '&c&lLocked'
+        glow: false
+        lore: []
+    ranked_baron_kit:
+      slot: 22
+      available:
+        material: PAINTING
+        name: '&#42c813&lB&#43d022&la&#43d830&lr&#44e03f&lo&#44e74e&ln &#45ef5d&lK&#45f76b&li&#46ff7a&lt'
+        glow: true
+        lore:
+          - '&7Everyone with a baron rank can'
+          - '&7claim this kit.'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#46FF7A{total}'
+          - '  &8◊ &7Number of items: &#46FF7A{items} items'
+          - '  &8◊ &7Claimed: &#46FF7A{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: PAINTING
+        name: '&c&lBaron Kit'
+        glow: false
+        lore:
+          - '&7Everyone with a baron rank can'
+          - '&7claim this kit.'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FD4A4A{cooldown}'
+          - '  &8◊ &7Number of items: &#FD4A4A{items} items'
+          - '  &8◊ &7Claimed: &#FD4A4A{redeemed_times} times'
+          - ''
+          - '&c&lOn cooldown'
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: '&c&lLocked'
+        glow: false
+        lore: []
+    ranked_baron_once:
+      slot: 31
+      available:
+        material: PAPER
+        name: '&#42c813&lB&#42cd1c&la&#43d226&lr&#43d72f&lo&#43dc38&ln &#44e142&lO&#44e64b&ln&#45eb55&lc&#45f05e&le &#45f567&lK&#46fa71&li&#46ff7a&lt'
+        glow: true
+        lore:
+          - '&7Everyone with a baron rank can'
+          - '&7claim this kit. But beware, you can only'
+          - '&7claim it once!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#46FF7AN/A'
+          - '  &8◊ &7Number of items: &#46FF7A{items} items'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: PAPER
+        name: '&c&lBaron Once Kit'
+        glow: false
+        lore:
+          - '&7Everyone with a baron rank can'
+          - '&7claim this kit. But beware, you can only'
+          - '&7claim it once!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FD4A4AN/A'
+          - ''
+          - '&c&lKit claimed!'
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: '&c&lLocked'
+        glow: false
+        lore: []
+    ranked_paladin_kit:
+      slot: 24
+      available:
+        material: PAINTING
+        name: '&#d51fad&lP&#d927b6&la&#de2ebf&ll&#e236c8&la&#e63ed1&ld&#eb45db&li&#ef4de4&ln &#f355ed&lK&#f85cf6&li&#fc64ff&lt'
+        glow: true
+        lore:
+          - '&7Everyone with a paladin rank can'
+          - '&7claim this kit.'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FC64FF{total}'
+          - '  &8◊ &7Number of items: &#FC64FF{items} items'
+          - '  &8◊ &7Claimed: &#FC64FF{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: PAINTING
+        name: '&c&lPaladin Kit'
+        glow: false
+        lore:
+          - '&7Everyone with a paladin rank can'
+          - '&7claim this kit.'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FD4A4A{cooldown}'
+          - '  &8◊ &7Number of items: &#FD4A4A{items} items'
+          - '  &8◊ &7Claimed: &#FD4A4A{redeemed_times} times'
+          - ''
+          - '&c&lOn cooldown'
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: '&c&lLocked'
+        glow: false
+        lore: []
+    ranked_paladin_once:
+      slot: 33
+      available:
+        material: PAPER
+        name: '&#d51fad&lP&#d824b3&la&#db2aba&ll&#de2fc0&la&#e134c6&ld&#e43acd&li&#e73fd3&ln &#ea44d9&lO&#ed49df&ln&#f04fe6&lc&#f354ec&le &#f659f2&lK&#f95ff9&li&#fc64ff&lt'
+        glow: true
+        lore:
+          - '&7Everyone with a paladin rank can'
+          - '&7claim this kit. But beware, you can only'
+          - '&7claim it once!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FC64FFN/A'
+          - '  &8◊ &7Number of items: &#FC64FF{items} items'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: PAPER
+        name: '&c&lPaladin Once Kit'
+        glow: false
+        lore:
+          - '&7Everyone with a paladin rank can'
+          - '&7claim this kit. But beware, you can only'
+          - '&7claim it once!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FD4A4AN/A'
+          - ''
+          - '&c&lKit claimed!'
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: '&c&lLocked'
+        glow: false
+        lore: []
+    ranked_duke_kit:
+      slot: 25
+      available:
+        material: PAINTING
+        name: '&#83ffe1&lD&#79f8e6&lu&#6ff0eb&lk&#65e9f0&le &#5ae2f5&lK&#50dafa&li&#46d3ff&lt'
+        glow: true
+        lore:
+          - '&7Everyone with a duke rank can'
+          - '&7claim this kit.'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#46D3FF{total}'
+          - '  &8◊ &7Number of items: &#46D3FF{items} items'
+          - '  &8◊ &7Claimed: &#46D3FF{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: PAINTING
+        name: '&c&lDuke Kit'
+        glow: false
+        lore:
+          - '&7Everyone with a duke rank can'
+          - '&7claim this kit.'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FD4A4A{cooldown}'
+          - '  &8◊ &7Number of items: &#FD4A4A{items} items'
+          - '  &8◊ &7Claimed: &#FD4A4A{redeemed_times} times'
+          - ''
+          - '&c&lOn cooldown'
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: '&c&lLocked'
+        glow: false
+        lore: []
+    ranked_duke_once:
+      slot: 34
+      available:
+        material: PAPER
+        name: '&#83ffe1&lD&#7dfbe4&lu&#77f6e7&lk&#71f2ea&le &#6beded&lO&#65e9f0&ln&#5ee5f3&lc&#58e0f6&le &#52dcf9&lK&#4cd7fc&li&#46d3ff&lt'
+        glow: true
+        lore:
+          - '&7Everyone with a duke rank can'
+          - '&7claim this kit. But beware, you can only'
+          - '&7claim it once!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#46D3FFN/A'
+          - '  &8◊ &7Number of items: &#46D3FF{items} items'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: PAPER
+        name: '&c&lDuke Once Kit'
+        glow: false
+        lore:
+          - '&7Everyone with a duke rank can'
+          - '&7claim this kit. But beware, you can only'
+          - '&7claim it once!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FD4A4AN/A'
+          - ''
+          - '&c&lKit claimed!'
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: '&c&lLocked'
+        glow: false
+        lore: []
+    ranked_king_kit:
+      slot: 26
+      available:
+        material: PAINTING
+        name: '&#ffa63e&lK&#ffae3e&li&#ffb53d&ln&#ffbd3d&lg &#ffc53d&lK&#ffcc3c&li&#ffd43c&lt'
+        glow: true
+        lore:
+          - '&7Everyone with a king rank can'
+          - '&7claim this kit.'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FFD43C{total}'
+          - '  &8◊ &7Number of items: &#FFD43C{items} items'
+          - '  &8◊ &7Claimed: &#FFD43C{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: PAINTING
+        name: '&c&lKing Kit'
+        glow: false
+        lore:
+          - '&7Everyone with a king rank can'
+          - '&7claim this kit.'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FD4A4A{cooldown}'
+          - '  &8◊ &7Number of items: &#FD4A4A{items} items'
+          - '  &8◊ &7Claimed: &#FD4A4A{redeemed_times} times'
+          - ''
+          - '&c&lOn cooldown'
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: '&c&lLocked'
+        glow: false
+        lore: []
+    ranked_king_once:
+      slot: 35
+      available:
+        material: PAPER
+        name: '&#ffa63e&lK&#ffab3e&li&#ffaf3e&ln&#ffb43d&lg &#ffb83d&lO&#ffbd3d&ln&#ffc23d&lc&#ffc63d&le &#ffcb3c&lK&#ffcf3c&li&#ffd43c&lt'
+        glow: true
+        lore:
+          - '&7Everyone with a king rank can'
+          - '&7claim this kit. But beware, you can only'
+          - '&7claim it once!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FFD43CN/A'
+          - '  &8◊ &7Number of items: &#FFD43C{items} items'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: PAPER
+        name: '&c&lKing Once Kit'
+        glow: false
+        lore:
+          - '&7Everyone with a king rank can'
+          - '&7claim this kit. But beware, you can only'
+          - '&7claim it once!'
+          - ''
+          - '&fInformation:'          
+          - '  &8◊ &7Cooldown: &#FD4A4AN/A'
+          - ''
+          - '&c&lKit claimed!'
+      locked:
+        material: RED_STAINED_GLASS_PANE
+        name: '&c&lLocked'
+        glow: false
+        lore: []        
+
+# Button to 'fast close' the kits menu
+  close-menu:
+    sounds:
+      - 'BLOCK_ENDER_CHEST_CLOSE;VOICE;10.0;1.0'
+    particles: []
+    button:
+      slot: 41
+      material: BARRIER
+      name: '&C× Close'
+      glow: false
+      lore: []
+        
+#   ____ _  ___ _       
+#  / ___| |/ (_) |_ ___ 
+# | |  _| ' /| | __/ __|
+# | |_| | . \| | |_\__ \
+#  \____|_|\_\_|\__|___/
+#
+
+GKits:
+  title: '&cGKits'
+  rows: 4
+  menu-fillers: []
+  
+# Item in the main kits menu
+  open-menu:
+    sounds:
+      - 'BLOCK_COMPARATOR_CLICK;VOICE;10.0;1.0'
+    particles: []
+    button:
+      slot: 16
+      material: FLOWER_BANNER_PATTERN
+      name: '&e&lGKits'
+      glow: false
+      lore:
+        - '&7These GKits contain loads of'
+        - '&7goodies that can enhance your'
+        - '&7gameplay quite a bit.'
+        - ''
+        - '&fInformation:'        
+        - '  &8◊ &7Available kits: &e{available_kits} GKits'
+        - ''
+        - '&a&lClick here &7to browse'
+
+# Kits inside the starter kits menu
+  kits:
+    gkit_keys:
+      slot: 11
+      available:
+        material: TRIPWIRE_HOOK
+        name: '&e&lGKit Keys'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eKeys &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: TRIPWIRE_HOOK
+        name: '&e&lGKit Keys'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eKeys &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      locked:
+        material: TRIPWIRE_HOOK
+        name: '&e&lGKit Keys'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eKeys &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+    gkit_miner:
+      slot: 12
+      available:
+        material: IRON_PICKAXE
+        name: '&e&lGKit Miner'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eMiner &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: IRON_PICKAXE
+        name: '&e&lGKit Miner'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eMiner &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      locked:
+        material: IRON_PICKAXE
+        name: '&e&lGKit Miner'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eMiner &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+    gkit_tools:
+      slot: 13
+      available:
+        material: SMITHING_TABLE
+        name: '&e&lGKit Tools'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eTools &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: SMITHING_TABLE
+        name: '&e&lGKit Tools'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eTools &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      locked:
+        material: SMITHING_TABLE
+        name: '&e&lGKit Tools'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eTools &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+    gkit_grinder:
+      slot: 14
+      available:
+        material: BONE
+        name: '&e&lGKit Grinder'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eGrinder &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: BONE
+        name: '&e&lGKit Grinder'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eGrinder &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      locked:
+        material: BONE
+        name: '&e&lGKit Grinder'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eGrinder &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+    gkit_blocks:
+      slot: 15
+      available:
+        material: CRAFTING_TABLE
+        name: '&e&lGKit Blocks'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eBlocks &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: CRAFTING_TABLE
+        name: '&e&lGKit Blocks'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eBlocks &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      locked:
+        material: CRAFTING_TABLE
+        name: '&e&lGKit Blocks'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eBlocks &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+    gkit_enchants:
+      slot: 16
+      available:
+        material: BOOK
+        name: '&e&lGKit Enchants'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eEnchants &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: BOOK
+        name: '&e&lGKit Enchants'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eEnchants &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      locked:
+        material: BOOK
+        name: '&e&lGKit Enchants'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &eEnchants &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+    gkit_potions:
+      slot: 17
+      available:
+        material: POTION
+        name: '&e&lGKit Potions'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &ePotions &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      unavailable:
+        material: POTION
+        name: '&e&lGKit Potions'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &ePotions &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+      locked:
+        material: POTION
+        name: '&e&lGKit Potions'
+        glow: true
+        lore:
+          - '&7Stack up on items and make sure you''ll never run'
+          - '&7out of them. Go on, get everything you need'
+          - '&7by claiming this &ePotions &7GKit.'           
+          - ''          
+          - '&fInformation:'          
+          - '  &8◊ &7Number of items: &e{items} items'
+          - '  &8◊ &7Claimed: &e{redeemed_times} times'
+          - ''
+          - '&#6efd85&lL&#64f279&le&#5ae76c&lf&#50dc60&lt &#46d154&lc&#3bc647&ll&#31bb3b&li&#27b02e&lc&#1da522&lk &7to claim this kit'
+          - '&#1da522&lR&#26af2d&li&#2fb938&lg&#38c243&lh&#41cc4e&lt &#4ad659&lc&#53e064&ll&#5ce96f&li&#65f37a&lc&#6efd85&lk &7to preview this kit'
+
+# Button to 'fast close' the kits menu
+  close-menu:
+    sounds:
+      - 'BLOCK_ENDER_CHEST_CLOSE;VOICE;10.0;1.0'
+    particles: []
+    button:
+      slot: 32
+      material: BARRIER
+      name: '&C× Close'
+      glow: false
+      lore: []

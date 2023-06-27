@@ -1,0 +1,21 @@
+location: world:1.439:84.500:21.489
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lStart Your Adventure!'
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: '&fClick me in order to start your journey!'
+    height: 0.3
+  - content: '&fSelect the &bworld &fyou want to get teleported'
+    height: 0.3
+  - content: '&fto, and take in the &dadventure&f!'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,15 @@
+tasks:
+  fishingcertain:
+    type: 'fishingcertain'
+    amount: 75
+    item: PUFFERFISH
+    worlds:
+     - 'survival'
+rewards:
+  - "eco give {player} 1500"
+  - "exp give {player} 350"
+  - "lp user {player} permission set level.68c"  
+options:
+  category: "fishing"
+  requires: []
+  repeatable: true

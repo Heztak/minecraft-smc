@@ -1,0 +1,14 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 500
+    mob: SPIDER
+    worlds:
+     - 'survival'
+rewards:
+  - "supremetokens give {player} 50"
+  - "eco give {player} 3000"
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

@@ -1,0 +1,16 @@
+tasks:
+  lumberjack:
+    type: "blockbreakcertain"
+    amount: 2500
+    block: "MUSHROOM_STEM"
+rewards:
+  - "exp give {player} 300"
+  - "supremetokens give {player} 50"
+  - "eco give {player} 5000" 
+options:
+  category: "lumberjack"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

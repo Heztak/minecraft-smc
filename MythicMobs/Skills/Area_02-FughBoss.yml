@@ -1,0 +1,15 @@
+FlowerAura:
+  Cooldown: 10000
+  Skills:
+  - effect:particlesphere{particle=reddust;color=#6aa84f;a=800;hs=0.1;vs=0.1;s=0.5;y=1;r=3;repeat=20;repeatInterval=15} @Self
+  - damage{a=10;repeat=20;repeatInterval=10} @PIR{r=5}
+  - sound{s=entity.ender_dragon.flap;repeat=20;repeatInterval=15;p=0.3} @PIR{r=15}
+  - sound{s=block.grass.hit;repeat=20;repeatInterval=15v=1;p=0.5} @PIR{r=15}
+  - delay 20
+  - effect:particlesphere{particle=reddust;color=#6aa84f;a=800;hs=0.1;vs=0.1;s=0.5;y=1;r=3;repeat=20;repeatInterval=15} @Self
+  - damage{a=10;repeat=20;repeatInterval=10} @PIR{r=5}
+  - sound{s=entity.ender_dragon.flap;repeat=20;repeatInterval=15;p=0.3} @PIR{r=50}
+  - sound{s=block.grass.hit;repeat=20;repeatInterval=15v=1;p=0.5} @PIR{r=50}
+
+
+

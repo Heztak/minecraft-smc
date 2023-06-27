@@ -1,0 +1,31 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for CustomCommands
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+# Aliases for the command
+# Our command can be used with /spawn, /gotospawn and /lobby
+aliases: [help]
+
+# Patterns for the command
+patterns:
+
+  - pattern: ''  # here, we don't need arguments for the command, so we set only one empty pattern
+    description: go to the spawn
+    permission: custom.commands
+    worlds:
+      whitelist: []  # our command can only be used in the default world
+      blacklist: []
+    cooldown: 0 SECOND
+    actions:
+      - type: NOTIFY
+        notify:
+          message:
+            - '&r'
+            - '&r  &6&lSurvival &e&lHelp &r&7(Page: 1/1)'
+            - '&r'
+            - '&r    &e&l* &f/guide &e&l≫ &eA full starters guide'
+            - '&r    &e&l* &f/claims &e&l≫ &eHelp about claims'
+            - '&r    &e&l* &f/trade &e&l≫ &eHelp about trading'
+            - '&r    &e&l* &f/rules &e&l≫ &eView the rules'
+            - '&r'          

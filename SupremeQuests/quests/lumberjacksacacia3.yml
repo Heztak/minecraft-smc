@@ -1,0 +1,15 @@
+tasks:
+  lumberjack:
+    type: "blockbreakcertain"
+    amount: 225
+    block: "ACACIA_LOG"
+rewards:
+  - "exp give {player} 100"
+  - "supremetokens give {player} 10"  
+options:
+  category: "lumberjack"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

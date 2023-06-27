@@ -1,0 +1,29 @@
+location: world:-69.481:82.000:4.006
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lThe Mystery Sorcerer'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fThe &5Mystery Sorcerer &fhas brought some goodies'
+    height: 0.3
+  - content: '&fwith him! &aEvery week &fhe refreshes his offerings'
+    height: 0.3
+  - content: '&fwith products carefully chosen by his &banonymous'
+    height: 0.3
+  - content: '&bsources&f. And be quick, because every item has'
+    height: 0.3
+  - content: '&fa maximum number of items in &cstock&f.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3
+  actions: {}

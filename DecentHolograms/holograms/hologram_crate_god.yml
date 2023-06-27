@@ -1,0 +1,17 @@
+location: world:-8.483:84.500:47.499
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: <#ANIM:wave:&c&l,&f&l>God Crate</#ANIM>
+    height: 0.3
+  - content: '&fRight click to open'
+    height: 0.3
+  - content: '&fLeft click to view rewards'
+    height: 0.3
+  actions: {}

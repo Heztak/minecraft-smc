@@ -1,0 +1,25 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+# 
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+items-Delay: 0
+items-Overwrite: true
+items-Spamming: true
+items-RestrictCount: false
+items:
+  survival-menu:
+    id: CLOCK
+    slot: 8
+    name: '&eSurvival Menu &7(Right Click)'
+    lore: []
+    interact-right:
+    - 'console: dm open survival_menu_1 %player%'
+    inventory:
+    - 'console: dm open survival_menu_1 %player%'    
+    commands-sound: BLOCK_COMPARATOR_CLICK
+    commands-cooldown: 0
+    itemflags: inventory-modify, hide-attributes, self-drops, item-store
+    triggers: join, respawn, world-switch
+    enabled-worlds: world, world_nether, world_end, world_survival, world_resources, world_dungeons

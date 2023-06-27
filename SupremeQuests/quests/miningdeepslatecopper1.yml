@@ -1,0 +1,14 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 10
+    block: "DEEPSLATE_COPPER_ORE"
+rewards:
+  - "exp give {player} 200"
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

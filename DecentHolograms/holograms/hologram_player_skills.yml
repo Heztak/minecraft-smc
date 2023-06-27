@@ -1,0 +1,33 @@
+location: world:-33.065:83.500:21.051
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lPlayer Skills'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fUse your special &cSkills &fto unlock'
+    height: 0.3
+  - content: '&fspecial abilities for &ddifferent tasks&f!'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fExcelling in each &bSkill &fwill give you'
+    height: 0.3
+  - content: '&fsome &aadvantage &fover other players.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fStart the grind today!'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,13 @@
+tasks:
+  fishingcertain:
+    type: 'fishingcertain'
+    amount: 35
+    item: PUFFERFISH
+    worlds:
+     - 'survival'
+rewards:
+  - "eco give {player} 1000"
+options:
+  category: "fishing"
+  requires: []
+  repeatable: true

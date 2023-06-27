@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1687667800610
+  login: 1687667798049
+money: '0'
+last-account-name: MDCLXVI
+logoutlocation:
+  world: b5641e67-fd00-4dcb-aae7-8011294dffc5
+  world-name: world
+  x: 19.580711495701685
+  y: 79.0
+  z: 18.30302129557731
+  yaw: 115.93977355957031
+  pitch: 1.949938416481018

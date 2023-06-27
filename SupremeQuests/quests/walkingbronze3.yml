@@ -1,0 +1,12 @@
+tasks:
+  walking:
+    type: 'walking'
+    distance: 250
+    worlds:
+     - 'survival'
+rewards:
+  - "exp give {player} 25"
+options:
+  category: "walking"
+  requires: []
+  repeatable: true

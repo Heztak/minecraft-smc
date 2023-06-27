@@ -1,0 +1,82 @@
+'1':
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        DIG_SPEED: 5
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        DURABILITY: 3
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        ARROW_DAMAGE: 5
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        PROTECTION_FALL: 4
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        MULTISHOT: 1
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        SILK_TOUCH: 1
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        MENDING: 1
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        ARROW_INFINITE: 1

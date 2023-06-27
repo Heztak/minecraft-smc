@@ -1,0 +1,34 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+Common_Shard:
+  Id: LAPIS_LAZULI
+  Display: '&9&lCommon Shard'
+  Lore:
+  - '&7Item from the dungeons. Use'
+  - '&7to unlatch the lock to powerfull items.'
+  - ''
+  - '&fInformation:'
+  - '   &8♢ &7Drop Chance: &e25%'
+  - ''
+Rare_Shard:
+  Id: PRISMARINE_SHARD
+  Display: '&3&lRare Shard'
+  Lore:
+  - '&7Item from the dungeons. Use'
+  - '&7to unlatch the lock to powerfull items.'
+  - ''
+  - '&fInformation:'
+  - '   &8♢ &7Drop Chance: &e18%'
+  - ''
+Legendary_Shard:
+  Id: AMETHYST_SHARD
+  Display: '&d&lLegendary Shard'
+  Lore:
+  - '&7Item from the dungeons. Use'
+  - '&7to unlatch the lock to powerfull items.'
+  - ''
+  - '&fInformation:'
+  - '   &8♢ &7Drop Chance: &e8%'
+  - ''  

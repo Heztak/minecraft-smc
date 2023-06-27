@@ -1,0 +1,15 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 500
+    mob: SHEEP
+    worlds:
+     - 'survival'
+rewards:
+  - "supremetokens give {player} 50"
+  - "eco give {player} 3000"
+  - "lp user {player} permission set level.58a"  
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

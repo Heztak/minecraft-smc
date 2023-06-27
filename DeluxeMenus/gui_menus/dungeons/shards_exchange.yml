@@ -1,0 +1,123 @@
+menu_title: '&cShards Master'
+open_command:
+- secretshardexchange
+size: 26
+update_interval: 1
+items:
+  'Common_Shard':
+    material: LAPIS_LAZULI
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true  
+    slot: 11
+    priority: 1
+    display_name: '&9&lCommon Shard'
+    lore:
+    - '&7A Common Shard can only'
+    - '&7be optained in the &fdungeons'     
+    - '&fworld &7by killing creatures.'     
+    - ''     
+    - '&7This item is therefore not'
+    - '&7exchangeble.'    
+    left_click_commands:
+    - '[close]'
+    - '[message] &cCommon shards can only be found in the dungeons.'
+    right_click_commands:
+    - '[close]'
+    - '[message] &cCommon shards can only be found in the dungeons.'
+#common shard to rare
+  'Rare_Shard':
+    material: PRISMARINE_SHARD
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true  
+    slot: 13
+    priority: 1
+    display_name: '&3&lRare Shard'
+    lore:
+    - '&7Exchange 36 Common Shards for'
+    - '&71 Rare Shard.'     
+    - ''  
+    - '&fInformation:'    
+    - '  &8◊ &7Price: &9&l36 Common Shards'
+    - ''
+    - ' &7You will receive &3&l1 Rare Shard' 
+    - ''     
+    - '&a&lClick &r&7to exchange' 
+    left_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "36"
+      deny_commands:
+       - '[message] &cYou don''t have enough shards.'
+       - '[close]'      
+    left_click_commands:
+    - '[close]'
+    - '[console] RawMsg %player_name% false <n>&a ❈ &fYou have successfully exchanged &936 Common shards &ffor &31 Rare Shard&f.<n>'
+    - '[console] supremeessentialstook %player_name% commonshard 36'    
+    - '[console] mm items give %player_name% Rare_Shard 1'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    right_click_requirement:
+      requirements:
+        common_shard:
+          type: ">="
+          input: "%supremeessentials_exchange_items_commonshard%"
+          output: "36"
+      deny_commands:
+       - '[message] &cYou don''t have enough shards.'
+       - '[close]'     
+    right_click_commands:
+    - '[close]'
+    - '[console] RawMsg %player_name% false <n>&a ❈ &fYou have successfully exchanged &936 Common shards &ffor &31 Rare Shard&f.<n>'
+    - '[console] supremeessentialstook %player_name% commonshard 36'    
+    - '[console] mm items give %player_name% Rare_Shard 1'
+    - '[sound] ENTITY_ITEM_PICKUP'
+#rare shard to legendary
+  'Legendary_Shard':
+    material: AMETHYST_SHARD
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true  
+    slot: 15
+    priority: 1
+    display_name: '&d&lLegendary Shard'
+    lore:
+    - '&7Exchange 27 Rare Shards for'
+    - '&71 Legendary Shard.'     
+    - ''  
+    - '&fInformation:'    
+    - '  &8◊ &7Price: &3&l27 Rare Shards'
+    - ''
+    - ' &7You will receive &d&l1 Legendary Shard' 
+    - ''       
+    - '&a&lClick &r&7to exchange' 
+    left_click_requirement:
+      requirements:
+        rare_shard:
+          type: ">="
+          input: "%supremeessentials_has_rare_shard%"
+          output: "27"
+      deny_commands:
+       - '[message] &cYou don''t have enough shards.'
+       - '[close]'
+    left_click_commands:
+    - '[close]'
+    - '[message] You have Successfully exchanged 27 Rare Shards for 1 Legendary shard'
+    - '[console] mm items give %player_name% Legendary_Shard 1'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    right_click_requirement:
+      requirements:
+        rare_shard:
+          type: ">="
+          input: "%supremeessentials_has_rare_shard%"
+          output: "27"
+      deny_commands:
+       - '[message] &cYou don''t have enough shards.'
+       - '[close]' 
+    right_click_commands:
+    - '[close]'
+    - '[message] You have Successfully exchanged 36 Common Shards for 1 rare shard'
+    - '[console] mm items give %player_name% Legendary_Shard 1'
+    - '[sound] ENTITY_ITEM_PICKUP'

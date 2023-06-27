@@ -1,0 +1,60 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+DoomfootLevel1:
+  Type: SKELETON
+  Display: '&6&lLvl. 1 &8▪ &cDoomfoot'  
+  Disguise: player KingKiller setCustomName "&6&lLvl. 1 &8▪ &cDoomfoot" setSkin IceyBear
+  Health: 30
+  Damage: 8
+  Equipment:
+  - WOODEN_SWORD HAND  
+  Drops:
+  - Common_Shard 1 0.25
+  LevelModifiers:
+  - health 5
+  - damage 1.2
+  Options:
+    MovementSpeed: 0.23
+    AlwaysShowName: true
+    PreventSunburn: true
+    ShowHealth: true
+    Silent: true
+    Despawn: true
+    FollowRange: 9
+    KnockbackResistance: 0.5
+    PreventOtherDrops: true
+  Skills:
+  - message{m="&7You defeated A <caster.name>&7!"} @Trigger ~onDeath 
+  - message{m="&c♡ <caster.hp> HP"} @Trigger ~onDamaged
+  - effect:particles{particle=reddust;color=#B20000;amount=10;speed=0.5;hS=0.15;vS=.15} @target ~onDeath
+  - sound{s=entity.zombie.destroy_egg} @self ~onDeath
+DoomfootLevel2:
+  Type: SKELETON
+  Display: '&6&lLvl. 2 &8▪ &cDoomfoot'  
+  Disguise: player KingKiller setCustomName "&6&lLvl. 2 &8▪ &cDoomfoot" setSkin IceyBear
+  Health: 30
+  Damage: 8
+  Equipment:
+  - STONE_AXE HAND  
+  Drops:
+  - Common_Shard 1 0.25
+  LevelModifiers:
+  - health 7
+  - damage 1.7
+  Options:
+    MovementSpeed: 0.25
+    AlwaysShowName: true
+    PreventSunburn: true
+    ShowHealth: true
+    Silent: true
+    Despawn: true
+    FollowRange: 9
+    KnockbackResistance: 0.5
+    PreventOtherDrops: true
+  Skills:
+  - message{m="&7You defeated A <caster.name>&7!"} @Trigger ~onDeath 
+  - message{m="&c♡ <caster.hp> HP"} @Trigger ~onDamaged
+  - effect:particles{particle=reddust;color=#B20000;amount=10;speed=0.5;hS=0.15;vS=.15} @target ~onDeath
+  - sound{s=entity.zombie.destroy_egg} @self ~onDeath  

@@ -1,0 +1,54 @@
+#  ____                        _     
+# / ___|  ___  _   _ _ __   __| |___ 
+# \___ \ / _ \| | | | '_ \ / _` / __|
+#  ___) | (_) | |_| | | | | (_| \__ \
+# |____/ \___/ \__,_|_| |_|\__,_|___/
+#
+
+# Almost every action has it's own sound and can therefor
+# be configured! https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+
+# Main menu open sound
+open-main-kits-menu:
+  - 'ENTITY_BAT_TAKEOFF;VOICE;10.0;1.0'
+
+no-move-menu-item:
+  - 'ENTITY_ENDERMAN_TELEPORT;VOICE;10.0;1.0'
+close-main-kits-menu:
+  - 'BLOCK_ENDER_CHEST_CLOSE;VOICE;10.0;1.0'
+back-to-main-kits-menu:
+  - 'BLOCK_COMPARATOR_CLICK;VOICE;10.0;1.0'
+open-preview-kits-menu:
+  - 'BLOCK_COMPARATOR_CLICK;VOICE;10.0;1.0'
+close-preview-kits-menu:
+  - 'BLOCK_ENDER_CHEST_CLOSE;VOICE;10.0;1.0'
+
+# Sounds while previewing the kits one by one  
+fill-kit-items:
+  - 'ENTITY_SHEEP_SHEAR;VOICE;0.5;1.0'
+  
+# Switch pages sounds
+previous-page-button:
+  - 'BLOCK_STONE_BUTTON_CLICK_OFF;VOICE;10.0;1.0'
+next-page-button:
+  - 'BLOCK_STONE_BUTTON_CLICK_OFF;VOICE;10.0;1.0'
+
+# Upgrades sounds
+locked-upgrade:
+  - 'ENTITY_VILLAGER_NO;VOICE;10.0;1.0'
+available-upgrade:
+  - 'ENTITY_PLAYER_LEVELUP;VOICE;10.0;1.0'
+no-available-upgrades:
+  - 'ENTITY_VILLAGER_NO;VOICE;10.0;1.0'
+default-level-upgrade:
+  - 'ENTITY_VILLAGER_NO;VOICE;10.0;1.0'
+maximum-level-upgrade:
+  - 'ENTITY_VILLAGER_NO;VOICE;10.0;1.0'
+insufficient-funds-upgrade:
+  - 'ENTITY_VILLAGER_NO;VOICE;10.0;1.0'
+complete-upgrade:
+  - 'ENTITY_VILLAGER_NO;VOICE;10.0;1.0'
+unavailable-upgrade:
+  - 'ENTITY_VILLAGER_NO;VOICE;10.0;1.0'
+current-upgrade:
+  - 'ENTITY_VILLAGER_NO;VOICE;10.0;1.0'

@@ -1,0 +1,111 @@
+menu_title: '&cEarnings Fisherman (page 1/1)'
+open_command:
+- jobs earnings fisherman
+size: 45
+items:
+  'filler':
+    material: 'GRAY_STAINED_GLASS_PANE'
+    priority: 1
+    slots:
+    - 14
+    - 15 
+    - 16
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+  '1':
+    material: 'cod'
+    display_name: '&e&lCod'
+    priority: 1
+    slots:
+    - 10
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fFish actions:'
+    - '  &8◊ &7Money: &2$&a15'
+    - '  &8◊ &7Exp: &d15 Exp'
+    - '  &8◊ &7Points: &e15 Points'
+  '2':
+    material: 'salmon'
+    display_name: '&e&lSalmon'
+    priority: 1
+    slots:
+    - 11
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fFish actions:'
+    - '  &8◊ &7Money: &2$&a20'
+    - '  &8◊ &7Exp: &d25 Exp'
+    - '  &8◊ &7Points: &e20 Points'
+  '3':
+    material: 'tropical_fish'
+    display_name: '&e&lTropical Fish'
+    priority: 1
+    slots:
+    - 12
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fFish actions:'
+    - '  &8◊ &7Money: &2$&a25'
+    - '  &8◊ &7Exp: &d25 Exp'
+    - '  &8◊ &7Points: &e25 Points'
+  '4':
+    material: 'pufferfish'
+    display_name: '&e&lPufferfish'
+    priority: 1
+    slots:
+    - 13
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fFish actions:'
+    - '  &8◊ &7Money: &2$&a25'
+    - '  &8◊ &7Exp: &d25 Exp'
+    - '  &8◊ &7Points: &e25 Points'
+  'back':
+    material: BARRIER
+    priority: 1
+    display_name: '&C⤾ Back'
+    slot: 40
+    left_click_commands:
+    - '[openguimenu] jobsreborn_page_1'    
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_page_1'     
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'nextpage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0=
+    priority: 1
+    display_name: '&8Next Page'
+    slot: 26
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'previouspage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    priority: 1
+    display_name: '&8Previous Page'
+    slot: 18
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'    

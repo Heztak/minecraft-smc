@@ -1,0 +1,330 @@
+menu_title: '&cEarnings Miner (page 1/3)'
+open_command:
+- jobs earnings miner
+size: 45
+items:
+  '1':
+    material: 'TUBE_CORAL_BLOCK'
+    display_name: '&e&lTube Coral Block'
+    priority: 1
+    slots:
+    - 10
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.4 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '2':
+    material: 'BRAIN_CORAL_BLOCK'
+    display_name: '&e&lBrain Coral Block'
+    priority: 1
+    slots:
+    - 11
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.4 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '3':
+    material: 'BUBBLE_CORAL_BLOCK'
+    display_name: '&e&lBubble Coral Block'
+    priority: 1
+    slots:
+    - 12
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.4 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '4':
+    material: 'FIRE_CORAL_BLOCK'
+    display_name: '&e&lFire Coral Block'
+    priority: 1
+    slots:
+    - 13
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.4 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '5':
+    material: 'HORN_CORAL_BLOCK'
+    display_name: '&e&lHorn Coral Block'
+    priority: 1
+    slots:
+    - 14
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.4 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '6':
+    material: 'ANDESITE'
+    display_name: '&e&lAndesite'
+    priority: 1
+    slots:
+    - 15
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.1'
+    - '  &8◊ &7Exp: &d0.1 Exp'
+    - '  &8◊ &7Points: &e0.05 Points'
+  '7':
+    material: 'STONE'
+    display_name: '&e&lStone'
+    priority: 1
+    slots:
+    - 16
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.01'
+    - '  &8◊ &7Exp: &d0.015 Exp'
+    - '  &8◊ &7Points: &e0.01 Points'
+  '8':
+    material: 'GRANITE'
+    display_name: '&e&lGranite'
+    priority: 1
+    slots:
+    - 19
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.1'
+    - '  &8◊ &7Exp: &d0.1 Exp'
+    - '  &8◊ &7Points: &e0.05 Points'
+  '9':
+    material: 'DIORITE'
+    display_name: '&e&lDiorite'
+    priority: 1
+    slots:
+    - 20
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.1'
+    - '  &8◊ &7Exp: &d0.05 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '10':
+    material: 'SANDSTONE'
+    display_name: '&e&lSandStone'
+    priority: 1
+    slots:
+    - 21
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.15'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '11':
+    material: 'CHISELED_SANDSTONE'
+    display_name: '&e&lChiseled Sandstone'
+    priority: 1
+    slots:
+    - 22
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.15'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '12':
+    material: 'CUT_SANDSTONE'
+    display_name: '&e&lCut Sandstone'
+    priority: 1
+    slots:
+    - 23
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.15'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '13':
+    material: 'COAL_ORE'
+    display_name: '&e&lCoal Ore'
+    priority: 1
+    slots:
+    - 24
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a3'
+    - '  &8◊ &7Exp: &d2 Exp'
+    - '  &8◊ &7Points: &e2 Points'
+  '14':
+    material: 'REDSTONE_ORE'
+    display_name: '&e&lRedstone Ore'
+    priority: 1
+    slots:
+    - 25
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a2.5'
+    - '  &8◊ &7Exp: &d2 Exp'
+    - '  &8◊ &7Points: &e2 Points'
+  '15':
+    material: 'IRON_ORE'
+    display_name: '&e&lIron Ore'
+    priority: 1
+    slots:
+    - 28
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a3.5'
+    - '  &8◊ &7Exp: &d2 Exp'
+    - '  &8◊ &7Points: &e3 Points'
+  '16':
+    material: 'GOLD_ORE'
+    display_name: '&e&lGold Ore'
+    priority: 1
+    slots:
+    - 29
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a5'
+    - '  &8◊ &7Exp: &d2 Exp'
+    - '  &8◊ &7Points: &e4 Points'
+  '17':
+    material: 'LAPIS_ORE'
+    display_name: '&e&lLapis Ore'
+    priority: 1
+    slots:
+    - 30
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a7.5'
+    - '  &8◊ &7Exp: &d2 Exp'
+    - '  &8◊ &7Points: &e6 Points'
+  '18':
+    material: 'DIAMOND_ORE'
+    display_name: '&e&lDiamond Ore'
+    priority: 1
+    slots:
+    - 31
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a10'
+    - '  &8◊ &7Exp: &d6 Exp'
+    - '  &8◊ &7Points: &e8 Points'
+  '19':
+    material: 'EMERALD_ORE'
+    display_name: '&e&lEmerald Ore'
+    priority: 1
+    slots:
+    - 32
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a11'
+    - '  &8◊ &7Exp: &d6 Exp'
+    - '  &8◊ &7Points: &e6 Points'
+  '20':
+    material: 'NETHER_QUARTZ_ORE'
+    display_name: '&e&lNether Quartz Ore'
+    priority: 1
+    slots:
+    - 33
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a0.25'
+    - '  &8◊ &7Exp: &d0.25 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '21':
+    material: 'OBSIDIAN'
+    display_name: '&e&lObsidian'
+    priority: 1
+    slots:
+    - 34
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fBreak actions:'
+    - '  &8◊ &7Money: &2$&a1.5'
+    - '  &8◊ &7Exp: &d3 Exp'
+    - '  &8◊ &7Points: &e1 Points'
+  'back':
+    material: BARRIER
+    priority: 1
+    display_name: '&C⤾ Back'
+    slot: 40
+    left_click_commands:
+    - '[openguimenu] jobsreborn_page_1'    
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_page_1'     
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'nextpage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0=
+    priority: 1
+    display_name: '&eNext Page'
+    slot: 26
+    left_click_commands:
+    - '[openguimenu] jobsreborn_miner_earnings_2'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_miner_earnings_2'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'previouspage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    priority: 1
+    display_name: '&8Previous Page'
+    slot: 18
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'    

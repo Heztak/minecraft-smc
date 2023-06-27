@@ -1,0 +1,159 @@
+menu_title: '&cEarnings Enchanter (page 3/3)'
+open_command:
+- jobs payouts enchanter3
+size: 45
+items:
+  'filler':
+    material: 'GRAY_STAINED_GLASS_PANE'
+    priority: 1
+    slots:
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25    
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+  '1':
+    material: 'Netherite_Chestplate'
+    display_name: '&e&lNetherite Chestplate'
+    priority: 1
+    slots:
+    - 10
+    hide_attributes: true    
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fEnchant actions:'
+    - '  &8◊ &7Money: &2$&a16'
+    - '  &8◊ &7Exp: &d40 Exp'
+    - '  &8◊ &7Points: &e16 points'
+  '2':
+    material: 'Netherite_helmet'
+    display_name: '&e&lNetherite Helmet'
+    priority: 1
+    slots:
+    - 11
+    hide_attributes: true    
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fEnchant actions:'
+    - '  &8◊ &7Money: &2$&a10'
+    - '  &8◊ &7Exp: &d35 Exp'
+    - '  &8◊ &7Points: &e10 points'
+  '3':
+    material: 'Netherite_leggings'
+    display_name: '&e&lNetherite Leggings'
+    priority: 1
+    slots:
+    - 12
+    hide_attributes: true    
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fEnchant actions:'
+    - '  &8◊ &7Money: &2$&a14'
+    - '  &8◊ &7Exp: &d40 Exp'
+    - '  &8◊ &7Points: &e14 points'
+  '4':
+    material: 'bow'
+    display_name: '&e&lBow'
+    priority: 1
+    slots:
+    - 13
+    hide_attributes: true    
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fEnchant actions:'
+    - '  &8◊ &7Money: &2$&a2.5'
+    - '  &8◊ &7Exp: &d15 Exp'
+    - '  &8◊ &7Points: &e5.5 points'
+  '15':
+    material: 'crossbow'
+    display_name: '&e&lCrossbow'
+    priority: 1
+    slots:
+    - 14
+    hide_attributes: true    
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fEnchant actions:'
+    - '  &8◊ &7Money: &2$&a2.5'
+    - '  &8◊ &7Exp: &d15 Exp'
+    - '  &8◊ &7Points: &e5.5 points'
+  '16':
+    material: 'Trident'
+    display_name: '&e&lTrident'
+    priority: 1
+    slots:
+    - 15
+    hide_attributes: true    
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fEnchant actions:'
+    - '  &8◊ &7Money: &2$&a2.5'
+    - '  &8◊ &7Exp: &d15 Exp'
+    - '  &8◊ &7Points: &e5.5 points'
+  '17':
+    material: 'Fishing_Rod'
+    display_name: '&e&lFishing Rod'
+    priority: 1
+    slots:
+    - 16
+    hide_attributes: true    
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fEnchant actions:'
+    - '  &8◊ &7Money: &2$&a2.5'
+    - '  &8◊ &7Exp: &d15 Exp'
+    - '  &8◊ &7Points: &e5.5 points'
+  'back':
+    material: BARRIER
+    priority: 1
+    display_name: '&C⤾ Back'
+    slot: 40
+    left_click_commands:
+    - '[openguimenu] jobsreborn_page_2'    
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_page_2'     
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'nextpage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0=
+    priority: 1
+    display_name: '&8Next Page'
+    slot: 26
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'previouspage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    priority: 1
+    display_name: '&ePrevious Page'
+    slot: 18
+    left_click_commands:
+    - '[openguimenu] jobsreborn_enchanter_earnings_2'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_enchanter_earnings_2'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'

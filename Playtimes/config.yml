@@ -1,0 +1,43 @@
+prefix: '&7[&b&lPlayTime&7]'
+date-format: MM/dd/yyyy
+playtime:
+  name:
+    second: s
+    minute: m
+    hour: h
+    day: d
+    seconds: s
+    minutes: m
+    hours: h
+    days: d
+  show-seconds: false
+  message:
+  - '&r'  
+  - '      &6&l%player%'
+  - '&7   "Server statistics"'
+  - '&r'  
+  - '   &e* &fPlaytime:&e %time%'
+  - '   &e* &fTimes joined:&e %timesjoined%'
+  - '   &e* &fJoined Date:&e %joindate%'
+  - '&r'
+  show-days: true
+uptime:
+  message:
+  - '&r'
+  - '&eServer Uptime:&f %serveruptime%'
+  - '&r'
+top-playtime:
+  header: '&6&lPlayTime Leaderboard'
+  content: '&e%place%. &f%player% &7- &e%time%'
+  footer: '&r'
+  enable-cooldown: true
+  cooldown-seconds: 60
+messages:
+  noPermission: '&cYou cannot run this command.'
+  player-not-found: '&cPlayer not found.'
+  cooldown: '&cYou can use this command again in %timeleft% seconds.'
+hide-players-from-leaderboard:
+  enabled: false
+  players:
+  - Cmaaxx
+  - CodedRed

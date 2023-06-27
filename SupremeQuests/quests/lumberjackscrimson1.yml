@@ -1,0 +1,14 @@
+tasks:
+  lumberjack:
+    type: "blockbreakcertain"
+    amount: 20
+    block: "CRIMSON_STEM"
+rewards:
+  - "exp give {player} 50"
+options:
+  category: "lumberjack"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

@@ -1,0 +1,13 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 25
+    mob: SPIDER
+    worlds:
+     - 'survival'
+rewards:
+  - "exp give {player} 250"
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

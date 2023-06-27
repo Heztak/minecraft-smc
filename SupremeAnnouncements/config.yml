@@ -1,0 +1,30 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+# Interval between messages
+interval: 400 #seconds
+
+# Messages based on commands
+announcements:
+  - 'RawMsg all false <n>&e&lDid you know?<n>&fYou can sell your items on our auction house!<n>&fUse &6/ah &fto sell them.<n>'
+  - 'RawMsg all false <n>&e&lDid you know?<n>&fYou can buy ranks, money, crate keys and<n>&fmuch more at our webstore!<n>'
+  - 'RawMsg all false <n>&b&lCan''t mine spawners?<n>&fAll players can place spawners but if you want to<n>&fmine them you have to be Player Level 20! Or purchase<n>&fa rank at our store! &eyourwebstore.com/store <n>'    
+  - 'RawMsg all false <n>&e&lDid you know?<n>&fIf you want to trade your xp or just save it,<n>&fyou can use the command &6/xpbottle <amount><n>'
+  - 'RawMsg all false <n>&e&lDid you know?<n>&fYou can type the command &6/ranks &fto see<n>&fall our ranks + the commands that they unlock<n>' 
+  - 'RawMsg all false <n>&e&lDid you know?<n>&fIf you want to trade your money or just save it,<n>&fyou can use the command &6/withdraw <amount><n>'
+  - 'RawMsg all false <n>&e&lWant some extra items?<n>&fYou can claim your kits every day! If you want to see all<n>&fthe kits available to you then run &e/kits&f.<n>'  

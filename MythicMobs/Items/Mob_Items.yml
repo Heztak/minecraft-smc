@@ -1,0 +1,13 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+Grishnar_Weapon:
+  Id: STONE_AXE
+  Data: 0
+  Enchantments:
+  - DAMAGE_ALL:1
+Grishnar_Chestplate:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 57,55,55

@@ -1,0 +1,25 @@
+location: world:34.694:75.128:95.834
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lServer Tip!'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fTrade other players'
+    height: 0.3
+  - content: '&fby using the &d/trade &fcommand'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fTrades can be accepted by clicking'
+    height: 0.3
+  - content: '&a&lAccept &rOr &c&lDecline'
+    height: 0.3
+  actions: {}

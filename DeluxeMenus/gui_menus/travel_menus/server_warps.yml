@@ -1,0 +1,274 @@
+menu_title: '&cServer warps'
+open_command:
+- warps
+- serverwarps
+size: 45
+items:
+
+#  ____                 _ 
+# |  _ \ _____      __ / |
+# | |_) / _ \ \ /\ / / | |
+# |  _ < (_) \ V  V /  | |
+# |_| \_\___/ \_/\_/   |_|
+#
+
+  'worlds':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM0NjdhNTMxOTc4ZDBiOGZkMjRmNTYyODVjNzI3MzRkODRmNWVjODhlMGI0N2M0OTMyMzM2Mjk3OWIzMjNhZiJ9fX0='
+    slot: 10
+    display_name: '&e&lWorlds'
+    lore:
+    - '&7Click here to open the'
+    - '&7worlds menu. From here you'
+    - '&7can select different worlds to play'
+    - '&7and start building your creations' 
+    - '&7within the wilderness.' 
+    - '' 
+    - '&7You can move between the' 
+    - '&7worlds as you please with' 
+    - '&7inventory and items!'     
+    - ''
+    - '&a&lClick here &7to open this menu'   
+    left_click_commands:
+    - '[openguimenu] worldsmenu' 
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'       
+    right_click_commands:
+    - '[openguimenu] worldsmenu' 
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'crates':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc2YWQ5ZmY3ZDYwNmYzMWFkYjYyNGIxNDk2ZjY3ZWI2ZDI2OTk0NGUxNDcwNTJlNTdlNDg3NDFiMTQ4MmE0In19fQ=='
+    slot: 19
+    display_name: '&e&lCrates'
+    lore:
+    - '&7Crates can be purchased from the'
+    - '&7store. Or you can vote for the server'
+    - '&7to get a voting key, which your can'
+    - '&7exchange for better ones if you'
+    - '&7meet the requirements.'    
+    - ''
+    - '&a&lClick here &7to teleport to this location'
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% crates'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'       
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% crates'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'cubelet_machine':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ2ODRlM2U3ODkwY2FmN2QxMzc2MmVhMTllYjE0YzU5NDBiODhmZDdmMDc3ZDgxZTZlZmZiNGY2ZGYxNmMyNiJ9fX0='
+    slot: 28
+    display_name: '&e&lCubelet Machine'
+    lore:
+    - '&7Enhance your in-game appearance with personalized'
+    - '&7items from the Cubelet machine. This machine offers'
+    - '&7a variety of cosmetics to customize your appearance.'
+    - '&7You can acquire Cubelets from crates, purchase them'
+    - '&7on the black market, or earn them by leveling'    
+    - '&7up your player level.'
+    - ''    
+    - '&a&lClick here &7to teleport to this location'
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% cubelet_machine'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'       
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% cubelet_machine'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+
+#  ____                 ____  
+# |  _ \ _____      __ |___ \ 
+# | |_) / _ \ \ /\ / /   __) |
+# |  _ < (_) \ V  V /   / __/ 
+# |_| \_\___/ \_/\_/   |_____|
+#                             
+
+  'shop':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2UzZGViNTdlYWEyZjRkNDAzYWQ1NzI4M2NlOGI0MTgwNWVlNWI2ZGU5MTJlZTJiNGVhNzM2YTlkMWY0NjVhNyJ9fX0='
+    slot: 12
+    display_name: '&e&lShop'
+    lore:
+    - '&7Here you can browse other players'
+    - '&7their shops, and select the desired'
+    - '&7category. Once you find the item' 
+    - '&7you where looking for you can'
+    - '&7teleport to their shop.'
+    - ''    
+    - '&a&lClick here &7to teleport to this location'
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% shop'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'       
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% shop'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'pvp':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTJkZmRlNmMyYzhmMGE3YWRmN2FlNGU5NDlhODA0ZmVkZjk1YzZiOTU2Mjc2N2VhZTZjMjJhNDAxY2QwMmNiZCJ9fX0='
+    slot: 21
+    display_name: '&e&lPvp'
+    lore:
+    - '&7Click here to teleport to the PVP'
+    - '&7Arena, but be aware that if you die you'
+    - '&7will lose EXP and your items!'
+    - ''
+    - '&a&lClick here &7to teleport to this location'       
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% pvp'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'       
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% pvp'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'ancient_traveler':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNDc4MGIzYzVjNTM1MWNmNDlmYjViZjQxZmNiMjg5NDkxZGY2YzQzMDY4M2M4NGQ3ODQ2MTg4ZGI0Zjg0ZCJ9fX0='
+    slot: 30
+    display_name: '&e&lAncient Traveler'
+    lore:
+    - '&7Each day, the ancient traveler arrives at'
+    - '&7the spawn, bringing three unique items discovered'
+    - '&7during his journeys. These items are available'
+    - '&7for purchase at a fixed price and in unlimited'
+    - '&7quantities for a limited time.'    
+    - ''
+    - '&a&lClick here &7to teleport to this location'
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% ancient_traveler'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'       
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% ancient_traveler'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+
+#  ____                 _____ 
+# |  _ \ _____      __ |___ / 
+# | |_) / _ \ \ /\ / /   |_ \ 
+# |  _ < (_) \ V  V /   ___) |
+# |_| \_\___/ \_/\_/   |____/ 
+#                             
+
+  'leaderboard':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZkOTZlYWM1YTcwMTY4NDM3Y2NmZmFlZTBlN2ZjNWFjNWMwMjJmNDI5ZTNlZDkyOWNkNTE4OTRhMmRkNmQ4In19fQ=='
+    slot: 14
+    display_name: '&e&lLeaderboard'
+    lore:
+    - '&7Do you have what it takes to be on'
+    - '&7the top of the leaderboards?'
+    - '' 
+    - '&a&lClick here &7to teleport to this location'
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% leaderboard'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'       
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% leaderboard'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'Wizard':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjgyYzJiZjlkODJmNDBkNzExZWZmNWFkMmQ1MjBiYWJhM2U3YjRlYWI1MTAxYmZjNGQwZDg2NzA5ZmQwZWEzOSJ9fX0='
+    slot: 23
+    display_name: '&e&lMystery Sorcerer'
+    lore:
+    - '&7The almighty Wizard of Survival has'
+    - '&7some goodies in store for you.'
+    - '&7The Wizard will refresh all its items'
+    - '&7every week! Trade your Tokens for'
+    - '&7some rare items.'
+    - ''    
+    - '&a&lClick here &7to teleport to this location' 
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% mystery_sorcerer'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'       
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% mystery_sorcerer'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'fisherman':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGE3ODZlNGUzNWI1OWQ5MWViNjQ1NGVmMjZiN2IwNjgzNzYxZDZiMTFmMWQ2M2M3NzQwYWYxN2FhM2YifX19'
+    slot: 32
+    display_name: '&e&lFisherman'
+    lore:
+    - '&7Trade the fish you''ve caught during'
+    - '&7fishing competitions with the fisherman for'
+    - '&7valuable rewards. The rarer the fish,'
+    - '&7the more substantial the'
+    - '&7prize you''ll receive.'    
+    - ''
+    - '&a&lClick here &7to teleport to this location'
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% fisherman'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'       
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% fisherman'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+
+#  ____                 _  _   
+# |  _ \ _____      __ | || |  
+# | |_) / _ \ \ /\ / / | || |_ 
+# |  _ < (_) \ V  V /  |__   _|
+# |_| \_\___/ \_/\_/      |_|  
+#                              
+
+  'blackmarket':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyMWI4Y2M0ZjIyMzA1ZTlkOGY1ZDBmZTAxMWZlNWQ1ZTNjOTg1ZGU1ZTNkZmYxMWRlNjNmYTA2YTlkZmYxNCJ9fX0='
+    slot: 16
+    display_name: '&e&lBlack Market'
+    lore:
+    - '&7Sell your items on the black market!'
+    - '&7Each day you can sell different items.'
+    - '' 
+    - '&a&lClick here &7to teleport to this location'
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% blackmarket'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'       
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% blackmarket'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'auctionhouse':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2NhMWE0OGQyZDIzMWZhNzFiYTVmN2M0MGZkYzEwZDNmMmU5OGM1YTYzYzAxNzMyMWU2NzgxMzA4YjhhNTc5MyJ9fX0='
+    slot: 25
+    display_name: '&e&lAuction House'
+    lore:
+    - '&7This is the marketplace for'
+    - '&7all players to sell and buy items'
+    - '&7which are mostly not available in the'
+    - '&7server shop.'
+    - ''    
+    - '&a&lClick here &7to teleport to this location' 
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% auctionhouse'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'       
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% auctionhouse'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'inventory_restorer':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2MzE0ZWFjMzQ0MTZjZTEwYWIyMmMyZTFjNGRjYjQ3MmEzZmViOThkNGUwNGQzZmJiYjg1YTlhNDcxYjE4In19fQ=='
+    slot: 34
+    display_name: '&e&lThe Inventory Restorer'
+    lore:
+    - '&7The inventory restorer securely stores your'
+    - '&7possessions in case of an untimely death. Your'
+    - '&7items will become accessible after a designated'
+    - '&7waiting period, allowing you to reclaim'
+    - '&7them. If you prefer not to wait, you'
+    - '&7can use a gravestone to retrieve'
+    - '&7your belongings immediately!'
+    - ''
+    - '&a&lClick here &7to teleport to this location'
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% inventory_restorer'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'       
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% inventory_restorer'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'    

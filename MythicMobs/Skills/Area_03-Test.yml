@@ -1,0 +1,13 @@
+FlowerHit:
+  Skills:
+  - damage{a=10;pkb=true}
+  - delay 20
+  - teleport{spreadh=1;spreadv=0} @target
+  - sound{s=entity.enderman.teleport;v=5} @PIR{r=50}
+  - delay 10
+  - effect:particlesphere{particle=reddust;color=#ffd966;amount=200;radius=2.5;size=2;y=1} @self
+  - sound{s=block.grass.hit;v=1;p=0.01}
+  - sound{s=block.grass.hit;v=1;p=0.5}
+  - delay 5
+  - sound{s=block.grass.hit;v=1;p=0.5}
+  - damage{a=10} @PIR{r=5}

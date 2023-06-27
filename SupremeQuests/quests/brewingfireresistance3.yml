@@ -1,0 +1,17 @@
+tasks:
+  brewing:
+    type: 'brewing'
+    item: POTION
+    data: FIRE_RESISTANCE
+    amount: 18
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "eco give {player} 1000"
+options:
+  category: "brewing"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

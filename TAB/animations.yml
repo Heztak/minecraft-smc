@@ -1,0 +1,17 @@
+TitleScoreboard:
+  change-interval: 200
+  texts:
+  - "&#ffeb3c&lS&#fff741&lU&#ffeb3c&lR&#ffe038&lV&#ffd433&lI&#ffc92e&lV&#ffbd29&lA&#ffb225&lL"
+  - "&#ffe038&lS&#ffeb3c&lU&#fff741&lR&#ffeb3c&lV&#ffe038&lI&#ffd433&lV&#ffc92e&lA&#ffbd29&lL"
+  - "&#ffd433&lS&#ffe038&lU&#ffeb3c&lR&#fff741&lV&#ffeb3c&lI&#ffe038&lV&#ffd433&lA&#ffc92e&lL"
+  - "&#ffc92e&lS&#ffd433&lU&#ffe038&lR&#ffeb3c&lV&#fff741&lI&#ffeb3c&lV&#ffe038&lA&#ffd433&lL"
+  - "&#ffbd29&lS&#ffc92e&lU&#ffd433&lR&#ffe038&lV&#ffeb3c&lI&#fff741&lV&#ffeb3c&lA&#ffe038&lL"
+  - "&#ffb225&lS&#ffbd29&lU&#ffc92e&lR&#ffd433&lV&#ffe038&lI&#ffeb3c&lV&#fff741&lA&#ffeb3c&lL"
+  - "&#ffa620&lS&#ffb225&lU&#ffbd29&lR&#ffc92e&lV&#ffd433&lI&#ffe038&lV&#ffeb3c&lA&#fff741&lL"
+  - "&#ffb225&lS&#ffa620&lU&#ffb225&lR&#ffbd29&lV&#ffc92e&lI&#ffd433&lV&#ffe038&lA&#ffeb3c&lL"
+  - "&#ffbd29&lS&#ffb225&lU&#ffa620&lR&#ffb225&lV&#ffbd29&lI&#ffc92e&lV&#ffd433&lA&#ffe038&lL"
+  - "&#ffc92e&lS&#ffbd29&lU&#ffb225&lR&#ffa620&lV&#ffb225&lI&#ffbd29&lV&#ffc92e&lA&#ffd433&lL"
+  - "&#ffd433&lS&#ffc92e&lU&#ffbd29&lR&#ffb225&lV&#ffa620&lI&#ffb225&lV&#ffbd29&lA&#ffc92e&lL"
+  - "&#ffe038&lS&#ffd433&lU&#ffc92e&lR&#ffbd29&lV&#ffb225&lI&#ffa620&lV&#ffb225&lA&#ffbd29&lL"
+  - "&#ffeb3c&lS&#ffe038&lU&#ffd433&lR&#ffc92e&lV&#ffbd29&lI&#ffb225&lV&#ffa620&lA&#ffb225&lL"
+  - "&#fff741&lS&#ffeb3c&lU&#ffe038&lR&#ffd433&lV&#ffc92e&lI&#ffbd29&lV&#ffb225&lA&#ffa620&lL"

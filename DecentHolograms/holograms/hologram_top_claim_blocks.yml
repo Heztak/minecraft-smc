@@ -1,0 +1,42 @@
+location: world:-60.473:81.000:-15.492
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&#FF9820&lTop Claim Blocks'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&e2. &f%supremeessentials_remaining_claims_name_2% &7- &e%supremeessentials_remaining_claims_value_2%
+      Blocks'
+    height: 0.3
+  - content: '&e3. &f%supremeessentials_remaining_claims_name_3% &7- &e%supremeessentials_remaining_claims_value_3%
+      Blocks'
+    height: 0.3
+  - content: '&e4. &f%supremeessentials_remaining_claims_name_4% &7- &e%supremeessentials_remaining_claims_value_4%
+      Blocks'
+    height: 0.3
+  - content: '&e5. &f%supremeessentials_remaining_claims_name_5% &7- &e%supremeessentials_remaining_claims_value_5%
+      Blocks'
+    height: 0.3
+  - content: '&e6. &f%supremeessentials_remaining_claims_name_6% &7- &e%supremeessentials_remaining_claims_value_6%
+      Blocks'
+    height: 0.3
+  - content: '&e7. &f%supremeessentials_remaining_claims_name_7% &7- &e%supremeessentials_remaining_claims_value_7%
+      Blocks'
+    height: 0.3
+  - content: '&e8. &f%supremeessentials_remaining_claims_name_8% &7- &e%supremeessentials_remaining_claims_value_8%
+      Blocks'
+    height: 0.3
+  - content: '&e9. &f%supremeessentials_remaining_claims_name_9% &7- &e%supremeessentials_remaining_claims_value_9%
+      Blocks'
+    height: 0.3
+  - content: '&e10. &f%supremeessentials_remaining_claims_name_10% &7- &e%supremeessentials_remaining_claims_value_10%
+      Blocks'
+    height: 0.3
+  actions: {}

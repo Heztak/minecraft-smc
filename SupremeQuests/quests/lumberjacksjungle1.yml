@@ -1,0 +1,15 @@
+tasks:
+  lumberjack:
+    type: "blockbreakcertain"
+    amount: 20
+    block: "JUNGLE_LOG"
+rewards:
+  - "exp give {player} 50"
+  - "lp user {player} permission set level.4d"  
+options:
+  category: "lumberjack"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

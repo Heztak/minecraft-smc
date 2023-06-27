@@ -1,0 +1,56 @@
+menu_title: '&cAre you sure?'
+open_command: confirm_vote_to_rare
+size: 27
+items:
+
+  'YES':
+    material: LIME_STAINED_GLASS
+    slot: 12
+    display_name: '&a&lYES I AM'
+    left_click_requirement:
+      requirements:
+        has_shards:
+          type: ">="
+          input: "%supremeessentials_exchange_items_votekey%"
+          output: "5"
+        has_money:
+          type: has money
+          amount: 1000         
+      deny_commands:
+      - '[message] &cYou do not meet the requirements.'
+      - '[close]'      
+    left_click_commands:
+    - '[console] crazycrates give physical rare 1 %player_name%'
+    - '[console] cc take physical vote 5 %player_name%'
+    - '[console] eco take %player_name% 1000'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'    
+    right_click_requirement:
+      requirements:
+        has_shards:
+          type: ">="
+          input: "%supremeessentials_exchange_items_votekey%"
+          output: "5"
+        has_money:
+          type: has money
+          amount: 1000
+      deny_commands:
+      - '[message] &cYou do not meet the requirements.'
+      - '[close]'
+    right_click_commands:
+    - '[console] crazycrates give physical rare 1 %player_name%'
+    - '[console] cc take physical vote 5 %player_name%'
+    - '[console] eco take %player_name% 1000'
+    - '[sound] ENTITY_ITEM_PICKUP'
+    - '[close]'
+
+  'NO':
+    material: RED_STAINED_GLASS
+    slot: 14
+    display_name: '&C&lNO GO BACK'    
+    left_click_commands:
+    - '[openguimenu] exchangekeys' 
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'       
+    right_click_commands:
+    - '[openguimenu] exchangekeys'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'    

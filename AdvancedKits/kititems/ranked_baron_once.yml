@@ -1,0 +1,106 @@
+'1':
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: GOLD_BLOCK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"+10000
+        Claim Blocks"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"By
+        using this upgrade you will grant"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"yourself
+        "},{"italic":false,"color":"yellow","text":"10000 extra claim blocks"},{"italic":false,"color":"gray","text":".
+        Extra claim"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"blocks
+        are useful for expanding your empire!"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"
+        ▪ "},{"italic":false,"color":"white","text":"Upgrade: "},{"italic":false,"color":"yellow","text":"10000
+        extra claim blocks"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Right
+        Click"},{"italic":false,"color":"gray","text":" to use this upgrade"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      Unbreakable: true
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: TRIPWIRE_HOOK
+    amount: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Voting
+        Crate Key"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Click
+        the "},{"italic":false,"color":"green","text":"Voting "},{"italic":false,"color":"gray","text":"crate
+        chest"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
+        use this key"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Right
+        click "},{"bold":false,"italic":false,"color":"gray","text":"on a Voting Crate"}],"text":""}'
+      enchants:
+        LUCK: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/+NiYOBgEHQuSqyqBBIlqcW6YIqBpSwfSAIAxActgB4AAAA=
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: TRIPWIRE_HOOK
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Rare
+        Crate Key"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Click
+        the "},{"italic":false,"color":"aqua","text":"Rare "},{"italic":false,"color":"gray","text":"crate
+        chest"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
+        use this key"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Right
+        click "},{"bold":false,"italic":false,"color":"gray","text":"on a Rare Crate"}],"text":""}'
+      enchants:
+        LUCK: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/+NiYOBgEHQuSqyqBBIlqcW6YIqBpSixKJUBAIWq/5EeAAAA
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Ultra
+        Crate Key"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Click
+        the "},{"italic":false,"color":"yellow","text":"Ultra "},{"italic":false,"color":"gray","text":"crate
+        chest"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
+        use this key"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Right
+        click "},{"bold":false,"italic":false,"color":"gray","text":"on a Ultra Crate"}],"text":""}'
+      enchants:
+        LUCK: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAA/+NiYOBgEHQuSqyqBBIlqcW6YIqBtTSnpCiRAQD6KEdMHwAAAA==

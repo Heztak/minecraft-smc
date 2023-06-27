@@ -1,0 +1,100 @@
+name: '&#ffe70e&lB&#fdea20&ll&#fbed32&li&#f9ef44&lt&#f8f256&lz &#f6f568&lS&#f4f87a&lt&#f2fa8c&la&#f0fd9e&lr'
+lore:
+- '&7Use the power within this &estar'
+- '&7to gain &bstrength&r &7for you to run'
+- '&7faster than you have ever before.'
+material: NETHER_STAR
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: true
+usage: 30
+usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+variables: {}
+activators:
+  activator1:
+    name: '&eBlitz Speed Ability'
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: -1
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownOptions:
+      cooldown: 60
+      isCooldownInTicks: false
+      cooldownMsg: '&cⓘ &fThis item can be used again in &a%time_M%m %time_S%s&f.'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cⓘ &fThis item can be used again in &a%time_M%m %time_S%s&f.'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems:
+      errorMessage: ''
+    requiredExecutableItems:
+      errorMessage: ''
+    detailedSlots:
+    - -1
+    commands:
+    - 'RANDOM RUN: 1'
+    - effect give %player% speed 10 3
+    - effect give %player% speed 11 3
+    - effect give %player% speed 12 3
+    - effect give %player% speed 13 3
+    - effect give %player% speed 14 3
+    - effect give %player% speed 15 3
+    - effect give %player% speed 15 4
+    - effect give %player% speed 14 4
+    - effect give %player% speed 13 4
+    - effect give %player% speed 12 4
+    - effect give %player% speed 11 4
+    - effect give %player% speed 10 4
+    - effect give %player% speed 10 2
+    - effect give %player% speed 11 2
+    - effect give %player% speed 12 2
+    - effect give %player% speed 13 2
+    - effect give %player% speed 14 2
+    - effect give %player% speed 15 2
+    - effect give %player% speed 15 5
+    - effect give %player% speed 14 5
+    - effect give %player% speed 13 5
+    - effect give %player% speed 12 5
+    - effect give %player% speed 11 5
+    - effect give %player% speed 10 5
+    - RANDOM END
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    variablesModification: {}
+recognitions: []
+attributes: {}
+config_5: true
+config_update: false

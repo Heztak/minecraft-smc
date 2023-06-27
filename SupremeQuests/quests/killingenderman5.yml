@@ -1,0 +1,15 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 300
+    mob: ENDERMAN
+    worlds:
+     - 'survival'
+rewards:
+  - "eco give {player} 1500"
+  - "exp give {player} 350"
+  - "lp user {player} permission set level.44b"  
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

@@ -1,0 +1,17 @@
+tasks:
+  harvesting:
+    type: 'inventory'
+    item: KELP
+    amount: 1500
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "eco give {player} 1750"
+  - "supremetokens give {player} 10"   
+options:
+  category: "harvesting"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

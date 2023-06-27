@@ -1,0 +1,154 @@
+GoblinsBagOfGold:
+  name: "Money"
+  min: 1500
+  max: 10000
+  format:
+    enabled: true
+    locale: "US"
+  message: "&a&l+ $%number%"
+  title:
+    enabled: true
+    message: "&a&l%number%"
+    submessage: "&7&oBag Of Gold"
+    reveal_from_right: true
+    color_after_randomization: "&a&l"
+    fadein_ticks: 0
+    stay_ticks: 40
+    fadeout_ticks: 5
+    update_ticks: 20
+  sound:
+    enabled: true
+    type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 10
+    pitch: 1
+  commands:
+    - "eco give %player% %number%"
+  item:
+    material: "PLAYER_HEAD"
+    skin: 'http://textures.minecraft.net/texture/14aeab01c04f36ba887b7bda8d9c538bc9686dbbce7e3a5bb10f308c50302bc4'
+    name: "&a&lGoblins Bag Of Gold"
+    lore:
+      - "&7This mysterious bag of gold belongs"
+      - "&7to a goblin, open it quickly to"
+      - "&7see how much is in it!"
+      - ""      
+      - "&a&lRight Click &r&7to open this container"
+    durability: 0
+    glow: false
+MoneyVote:
+  name: "Money"
+  min: 1000
+  max: 15000
+  format:
+    enabled: true
+    locale: "US"
+  message: "&a&l+ $%number%"
+  title:
+    enabled: true
+    message: "&6&k█ &f%number% &e&k█"
+    submessage: "&7&oVote Money Container"
+    reveal_from_right: true
+    color_after_randomization: "&e"
+    fadein_ticks: 0
+    stay_ticks: 20
+    fadeout_ticks: 5
+    update_ticks: 10
+  sound:
+    enabled: true
+    type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 10
+    pitch: 1
+  commands:
+    - "eco give %player% %number%"
+  item:
+    material: "PLAYER_HEAD"
+    skin: 'http://textures.minecraft.net/texture/396ce13ff6155fdf3235d8d22174c5de4bf5512f1adeda1afa3fc28180f3f7'
+    name: "&eMoney &fContainer"
+    lore:
+      - "&7Price from the &aVote crate&7."
+      - ""
+      - "&fInformation:"
+      - "  &8◊ &7Rarity: &e✦✦✦✦&7✦"
+      - "  &8◊ &7Amount: &e$1000-$15000"
+      - ""      
+      - "&a&lRight Click &r&7to open this container"
+    durability: 0
+    glow: false
+MoneyRare:
+  name: "Money"
+  min: 5000
+  max: 30000
+  format:
+    enabled: true
+    locale: "US"
+  message: "&a&l+ $%number%"
+  title:
+    enabled: true
+    message: "&6&k█ &f%number% &e&k█"
+    submessage: "&7&oRare Money Container"
+    reveal_from_right: true
+    color_after_randomization: "&e"
+    fadein_ticks: 0
+    stay_ticks: 20
+    fadeout_ticks: 5
+    update_ticks: 10
+  sound:
+    enabled: true
+    type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 10
+    pitch: 1
+  commands:
+    - "eco give %player% %number%"
+  item:
+    material: "PLAYER_HEAD"
+    skin: 'http://textures.minecraft.net/texture/396ce13ff6155fdf3235d8d22174c5de4bf5512f1adeda1afa3fc28180f3f7'
+    name: "&eMoney &fContainer"
+    lore:
+      - "&7Price from the &bRare crate&7."
+      - ""
+      - "&fInformation:"
+      - "  &8◊ &7Rarity: &e✦✦✦✦&7✦"
+      - "  &8◊ &7Amount: &e$5000-$30000"
+      - ""      
+      - "&a&lRight Click &r&7to open this container"
+    durability: 0
+    glow: false    
+ExperienceRare:
+  name: "Experience"
+  min: 5000
+  max: 10000
+  format:
+    enabled: true
+    locale: "US"
+  message: "&a&l+ %number% Exp"
+  title:
+    enabled: true
+    message: "&6&k█ &f%number% &e&k█"
+    submessage: "&7&oRare Experience Container"
+    reveal_from_right: true
+    color_after_randomization: "&e"
+    fadein_ticks: 0
+    stay_ticks: 20
+    fadeout_ticks: 5
+    update_ticks: 10
+  sound:
+    enabled: true
+    type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 10
+    pitch: 1
+  commands:
+    - "essentials:xp give %player% %number%"
+  item:
+    material: "PLAYER_HEAD"
+    skin: 'http://textures.minecraft.net/texture/b83252dbebb7cd09d733efc493c7338b169effa34bff532ab5fc5e725a8ada67'
+    name: "&eMoney &fContainer"
+    lore:
+      - "&7Price from the &bRare crate&7."
+      - ""
+      - "&fInformation:"
+      - "  &8◊ &7Rarity: &e✦✦✦✦&7✦"
+      - "  &8◊ &7Experience: &e5000-10000"
+      - ""      
+      - "&a&lRight Click &r&7to open this container"
+    durability: 0
+    glow: false    

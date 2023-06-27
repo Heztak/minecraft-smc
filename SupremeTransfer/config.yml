@@ -1,0 +1,65 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+
+# Slots where the items are being displayed
+item-slots: [12, 14]
+
+# Update time for the mystery sorcerer to update
+token_shop_update_hours: 168
+
+gui:
+
+  title: '&cMystery Sorcerer'
+  rows: 4
+  decoration:
+    tokens_item:
+      material: 'CLOCK'
+      name: '&e&lWhat is this?'
+      lore:
+        - ''      
+        - '&7The &5Mystery Sorcerer &7has brought some goodies'
+        - '&7with him! &aEvery week &7he refreshes his offerings'
+        - '&7with products carefully chosen by his &banonymous'
+        - '&bsources&7. And be quick, because every item has'
+        - '&7a maximum number of items in &cstock&7.'     
+        - ''
+        - '&fNew items:'        
+        - '  &8◊ &7Time Remaining: &e{time}'
+        - ''
+      durability: 0
+      glow: false
+      slot: 31
+
+  filler:
+    enabled: false
+    item:
+      material: 'GRAY_STAINED_GLASS_PANE'
+      name: ' '
+      durability: 0
+      glow: false
+
+# Messages
+sold_out_tokens_message: '&cThis item is out of stock.'
+sold_out_tokens_placeholder: '&cSold out!' 
+no_permission_message: '&cYou do not have permission to execute this command.'
+not_enough_tokens_message: '&cYou do not have enough tokens to purchase this item.'
+bought_reward_message: '&6&lMystery&e&lSorcerer&r &8➠ &eYou bought a {reward} &efor &c{amount} tokens.'
+token_shop_updated_message: '&6&lMystery&e&lSorcerer&r &8➠ &eThe Mystery Sorcerer has updated his items!'
+inventory_full_message: '&cYour inventory is full.'
+not_player_message: '&cUsage: /supremetransfer refresh'

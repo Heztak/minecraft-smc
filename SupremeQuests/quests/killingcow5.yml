@@ -1,0 +1,14 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 300
+    mob: COW
+    worlds:
+     - 'survival'
+rewards:
+  - "eco give {player} 2500"
+  - "supremetokens give {player} 10"
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

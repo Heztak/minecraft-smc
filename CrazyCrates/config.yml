@@ -1,0 +1,43 @@
+# List of all the enchantments: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+# List of all the sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+Settings:
+  Prefix: ''
+  InventoryName: '&cNot in use'
+  InventorySize: 9
+  KnockBack: false
+  Update-Checker: true
+  Physical-Accepts-Virtual-Keys: false # If physical crates can accept virtual keys.
+  Virtual-Accepts-Physical-Keys: false # If virtual crates can accept physical keys.
+  Give-Virtual-Keys-When-Inventory-Full: false # If the player's inventory is full when given a physical key it will instead give them virtual keys. If false it will drop the keys on the ground.
+  Need-Key-Sound: ENTITY_VILLAGER_NO # This sound plays when a player tries to open a crate with no key.
+  QuadCrate:
+    Timer: 300
+  DisabledWorlds:
+  - world_nether
+  Preview:
+    Buttons:
+      Menu:
+        Item: COMPASS
+        Name: '&7&l>> &c&lMenu &7&l<<'
+        Lore:
+        - '&7Return to the menu.'
+      Next:
+        Item: FEATHER
+        Name: '&6&lNext >>'
+        Lore:
+        - '&7&lPage: &b%page%'
+      Back:
+        Item: FEATHER
+        Name: '&6&l<< Back'
+        Lore:
+        - '&7&lPage: &b%page%'
+  Filler: # This allows you to quickly fill the GUI with one item.
+    Toggle: false # If it fills the GUI with an item.
+    Item: BLACK_STAINED_GLASS_PANE # The item you wish to use.
+    Name: ' ' # The name of the item.
+    Lore: []
+  GUI-Customizer: {}
+  Physical-Accepts-Physical-Keys: true
+  Give-Virtual-Keys-When-Inventory-Full-Message: false
+  Config-Version: 1
+  Enable-Crate-Menu: true

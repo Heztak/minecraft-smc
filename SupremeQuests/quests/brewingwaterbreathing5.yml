@@ -1,0 +1,18 @@
+tasks:
+  brewing:
+    type: 'brewing'
+    item: POTION
+    data: WATER_BREATHING
+    amount: 40
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "exp give {player} 250"
+  - "eco give {player} 1250"
+options:
+  category: "brewing"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

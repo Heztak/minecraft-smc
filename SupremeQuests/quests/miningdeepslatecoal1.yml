@@ -1,0 +1,15 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 25
+    block: "DEEPSLATE_COAL_ORE"
+rewards:
+  - "exp give {player} 50"
+  - "lp user {player} permission set level.2"  
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

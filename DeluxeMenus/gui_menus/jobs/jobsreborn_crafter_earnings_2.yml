@@ -1,0 +1,311 @@
+menu_title: '&cEarnings Crafter (page 2/4)'
+open_command:
+- jobs earnings crafter2
+size: 53
+items:
+  '1':
+    material: prismarine_bricks
+    slot: 10
+    display_name: '&e&lPrismarine Bricks'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a0.6'
+    - '  &8◊ &7Exp: &d0.5 Exp'
+    - '  &8◊ &7Points: &e0.4 Points'
+  '2':
+    material: dark_prismarine
+    slot: 11
+    display_name: '&e&lDark Prismarine'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a0.8'
+    - '  &8◊ &7Exp: &d0.7 Exp'
+    - '  &8◊ &7Points: &e0.5 Points'
+  '3':
+    material: sea_lantern
+    slot: 12
+    display_name: '&e&lSea Lantern'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a0.7'
+    - '  &8◊ &7Exp: &d0.5 Exp'
+    - '  &8◊ &7Points: &e0.4 Points'
+  '4':
+    material: oak_fence
+    slot: 13
+    display_name: '&e&lAny types of fence'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a0.08'
+    - '  &8◊ &7Exp: &d0.1 Exp'
+    - '  &8◊ &7Points: &e0.04 Points'
+  '5':
+    material: oak_fence_gate
+    slot: 14
+    display_name: '&e&lAny types of fence gate'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a0.08'
+    - '  &8◊ &7Exp: &d0.01 Exp'
+    - '  &8◊ &7Points: &e0.04 Points'
+  '6':
+    material: oak_door
+    slot: 15
+    display_name: '&e&lAny types of door'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.4 Exp'
+    - '  &8◊ &7Points: &e0.3 Points'
+  '7':
+    material: book
+    slot: 16
+    display_name: '&e&lBook'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a0.3'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '8':
+    material: compass
+    slot: 19
+    display_name: '&e&lCompass'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a1'
+    - '  &8◊ &7Exp: &d1 Exp'
+    - '  &8◊ &7Points: &e0.7 Points'
+  '9':
+    material: clock
+    slot: 20
+    display_name: '&e&lClock'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a1'
+    - '  &8◊ &7Exp: &d0.9 Exp'
+    - '  &8◊ &7Points: &e0.7 Points'
+  '10':
+    material: cake
+    slot: 21
+    display_name: '&e&lCake'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a1.5'
+    - '  &8◊ &7Exp: &d1.2 Exp'
+    - '  &8◊ &7Points: &e1 Points'
+  '11':
+    material: red_bed
+    slot: 22
+    display_name: '&e&lBed'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a1.5'
+    - '  &8◊ &7Exp: &d1.2 Exp'
+    - '  &8◊ &7Points: &e1 Points'
+  '12':
+    material: brewing_stand
+    slot: 23
+    display_name: '&e&lBrewing Stand'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a2'
+    - '  &8◊ &7Exp: &d1.5 Exp'
+    - '  &8◊ &7Points: &e1 Points'
+  '13':
+    material: cauldron
+    slot: 24
+    display_name: '&e&lCauldron'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a2'
+    - '  &8◊ &7Exp: &d1.5 Exp'
+    - '  &8◊ &7Points: &e1 Points'
+  '14':
+    material: ENDER_CHEST
+    slot: 25
+    display_name: '&e&lEnder Chest'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a0.75'
+    - '  &8◊ &7Exp: &d0.75 Exp'
+    - '  &8◊ &7Points: &e1 Points'
+  '15':
+    material: OBSERVER
+    slot: 28
+    display_name: '&e&lObserver'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a0.8'
+    - '  &8◊ &7Exp: &d0.7 Exp'
+    - '  &8◊ &7Points: &e0.6 Points'
+  '16':
+    material: LECTERN
+    slot: 29
+    display_name: '&e&lLectern'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a1'
+    - '  &8◊ &7Exp: &d1 Exp'
+    - '  &8◊ &7Points: &e1 Points'
+  '17':
+    material: SCAFFOLDING
+    slot: 30
+    display_name: '&e&lScaffolding'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a0.1'
+    - '  &8◊ &7Exp: &d0.1 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '18':
+    material: CAMPFIRE
+    slot: 31
+    display_name: '&e&lCampfire'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a0.4'
+    - '  &8◊ &7Exp: &d0.3 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '19':
+    material: LANTERN
+    slot: 32
+    display_name: '&e&lLantern'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a0.2'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '20':
+    material: BEEHIVE
+    slot: 33
+    display_name: '&e&lBeehive'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a1'
+    - '  &8◊ &7Exp: &d1 Exp'
+    - '  &8◊ &7Points: &e0.5 Points'
+  '21':
+    material: COMPOSTER
+    slot: 34
+    display_name: '&e&lComposter'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fCraft actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.5 Exp'
+    - '  &8◊ &7Points: &e0.3 Points'
+  'back':
+    material: BARRIER
+    priority: 1
+    display_name: '&C⤾ Back'
+    slot: 40
+    left_click_commands:
+    - '[openguimenu] jobsreborn_page_3'    
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_page_3'     
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'nextpage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0=
+    priority: 1
+    display_name: '&eNext Page'
+    slot: 26
+    left_click_commands:
+    - '[openguimenu] jobsreborn_crafter_earnings_3'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_crafter_earnings_3'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'previouspage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    priority: 1
+    display_name: '&ePrevious Page'
+    slot: 18
+    left_click_commands:
+    - '[openguimenu] jobsreborn_crafter_earnings_1'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_crafter_earnings_1'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'

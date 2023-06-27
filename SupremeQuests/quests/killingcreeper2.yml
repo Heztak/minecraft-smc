@@ -1,0 +1,14 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 100
+    mob: CREEPER
+    worlds:
+     - 'survival'
+rewards:
+  - "supremetokens give {player} 5"
+  - "lp user {player} permission set level.14b"  
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

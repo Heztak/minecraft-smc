@@ -1,0 +1,84 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+# Main gui title
+menu-title: '&cDrinking bar'
+
+# Gui rows
+menu-rows: 3
+
+# Max money that can be won
+maximum-money: 1000000000
+
+# Max exp that can be won
+maximum-experience: 1000000000
+
+# Command to open the gamble gui
+open-menu-commands:
+  - gamble
+  
+# Animation in main menu
+animated-menu:
+  delay: 25
+  items:
+    - 'ORANGE_STAINED_GLASS_PANE'
+    - 'YELLOW_STAINED_GLASS_PANE'
+    
+# Warning titles
+titles:
+  full-inventory:
+    title: '&cPurchase failed'
+    subtitle: '&7Your inventory is full'
+    fadein: 20
+    staytime: 60
+    fadeout: 20
+  insufficient-funds:
+    title: '&cPurchase failed'
+    subtitle: '&7You have insufficient funds'
+    fadein: 20
+    staytime: 60
+    fadeout: 20
+    
+# Configurable sounds
+sounds:
+  close: []
+  reveal:
+    - 'BLOCK_ANVIL_LAND;3.0;10.0'
+  end:
+    - 'ENTITY_DRAGON_FIREBALL_EXPLODE;3.0;50.0'
+  cooldown:
+    - 'ENTITY_VILLAGER_NO;10.0;5.6'
+  maximum-amount:
+    - 'ENTITY_VILLAGER_NO;10.0;5.6'
+  success-purchase: 
+    - 'ENTITY_ITEM_PICKUP;1.0;1.0'
+  inventory-full: 
+    - 'ENTITY_VILLAGER_NO;10.0;5.6'
+  insufficient-funds: 
+    - 'ENTITY_VILLAGER_NO;10.0;5.6'
+  economy-not-found: 
+    - 'ENTITY_VILLAGER_NO;10.0;5.6'
+  move-item: []
+  open-menu: []
+  close-menu: []
+  
+# Permissions
+permissions:
+  main-command: 'supremegamble.command.use'
+  open-menu-command: 'supremegamble.command.openmenu'
+  

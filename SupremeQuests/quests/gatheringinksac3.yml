@@ -1,0 +1,16 @@
+tasks:
+  gathering:
+    type: 'inventory'
+    item: INK_SAC
+    amount: 65
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "eco give {player} 1000"
+options:
+  category: "gathering"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

@@ -1,0 +1,324 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+#  ____  _                _           _     _               
+# |  _ \| | __ _  ___ ___| |__   ___ | | __| | ___ _ __ ___ 
+# | |_) | |/ _` |/ __/ _ \ '_ \ / _ \| |/ _` |/ _ \ '__/ __|
+# |  __/| | (_| | (_|  __/ | | | (_) | | (_| |  __/ |  \__ \
+# |_|   |_|\__,_|\___\___|_| |_|\___/|_|\__,_|\___|_|  |___/
+#
+
+# With this feature you can create your own placeholders responding to certain items. 
+# vote, rare, ultra and god are items for the crates, used in the keys exchange menu to exchange them. 
+#   Using the follwing command will output the number of items that match these exchange-items.
+#       /papi parse me %supremeessentials_exchange_items_votekey% (if you have 1 vote key, it will output 1)
+# Make sure you use the exact same text on the crate keys name and lores in order to use the 'key exchange menu' correctly.
+
+exchange-items:
+  votekey: #%supremeessentials_exchange_items_votekey%
+    material: TRIPWIRE_HOOK
+    name: '&a&lVoting Crate Key'
+    lore:
+      - '&7Click the &aVoting &7crate chest'
+      - '&7to use this key'
+      - ''
+      - '&a&lRight click &r&7on a Voting Crate'
+  rarekey: #%supremeessentials_exchange_items_rarekey%
+    material: TRIPWIRE_HOOK
+    name: '&b&lRare Crate Key'
+    lore:
+      - '&7Click the &bRare &7crate chest'
+      - '&7to use this key'
+      - ''
+      - '&a&lRight click &r&7on a Rare Crate'
+  ultrakey: #%supremeessentials_exchange_items_ultrakey%
+    material: TRIPWIRE_HOOK
+    name: '&e&lUltra Crate Key'
+    lore:
+      - '&7Click the &eUltra &7crate chest'
+      - '&7to use this key'
+      - ''
+      - '&a&lRight click &r&7on a Ultra Crate'
+  commonshard: #%supremeessentials_exchange_items_commonshard%
+    material: LAPIS_LAZULI
+    name: '&9&lCommon Shard'
+    lore:
+      - '&7Item from the dungeons. Use'
+      - '&7to unlatch the lock to powerfull items.'
+      - ''
+      - '&fInformation:'
+      - '   &8♢ &7Drop Chance: &e25%'
+      - ''
+  rareshard: #%supremeessentials_exchange_items_rareshard%
+    material: PRISMARINE_SHARD
+    name: '&3&lRare Shard'
+    lore:
+      - '&7Item from the dungeons. Use'
+      - '&7to unlatch the lock to powerfull items.'
+      - ''
+      - '&fInformation:'
+      - '   &8♢ &7Drop Chance: &e18%'
+      - ''
+  legendaryshard: #%supremeessentials_exchange_items_legendaryshard%
+    material: AMETHYST_SHARD
+    name: '&d&lLegendary Shard'
+    lore:
+      - '&7Item from the dungeons. Use'
+      - '&7to unlatch the lock to powerfull items.'
+      - ''
+      - '&fInformation:'
+      - '   &8♢ &7Drop Chance: &e8%'
+      - ''
+
+
+#  ____                    _         ____                  
+# / ___| _   _ _ __  _ __ | |_   _  |  _ \ _ __ ___  _ __  
+# \___ \| | | | '_ \| '_ \| | | | | | | | | '__/ _ \| '_ \ 
+#  ___) | |_| | |_) | |_) | | |_| | | |_| | | | (_) | |_) |
+# |____/ \__,_| .__/| .__/|_|\__, | |____/|_|  \___/| .__/ 
+#             |_|   |_|      |___/                  |_|
+
+# Actionbar messages for the Supple Drop event.
+envoy-actionbar:
+  start: '&aA Supply Crate Event has started!'
+  end: '&cThe Supply Crate Event has ended!'
+  open: '&e{player} &fhas claimed a &6&lSupply Crate&f, &e{left} &fleft!'
+
+
+#  ____  _            _            _   ___ _                     
+# | __ )| | ___   ___| | _____  __| | |_ _| |_ ___ _ __ ___  ___ 
+# |  _ \| |/ _ \ / __| |/ / _ \/ _` |  | || __/ _ \ '_ ` _ \/ __|
+# | |_) | | (_) | (__|   <  __/ (_| |  | || ||  __/ | | | | \__ \
+# |____/|_|\___/ \___|_|\_\___|\__,_| |___|\__\___|_| |_| |_|___/
+#
+
+# Items that cannot be used in certain region.
+no-use-regions:
+- spawn
+- flyfordonor
+blocked-items:
+- BOW
+- TRIDENT
+- FISHING_ROD
+- CROSSBOW
+- EGG
+
+#  ____                                __  _       _         _                 _   _                 
+# / ___| _ __   __ ___      ___ __    / / | | ___ (_)_ __   | | ___   ___ __ _| |_(_) ___  _ __  ___ 
+# \___ \| '_ \ / _` \ \ /\ / / '_ \  / /  | |/ _ \| | '_ \  | |/ _ \ / __/ _` | __| |/ _ \| '_ \/ __|
+#  ___) | |_) | (_| |\ V  V /| | | |/ / |_| | (_) | | | | | | | (_) | (_| (_| | |_| | (_) | | | \__ \
+# |____/| .__/ \__,_| \_/\_/ |_| |_/_/ \___/ \___/|_|_| |_| |_|\___/ \___\__,_|\__|_|\___/|_| |_|___/
+#       |_|                                                                                          
+
+# If set to true, a player who rejoins the server will always get teleported to this location.
+location:
+  enabled: false
+  world: world
+  x: 1.5
+  y: 80.0
+  z: -6.5
+  yaw: 0.1
+  pitch: -2.6
+
+# This location is being used for players who joins the server for the first time.   
+first-location:
+  enabled: true
+  world: world
+  x: 1.5
+  y: 80.0
+  z: -6.5
+  yaw: 0.1
+  pitch: -2.6
+  
+
+#  _   _ _       _     _    __     ___     _             
+# | \ | (_) __ _| |__ | |_  \ \   / (_)___(_) ___  _ __  
+# |  \| | |/ _` | '_ \| __|  \ \ / /| / __| |/ _ \| '_ \ 
+# | |\  | | (_| | | | | |_    \ V / | \__ \ | (_) | | | |
+# |_| \_|_|\__, |_| |_|\__|    \_/  |_|___/_|\___/|_| |_|
+#          |___/                                         
+  
+# Options for Nigh Vision.
+NightV:
+  Prefix: '&6&lNight&e&lVision&r &8➠ &e'
+  NvonForYou: 'You enabled night vision.'
+  NvoffForYou: 'You disabled night vision.'
+  NvonFromOtherPlayerSuccess: 'Successfully enabled NV for %player%'
+  NvoffFromOtherPlayerSuccess: 'Successfully disabled NV for %player%'
+  NvonFromOtherPlayer: '%player% enabled your NightVision'
+  NvoffFromOtherPlayer: '%player% disabled your NightVision'
+  NoPerm: 'You do not have the permission to use this feature.'
+  PlayerNotFoundToGiveNV: '&ccould not find player %player%'
+  ShouldDrinkingAMilkBucketTakeAwayNV: true
+
+
+#  _   _       _                                     
+# | | | | ___ | | ___   __ _ _ __ __ _ _ __ ___  ___ 
+# | |_| |/ _ \| |/ _ \ / _` | '__/ _` | '_ ` _ \/ __|
+# |  _  | (_) | | (_) | (_| | | | (_| | | | | | \__ \
+# |_| |_|\___/|_|\___/ \__, |_|  \__,_|_| |_| |_|___/
+#                      |___/                         
+
+# Money take and give hologram
+take-hologram: '&c&l-{tokens}'
+give-hologram: '&a&l+{tokens}'
+distance-vector: 2.85
+
+
+#  ____                                         _____           _ 
+# / ___| _ __   __ ___      ___ __   ___ _ __  |_   _|__   ___ | |
+# \___ \| '_ \ / _` \ \ /\ / / '_ \ / _ \ '__|   | |/ _ \ / _ \| |
+#  ___) | |_) | (_| |\ V  V /| | | |  __/ |      | | (_) | (_) | |
+# |____/| .__/ \__,_| \_/\_/ |_| |_|\___|_|      |_|\___/ \___/|_|
+#       |_|                                                       
+
+bypass-permission: supremeessentials.bypass
+
+spawner-tool:
+  enabled: true
+  open-command: '/spawner'
+  cooldown-time: 20160
+
+spawner-tool-permission:
+  no-permission: '&cYou must be level 20 to be able to use the spawner tool. /level'
+  # Permission needed to use the "spawner breaker" feature
+  type: ">="
+  input: "%supremelevels_undisguised%"
+  output: "20"
+  
+spawner-tool-item:
+  item: DIAMOND_PICKAXE
+  name: '&#5ea6fb&lS&#65b3f9&lp&#6cc1f7&la&#72cef5&lw&#79dcf4&ln&#80e9f2&le&#87f6f0&lr &#8cfdeb&lB&#8ffde3&lr&#92fddb&le&#96fcd2&la&#99fcca&lk&#9dfcc2&le&#a0fcba&lr'
+  lore:
+    - '&7This pickaxe gives you the ability'   
+    - '&7to &dmine &7spawners.'
+  enchants:
+   SILK_TOUCH: 1
+  no-tool: '&cYou need the right tool to break spawners. /spawner'
+   
+spawner-tool-menu:
+  main:
+    rows: 3
+    title: '&cSpawner Breaker'
+    items:
+      spawner-unlocked:
+        material: DIAMOND_PICKAXE # PLAYER_HEAD:http://textures.minecraft.net/texture/5e55f9a48acc42a01b881af726ffc1ac178789e3274cb2c1cdb12f57c
+        name: '&#5ea6fb&lS&#65b3f9&lp&#6cc1f7&la&#72cef5&lw&#79dcf4&ln&#80e9f2&le&#87f6f0&lr &#8cfdeb&lB&#8ffde3&lr&#92fddb&le&#96fcd2&la&#99fcca&lk&#9dfcc2&le&#a0fcba&lr &a&l✔'
+        lore:
+             - '&7This pickaxe gives you the ability'   
+             - '&7to &dmine &7spawners. The requirement'
+             - '&7to use this tool is &bplayer level 20&7.'
+             - ''
+             - '&a&lClick here &7to claim the spawner tool'
+        glow: true
+        slot: 13
+      spawner-locked:
+        material: DIAMOND_PICKAXE
+        name: '&#5ea6fb&lS&#65b3f9&lp&#6cc1f7&la&#72cef5&lw&#79dcf4&ln&#80e9f2&le&#87f6f0&lr &#8cfdeb&lB&#8ffde3&lr&#92fddb&le&#96fcd2&la&#99fcca&lk&#9dfcc2&le&#a0fcba&lr &c&l✘'
+        lore:
+             - '&7This pickaxe gives you the ability'   
+             - '&7to &dmine &7spawners. The requirement'
+             - '&7to use this tool is &bplayer level 20&7.'
+        glow: false
+        slot: 13
+      spawner-cooldown:
+        material: BARRIER
+        name: '&#5ea6fb&lS&#65b3f9&lp&#6cc1f7&la&#72cef5&lw&#79dcf4&ln&#80e9f2&le&#87f6f0&lr &#8cfdeb&lB&#8ffde3&lr&#92fddb&le&#96fcd2&la&#99fcca&lk&#9dfcc2&le&#a0fcba&lr &#FBAF1D&l·˙·˙'
+        lore:
+             - '&7This pickaxe gives you the ability'   
+             - '&7to &dmine &7spawners. The requirement'
+             - '&7to use this tool is &bplayer level 20&7.'
+             - ''    
+             - '  &8◊ &fOn cooldown: &#FBAF1D{cooldown}'
+             - ''
+             - '&c&lOops! &7You have to wait'
+        glow: false
+        slot: 13
+    success-message:
+      - '&#6cc1f7&l⛏ &fYou have &#4DFC69successfully &fclaimed your &#5ea6fb&lS&#65b3f9&lp&#6cc1f7&la&#72cef5&lw&#79dcf4&ln&#80e9f2&le&#87f6f0&lr &#8cfdeb&lB&#8ffde3&lr&#92fddb&le&#96fcd2&la&#99fcca&lk&#9dfcc2&le&#a0fcba&lr&f!'
+
+
+#  _   _         ___ _                    ____            __ _   
+# | \ | | ___   |_ _| |_ ___ _ __ ___    / ___|_ __ __ _ / _| |_ 
+# |  \| |/ _ \   | || __/ _ \ '_ ` _ \  | |   | '__/ _` | |_| __|
+# | |\  | (_) |  | || ||  __/ | | | | | | |___| | | (_| |  _| |_ 
+# |_| \_|\___/  |___|\__\___|_| |_| |_|  \____|_|  \__,_|_|  \__|
+#
+
+# Items that cannot be crafted
+disable-crafting-items: []
+
+
+#   ____                 _           
+#  / ___|___  _   _ _ __(_) ___ _ __ 
+# | |   / _ \| | | | '__| |/ _ \ '__|
+# | |__| (_) | |_| | |  | |  __/ |   
+#  \____\___/ \__,_|_|  |_|\___|_|   
+#
+
+# These are used for the Courier/Daily rewards menu (NPC)
+#   Located at: /plugins/DeluxeMenus/gui_menus/courier
+
+# Placeholder to display the number of rewards/deliveries available: %supremeessentials_available_rewards%
+available-courier-rewards:
+# Normal delivery includes Knight & Lord rank
+  normal-delivery:
+    negative-permissions:
+      - 'normal.reward.cooldown'
+    positive-permissions:
+      - 'knight.rank'
+      - 'lord.rank'
+# Super delivery includes Baron & Paladin rank      
+  super-delivery:
+    negative-permissions:
+      - 'super.reward.cooldown'
+    positive-permissions:
+      - 'baron.rank'
+      - 'paladin.rank'
+# Ultra delivery includes Duke & King rank      
+  ultra-delivery:
+    negative-permissions:
+      - 'ultra.reward.cooldown'
+    positive-permissions:
+      - 'duke.rank'
+      - 'king.rank'
+
+
+#  _   _         _   _      _   _                 ____              __ 
+# | \ | | ___   | \ | | ___| |_| |__   ___ _ __  |  _ \ ___   ___  / _|
+# |  \| |/ _ \  |  \| |/ _ \ __| '_ \ / _ \ '__| | |_) / _ \ / _ \| |_ 
+# | |\  | (_) | | |\  |  __/ |_| | | |  __/ |    |  _ < (_) | (_) |  _|
+# |_| \_|\___/  |_| \_|\___|\__|_| |_|\___|_|    |_| \_\___/ \___/|_|  
+#
+
+# This feature will block players who are trying to get on top of the nether world roof
+no-nether-roof:
+  enabled: true
+  deny-message: '&cYou can''t go any further.'
+
+
+#  _   _         ____  _      _                  __  __       _         
+# | \ | | ___   |  _ \(_) ___| | ___   _ _ __   |  \/  | ___ | |__  ___ 
+# |  \| |/ _ \  | |_) | |/ __| |/ / | | | '_ \  | |\/| |/ _ \| '_ \/ __|
+# | |\  | (_) | |  __/| | (__|   <| |_| | |_) | | |  | | (_) | |_) \__ \
+# |_| \_|\___/  |_|   |_|\___|_|\_\\__,_| .__/  |_|  |_|\___/|_.__/|___/
+#                                       |_|
+
+# Mobs added to this list aren't able to pick up any items (anti dupe feature)
+blacklist-mobs-item-pickup:
+  - 'ZOMBIE'

@@ -1,0 +1,84 @@
+menu_title: '&cKey exchanger'
+open_command: 
+- key
+- keys
+- exchange
+- exchangekeys
+- exchangekey
+- keyexchange
+- keysexchange
+- keysexchanger
+size: 27
+
+items:
+  'votetorare':
+    material: TRIPWIRE_HOOK
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true  
+    slot: 11
+    priority: 1
+    display_name: '&e&l1x Rare key'
+    lore:
+    - '&7Exchange 5 Vote keys for'
+    - '&b1 Rare &7key.'     
+    - ''  
+    - '&fRequirements:'    
+    - '  &8◊ &a5 Vote keys'
+    - '  &8◊ &2$&a1000'
+    - ''     
+    - '&a&lClick &r&7to exchange' 
+    left_click_commands:
+    - '[openguimenu] exchangekeys_confirm_vote_to_rare' 
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'       
+    right_click_commands:
+    - '[openguimenu] exchangekeys_confirm_vote_to_rare' 
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    
+  'raretoultra':
+    material: TRIPWIRE_HOOK
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true      
+    slot: 13
+    priority: 1
+    display_name: '&e&l1x Ultra key'
+    lore:
+    - '&7Exchange 5 Rare keys for'
+    - '&e1 Ultra &7key.'     
+    - ''  
+    - '&fInformation:'    
+    - '  &8◊ &b5 Rare keys'
+    - '  &8◊ &2$&a2500'    
+    - ''     
+    - '&a&lClick &r&7to exchange'
+    left_click_commands:
+    - '[openguimenu] exchangekeys_confirm_rare_to_ultra' 
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'       
+    right_click_commands:
+    - '[openguimenu] exchangekeys_confirm_rare_to_ultra' 
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+
+  'ultratogod':
+    material: TRIPWIRE_HOOK
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true      
+    slot: 15
+    priority: 1
+    display_name: '&e&l1x God key'
+    lore:
+    - '&7Exchange 5 Ultra keys for'
+    - '&c1 God &7key.'     
+    - ''  
+    - '&fInformation:'    
+    - '  &8◊ &e5 Ultra keys'
+    - '  &8◊ &2$&a4500'
+    - ''     
+    - '&a&lClick &r&7to exchange'
+    left_click_commands:
+    - '[openguimenu] exchangekeys_confirm_ultra_to_god' 
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'       
+    right_click_commands:
+    - '[openguimenu] exchangekeys_confirm_ultra_to_god' 
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'    

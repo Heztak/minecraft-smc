@@ -1,0 +1,13 @@
+tasks:
+  walking:
+    type: 'walking'
+    distance: 150000
+    worlds:
+     - 'survival'
+rewards:
+  - "eco give {player} 3500"
+  - "lp user {player} permission set level.59"  
+options:
+  category: "walking"
+  requires: []
+  repeatable: true

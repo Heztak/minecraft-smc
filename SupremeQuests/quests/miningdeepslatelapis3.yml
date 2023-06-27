@@ -1,0 +1,14 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 75
+    block: "DEEPSLATE_LAPIS_ORE"
+rewards:
+  - "eco give {player} 1000"
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

@@ -1,0 +1,28 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+# Messages
+not_player_message: "&cYou need to be a player to execute this command"
+no_permission_message: "&cYou do not have permission to execute this oommand"
+player_not_found_message: "&cCould not find the player %player%"
+no_container_called_that_message: "&cThere is no container called %name%"
+not_numeric_message: "&c%arg% should only contain numbers"
+amount_cannot_be_zero_message: "&cThe amount cannot be 0"
+gave_container_to_message: "&6&lSupply&e&lContainers&r &8➠ &eYou gave %amount% %type% container to %target%"
+received_containers_from_message: "&6&lSupply&e&lContainers&r &8➠ &eYou received %amount% %type% container from %sender%"
+already_opening_container_message: "&cYou are already opening a container"

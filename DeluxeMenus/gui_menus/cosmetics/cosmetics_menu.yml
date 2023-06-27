@@ -1,0 +1,74 @@
+menu_title: '&cSelect a category'
+open_command:
+- cosmetics
+- color
+size: 27
+items:
+  'TRAILS':
+    material: TOTEM_OF_UNDYING
+    slot: 10
+    priority: 2
+    display_name: '&e&lTrails'
+    lore:
+    - '&7Choose from &d163 &7different trails.'
+    - '&7These are unlockable with'
+    - '&bcubelets&7.'
+    - ''
+    - '&a&lClick Here &7to access'     
+    left_click_commands:
+    - '[player] trails'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5' 
+    right_click_commands:
+    - '[player] trails'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5' 
+  'CHATCOLOUR':
+    material: PAPER
+    slot: 12
+    priority: 2
+    display_name: '&e&lChat colour'
+    lore:
+    - '&7Choose from &d15 &7different chat'
+    - '&7colors. These are unlockable with'
+    - '&bcubelets&7.'
+    - ''
+    - '&a&lClick Here &7to access'
+    left_click_commands:
+    - '[player] chatcolor'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5' 
+    right_click_commands:
+    - '[player] chatcolor'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5' 
+  'NAMECOLOUR':
+    material: NAME_TAG
+    slot: 14
+    priority: 2
+    display_name: '&e&lName colour'
+    lore:
+    - '&7Choose from &d15 &7different name'
+    - '&7colors. These are unlockable with'
+    - '&bcubelets&7.'
+    - ''
+    - '&a&lClick Here &7to access'
+    left_click_commands:
+    - '[player] namecolor'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5' 
+    right_click_commands:
+    - '[player] namecolor'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5' 
+  'GLOWCOLOUR':
+    material: GLOW_INK_SAC
+    slot: 16
+    priority: 2
+    display_name: '&e&lGlow colour'
+    lore:
+    - '&7Choose from &d15 &7different glow'
+    - '&7colors. These are unlockable with'
+    - '&bcubelets&7.'
+    - ''
+    - '&a&lClick Here &7to access'
+    left_click_commands:
+    - '[player] glowcolor'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5' 
+    right_click_commands:
+    - '[player] glowcolor'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'  

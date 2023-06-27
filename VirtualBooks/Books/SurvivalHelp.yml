@@ -1,0 +1,43 @@
+command: guide
+permission: survivalguide.perm
+Title: Guide
+Author: Guide
+pages:
+  '1':
+  - '    &6&lSurvival Help'
+  - '  &0Do you need help?'
+  - '  &0Click on a subject'
+  - '     &0to learn more.'  
+  - ' '
+  - '{gettingstarted}'  
+  - '{earnmoney}'
+  - '{claims}'
+  - '{worlds}'
+  - '{shop}'
+gettingstarted:
+  TEXT: '   &2□ Getting Started'
+  HOVER_TEXT: '&7"Click to start your adventure"'
+  CLICK_EVENT:
+    RUN_COMMAND: '/serversurvival'
+earnmoney:
+  TEXT: '   &2□ Earn Money'
+  HOVER_TEXT: '&7"Click to get more help"'
+  CLICK_EVENT:
+    RUN_COMMAND: '/earnmoney'
+claims:
+  TEXT: '   &2□ Claiming'
+  HOVER_TEXT: '&7"Click to get more help"'
+  CLICK_EVENT:
+    RUN_COMMAND: '/helpclaimsbook'
+worlds:
+  TEXT: '   &2□ Worlds'
+  HOVER_TEXT: '&7"Click to get more help"'
+  CLICK_EVENT:
+    RUN_COMMAND: '/wild'
+shop:
+  TEXT: '   &2□ Shop'
+  HOVER_TEXT: '&7"Click to get more help"'
+  CLICK_EVENT:
+    RUN_COMMAND: '/helpshop'
+    
+    

@@ -1,0 +1,39 @@
+location: world:-28.460:85.500:-0.548
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lPlayer Levels'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fPlayer levels are a great way for you to show'
+    height: 0.3
+  - content: '&fyour &askills &fwithin Survival. In the duration'
+    height: 0.3
+  - content: '&fof your survival adventure, you will be able'
+    height: 0.3
+  - content: '&fto grind your way through our &blevel system&f.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fThe beginning levels will be basic, simple'
+    height: 0.3
+  - content: '&fchallenges. As you level up your challenges will'
+    height: 0.3
+  - content: '&fget harder and harder as you pass each level.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fWill you get through them all?'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3
+  actions: {}

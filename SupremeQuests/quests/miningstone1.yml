@@ -1,0 +1,11 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 50
+    block: "STONE"
+rewards:
+  - "exp give {player} 50"
+  - "lp user {player} permission set level.1"
+options:
+  category: "mining"
+  repeatable: true

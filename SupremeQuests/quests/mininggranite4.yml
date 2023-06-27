@@ -1,0 +1,15 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 250
+    block: "GRANITE"
+rewards:
+  - "supremetokens give {player} 10"
+  - "lp user {player} permission set level.57b"  
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

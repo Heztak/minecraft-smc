@@ -1,0 +1,304 @@
+menu_title: '&cEarnings Builder (page 4/5)'
+open_command:
+- jobs earnings builder4
+size: 45
+items:
+  '1':
+    material: POLISHED_BLACKSTONE_BRICKS
+    slot: 10
+    display_name: '&e&lPolished Blackstone Bricks'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.1'
+    - '  &8◊ &7Exp: &d0.15 Exp'
+    - '  &8◊ &7Points: &e0.07 Points'
+  '2':
+    material: CRACKED_POLISHED_BLACKSTONE_BRICKS
+    slot: 11
+    display_name: '&e&lCracked Polished Blackstone Bricks'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.2'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.15 Points'
+  '3':
+    material: POLISHED_BLACKSTONE_SLAB
+    slot: 12
+    display_name: '&e&lPolished Blackstone Slab'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.06'
+    - '  &8◊ &7Exp: &d0.04 Exp'
+    - '  &8◊ &7Points: &e0.01 Points'
+  '4':
+    material: POLISHED_BLACKSTONE_STAIRS
+    slot: 13
+    display_name: '&e&lPolished Blackstone Stairs'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.08'
+    - '  &8◊ &7Exp: &d0.04 Exp'
+    - '  &8◊ &7Points: &e0.01 Points'
+  '5':
+    material: POLISHED_BLACKSTONE_BRICK_SLAB
+    slot: 14
+    display_name: '&e&lPolished Blackstone Brick Slab'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.07'
+    - '  &8◊ &7Exp: &d0.04 Exp'
+    - '  &8◊ &7Points: &e0.01 Points'
+  '6':
+    material: POLISHED_BLACKSTONE_BRICK_STAIRS
+    slot: 15
+    display_name: '&e&lPolished Blackstone Brick Stairs'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.08'
+    - '  &8◊ &7Exp: &d0.04 Exp'
+    - '  &8◊ &7Points: &e0.01 Points'
+  '7':
+    material: Deepslate
+    slot: 16
+    display_name: '&e&lDeepslate'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.5 Exp'
+    - '  &8◊ &7Points: &e0.5 Points'
+  '8':
+    material: Cobbled_Deepslate
+    slot: 19
+    display_name: '&e&lCobbled Deepslate'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.65'
+    - '  &8◊ &7Exp: &d0.65 Exp'
+    - '  &8◊ &7Points: &e0.5 Points'
+  '9':
+    material: Polished_Deepslate
+    slot: 20
+    display_name: '&e&lPolished Deepslate'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.75'
+    - '  &8◊ &7Exp: &d0.75 Exp'
+    - '  &8◊ &7Points: &e0.5 Points'
+  '10':
+    material: Calcite
+    slot: 21
+    display_name: '&e&lCalcite'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.5 Exp'
+    - '  &8◊ &7Points: &e0.5 Points'
+  '11':
+    material: Tuff
+    slot: 22
+    display_name: '&e&lTuff'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.2'
+    - '  &8◊ &7Exp: &d0.25 Exp'
+    - '  &8◊ &7Points: &e0.2 Points'
+  '12':
+    material: Dripstone_Block
+    slot: 23
+    display_name: '&e&lDripstone Block'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.2'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'
+  '13':
+    material: Amethyst_Block
+    slot: 24
+    display_name: '&e&lBlock of Amethyst'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.5 Exp'
+    - '  &8◊ &7Points: &e0.3 Points'
+  '14':
+    material: budding_Amethyst
+    slot: 25
+    display_name: '&e&lBudding Amethyst'
+    hide_attributes: true
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.5'
+    - '  &8◊ &7Exp: &d0.5 Exp'
+    - '  &8◊ &7Points: &e0.3 Points'
+  '15':
+    material: cobblestone_stairs
+    slot: 28
+    display_name: '&e&lAny types of Stairs'
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.02'
+    - '  &8◊ &7Exp: &d0.02 Exp'
+    - '  &8◊ &7Points: &e0.01 Points'
+  '16':
+    material: chest
+    slot: 29
+    display_name: '&e&lChest'
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.15'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.05 Points'
+  '17':
+    material: diamond_block
+    slot: 30
+    display_name: '&e&lDiamond Block'
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a1'
+    - '  &8◊ &7Exp: &d1.5 Exp'
+    - '  &8◊ &7Points: &e0.8 Points'
+  '18':
+    material: crafting_table
+    slot: 31
+    display_name: '&e&lCrafting Table'
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.15'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.05 Points'
+  '19':
+    material: furnace
+    slot: 32
+    display_name: '&e&lFurnace'
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.15'
+    - '  &8◊ &7Exp: &d0.2 Exp'
+    - '  &8◊ &7Points: &e0.05 Points'
+  '20':
+    material: ladder
+    slot: 33
+    display_name: '&e&lLadder'
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.02'
+    - '  &8◊ &7Exp: &d0.02 Exp'
+    - '  &8◊ &7Points: &e0.01 Points'
+  '21':
+    material: ice
+    slot: 34
+    display_name: '&e&lIce'
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fPlace actions:'
+    - '  &8◊ &7Money: &2$&a0.2'
+    - '  &8◊ &7Exp: &d0.1 Exp'
+    - '  &8◊ &7Points: &e0.1 Points'    
+  'back':
+    material: BARRIER
+    priority: 1
+    display_name: '&C⤾ Back'
+    slot: 40
+    left_click_commands:
+    - '[openguimenu] jobsreborn_page_2'    
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_page_2'     
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'nextpage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0=
+    priority: 1
+    display_name: '&eNext Page'
+    slot: 26
+    left_click_commands:
+    - '[openguimenu] jobsreborn_builder_earnings_5'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_builder_earnings_5'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'previouspage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    priority: 1
+    display_name: '&8Previous Page'
+    slot: 18
+    left_click_commands:
+    - '[openguimenu] jobsreborn_builder_earnings_3'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_builder_earnings_3'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'

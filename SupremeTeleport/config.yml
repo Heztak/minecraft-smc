@@ -1,0 +1,238 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+
+# Permission to bypass the teleportation cooldown
+bypass-permission: supremewarps.bypass
+
+
+# __        __                       __  __           _   
+# \ \      / /_ _ _ __ _ __     ___ / _|/ _| ___  ___| |_ 
+#  \ \ /\ / / _` | '__| '_ \   / _ \ |_| |_ / _ \/ __| __|
+#   \ V  V / (_| | |  | |_) | |  __/  _|  _|  __/ (__| |_ 
+#    \_/\_/ \__,_|_|  | .__/   \___|_| |_|  \___|\___|\__|
+#                     |_|
+#
+
+# Action bar that will be displayed upon teleporting
+progress-bar:
+  # Progress symbol displayed on the action bar
+  symbol: '∎'
+  # Lenght of the progress bar (amount of symbols)
+  length: 12
+  # Color of the symbol when completed
+  color-filled: '&a'
+  # Color of the symbol when it still needs to be completed
+  color-empty: '&c'
+# The time it takes to complete a teleportation
+cooldown: 3 #In seconds
+# Message displayed on the action bar ({bar} = progress bar)
+message: '{bar}'
+# Message when the teleport has been canceled (e.g. by moving)
+canceled: '&cCanceled!'
+# Message when teleportation is successful
+completed: '&aCompleted!'
+
+
+#  ____                        _    __                _   _      _              __  __           _       
+# / ___|  ___  _   _ _ __   __| |  / / __   __ _ _ __| |_(_) ___| | ___    ___ / _|/ _| ___  ___| |_ ___ 
+# \___ \ / _ \| | | | '_ \ / _` | / / '_ \ / _` | '__| __| |/ __| |/ _ \  / _ \ |_| |_ / _ \/ __| __/ __|
+#  ___) | (_) | |_| | | | | (_| |/ /| |_) | (_| | |  | |_| | (__| |  __/ |  __/  _|  _|  __/ (__| |_\__ \
+# |____/ \___/ \__,_|_| |_|\__,_/_/ | .__/ \__,_|_|   \__|_|\___|_|\___|  \___|_| |_|  \___|\___|\__|___/
+#                                   |_|                                                                  
+
+# Sound played when starting the teleportation
+start-sounds:
+  - 'ENTITY_ITEM_PICKUP;0.5;3.0'
+# Particles shown when starting the teleportation  
+start-particles: 
+  - 'END_ROD;50;0.0;0.5;0.0;0.1'
+# Sound played when the teleportation is completed  
+end-sounds: []
+# Particles shown when the teleportation is completed  
+end-particles:
+  - 'VILLAGER_HAPPY;70;1.0;1.5;1.0;0.1'
+# Sound played when the teleportation has been canceled (e.g. moving)
+cancel-sounds:
+  - 'ENTITY_ENDER_DRAGON_HURT;1.0;1.0'
+# Particles shown when the teleportation has been canceled (e.g. moving)  
+cancel-particles:
+  - 'LAVA;8;0.0;1.0;0.0;0.1'
+
+
+# __        __         _     _    __                                            __ _                       _             
+# \ \      / /__  _ __| | __| |  / /_      ____ _ _ __ _ __     ___ ___  _ __  / _(_) __ _ _   _ _ __ __ _| |_ ___  _ __ 
+#  \ \ /\ / / _ \| '__| |/ _` | / /\ \ /\ / / _` | '__| '_ \   / __/ _ \| '_ \| |_| |/ _` | | | | '__/ _` | __/ _ \| '__|
+#   \ V  V / (_) | |  | | (_| |/ /  \ V  V / (_| | |  | |_) | | (_| (_) | | | |  _| | (_| | |_| | | | (_| | || (_) | |   
+#    \_/\_/ \___/|_|  |_|\__,_/_/    \_/\_/ \__,_|_|  | .__/   \___\___/|_| |_|_| |_|\__, |\__,_|_|  \__,_|\__\___/|_|   
+#                                                     |_|                            |___/                               
+
+teleport-requirements:
+
+  # This name can be used for a placeholder. With that placeholder you can see if you have access to this specific warp/world.
+  'dungeons_entrance': # %supremewarps_dungeons%
+    # Here you can use either a warp or a world (not both)
+    #world: example_world
+    warp: dungeonscave
+    # Should this warp/world teleport use a teleport delay? (progress bar)
+    teleport-delay: false
+    # Permission needed to enter/access the warp/world
+    # Comparators: ==, >=, <=, !=, >, <
+    type: ">="
+    input: "%supremelevels_undisguised%"
+    output: "25" # Needs to be player level 25 in order to enter the dungeons world
+    # The location a player will be teleported to if they do not have the required permission
+    deny-teleport-location:
+      enabled: true
+      world: world
+      X: -76.97
+      Y: 70
+      Z: 113
+      YAW: 54.6
+      PITCH: -4.7
+    messages:
+      success-message: []
+      no-permission-message:
+        - '&cYou need to be player-level 25 to enter the dungeons.'
+    # Output from the placeholder (%supremewarps_dungeons%) when the warp/world is locked or unlocked
+    placeholders:
+      locked-placeholder: '&c&lLocked'
+      unlocked-placeholder: '&a&lUnlocked'
+
+  'dungeons_exit':
+    warp: dungeonsentry
+    type: ">="
+    input: "%supremelevels_undisguised%"
+    output: "25" # Needs to be player level 25 in order to enter the dungeons world
+    teleport-delay: false
+    deny-teleport-location:
+      enabled: true
+      world: world
+      X: -76.97
+      Y: 70
+      Z: 113
+      YAW: 54.6
+      PITCH: -4.7
+    messages:
+      success-message: []
+      no-permission-message:
+        - '&cYou need to be player-level 25 to enter the dungeons.'
+    placeholders:        
+      locked-placeholder: '&c&lLocked'
+      unlocked-placeholder: '&a&lUnlocked'
+    
+  'end_world':
+    world: world_end
+    type: ">="
+    input: "%supremelevels_undisguised%"
+    output: "30" # Needs to be player level 30 in order to enter the end world
+    teleport-delay: true
+    blacklist-blocks:
+      - 'LAVA'
+      - 'FIRE'
+    teleport-delay: true
+    use-worldborder: true
+    worldborder:
+      radius: 1000   
+      offset:
+        x: 0
+        z: 0    
+    deny-teleport-location:
+      enabled: false
+      world: world
+      X: 00.00
+      Y: 00
+      Z: 000
+      YAW: 00.0
+      PITCH: 0.0   
+    messages:
+      success-message:
+        - '&a&l[!] &r&fTeleporting to the &aEnd World &fin 3 seconds.'
+      no-permission-message:
+        - '&cYou need to be player-level 30 to enter the end world.'
+    placeholders:
+      locked-placeholder: '&c&lLocked'
+      unlocked-placeholder: '&a&lClick here &r&7to go to this world!'
+
+  'nether_world':
+    world: world_nether
+    type: ">="
+    input: "%supremelevels_undisguised%"
+    output: "15" # Needs to be player level 15 in order to enter the nether world
+    teleport-delay: true
+    blacklist-blocks:
+      - 'LAVA'
+      - 'FIRE'
+    teleport-delay: true
+    use-worldborder: true
+    worldborder:
+      radius: 1000   
+      offset:
+        x: 0
+        z: 0
+    deny-teleport-location:
+      enabled: false
+      world: world
+      X: 00.00
+      Y: 00
+      Z: 000
+      YAW: 00.0
+      PITCH: 0.0
+    messages:
+      success-message:
+        - '&a&l[!] &r&fTeleporting to the &aNether World &fin 3 seconds.'
+      no-permission-message:
+        - '&cYou need to be player-level 15 to enter the nether world.'      
+    placeholders:
+      locked-placeholder: '&c&lLocked'
+      unlocked-placeholder: '&a&lClick here &r&7to go to this world!'
+
+  'survival_world':
+    world: world_survival
+    type: ">="
+    input: "%supremelevels_undisguised%"
+    output: "0" 
+    teleport-delay: true
+    blacklist-blocks:
+      - 'LAVA'
+      - 'WATER'
+      - 'CACTUS'
+      - 'FIRE'
+    teleport-delay: true
+    use-worldborder: true
+    worldborder:
+      radius: 1000
+      offset:
+        x: 0
+        z: 0
+    deny-teleport-location:
+      enabled: false
+      world: world
+      X: 00.00
+      Y: 00
+      Z: 000
+      YAW: 00.0
+      PITCH: 0.0
+    messages:
+      success-message:
+        - '&a&l[!] &r&fTeleporting to the &aSurvival World &fin 3 seconds.'
+      no-permission-message:
+        - 'N/A'      
+    placeholders:
+      locked-placeholder: 'N/A'
+      unlocked-placeholder: 'N/A'      

@@ -1,0 +1,73 @@
+locale:
+
+  # The default language file the plugin should use
+  lang: en_US
+
+# What should be the cancel word when renaming?
+cancel word: cancel
+
+# Words that should be blocked when using a tag
+blocked words:
+- fuck
+- bitch
+
+# The maximum length of a rename
+max rename length: 16
+
+# Should item tags limit the rename length on items?
+use max rename length: false
+
+white list:
+
+  # Should item tags use a white list system instead of the black list?
+  use: false
+
+  # Items that the player will be able to rename / remove lore from
+  items:
+  - DIAMOND_SWORD
+  - IRON_SWORD
+
+blocked:
+
+  # A list of all the items that should be blocked in the renaming process
+  # These are just to get you started, you've got to add more on your own.
+  items:
+  - ENDER_CHEST
+  - CHEST
+  - SPAWNER
+
+tags:
+  lore prefix:
+
+    # Should there be a prefix next to added lore
+    use: false
+
+    # The prefix that should be added to new lore
+    prefix: '&e&lLORE'
+  item name tag:
+
+    item: NAME_TAG
+
+    name: '&e&lItem Name Tag'
+
+    lore:
+    - '&7Right-Click the tag to begin using it'
+    - '&7You can always cancel the naming process'
+  item lore tag:
+
+    item: NAME_TAG
+
+    name: '&e&lItem Lore Tag'
+
+    lore:
+    - '&7Right-Click the tag to begin using it'
+    - '&7You can always cancel the naming process'
+  item delore tag:
+
+    item: NAME_TAG
+
+    name: '&e&lItem Delore Tag'
+
+    lore:
+    - '&7Right-Click the tag to begin using it'
+    - '&7You can always cancel the lore removal process'

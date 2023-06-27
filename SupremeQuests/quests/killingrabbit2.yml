@@ -1,0 +1,13 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 25
+    mob: RABBIT
+    worlds:
+     - 'survival'
+rewards:
+  - "supremetokens give {player} 5"
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

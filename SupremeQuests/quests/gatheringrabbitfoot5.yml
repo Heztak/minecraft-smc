@@ -1,0 +1,17 @@
+tasks:
+  gathering:
+    type: 'inventory'
+    item: RABBIT_FOOT
+    amount: 40
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "exp give {player} 250"
+  - "eco give {player} 1250"
+options:
+  category: "gathering"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

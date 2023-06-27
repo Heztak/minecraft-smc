@@ -1,0 +1,18 @@
+tasks:
+  brewing:
+    type: 'brewing'
+    item: POTION
+    data: INVISIBILITY
+    amount: 75
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "eco give {player} 1750"
+  - "supremetokens give {player} 10"
+options:
+  category: "brewing"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

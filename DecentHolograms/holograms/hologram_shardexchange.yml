@@ -1,0 +1,27 @@
+location: world_dungeons:1990.600:18.076:2457.407
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lExchange of Shards'
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: '&fHere you can &#084cfbe&#2064fbx&#377cfcc&#4f94fch&#66abfca&#7ec3fcn&#95dbfdg&#adf3fde
+      &fyour shards for'
+    height: 0.3
+  - content: '&fbetter ones. This way you can collect'
+    height: 0.3
+  - content: '&fthe available treasures even faster!'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3
+  actions: {}
+  always-face-player: true

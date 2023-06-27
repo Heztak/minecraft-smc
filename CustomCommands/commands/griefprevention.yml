@@ -1,0 +1,90 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for CustomCommands
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+# Aliases for the command
+# Our command can be used with /spawn, /gotospawn and /lobby
+aliases: [claims]
+
+# Patterns for the command
+patterns:
+
+  - pattern: '' 
+    description: Claims help
+    permission: custom.commands
+    worlds:
+      whitelist: []  # our command can only be used in the default world
+      blacklist: []
+    cooldown: 0 SECOND
+    actions:
+      - type: NOTIFY
+        notify:
+          message:
+            - '&r'
+            - '&r  &6&lClaims &e&lHelp &7(1/3)'
+            - '&r'
+            - '&r    &e&l* &f/abandonclaim &e&l≫ &eRemoves a claim you stand in.'
+            - '&r    &e&l* &f/abandonallclaims &e&l≫ &eRemoves all of your claims.'
+            - '&r    &e&l* &f/trust &e&l≫ &eGive a player the permission to edit claim.'
+            - '&r    &e&l* &f/untrust &e&l≫ &eRevokes any permissions granted to a player.'
+            - '&r    &e&l* &f/trustlist &e&l≫ &eViews permissions for the claim you stand in.'
+            - '&r    &e&l* &f/untrust all &e&l≫ &eRemoves all permissions for all players.'
+            - '&r    &e&l* &f/accesstrust &e&l≫ &ePermission to buttons, levers, and beds.'
+            - '&r    &e&l* &f/containertrust &e&l≫ &e↳ crafting gear, containers, and animals.'            
+            - '&r'
+            - '&r  &7Type &f/claims 2 &7for Page 2'
+            - '&r'            
+          actionbar: '&eNeed help? Feel free to ask one of our staffes.'
+          actionbar_duration: 3 SECOND            
+
+  - pattern: '2' 
+    description: Claims help
+    permission: custom.commands
+    worlds:
+      whitelist: []  # our command can only be used in the default world
+      blacklist: []
+    cooldown: 0 SECOND
+    actions:
+      - type: NOTIFY
+        notify:
+          message:
+            - '&r'
+            - '&r  &6&lClaims &e&lHelp &7(2/3)'
+            - '&r'
+            - '&r    &e&l* &f/givepet &e&l≫ &eGives away a tamed animal.'            
+            - '&r    &e&l* &f/permissiontrust &e&l≫ &eShare permission level'
+            - '&r    &e&l* &f/ignore &e&l≫ &eIgnores a player's chat messages.'            
+            - '&r    &e&l* &f/claimslist &e&l≫ &eLists claims and claim block details.'
+            - '&r    &e&l* &f/restrictsubclaim &e&l≫ &eNo perms from the parent claim'            
+            - '&r    &e&l* &f/unignore &e&l≫ &eUn-ignores a player's chat messages.'
+            - '&r    &e&l* &f/subdivideclaims &e&l≫ &eSwitch to subdivision mode.'
+            - '&r    &e&l* &f/basicclaims &e&l≫ &eBasic claim mode.'            
+            - '&r'
+            - '&r  &7Type &f/claims 3 &7for Page 3'
+            - '&r'            
+          actionbar: '&eNeed help? Feel free to ask one of our staffes.'
+          actionbar_duration: 3 SECOND
+  - pattern: '3' 
+    description: Claims help
+    permission: custom.commands
+    worlds:
+      whitelist: []  # our command can only be used in the default world
+      blacklist: []
+    cooldown: 0 SECOND
+    actions:
+      - type: NOTIFY
+        notify:
+          message:
+            - '&r'
+            - '&r  &6&lClaims &e&lHelp &7(3/3)'
+            - '&r'
+            - '&r    &e&l* &f/siege &e&l≫ &eBesieges a player.'            
+            - '&r    &e&l* &f/ignorelist &e&l≫ &eAll players currently ignored.'
+            - '&r    &e&l* &f/unlockdrops &e&l≫ &eUnlock dropped items after you die.'            
+            - '&r    &e&l* &f/trapped &e&l≫ &eFree a player that is trapped.'         
+            - '&r'
+            - '&r  &7You''re at the last page :)'
+            - '&r'            
+          actionbar: '&eNeed help? Feel free to ask one of our staffes.'
+          actionbar_duration: 3 SECOND          

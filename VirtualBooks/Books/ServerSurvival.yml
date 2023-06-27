@@ -1,0 +1,29 @@
+command: serversurvival
+permission: survivalguide.perm
+Title: Guide
+Author: Guide
+pages:
+  '1':
+  - '    &6&lSurvival Help'
+  - ' '  
+  - '  &0Start your survival'
+  - '    &0adventure today.'
+  - '      &0Click start to'
+  - '         &0continue!'  
+  - ' '
+  - ' '  
+  - '{gettingstarted}'
+  - ' ' 
+  - ' ' 
+  - ' '   
+  - '{goback}'   
+gettingstarted:
+  TEXT: '    &2➜ Click to start'
+  HOVER_TEXT: '&7"Click to get started"'
+  CLICK_EVENT:
+    RUN_COMMAND: '/worlds'
+goback:
+  TEXT: '         &cGo back'
+  HOVER_TEXT: '&7"Click to go back"'
+  CLICK_EVENT:
+    RUN_COMMAND: '/guide'    

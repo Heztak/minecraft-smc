@@ -1,0 +1,18 @@
+tasks:
+  gathering:
+    type: 'inventory'
+    item: KELP
+    amount: 4750
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "eco give {player} 1750"
+  - "supremetokens give {player} 10"
+  - "lp user {player} permission set level.64b"  
+options:
+  category: "gathering"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

@@ -1,0 +1,35 @@
+location: world:-48.472:81.500:-22.443
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&#FF9820&lTop Playtime'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&e1. &f%PlayTimes_topname1% &7- &e%PlayTimes_toptime1% '
+    height: 0.3
+  - content: '&e2. &f%PlayTimes_topname2% &7- &e%PlayTimes_toptime2% '
+    height: 0.3
+  - content: '&e3. &f%PlayTimes_topname3% &7- &e%PlayTimes_toptime3% '
+    height: 0.3
+  - content: '&e4. &f%PlayTimes_topname4% &7- &e%PlayTimes_toptime4% '
+    height: 0.3
+  - content: '&e5. &f%PlayTimes_topname5% &7- &e%PlayTimes_toptime5% '
+    height: 0.3
+  - content: '&e6. &f%PlayTimes_topname6% &7- &e%PlayTimes_toptime6% '
+    height: 0.3
+  - content: '&e7. &f%PlayTimes_topname7% &7- &e%PlayTimes_toptime7% '
+    height: 0.3
+  - content: '&e8. &f%PlayTimes_topname8% &7- &e%PlayTimes_toptime8% '
+    height: 0.3
+  - content: '&e9. &f%PlayTimes_topname9% &7- &e%PlayTimes_toptime9% '
+    height: 0.3
+  - content: '&e10. &f%PlayTimes_topname10% &7- &e%PlayTimes_toptime10% '
+    height: 0.3
+  actions: {}

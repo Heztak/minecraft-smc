@@ -1,0 +1,541 @@
+menu_title: '&cSelect a chat color'
+open_command:
+- chatcolor
+size: 18
+items:
+  'back':
+    material: BARRIER
+    priority: 2
+    slot: 17
+    display_name: '&C⤾ Back'
+    left_click_commands:
+    - '[openguimenu] cosmetics_menu'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5' 
+    right_click_commands:
+    - '[openguimenu] cosmetics_menu'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5' 
+  'DARKBLUE':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE0NjA1MzAxMmM2OGYyODlhYmNmYjE3YWI4MDQyZDVhZmJhOTVkY2FhOTljOTljMWUwMzYwODg2ZDM1In19fQ=='
+    slot: 0
+    priority: 0
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: chat.1
+    display_name: '&1Dark Blue'
+    lore:
+    - '&7Gives you the Dark Blue'
+    - '&7chat color.'    
+    - ''
+    - '&a&lClick &7to equip color'    
+    left_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &1Dark blue&e.'
+    - '[console] supremecolor setchat %player_name% &1'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    right_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &1Dark blue&e.'
+    - '[console] supremecolor setchat %player_name% &1'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  'DARKBLUE_Locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 0
+    priority: 3
+    display_name: '&1Dark Blue &8(locked)'
+    update: true
+    left_click_commands:
+    - '[refresh]'  
+    right_click_commands:
+    - '[refresh]'
+  'DARKGREEN':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmM5ZTYwMWVkOTE5OGRiYjM0YzUxZGRmMzIzOTI5ZjAxYTVmOTU4YWIxMTEzM2UzZTA0MDdiNjk4MzkzYjNmIn19fQ=='
+    slot: 1
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: chat.2    
+    display_name: '&2Dark Green'
+    lore:
+    - '&7Gives you the Dark Green'
+    - '&7chat color.'    
+    - ''
+    - '&a&lClick &7to equip color'
+    left_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &2Dark green&e.'
+    - '[console] supremecolor setchat %player_name% &2'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    right_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &2Dark green&e.'
+    - '[console] supremecolor setchat %player_name% &2'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  'DARKGREEN_Locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 1
+    priority: 2
+    display_name: '&2Dark Green &8(locked)'
+    update: true
+    left_click_commands:
+    - '[refresh]'  
+    right_click_commands:
+    - '[refresh]'
+  'DARKAQUA':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTViOWE0ODQ2N2YwMjEyYWE2ODg2NGU2MzQyMTE2ZjhmNzlhMjc1NDU0YmYyMTVmNjdmNzAxYTZmMmM4MTgifX19'
+    slot: 2
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: chat.3
+    display_name: '&3Dark Aqua'
+    lore:
+    - '&7Gives you the Dark Aqua'
+    - '&7chat color.'    
+    - ''
+    - '&a&lClick &7to equip color'
+    left_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &3Dark aqua&e.'
+    - '[console] supremecolor setchat %player_name% &3'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    right_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &3Dark aqua&e.'
+    - '[console] supremecolor setchat %player_name% &3'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  'DARKAQUA_Locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 2
+    priority: 2
+    display_name: '&3Dark Aqua &8(locked)'
+    update: true
+    left_click_commands:
+    - '[refresh]'  
+    right_click_commands:
+    - '[refresh]'    
+  'DARKRED':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY0ZGMzYzM3NTNiZjViMGI3ZjA4MWNkYjQ5YjgzZDM3NDI4YTEyZTQxODdmNjM0NmRlYzA2ZmFjNTRjZSJ9fX0='
+    slot: 3
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: chat.4
+    display_name: '&4Dark Red'
+    lore:
+    - '&7Gives you the Dark Red'
+    - '&7chat color.'    
+    - ''
+    - '&a&lClick &7to equip color'
+    left_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &4Dark red&e.'
+    - '[console] supremecolor setchat %player_name% &4'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    right_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &4Dark red&e.'
+    - '[console] supremecolor setchat %player_name% &4'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  'DARKRED_Locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 3
+    priority: 2
+    display_name: '&4Dark Red &8(locked)'
+    update: true
+    left_click_commands:
+    - '[refresh]'  
+    right_click_commands:
+    - '[refresh]'    
+  'DARKPURPLE':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTMyYWUyY2I4ZDJhZTYxNTE0MWQyYzY1ODkyZjM2NGZjYWRkZjczZmRlYzk5YmUxYWE2ODc0ODYzZWViNWMifX19'
+    slot: 4
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: chat.5
+    display_name: '&5Dark Purple'
+    lore:
+    - '&7Gives you the Dark Purple'
+    - '&7chat color.'    
+    - ''
+    - '&a&lClick &7to equip color'
+    left_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &5Dark purple&e.'
+    - '[console] supremecolor setchat %player_name% &5'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    right_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &5Dark purple&e.'
+    - '[console] supremecolor setchat %player_name% &5'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL' 
+  'DARKPURPLE_Locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 4
+    priority: 2
+    display_name: '&5Dark Purple &8(locked)'
+    update: true
+    left_click_commands:
+    - '[refresh]'  
+    right_click_commands:
+    - '[refresh]'    
+  'GOLD':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTc5YWRkM2U1OTM2YTM4MmE4ZjdmZGMzN2ZkNmZhOTY2NTNkNTEwNGViY2FkYjBkNGY3ZTlkNGE2ZWZjNDU0In19fQ=='
+    slot: 5
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: chat.6
+    display_name: '&6Gold'
+    lore:
+    - '&7Gives you the Gold'
+    - '&7chat color.'    
+    - ''
+    - '&a&lClick &7to equip color'
+    left_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &6Gold&e.'
+    - '[console] supremecolor setchat %player_name% &6'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    right_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &6Gold&e.'
+    - '[console] supremecolor setchat %player_name% &6'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  'GOLD_Locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 5
+    priority: 2
+    display_name: '&6Gold &8(locked)'
+    update: true
+    left_click_commands:
+    - '[refresh]'  
+    right_click_commands:
+    - '[refresh]'    
+  'GRAY':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjliYTdmZWY2YTFhOGJkODk5YWJhZTRhNWI1NGNiMGVjZTUzYmFkYzY3N2MxNjY4YmVlMGE0NjIxYTgifX19'
+    slot: 6
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: chat.7
+    display_name: '&7Gray'
+    lore:
+    - '&7Gives you the Gray'
+    - '&7chat color.'    
+    - ''
+    - '&a&lClick &7to equip color'
+    left_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &7Gray&e.'
+    - '[console] supremecolor setchat %player_name% &7'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    right_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &7Gray&e.'
+    - '[console] supremecolor setchat %player_name% &7'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  'GRAY_Locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 6
+    priority: 2
+    display_name: '&7Gray &8(locked)'
+    update: true
+    left_click_commands:
+    - '[refresh]'  
+    right_click_commands:
+    - '[refresh]'    
+  'DARKGRAY':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA4ZjMyMzQ2MmZiNDM0ZTkyOGJkNjcyODYzOGM5NDRlZTNkODEyZTE2MmI5YzZiYTA3MGZjYWM5YmY5In19fQ=='
+    slot: 7
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: chat.8
+    display_name: '&8Dark Gray'
+    lore:
+    - '&7Gives you the Dark Gray'
+    - '&7chat color.'    
+    - ''
+    - '&a&lClick &7to equip color'
+    left_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &8Dark gray&e.'
+    - '[console] supremecolor setchat %player_name% &8'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    right_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &8Dark gray&e.'
+    - '[console] supremecolor setchat %player_name% &8'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  'DARKGRAY_Locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 7
+    priority: 2
+    display_name: '&8Dark Gray &8(locked)'
+    update: true
+    left_click_commands:
+    - '[refresh]'  
+    right_click_commands:
+    - '[refresh]'    
+  'BLUE':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjgxNTdiNGRjNWVmYzIxNzM1Mjg5NDQ3MWMxMTZkMzlhMDM0ZmMzOTdjMjQ1MzlhOWQwZWViMmE0NjVjYSJ9fX0='
+    slot: 8
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: chat.9
+    display_name: '&9Blue'
+    lore:
+    - '&7Gives you the Blue'
+    - '&7chat color.'    
+    - ''
+    - '&a&lClick &7to equip color'
+    left_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &9Blue&e.'
+    - '[console] supremecolor setchat %player_name% &9'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    right_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &9Blue&e.'
+    - '[console] supremecolor setchat %player_name% &9'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  'BLUE_Locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 8
+    priority: 2
+    display_name: '&9Blue &8(locked)'
+    update: true
+    left_click_commands:
+    - '[refresh]'  
+    right_click_commands:
+    - '[refresh]'    
+  'GREEN':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJkMTQ1YzkzZTVlYWM0OGE2NjFjNmYyN2ZkYWZmNTkyMmNmNDMzZGQ2MjdiZjIzZWVjMzc4Yjk5NTYxOTcifX19'
+    slot: 9
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: chat.a
+    display_name: '&aGreen'
+    lore:
+    - '&7Gives you the Green'
+    - '&7chat color.'    
+    - ''
+    - '&a&lClick &7to equip color'
+    left_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &aGreen&e.'
+    - '[console] supremecolor setchat %player_name% &a'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    right_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &aGreen&e.'
+    - '[console] supremecolor setchat %player_name% &a'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  'GREEN_Locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 9
+    priority: 2
+    display_name: '&aGreen &8(locked)'
+    update: true
+    left_click_commands:
+    - '[refresh]'  
+    right_click_commands:
+    - '[refresh]'    
+  'AQUA':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmZiM2RiMTAzMjg1ZTkyNTg4OTg0Yjg3MWQ4ZjViMTljODlmNGUyOTVjOTkyNjA4MDhhNjBlNDNmOGJkM2QifX19'
+    slot: 10
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: chat.b
+    display_name: '&bAqua'
+    lore:
+    - '&7Gives you the Aqua'
+    - '&7chat color.'    
+    - ''
+    - '&a&lClick &7to equip color'
+    left_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &bAqua&e.'
+    - '[console] supremecolor setchat %player_name% &b'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    right_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &bAqua&e.'
+    - '[console] supremecolor setchat %player_name% &b'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  'AQUA_Locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 10
+    priority: 2
+    display_name: '&bAqua &8(locked)'
+    update: true
+    left_click_commands:
+    - '[refresh]'  
+    right_click_commands:
+    - '[refresh]'    
+  'RED':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19'
+    slot: 11
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: chat.c
+    display_name: '&cRed'
+    lore:
+    - '&7Gives you the Red'
+    - '&7chat color.'    
+    - ''
+    - '&a&lClick &7to equip color'
+    left_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &cRed&e.'
+    - '[console] supremecolor setchat %player_name% &c'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    right_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &cRed&e.'
+    - '[console] supremecolor setchat %player_name% &c'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  'RED_Locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 11
+    priority: 2
+    display_name: '&cRed &8(locked)'
+    update: true
+    left_click_commands:
+    - '[refresh]'  
+    right_click_commands:
+    - '[refresh]'    
+  'LIGHTPURPLE':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWUzZGNkYmVlYTM1ZjdlY2IxNjY3NGFjNmZmZWQ3OTA2Nzc1MTM5ZTIyYzc4YmY3Mjk1Mzg2ZDMxOTRlOWY2In19fQ=='
+    slot: 12
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: chat.d
+    display_name: '&dLight Purple'
+    lore:
+    - '&7Gives you the Light Purple'
+    - '&7chat color.'    
+    - ''
+    - '&a&lClick &7to equip color'
+    left_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &dLight purple&e.'
+    - '[console] supremecolor setchat %player_name% &d'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    right_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &dLight purple&e.'
+    - '[console] supremecolor setchat %player_name% &d'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  'LIGHTPURPLE_Locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 12
+    priority: 2
+    display_name: '&dLight Purple &8(locked)'
+    update: true
+    left_click_commands:
+    - '[refresh]'  
+    right_click_commands:
+    - '[refresh]'    
+  'YELLOW':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjlhMDMwY2EyYjJjNmZlNjdmZTgwOTdkM2NkMjA2OTY5ZmM1YzAwMTdjNjBiNmI0MDk5MGM3NzJhNmYwYWMwYSJ9fX0='
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: chat.e
+    display_name: '&eYellow'
+    lore:
+    - '&7Gives you the Yellow'
+    - '&7chat color.'    
+    - ''
+    - '&a&lClick &7to equip color'
+    left_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &eYellow&e.'
+    - '[console] supremecolor setchat %player_name% &e'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    right_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &eYellow&e.'
+    - '[console] supremecolor setchat %player_name% &e'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  'YELLOW_Locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 13
+    priority: 2
+    display_name: '&eYellow &8(locked)'
+    update: true
+    left_click_commands:
+    - '[refresh]'  
+    right_click_commands:
+    - '[refresh]'    
+  'WHITE':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY2YTVjOTg5MjhmYTVkNGI1ZDViOGVmYjQ5MDE1NWI0ZGRhMzk1NmJjYWE5MzcxMTc3ODE0NTMyY2ZjIn19fQ=='
+    slot: 14
+    priority: 1
+    view_requirement:
+      requirements:
+        hasPermission:
+          type: has permission
+          permission: chat.f
+    display_name: '&fWhite'
+    lore:
+    - '&7Gives you the White'
+    - '&7chat color.'    
+    - ''
+    - '&a&lClick &7to equip color'
+    left_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &fWhite&e.'
+    - '[console] supremecolor setchat %player_name% &f'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    right_click_commands:
+    - '[close]'
+    - '[message] &eYour chat color has been set to &fWhite&e.'
+    - '[console] supremecolor setchat %player_name% &f'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  'WHITE_Locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 14
+    priority: 2
+    display_name: '&fWhite &8(locked)'
+    update: true
+    left_click_commands:
+    - '[refresh]'  
+    right_click_commands:
+    - '[refresh]'    

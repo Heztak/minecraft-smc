@@ -1,0 +1,42 @@
+location: world:-52.565:81.000:-23.470
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&#FF9820&lTop Tokens'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&e2. &f%supremetokens_tokens_name_2% &7- &e%supremetokens_tokens_value_2%
+      Tokens '
+    height: 0.3
+  - content: '&e3. &f%supremetokens_tokens_name_3% &7- &e%supremetokens_tokens_value_3%
+      Tokens '
+    height: 0.3
+  - content: '&e4. &f%supremetokens_tokens_name_4% &7- &e%supremetokens_tokens_value_4%
+      Tokens '
+    height: 0.3
+  - content: '&e5. &f%supremetokens_tokens_name_5% &7- &e%supremetokens_tokens_value_5%
+      Tokens '
+    height: 0.3
+  - content: '&e6. &f%supremetokens_tokens_name_6% &7- &e%supremetokens_tokens_value_6%
+      Tokens '
+    height: 0.3
+  - content: '&e7. &f%supremetokens_tokens_name_7% &7- &e%supremetokens_tokens_value_7%
+      Tokens '
+    height: 0.3
+  - content: '&e8. &f%supremetokens_tokens_name_8% &7- &e%supremetokens_tokens_value_8%
+      Tokens '
+    height: 0.3
+  - content: '&e9. &f%supremetokens_tokens_name_9% &7- &e%supremetokens_tokens_value_9%
+      Tokens '
+    height: 0.3
+  - content: '&e10. &f%supremetokens_tokens_name_10% &7- &e%supremetokens_tokens_value_10%
+      Tokens '
+    height: 0.3
+  actions: {}

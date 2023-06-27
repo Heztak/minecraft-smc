@@ -1,0 +1,14 @@
+tasks:
+  fishingcertain:
+    type: 'fishingcertain'
+    amount: 3
+    item: COD
+    worlds:
+     - 'survival'
+rewards:
+  - "exp give {player} 50"
+  - "lp user {player} permission set level.13a"  
+options:
+  category: "fishing"
+  requires: []
+  repeatable: true

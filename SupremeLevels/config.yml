@@ -1,0 +1,171 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+# Level each new player starts with (Do not change)
+starting-levels: 0
+
+# Format for /supremelevels show {ign}
+show-levels: '{player} - {levels}'
+
+# Format for placeholder (%supremelevels_levels%)
+unformatted-number: '&a{number}'
+
+# Level format
+formatting-levels:
+  '0':
+    format: '&7{number}'
+  '1':
+    format: '&7{number}'
+  '2':
+    format: '&7{number}'
+  '3':
+    format: '&7{number}'
+  '4':
+    format: '&7{number}'
+  '5':
+    format: '&7{number}'
+  '6':
+    format: '&7{number}'
+  '7':
+    format: '&7{number}'
+  '8':
+    format: '&7{number}'
+  '9':
+    format: '&7{number}'
+  '10':
+    format: '&7{number}'
+  '11':
+    format: '&f{number}'
+  '12':
+    format: '&f{number}'
+  '13':
+    format: '&f{number}'
+  '14':
+    format: '&f{number}'
+  '15':
+    format: '&f{number}'
+  '16':
+    format: '&f{number}'
+  '17':
+    format: '&f{number}'
+  '18':
+    format: '&f{number}'
+  '19':
+    format: '&f{number}'
+  '20':
+    format: '&f{number}'
+  '21':
+    format: '&e{number}'
+  '22':
+    format: '&e{number}'
+  '23':
+    format: '&e{number}'
+  '24':
+    format: '&e{number}'
+  '25':
+    format: '&e{number}'
+  '26':
+    format: '&e{number}'
+  '27':
+    format: '&e{number}'
+  '28':
+    format: '&e{number}'
+  '29':
+    format: '&e{number}'
+  '30':
+    format: '&e{number}'
+  '31':
+    format: '&6{number}'
+  '32':
+    format: '&6{number}'
+  '33':
+    format: '&6{number}'
+  '34':
+    format: '&6{number}'
+  '35':
+    format: '&6{number}'
+  '36':
+    format: '&6{number}'
+  '37':
+    format: '&6{number}'
+  '38':
+    format: '&6{number}'
+  '39':
+    format: '&6{number}'
+  '40':
+    format: '&6{number}'
+  '41':
+    format: '&9{number}'
+  '42':
+    format: '&9{number}'
+  '43':
+    format: '&9{number}'
+  '44':
+    format: '&9{number}'
+  '45':
+    format: '&9{number}'
+  '46':
+    format: '&9{number}'
+  '47':
+    format: '&9{number}'
+  '48':
+    format: '&9{number}'
+  '49':
+    format: '&9{number}'
+  '50':
+    format: '&9{number}'
+  '51':
+    format: '&d{number}'
+  '52':
+    format: '&d{number}'
+  '53':
+    format: '&d{number}'
+  '54':
+    format: '&d{number}'
+  '55':
+    format: '&d{number}'
+  '56':
+    format: '&d{number}'
+  '57':
+    format: '&d{number}'
+  '58':
+    format: '&d{number}'
+  '59':
+    format: '&d{number}'
+  '60':
+    format: '&d{number}'
+  '61':
+    format: '&b{number}'
+  '62':
+    format: '&b{number}'
+  '63':
+    format: '&b{number}'
+  '64':
+    format: '&b{number}'
+  '65':
+    format: '&b{number}'
+  '66':
+    format: '&b{number}'
+  '67':
+    format: '&b{number}'
+  '68':
+    format: '&b{number}'
+  '69':
+    format: '&b{number}'
+  '70':
+    format: '&5&l{number}' 

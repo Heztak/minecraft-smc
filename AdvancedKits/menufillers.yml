@@ -1,0 +1,105 @@
+knight-rank:
+  delay: 0
+  random: false
+  slots: [10]
+  items:
+    '1':
+      material: PLAYER_HEAD:http://textures.minecraft.net/texture/55a5e142a889d73a0dc4e95343de2689549d23ac77edb9a7ec127839d4973cbf
+      name: '&#0f65b4&lK&#156cb9&ln&#1a73bd&li&#207ac2&lg&#2581c6&lh&#2b89cb&lt &#3090cf&lR&#3697d4&la&#3b9ed8&ln&#41a5dd&lk'
+      glow: false
+      lore: []
+      amount: 1
+lord-rank:
+  delay: 0
+  random: false
+  slots: [11]
+  items:
+    '1':
+      material: PLAYER_HEAD:http://textures.minecraft.net/texture/118bc16faa5f2ce96dff76dfe31124c1ee77e8b43966e19f31981469a345
+      name: '&#ddd56b&lL&#ddd460&lo&#ddd456&lr&#ddd34b&ld &#ddd240&lR&#ddd135&la&#ddd12b&ln&#ddd020&lk'
+      glow: false
+      lore: []
+      amount: 1
+baron-rank:
+  delay: 0
+  random: false
+  slots: [12]
+  items:
+    '1':
+      material: PLAYER_HEAD:http://textures.minecraft.net/texture/4913a4af2d3064713f704187e57e6bec3deec94f1c3371b2b35c6c5e427cb0
+      name: '&#42c813&lB&#43cf20&la&#43d62d&lr&#44dd3a&lo&#44e447&ln &#45ea53&lR&#45f160&la&#46f86d&ln&#46ff7a&lk'
+      glow: false
+      lore: []
+      amount: 1
+paladin-rank:
+  delay: 0
+  random: false
+  slots: [14]
+  items:
+    '1':
+      material: PLAYER_HEAD:http://textures.minecraft.net/texture/60fd2cc9116c0f724bdcdbf2e9633cb0a7d453f8b3a1ad9d1493e5e6f1281555
+      name: '&#d51fad&lP&#d926b5&la&#dd2dbd&ll&#e134c6&la&#e53bce&ld&#e942d6&li&#ec48de&ln &#f04fe6&lR&#f456ef&la&#f85df7&ln&#fc64ff&lk'
+      glow: false
+      lore: []
+      amount: 1
+duke-rank:
+  delay: 0
+  random: false
+  slots: [15]
+  items:
+    '1':
+      material: PLAYER_HEAD:http://textures.minecraft.net/texture/d3a88cdc3519e9d4be65fd171ee372c2ba15d0e6925cffb9d6531aa1799891c3
+      name: '&#83ffe1&lD&#7af9e5&lu&#72f2ea&lk&#69ecee&le &#60e6f2&lR&#57e0f6&la&#4fd9fb&ln&#46d3ff&lk'
+      glow: false
+      lore: []
+      amount: 1
+king-rank:
+  delay: 0
+  random: false
+  slots: [16]
+  items:
+    '1':
+      material: PLAYER_HEAD:http://textures.minecraft.net/texture/9532ed387acbf182a8d1913f74c6d5ba2eb8b5d62cf9fb1e8f8bac5a86bb257d
+      name: '&#ffa63e&lK&#ffad3e&li&#ffb33d&ln&#ffba3d&lg &#ffc03d&lR&#ffc73d&la&#ffcd3c&ln&#ffd43c&lk'
+      glow: false
+      lore: []
+      amount: 1       
+
+
+
+
+      
+preview-menu-corner-1:
+  delay: 20
+  random: false
+  slots: [0, 1, 9, 44, 52, 53]
+  items:
+    '1':
+      material: 'YELLOW_STAINED_GLASS_PANE'
+      name: '&r'
+      glow: false
+      lore: []
+      amount: 1
+    '2':
+      material: 'ORANGE_STAINED_GLASS_PANE'
+      name: '&r'
+      glow: false
+      lore: []
+      amount: 1
+preview-menu-corner-2:
+  delay: 20
+  random: false
+  slots: [7, 8, 17, 36, 45, 46]
+  items:
+    '1':
+      material: 'ORANGE_STAINED_GLASS_PANE'
+      name: '&r'
+      glow: false
+      lore: []
+      amount: 1
+    '2':
+      material: 'YELLOW_STAINED_GLASS_PANE'
+      name: '&r'
+      glow: false
+      lore: []
+      amount: 1

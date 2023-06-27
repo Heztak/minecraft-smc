@@ -1,0 +1,136 @@
+menu_title: '&cAvailable Worlds'
+open_command:
+- worlds
+- world
+size: 36
+update_interval: 1
+items:
+  'wild':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE5ZTM2YTg3YmFmMGFjNzYzMTQzNTJmNTlhN2Y2M2JkYjNmNGM4NmJkOWJiYTY5Mjc3NzJjMDFkNGQxIn19fQ=='
+    slot: 11
+    priority: 2
+    display_name: '&e&lSurvival world'
+    lore:
+    - '&7Teleport yourself to a &frandom location' 
+    - '&7from where you will start your adventure!'  
+    - ''
+    - '&fInformation:'
+    - '  &8◊ &7Worldborder: &e10k by 10k'
+    - '  &8◊ &7Land claiming: &aEnabled'  
+    - '  &8◊ &7Pvp: &aEnabled'
+    - '  &8◊ &7Keep inventory: &cDisabled'
+    - ''    
+    - '&a&lClick here &r&7to go to this world!'
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeteleport rtp %player_name% world_survival'  
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeteleport rtp %player_name% world_survival' 
+  'nether':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWVjNjkyNzhmMzNiOGZjZTJhYmIzNjJkOTA4ZDYwYWNhNWQ1N2M2NWY5NGUwZDY2YWFmMDYwODhiZDcyMDdiYyJ9fX0='
+    slot: 13
+    priority: 2
+    display_name: '&e&lNether world'
+    lore:
+    - '&7The Nether is a &fdangerous&7 hell-like vegetation,' 
+    - '&7dimension filled with fire, lava, fungus-based'  
+    - '&7and many hostile mobs.' 
+    - ''
+    - '&fInformation:'
+    - '  &8◊ &7Worldborder: &e10k by 10k'
+    - '  &8◊ &7Land claiming: &aEnabled'    
+    - '  &8◊ &7Pvp: &aEnabled'
+    - '  &8◊ &7Keep inventory: &cDisabled'
+    - ''     
+    - '%supremeteleport_nether_world%'
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeteleport rtp %player_name% world_nether' 
+    right_click_commands:
+    - '[close]'
+    - '[console] supremeteleport rtp %player_name% world_nether'
+  'end':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTlmMjFmNWQ4ODMzMTZmZDY1YTkzNjZmMzJhMzMwMTMxODJlMzM4MWRlYzIxYzE3Yzc4MzU1ZDliZjRmMCJ9fX0='
+    slot: 15
+    priority: 2
+    display_name: '&e&lEnd world'
+    lore:
+    - '&7The End is a &fdark&7, space-like dimension consisting' 
+    - '&7of a big open terrain consisting'  
+    - '&7out of end stone.' 
+    - ''
+    - '&fInformation:'
+    - '  &8◊ &7Worldborder: &e10k by 10k'
+    - '  &8◊ &7Land claiming: &aEnabled'   
+    - '  &8◊ &7Pvp: &aEnabled'
+    - '  &8◊ &7Keep inventory: &cDisabled'
+    - ''  
+    - '%supremeteleport_end_world%'
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeteleport rtp %player_name% world_end'
+    right_click_commands:
+    - '[close]'     
+    - '[console] supremeteleport rtp %player_name% world_end'
+  'resourceworld':
+    material: IRON_PICKAXE
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true   
+    hide_attributes: true    
+    slot: 21
+    priority: 2
+    display_name: '&e&lResource world'
+    update: true    
+    lore:
+    - '&7Teleport randomly into the Resource World' 
+    - '&7and gather materials for your creations.'  
+    - '&7This world is being wiped every seven days'
+    - '&7to refill its treasures.'    
+    - ''
+    - '&7Building inside this world is not recommended!'
+    - '&7World resets in &f%rw_world%'
+    - ''
+    - '&fInformation:'
+    - '  &8◊ &7Worldborder: &e5k by 5k'
+    - '  &8◊ &7Land claiming: &cDisabled'
+    - '  &8◊ &7Daylight cycle: &cDisabled'    
+    - '  &8◊ &7Pvp: &cDisabled'
+    - '  &8◊ &7Difficulty: &ePeaceful'
+    - ''    
+    - '&a&lClick here &r&7to go to this world!'
+    left_click_commands:
+    - '[player] resourceworld tp'
+    - '[close]'    
+    right_click_commands:
+    - '[player] resourceworld tp'
+    - '[close]'
+  'dungeonsworld':
+    material: IRON_SWORD
+    enchantments:
+      - silk_touch;1
+    hide_enchantments: true   
+    hide_attributes: true    
+    slot: 23
+    priority: 2
+    display_name: '&e&lDungeons world'
+    update: true    
+    lore:
+    - '&7Fight your way for powerful items, the further you' 
+    - '&7get the more dangerous it becomes. So enter'  
+    - '&7only with the right equipment.' 
+    - ''
+    - '&fInformation:'
+    - '  &8◊ &7Land claiming: &cDisabled'
+    - '  &8◊ &7Pvp: &cDisabled'
+    - '  &8◊ &7Difficulty: &eHard'
+    - '  &8◊ &7Keep inventory: &aEnabled'    
+    - ''    
+    - '&a&lClick here &r&7to go to this world!'
+    left_click_commands:
+    - '[console] supremeteleport warp %player_name% dungeons'
+    - '[close]'    
+    right_click_commands:
+    - '[console] supremeteleport warp %player_name% dungeons'
+    - '[close]'    

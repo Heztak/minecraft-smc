@@ -1,0 +1,31 @@
+no-move-menu-item: []
+open-main-kits-menu: []
+close-main-kits-menu:
+  - 'CLOUD;20;0.5;0.5;0.1;0.1'
+back-to-main-kits-menu: []
+open-preview-kits-menu: []
+close-preview-kits-menu:
+fill-kit-items: []
+previous-page-button: []
+next-page-button: []
+#  - 'LAVA;50;2.0;2.0;2.0;2.0'
+
+# Upgrades  
+locked-upgrade:
+  - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+available-upgrade:
+  - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+no-available-upgrades:
+  - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+default-level-upgrade:
+  - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+maximum-level-upgrade:
+  - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+insufficient-funds-upgrade:
+  - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+complete-upgrade:
+  - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+unavailable-upgrade:
+  - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+current-upgrade:
+  - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'

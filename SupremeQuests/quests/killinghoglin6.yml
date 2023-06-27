@@ -1,0 +1,15 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 150
+    mob: HOGLIN
+    worlds:
+     - 'survival'
+rewards:
+  - "supremetokens give {player} 12"
+  - "eco give {player} 2000"
+  - "lp user {player} permission set level.61c"  
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

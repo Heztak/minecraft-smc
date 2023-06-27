@@ -1,0 +1,116 @@
+kits:
+  ranked_knight_kit:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  ranked_baron_once:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  starter_tools:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  starter_food:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  gkit_tools:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  ranked_lord_kit:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  gkit_enchants:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  ranked_lord_once:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  gkit_potions:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  ranked_duke_kit:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  starter_claimtools:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  gkit_miner:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  ranked_baron_kit:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  starter_armor:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  ranked_paladin_once:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  ranked_knight_once:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  ranked_king_kit:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  gkit_grinder:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  gkit_blocks:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  gkit_keys:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  ranked_duke_once:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  ranked_paladin_kit:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0
+  ranked_king_once:
+    level: 1
+    usages: 0
+    cooldown: 0
+    buy-cooldown: 0

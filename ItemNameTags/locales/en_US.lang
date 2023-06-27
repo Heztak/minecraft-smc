@@ -1,0 +1,32 @@
+cancel: '&cYou cancelled the tag usage, your item tag has been given back'
+
+blockedword: '&cYou cannot use that word in your rename'
+
+general:
+  prefix: '&6&lItem&e&lTags&r &8➠ &e'
+
+air: '&cYou cannot rename air.'
+
+redeem:
+  itemloretag: '&ePlease enter new lore addition in chat!'
+  itemdeloretag: '&aPlease right click the item you wish to remove lore from!'
+  itemnametag: '&ePlease enter the new item name in chat!'
+  cancelmsg: '&eYou can always type &F''%cancel_word%&f''&e to cancel'
+
+notanumber: '&cThat is not a valid number!'
+
+blockeditem: '&cYou''re not allowed to rename that item!'
+
+invalidtag: '&cThat is not a valid tag type!'
+
+reload: '&aReloaded the configuration file successfully'
+
+usingtag: '&cPlease finish using your current redeemed tag, before using another!'
+
+playeroffline: '&cThat player is currently offline!'
+
+taggiveall: '&aGave &fx&e%amount% &e%tag_type%&a to everyone'
+
+taggive: '&aGave &fx&e%amount% &e%tag_type%&a to the player&f: &e%player%'
+
+maxrenamelength: '&cThat phrase is too long, cannot rename'

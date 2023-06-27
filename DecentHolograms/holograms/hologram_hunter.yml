@@ -1,0 +1,27 @@
+location: world:-33.004:73.700:165.032
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lThe Mighty Hunter'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&aSell &fyour found heads here! Each'
+    height: 0.3
+  - content: '&fmob has its own drop &bpercentage&f, the'
+    height: 0.3
+  - content: '&flower this percentage is the'
+    height: 0.3
+  - content: '&fhigher its &evalue&f!'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3
+  actions: {}

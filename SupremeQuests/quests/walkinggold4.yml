@@ -1,0 +1,12 @@
+tasks:
+  walking:
+    type: 'walking'
+    distance: 650000
+    worlds:
+     - 'survival'
+rewards:
+  - "supremetokens give {player} 100"
+options:
+  category: "walking"
+  requires: []
+  repeatable: true

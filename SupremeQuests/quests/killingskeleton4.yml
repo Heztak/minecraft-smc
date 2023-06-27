@@ -1,0 +1,13 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 250
+    mob: SKELETON
+    worlds:
+     - 'survival'
+rewards:
+  - "eco give {player} 2500"
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

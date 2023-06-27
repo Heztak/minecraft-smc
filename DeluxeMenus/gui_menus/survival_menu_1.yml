@@ -1,0 +1,425 @@
+menu_title: '&cProfile (%player_name%)'
+open_command: survival_menu
+size: 44
+items:
+
+#  _____ _ _ _               
+# |  ___(_) | | ___ _ __ ___ 
+# | |_  | | | |/ _ \ '__/ __|
+# |  _| | | | |  __/ |  \__ \
+# |_|   |_|_|_|\___|_|  |___/
+
+  'filler':
+    material: 'GRAY_STAINED_GLASS_PANE'
+    priority: 2
+    display_name: '&r'    
+    slots:
+    - 0    
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 11
+    - 17
+    - 18
+    - 20
+    - 26
+    - 27
+    - 29
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+
+
+#  ___        __         _ _                     
+# |_ _|_ __  / _| ___   (_) |_ ___ _ __ ___  ___ 
+#  | || '_ \| |_ / _ \  | | __/ _ \ '_ ` _ \/ __|
+#  | || | | |  _| (_) | | | ||  __/ | | | | \__ \
+# |___|_| |_|_|  \___/  |_|\__\___|_| |_| |_|___/
+#
+
+  'what_is_survival':
+    material: GRASS_BLOCK
+    priority: 2
+    slot: 10
+    display_name: '&e&lWhat is Survival?'
+    lore:
+    - ''      
+    - '&7Survival is a &fMultiplayer World &7with'
+    - '&7different worlds you can &dexplore&7!' 
+    - ''      
+    - '&7Each World comes with i''ts'  
+    - '&7own unique &cSeed &7that you can'
+    - '&7explore, claim and build on!'
+    - ''
+    - '&7Make sure to gather up with your'
+    - '&afriends &7to play with you!'
+  'profile':
+    material: 'head-%player_name%'
+    slot: 19
+    priority: 2
+    display_name: "&e&lProfile &r&8(%player_name%)"
+    lore:
+    - ' &r'
+    - ' &fInformation:'        
+    - '  &8◊ &7Rank: %vault_rankprefix%'
+    - '  &8◊ &7Level: &8[%supremelevels_levels%&8]'    
+    - '  &8◊ &7Time played: &b%PlayTimes_playtime%'
+    - ''    
+    - '  &8◊ &7Ping: &e%player_ping%'
+    - ''
+  'how_to_play':
+    material: IRON_SWORD
+    hide_attributes: true   
+    slot: 28
+    priority: 2
+    display_name: "&e&lHow to play?"
+    lore:
+    - ' &r'
+    - '&7In &aSurvival &7, we provide you with'        
+    - '&7several different worlds you can'
+    - '&7explore in to create your'
+    - '&7own foundations!'
+    - ''
+    - '&7That means you can claim your land,'
+    - '&7make your clan, invite your friends'
+    - '&7and start taking over the gamemode!'
+    - ''
+    - '&7To receive &bExiting Rewards &7as you'
+    - '&7play, try to complete the &cPlayer Levels'
+    - '&7using &f/level' 
+
+
+#  ____  _                _             _       
+# / ___|| |__   ___  _ __| |_ ___ _   _| |_ ___ 
+# \___ \| '_ \ / _ \| '__| __/ __| | | | __/ __|
+#  ___) | | | | (_) | |  | || (__| |_| | |_\__ \
+# |____/|_| |_|\___/|_|   \__\___|\__,_|\__|___/
+#                                               
+
+  'player-levels':
+    material: SPECTRAL_ARROW
+    priority: 2
+    slot: 12
+    display_name: '&e&lPlayer Levels'
+    lore:
+    - ''      
+    - '&fPlayer Levels &7are user-friendly'
+    - '&cQuests &7that you can complete to get' 
+    - '&7exiting rewards. Rewards could be'      
+    - '&7be &aCash&7, &eTokens&7, &bTools&7, &dKeys &7and'
+    - '&7much more!'
+    - ''
+    - '&7To participate in a &fPlayer Level'
+    - '&7and complete it, you only have'
+    - '&7to fullfill the requirements stated'
+    - '&7in the level you want to upgrade to.'
+    - ''
+    - '&a&lClick here &7to acces Levels'
+    left_click_commands:
+    - '[openguimenu] player_levels'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'     
+  'blackmarket':
+    material: ANVIL
+    priority: 2
+    slot: 13
+    display_name: '&e&lBlackmarket'
+    lore:
+    - ''      
+    - '&7The &8Blackmarket &7is your daily dose of'
+    - '&7quick &aCash&7! You can find the &8Blackmarket' 
+    - '&7in the &eDungeons World &7where the NPC will'      
+    - '&7allow you to sell up to 3 items in exchange'
+    - '&7for money! But be prepared, everyday this'
+    - '&7market will change his items!'
+    - ''
+    - '&a&lClick here &7to visit the Blackmarket'    
+    left_click_commands: 
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% blackmarket'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'worlds':
+    material: OAK_SIGN
+    priority: 2
+    slot: 14
+    display_name: '&e&lDifferent Worlds'
+    lore:
+    - ''
+    - '&7Their are different &eWorlds &7available'
+    - '&7that you can explore. Each world has'
+    - '&7it''s own &bidentity&7.' 
+    - ''
+    - '&7Not every world is &cunlocked&7 by default,'
+    - '&7unlocking these worlds requires'
+    - '&7different &dPlayer Levels.'
+    - ''
+    - '&7The &aSurvival- &7and &eResource World'
+    - '&7does not have any requirements.'
+    - ''
+    - '&a&lClick here &7to acces the Worlds'    
+    left_click_commands:
+    - '[openguimenu] worldsmenu'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'   
+  'kits':
+    material: SADDLE
+    priority: 2
+    slot: 15
+    display_name: '&e&lKits'
+    lore:
+    - ''
+    - '&cKits &7will supplement you with items'
+    - '&7you require daily like &dtools&7, &6food'
+    - '&7and more!' 
+    - ''
+    - '&7You can &aUnlock &7better Kits then'
+    - '&7Default by getting a Rank!'
+    - ''
+    - '&e&lStore&r&8: &fyourwebstore.com/ranks'
+    - ''
+    - '&a&lClick here &7to acces the Kits'    
+    left_click_commands:
+    - '[player] kits'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'    
+  'dungeons':
+    material: WITHER_SKELETON_SPAWN_EGG
+    hide_attributes: true    
+    priority: 2
+    slot: 16
+    display_name: '&e&lDungeons'
+    lore:
+    - ''
+    - '&7Get your hands on the &brarest &7items'
+    - '&7from the server by fighting your way'
+    - '&7around the dungeons. The further'
+    - '&7you get, the rarer the item'
+    - '&7becomes. But mind you, it'
+    - '&cdoesn''t &7get any easier'
+    - ''
+    - '&7And one last thing... You need'
+    - '&ePlayer Level 25 &7to enter.'
+    - ''
+    - '&a&lClick here &7to visit the Dungeons'    
+    left_click_commands:
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% dungeons'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'auctionhouse':
+    material: LECTERN
+    priority: 2
+    slot: 21
+    display_name: '&e&lAuction House'
+    lore:
+    - ''      
+    - '&7The &6Auction House &7is a trading place'
+    - '&7where players can list their items' 
+    - '&7as &eAuctions and sell them to'      
+    - '&7other players!'  
+    - ''
+    - '&7You can set your own price for your'
+    - '&7items, all you need to do is'
+    - '&7hold the item you want to'
+    - '&7sell, type &f/ah sell [price]'
+    - '&7and it will list your item'
+    - '&7at the &eAuction House&7!'
+    - ''    
+    - '&a&lClick here &7to access the Auctions'
+    left_click_commands: 
+    - '[player] ah'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'player_shops':
+    material: CHEST
+    priority: 2
+    slot: 22
+    display_name: '&e&lPlayer Shops'
+    lore:
+    - ''      
+    - '&7Players are allowed to &6Advertise'
+    - '&7their own shops they can create using' 
+    - '&7chests and &asell &7items for their'      
+    - '&7own custom price!'  
+    - ''
+    - '&7With these &cPlayer Shops&7, you can sell'
+    - '&7items that you have in excess or buy'
+    - '&7some items that you don''t have at all!'
+    - ''    
+    - '&a&lClick here &7to visit Player Shops'
+    left_click_commands: 
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% shop'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'land_claiming':
+    material: GOLDEN_SHOVEL
+    priority: 2
+    slot: 23
+    display_name: '&e&lLand Claiming'
+    lore:
+    - ''
+    - '&7We make sure that you do not get'
+    - '&7griefed and lose your progress'
+    - '&7by enabling land claiming!'
+    - ''
+    - '&7You can claim land using a'
+    - '&eGolden Shovel &7and safely start'
+    - '&7building and storing items in your'
+    - '&7own claim! There will be no intruders!'
+    - ''
+    - '&7Mark the land you want to'
+    - '&7claim with your golden shovel'
+    - '&7and enter &e/claim&7!'
+    - ''
+    - '&a&lClick here &7to view command list'    
+    hide_attributes: true
+    left_click_commands:
+    - '[close]'    
+    - '[player] claims'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'ancient_traveler':
+    material: LEAD
+    priority: 2
+    slot: 24
+    display_name: '&e&lAncient traveler'
+    lore:
+    - ''      
+    - '&7The &eAncient Traveler &7is the long lost'
+    - '&7merchant coming from the unkown..' 
+    - ''
+    - '&7This &6Traveler &7sells different'
+    - '&7items to players! These items change'
+    - '&7every day, so keep an eye out for'
+    - '&7the items you really need!'
+    - ''
+    - '&a&lClick here &7to visit the Traveler'    
+    left_click_commands:
+    - '[close]'    
+    - '[console] supremeteleport warp %player_name% ancient_traveler'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'    
+  'the_courier':
+    material: EMERALD
+    priority: 2
+    slot: 25
+    display_name: '&e&lThe Courier'
+    lore:
+    - ''
+    - '&7The &cCourier &7brings a gift for you'
+    - '&7every day, which you can claim from him'
+    - '&7when available.'
+    - ''    
+    - '&7Are you a higher &dTier&7? Then the courier'
+    - '&7surprises you with other more'
+    - '&7valuable gifts!'
+    - ''
+    - '&a&lClick here &7to visit the Courier'
+    left_click_commands: 
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% courier'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'fisherman':
+    material: FISHING_ROD
+    priority: 2
+    slot: 30
+    display_name: '&e&lFisherman'
+    lore:
+    - ''
+    - '&7Sell the &bfish &7you have catched'
+    - '&7throughout fishing &acompetitions&7!'
+    - '&7The higher the &drarity&7, the higher'
+    - '&7your reward will be!'
+    - ''
+    - '&a&lClick here &7to visit the Fisherman'
+    left_click_commands: 
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% fisherman'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'voting':
+    material: TRIPWIRE_HOOK
+    priority: 2
+    slot: 31
+    display_name: '&e&lVote for the Server!'
+    lore:
+    - ''      
+    - '&7You can &bVote &7for the server in order'
+    - '&7to receive a &aVoting Crate Key &7that' 
+    - '&7can use at Spawn near the crates area!'
+    - ''    
+    - '&7Within &cCrates&7, we present different'
+    - '&7rewards that you usually cannot get'
+    - '&7from the game or are very hard to'
+    - '&7achieve!'
+    - ''
+    - '&7You can also &dExchange &7your keys'
+    - '&7for better ones! So the more you'
+    - '&7&aVote &7the higher the chances are'
+    - '&7for higher tiered Keys!'
+    - ''
+    - '&7You can also purchase them at our webstore!'
+    - '&e&lStore&r&8: &fyourwebstore.com/crate_keys'
+    left_click_commands:
+    - '[player] vote'
+    - '[close]'    
+  'skills':
+    material: BOW
+    slot: 32
+    priority: 2
+    display_name: '&e&lSkills'
+    lore:
+    - ''
+    - '&7Use your special &askills &7to unlock'
+    - '&7special abilities for different tasks!'
+    - ''
+    - '&7Excelling in each skill will give'
+    - '&7you some some &badvantages'
+    - '&7over other players!'
+    - ''
+    - '&a&lClick here &7to access your Skills'    
+    left_click_commands: 
+    - '[player] skills'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'jobs':
+    material: STONECUTTER
+    slot: 33
+    priority: 2
+    display_name: '&e&lJobs'
+    lore:
+    - ''
+    - '&7Jobs is a great way to earn extra'
+    - '&acash&7. You can assign up to &d&l3 &r&7different'
+    - '&7tasks to earn money. Every job is'
+    - '&7different and therefore requires'
+    - '&7different &bskills&7!'
+    - ''
+    - '&a&lClick here &7to access Jobs'  
+    left_click_commands: 
+    - '[player] jobs'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'    
+  'mystery_sorcerer':
+    material: BLAZE_ROD
+    slot: 34
+    priority: 2
+    display_name: '&e&lMystery Sorcerer'
+    lore:
+    - ''      
+    - '&7The &dMystery Sorcerer &7will appear at spawn'
+    - '&7weekly and trades ites for &eTokens&7!'       
+    - ''
+    - '&7You normally would not be able to'
+    - '&7get these rare items so be sure'
+    - '&7you are there when he is!'
+    - ''   
+    - '&c&lNote! &7You can only get &cTokens'
+    - '&7from Player Levels and Quests!'
+    left_click_commands: 
+    - '[close]'
+    - '[console] supremeteleport warp %player_name% mystery_sorcerer'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'

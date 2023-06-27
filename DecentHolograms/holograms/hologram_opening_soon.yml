@@ -1,0 +1,14 @@
+location: world_dungeons:1892.981:13.800:2440.003
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lComing Soon...'
+    height: 0.3
+  actions: {}
+  always-face-player: true

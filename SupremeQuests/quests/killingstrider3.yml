@@ -1,0 +1,13 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 75
+    mob: STRIDER
+    worlds:
+     - 'survival'
+rewards:
+  - "eco give {player} 1000"
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

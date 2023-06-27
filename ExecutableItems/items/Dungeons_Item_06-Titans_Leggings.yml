@@ -1,0 +1,54 @@
+name: '&#ff1d1d&lT&#ff2b1d&li&#ff381e&lt&#ff461e&la&#fe531e&ln&#fe611f&l''&#fe6e1f&ls
+  &#fe7c20&lL&#fe8920&le&#fe9720&lg&#fea421&lg&#fdb221&li&#fdbf21&ln&#fdcd22&lg&#fdda22&ls'
+lore:
+- '&7Found in a battlefield after'
+- '&7A &cblazing war&r &7with the treacherous'
+- '&7And unmoveable Titans...'
+material: DIAMOND_LEGGINGS
+glow: true
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: -1
+usageLimit: -1
+durability: 495
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+variables: {}
+activators: {}
+recognitions: []
+attributes:
+  attribute1:
+    attribute: GENERIC_MAX_HEALTH
+    operation: ADD_NUMBER
+    amount: 4.0
+    slot: LEGS
+    uuid: d569a78d-fd47-4a20-9ecc-4172ccf8069b
+  attribute2:
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    operation: ADD_NUMBER
+    amount: 500.0
+    slot: LEGS
+    uuid: 969369fc-2f7a-4fda-b0ef-915a542180e9
+config_5: true
+config_update: false

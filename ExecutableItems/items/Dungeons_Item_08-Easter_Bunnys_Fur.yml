@@ -1,0 +1,96 @@
+name: '&#efff39&lE&#d2ff51&la&#b6ff6a&ls&#99ff82&lt&#7dff9b&le&#60ffb3&lr &#80dab8&lB&#a0b5bd&lu&#bf90c1&ln&#df6bc6&ln&#ff46cb&ly&#fb5bb4&l''&#f6709d&ls
+  &#f28585&lF&#ed9a6e&lu&#e9af57&lr'
+lore:
+- '&7A &dlegendary&r &7item created using'
+- '&7the hide of the &eEaster Bunny'
+- '&7harnessing all of his powers...'
+material: RABBIT_HIDE
+glow: true
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+variables: {}
+activators:
+  activator1:
+    name: '&dScavenge &bAbility'
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: -1
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems:
+      errorMessage: ''
+    requiredExecutableItems:
+      errorMessage: ''
+    detailedSlots:
+    - -1
+    commands:
+    - 'RANDOM RUN: 1'
+    - give %player% gold_block 1
+    - give %player% gold_block 5
+    - give %player% gold_block 10
+    - give %player% iron_block 5
+    - give %player% iron_block 15
+    - give %player% iron_block 20
+    - give %player% diamond_block 1
+    - give %player% diamond_block 5
+    - give %player% diamond_block 10
+    - give %player% emerald_block 1
+    - give %player% emerald_block 5
+    - give %player% bone 1
+    - give %player% stick 1
+    - eco give %player% 1000
+    - eco give %player% 5000
+    - eco give %player% 7500
+    - eco give %player% 10000
+    - RANDOM END
+    - rawmsg %player% false &#f28585&lY&#ed9a6e&lA&#e9af57&lY &fYou have magically
+      &dcollected &fyour reward!
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    variablesModification: {}
+recognitions: []
+attributes: {}
+config_5: true
+config_update: false

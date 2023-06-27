@@ -1,0 +1,14 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 25
+    mob: PANDA
+    worlds:
+     - 'survival'
+rewards:
+  - "eco give {player} 1000"
+  - "lp user {player} permission set level.47a"  
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

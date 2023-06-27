@@ -1,0 +1,33 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+# Tellraw generator used for the welcome motd: https://minecraft.tools/en/tellraw.php
+
+# Join, first join and leave messages.
+first-join-commands:
+  - 'RawMsg all false &6&lSMC &7» &fWelcome &6%player_name% &fto &e&lSurvival &7#%server_unique_joins%'
+  - 'kits starter %player_name%'
+
+# Join message + motd
+join-commands:
+  - 'RawMsg all false &8[&a+&8] %vault_prefix%%player_name%'
+  - 'tellraw %player_name% ["",{"text":"\n\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Welcome to","color":"gold"},{"text":" !","obfuscated":true,"color":"dark_purple"},{"text":"Survival","bold":true,"color":"light_purple"},{"text":"!","obfuscated":true,"color":"dark_purple"},{"text":"\n"},{"text":"\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Links\n \u0020 \u0020 \u0020 \u0020 ","bold":true,"color":"yellow"},{"text":"Website","clickEvent":{"action":"open_url","value":"https://www.smcdevelopments.com/"}},{"text":", "},{"text":"Discord","clickEvent":{"action":"open_url","value":"https://discord.smcdevelopments.com/"}},{"text":", "},{"text":"MC-Market","clickEvent":{"action":"open_url","value":"https://www.mc-market.org/resources/15910/"}},{"text":"\n"},{"text":"\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 Commands\n\u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020","bold":true,"color":"yellow"},{"text":"/help, /guide\n"}]'
+
+# Leave message
+leave-commands:
+  - 'RawMsg all false &8[&c-&8] %vault_prefix%%player_name%'

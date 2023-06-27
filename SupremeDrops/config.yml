@@ -1,0 +1,187 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+# Gui
+menu-title: '&cSell your heads'
+menu-size: 36
+item: # info item
+  material: BOOK
+  name: '&e&lHow does it work?'
+  lore:
+  - '&7Every animal has a chance to drop'
+  - '&7its head after being killed. These'
+  - '&7drop chances are different for'
+  - '&7each animal. You can sell those'
+  - '&7heads in this menu. Simply drop'
+  - '&7them into this menu and close it'
+  - '&7to sell the heads automatically.'
+  glow: false
+  slot: 31
+  
+# Sell message  
+message-1: '&6You sold &e{0}x {2} head &6for &a{1}'
+
+# Mob drops
+WitherSkeleton: true
+Chicken: true
+Cow: true
+Mooshroom: true
+Pig: true
+Rabbit: true
+Sheep: true
+Squid: true
+Villager: true
+CaveSpider: true
+Enderman: true
+Spider: true
+ZombiePigman: true
+Blaze: true
+Creeper: true
+Endermite: true
+Ghast: true
+Guardian: true
+MagmaCube: true
+Shulker: true
+Silverfish: true
+Skeleton: true
+Slime: true
+Witch: true
+Zombie: true
+Horse: true
+Ocelot: true
+Wolf: true
+IronGolem: true
+SnowGolem: true
+Wither: true
+Panda: true
+Parrot: true
+Fox: true
+Evoker: true
+Bee: true
+Mule: true
+Vindicator: true
+Stray: true
+Turtle: true
+Ravager: true
+Dolphin: true
+Donkey: true
+Strider: true
+Zoglin: true
+Piglin: true
+Hoglin: true
+Llama: true
+
+# Mob heads
+Panda-URL: http://textures.minecraft.net/texture/8018a1771d69c11b8dad42cd310375ba2d827932b25ef357f7e572c1bd0f9
+Parrot-URL: http://textures.minecraft.net/texture/a4ba8d66fecb1992e94b8687d6ab4a5320ab7594ac194a2615ed4df818edbc3
+Fox-URL: http://textures.minecraft.net/texture/d8954a42e69e0881ae6d24d4281459c144a0d5a968aed35d6d3d73a3c65d26a
+Evoker-URL: http://textures.minecraft.net/texture/630ce775edb65db8c2741bdfae84f3c0d0285aba93afadc74900d55dfd9504a5
+Bee-URL: http://textures.minecraft.net/texture/59ac16f296b461d05ea0785d477033e527358b4f30c266aa02f020157ffca736
+Mule-URL: http://textures.minecraft.net/texture/a0486a742e7dda0bae61ce2f55fa13527f1c3b334c57c034bb4cf132fb5f5f
+Vindicator-URL: http://textures.minecraft.net/texture/9e1cab382458e843ac4356e3e00e1d35c36f449fa1a84488ab2c6557b392d
+Stray-URL: http://textures.minecraft.net/texture/2c5097916bc0565d30601c0eebfeb287277a34e867b4ea43c63819d53e89ede7
+Turtle-URL: http://textures.minecraft.net/texture/0a4050e7aacc4539202658fdc339dd182d7e322f9fbcc4d5f99b5718a
+Ravager-URL: http://textures.minecraft.net/texture/cd20bf52ec390a0799299184fc678bf84cf732bb1bd78fd1c4b441858f0235a8
+Dolphin-URL: http://textures.minecraft.net/texture/8e9688b950d880b55b7aa2cfcd76e5a0fa94aac6d16f78e833f7443ea29fed3
+Donkey-URL: http://textures.minecraft.net/texture/63a976c047f412ebc5cb197131ebef30c004c0faf49d8dd4105fca1207edaff3
+Strider-URL: http://textures.minecraft.net/texture/cb7ffdda656c68d88851a8e05b48cd2493773ffc4ab7d64e9302229fe3571059
+Zoglin-URL: http://textures.minecraft.net/texture/e67e18602e03035ad68967ce090235d8996663fb9ea47578d3a7ebbc42a5ccf9
+Piglin-URL: http://textures.minecraft.net/texture/90bc9dbb4404b800f8cf0256220ff74b0b71dba8b66600b6734f4d63361618f5
+Hoglin-URL: http://textures.minecraft.net/texture/9bb9bc0f01dbd762a08d9e77c08069ed7c95364aa30ca1072208561b730e8d75
+Llama-URL: http://textures.minecraft.net/texture/818cd457fbaf327fa39f10b5b36166fd018264036865164c02d9e5ff53f45
+WitherSkeleton-URL: http://textures.minecraft.net/texture/7953b6c68448e7e6b6bf8fb273d7203acd8e1be19e81481ead51f45de59a8
+Chicken-URL: http://textures.minecraft.net/texture/1638469a599ceef7207537603248a9ab11ff591fd378bea4735b346a7fae893
+Cow-URL: http://textures.minecraft.net/texture/7dfa0ac37baba2aa290e4faee419a613cd6117fa568e709d90374753c032dcb0
+Mooshroom-URL: http://textures.minecraft.net/texture/2b52841f2fd589e0bc84cbabf9e1c27cb70cac98f8d6b3dd065e55a4dcb70d77
+Pig-URL: http://textures.minecraft.net/texture/8c61fb8825d83dc614c92ebbf4e74c18a80687d5b2b96b3cd6a6090eef5b
+Rabbit-URL: http://textures.minecraft.net/texture/7d1169b2694a6aba826360992365bcda5a10c89a3aa2b48c438531dd8685c3a7
+Sheep-URL: http://textures.minecraft.net/texture/f31f9ccc6b3e32ecf13b8a11ac29cd33d18c95fc73db8a66c5d657ccb8be70
+Squid-URL: http://textures.minecraft.net/texture/49c2c9ce67eb5971cc5958463e6c9abab8e599adc295f4d4249936b0095769dd
+Villager-URL: http://textures.minecraft.net/texture/41b830eb4082acec836bc835e40a11282bb51193315f91184337e8d3555583
+CaveSpider-URL: http://textures.minecraft.net/texture/53d18dad0bd90f02ac08754a75358b1c27da579b3ca35b69e6bb10a7a5c2dbda
+Enderman-URL: http://textures.minecraft.net/texture/96c0b36d53fff69a49c7d6f3932f2b0fe948e032226d5e8045ec58408a36e951
+Spider-URL: http://textures.minecraft.net/texture/7388173f4f82a14153e086bf137907256e512b21731f0470047bf2d453545d21
+ZombiePigman-URL: http://textures.minecraft.net/texture/95fb2df754c98b742d35e7b81a1eeac9d37c69fc8cfecd3e91c67983516f
+Blaze-URL: http://textures.minecraft.net/texture/b78ef2e4cf2c41a2d14bfde9caff10219f5b1bf5b35a49eb51c6467882cb5f0
+Creeper-URL: http://textures.minecraft.net/texture/f4254838c33ea227ffca223dddaabfe0b0215f70da649e944477f44370ca6952
+Endermite-URL: http://textures.minecraft.net/texture/5bc7b9d36fb92b6bf292be73d32c6c5b0ecc25b44323a541fae1f1e67e393a3e
+Ghast-URL: http://textures.minecraft.net/texture/7a8b714d32d7f6cf8b37e221b758b9c599ff76667c7cd45bbc49c5ef19858646
+Guardian-URL: http://textures.minecraft.net/texture/c25af966a326f9d98466a7bf8582ca4da6453de271b3bc9e59f57a99b63511c6
+MagmaCube-URL: http://textures.minecraft.net/texture/a1c97a06efde04d00287bf20416404ab2103e10f08623087e1b0c1264a1c0f0c
+Shulker-URL: http://textures.minecraft.net/texture/1e73832e272f8844c476846bc424a3432fb698c58e6ef2a9871c7d29aeea7
+Silverfish-URL: http://textures.minecraft.net/texture/da91dab8391af5fda54acd2c0b18fbd819b865e1a8f1d623813fa761e924540
+Skeleton-URL: http://textures.minecraft.net/texture/301268e9c492da1f0d88271cb492a4b302395f515a7bbf77f4a20b95fc02eb2
+Slime-URL: http://textures.minecraft.net/texture/a20e84d32d1e9c919d3fdbb53f2b37ba274c121c57b2810e5a472f40dacf004f
+Witch-URL: http://textures.minecraft.net/texture/fce6604157fc4ab5591e4bcf507a749918ee9c41e357d47376e0ee7342074c90
+Zombie-URL: http://textures.minecraft.net/texture/56fc854bb84cf4b7697297973e02b79bc10698460b51a639c60e5e417734e11
+Horse-URL: http://textures.minecraft.net/texture/450f992599a55a8311373a5412716bb7f91cf39afadea2517f415d72879a2
+Ocelot-URL: http://textures.minecraft.net/texture/5657cd5c2989ff97570fec4ddcdc6926a68a3393250c1be1f0b114a1db1
+Wolf-URL: http://textures.minecraft.net/texture/69d1d3113ec43ac2961dd59f28175fb4718873c6c448dfca8722317d67
+IronGolem-URL: http://textures.minecraft.net/texture/fcecba31f26919d92a3d6420cd2fa9112f8e108ac04e3fc71da7329cd10fe5ca
+SnowGolem-URL: http://textures.minecraft.net/texture/913245706adaa8af8adc8bfff5cc2205588fc2888427e711246b759a71ad926
+Wither-URL: http://textures.minecraft.net/texture/3f86b3affbf65a91faf084a0cd70e40455130ea99b2b3844d2510e1c8b3a5746
+
+# Mob head prices
+PerChickenHead: 4.5
+PerCowHead: 4.5
+PerMooshroomHead: 8.5
+PerPigHead: 4.5
+PerRabbitHead: 8.5
+PerSheepHead: 4.5
+PerSquidHead: 7.5
+PerVillagerHead: 3.5
+PerCaveSpiderHead: 9.7
+PerEndermanHead: 10.5
+PerSpiderHead: 8.5
+PerZombiePigmanHead: 12.5
+PerBlazeHead: 13.7
+PerCreeperHead: 9.7
+PerEndermiteHead: 11.2
+PerGhastHead: 32.5
+PerGuardianHead: 54.7
+PerMagmaCubeHead: 14.5
+PerShulkerHead: 8.4
+PerSilverfishHead: 13.5
+PerSkeletonHead: 9.7
+PerSlimeHead: 8.5
+PerWitchHead: 23.4
+PerZombieHead: 14.5
+PerHorseHead: 6.3
+PerOcelotHead: 6.3
+PerWolfHead: 9.7
+PerIronGolemHead: 66.6
+PerSnowGolemHead: 43.9
+PerWitherHead: 57.2
+PerPandaHead: 2.1
+PerParrotHead: 1.4
+PerFoxHead: 7.3
+PerEvokerHead: 16.5
+PerBeeHead: 6.7
+PerMuleHead: 4.5
+PerVindicatorHead: 43.9
+PerStrayHead: 36.8
+PerTurtleHead: 1.2
+PerRavagerHead: 500
+PerWitherSkeletonHead: 9.7
+PerDolphinHead: 4.5
+PerDonkeyHead: 4.5
+PerStriderHead: 6.7
+PerZoglinHead: 11.6
+PerPiglinHead: 23.5
+PerHoglinHead: 31.6
+PerLlamaHead: 4.5

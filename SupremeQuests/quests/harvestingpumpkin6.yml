@@ -1,0 +1,18 @@
+tasks:
+  harvesting:
+    type: 'inventory'
+    item: PUMPKIN
+    amount: 1500
+    remove-items-when-complete: false
+    update-progress: true
+rewards:
+  - "eco give {player} 1750"
+  - "supremetokens give {player} 10"
+  - "lp user {player} permission set level.46b"   
+options:
+  category: "harvesting"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

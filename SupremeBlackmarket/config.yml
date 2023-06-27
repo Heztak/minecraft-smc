@@ -1,0 +1,82 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+
+# Slots where the items are being displayed
+item-slots: [11, 13, 15]
+
+# Update time for the black market to update
+money_shop_update_hours: 24
+
+gui:
+  title: '&cBlack Market'
+  rows: 4
+
+  decoration:
+    info_item:
+      material: BOOK
+      name: '&e&lWhat is this?'
+      lore:
+        - ''      
+        - '&7The black market allows users to sell'
+        - '&73 randomly selected items each day'
+        - '&7at a fixed price.'     
+        - ''
+        - '&7One day this could mean you''re selling'
+        - '&7all the pesky dirt you''ve been storing'
+        - '&7away and another day it could give you the'
+        - '&7chance to sell beacons at a higher price.'        
+        - ''
+        - '  &8◊ &fNew items in: &6{time}'
+        - ''
+      durability: 0
+      glow: false
+      slot: 31
+
+  filler:
+    enabled: false
+    item:
+      material: 'GRAY_STAINED_GLASS_PANE'
+      name: ' '
+      durability: 0
+      glow: false
+
+# Messages
+invalid-number: '&cInvalid number.'
+invalid-cancel-action: '&cYou can''t perform this action again.'
+invalid-confirm-action: '&cYou can''t perform this action again.'
+canceled-payment: '&cPurchase cancelled.'
+process-already-running: '&cYour purchase is already in process, please be patient.'
+no_permission_message: '&cYou do not have permission to execute this command'
+not_enough_items_message: '&cYou do not have enough items to do that.'
+sell_reward_message: '&6&lBlack&e&lMarket&r &8➠ &eYou sold {count} {reward} &efor ${amount}.'
+money_shop_updated_message: '&6&lBlack&e&lMarket&r &8➠ &eThe items on the black market has been updated.'
+inventory_full_message: '&cYour inventory is full'
+not_player_message: '&cUsage: /supremeblackmarket refresh'
+
+# Sell GUI
+transaction-menu-title: '&cSell {item}'
+transaction-menu-item-displayname: '&6&l{item}'
+transaction-menu-item-lore:
+    - ''
+    - ' &7▪ &fSell Price: &e{price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Sell this item.'
+
+transaction-successfully-sounds:
+  - BLOCK_COMPARATOR_CLICK;1.0;5.0

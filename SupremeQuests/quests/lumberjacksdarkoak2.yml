@@ -1,0 +1,14 @@
+tasks:
+  lumberjack:
+    type: "blockbreakcertain"
+    amount: 100
+    block: "DARK_OAK_LOG"
+rewards:
+  - "supremetokens give {player} 5"
+options:
+  category: "lumberjack"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

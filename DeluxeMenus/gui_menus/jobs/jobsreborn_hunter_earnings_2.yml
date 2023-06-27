@@ -1,0 +1,230 @@
+menu_title: '&cEarnings Hunter (page 2/2)'
+open_command:
+- jobs earnings hunter2
+size: 45
+items:
+  'filler':
+    material: 'GRAY_STAINED_GLASS_PANE'
+    priority: 1
+    slots:
+    - 25    
+    - 28
+    - 29
+    - 30    
+    - 31
+    - 32
+    - 33
+    - 34
+  '1':
+    material: 'GOAT_SPAWN_EGG'
+    display_name: '&e&lGoat'
+    priority: 1
+    slots:
+    - 10
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fKill actions:'
+    - '  &8◊ &7Money: &2$&a5'
+    - '  &8◊ &7Exp: &d5 Exp'
+    - '  &8◊ &7Points: &e5 Points'
+  '2':
+    material: 'AXOLOTL_SPAWN_EGG'
+    display_name: '&e&lAxolotl'
+    priority: 1
+    slots:
+    - 11
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fKill actions:'
+    - '  &8◊ &7Money: &2$&a5'
+    - '  &8◊ &7Exp: &d5 Exp'
+    - '  &8◊ &7Points: &e5 Points'
+  '3':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I0NWFhYjA3MjdkYjVmYzkxMjg5Y2MwMWFiODk2NzA2MTg1MTQ4ZjRkYWNkODE5ZjgzYTZhMjU2MDI3YjRmMCJ9fX0='
+    display_name: '&e&lPlayer'
+    priority: 1
+    slots:
+    - 12
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fKill actions:'
+    - '  &8◊ &7Money: &2$&a9'
+    - '  &8◊ &7Exp: &d7.5 Exp'
+    - '  &8◊ &7Points: &e9 Points'
+  '4':
+    material: 'OCELOT_SPAWN_EGG'
+    display_name: '&e&lOcelot'
+    priority: 1
+    slots:
+    - 13
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fTame actions:'
+    - '  &8◊ &7Money: &2$&a5'
+    - '  &8◊ &7Exp: &d5 Exp'
+    - '  &8◊ &7Points: &e5 Points'
+  '5':
+    material: 'HORSE_SPAWN_EGG'
+    display_name: '&e&lHorse'
+    priority: 1
+    slots:
+    - 14
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fTame actions:'
+    - '  &8◊ &7Money: &2$&a5'
+    - '  &8◊ &7Exp: &d5 Exp'
+    - '  &8◊ &7Points: &e5 Points'
+  '6':
+    material: 'Wolf_SPAWN_EGG'
+    display_name: '&e&lWolf'
+    priority: 1
+    slots:
+    - 15
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fTame actions:'
+    - '  &8◊ &7Money: &2$&a5'
+    - '  &8◊ &7Exp: &d5 Exp'
+    - '  &8◊ &7Points: &e5 Points'
+  '7':
+    material: 'PHANTOM_SPAWN_EGG'
+    display_name: '&e&lPhantom'
+    priority: 1
+    slots:
+    - 16
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fKill actions:'
+    - '  &8◊ &7Money: &2$&a5'
+    - '  &8◊ &7Exp: &d5 Exp'
+    - '  &8◊ &7Points: &e5 Points'
+  '8':
+    material: 'HUSK_SPAWN_EGG'
+    display_name: '&e&lHusk'
+    priority: 1
+    slots:
+    - 19
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fKill actions:'
+    - '  &8◊ &7Money: &2$&a5'
+    - '  &8◊ &7Exp: &d5 Exp'
+    - '  &8◊ &7Points: &e5 Points'
+  '9':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWEzMDU4ODRjZmIwYjE0YjMxNDc1M2M2ZTM0ZGE1MGMwNzIxYmYwOTI4OTg5ZWFhMjBiNzM0NWJmYjcwZjEifX19'
+    display_name: '&e&lDragon'
+    priority: 1
+    slots:
+    - 20
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fKill actions:'
+    - '  &8◊ &7Money: &2$&a2000'
+    - '  &8◊ &7Exp: &d1000 Exp'
+    - '  &8◊ &7Points: &e1000 Points'
+  '10':
+    material: 'WITHER_SKELETON_SKULL'
+    display_name: '&e&lWither Skeleton'
+    priority: 1
+    slots:
+    - 21
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fKill actions:'
+    - '  &8◊ &7Money: &2$&a50'
+    - '  &8◊ &7Exp: &d120 Exp'
+    - '  &8◊ &7Points: &e50 Points'
+  '11':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVjNGQyNGFmZmRkNDgxMDI2MjAzNjE1MjdkMjE1NmUxOGMyMjNiYWU1MTg5YWM0Mzk4MTU2NDNmM2NmZjlkIn19fQ=='
+    display_name: '&e&lShulker Box'
+    priority: 1
+    slots:
+    - 22
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fKill actions:'
+    - '  &8◊ &7Money: &2$&a5'
+    - '  &8◊ &7Exp: &d5 Exp'
+    - '  &8◊ &7Points: &e5 Points'
+  '12':
+    material: 'DROWNED_SPAWN_EGG'
+    display_name: '&e&lDrowned'
+    priority: 1
+    slots:
+    - 23
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fKill actions:'
+    - '  &8◊ &7Money: &2$&a5'
+    - '  &8◊ &7Exp: &d5 Exp'
+    - '  &8◊ &7Points: &e5 Points'
+  '13':
+    material: 'GLOW_SQUID_SPAWN_EGG'
+    display_name: '&e&lGlow Squid'
+    priority: 1
+    slots:
+    - 24
+    lore:
+    - '&7You will receive Exp, Money and'
+    - '&7Points per piece.'
+    - ''
+    - ' &fKill actions:'
+    - '  &8◊ &7Money: &2$&a5'
+    - '  &8◊ &7Exp: &d5 Exp'
+    - '  &8◊ &7Points: &e5 Points'    
+  'back':
+    material: BARRIER
+    priority: 1
+    display_name: '&C⤾ Back'
+    slot: 40
+    left_click_commands:
+    - '[openguimenu] jobsreborn_page_1'    
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_page_1'     
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+  'nextpage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0=
+    priority: 1
+    display_name: '&8Next Page'
+    slot: 26
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'previouspage':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    priority: 1
+    display_name: '&ePrevious Page'
+    slot: 18
+    left_click_commands:
+    - '[openguimenu] jobsreborn_hunter_earnings_1'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'
+    right_click_commands:
+    - '[openguimenu] jobsreborn_hunter_earnings_1'
+    - '[sound] BLOCK_COMPARATOR_CLICK 1 5'  

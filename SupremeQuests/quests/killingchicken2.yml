@@ -1,0 +1,14 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 100
+    mob: CHICKEN
+    worlds:
+     - 'survival'
+rewards:
+  - "supremetokens give {player} 5"
+  - "lp user {player} permission set level.17d"   
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

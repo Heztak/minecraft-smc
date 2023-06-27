@@ -1,0 +1,45 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+# How does it work?
+
+#   1. Add a desired command to the your server, for example /survival. This command should start with a prefix, let's take 
+#       SMCDevelopments as an example. So you need to add the following to the list: 'SMCDevelopments;survival'.
+
+#   2. If you only want to see the /survival command in the tablist and not SMCDevelopments:survival
+#       open the PL-Hide folder (PL-Hide plugin) and add it to the list. (Make sure u use : and not ;)
+
+
+# Tab completion commands.
+commands:
+  - 'SMCDevelopments;guide'
+  - 'SMCDevelopments;help'
+  - 'SMCDevelopments;spawner'
+  - 'SMCDevelopments;flytime'
+  - 'SMCDevelopments;level'
+  - 'SMCDevelopments;wild'
+  - 'SMCDevelopments;rtp'  
+  - 'SMCDevelopments;vote'
+  - 'SMCDevelopments;ranks'
+  - 'SMCDevelopments;chatcolor'
+  - 'SMCDevelopments;namecolor'
+  - 'SMCDevelopments;playtime'
+  - 'SMCDevelopments;worlds'
+  - 'SMCDevelopments;cosmetics'
+  - 'SMCDevelopments;shop'
+  - 'SMCDevelopments;warps'

@@ -1,0 +1,13 @@
+tasks:
+  walking:
+    type: 'walking'
+    distance: 25000
+    worlds:
+     - 'survival'
+rewards:
+  - "supremetokens give {player} 20"
+  - "lp user {player} permission set level.49"
+options:
+  category: "walking"
+  requires: []
+  repeatable: true

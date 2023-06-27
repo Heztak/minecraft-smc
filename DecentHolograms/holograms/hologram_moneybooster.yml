@@ -1,0 +1,29 @@
+location: world:59.029:82.800:15.453
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lDrinking Bar'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fDrink on your &aluck&f and find out how much'
+    height: 0.3
+  - content: '&fyou actually have. But beware, these special'
+    height: 0.3
+  - content: '&bdrinks &fare a bit addiction-prone.'
+    height: 0.3
+  - content: ''
+    height: 0.3    
+  - content: '&fHow long can you last? '
+    height: 0.3
+  - content: ''
+    height: 0.3    
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3
+  actions: {}

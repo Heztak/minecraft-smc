@@ -1,0 +1,15 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 1000
+    block: "END_STONE"
+rewards:
+  - "supremetokens give {player} 10"
+  - "lp user {player} permission set level.31b"   
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

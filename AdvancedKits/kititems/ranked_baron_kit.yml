@@ -1,0 +1,125 @@
+'1':
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: CHEST
+    amount: 64
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        LOOT_BONUS_MOBS: 2
+        DAMAGE_ALL: 2
+        DURABILITY: 2
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 3
+        LOOT_BONUS_BLOCKS: 1
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 2
+        DURABILITY: 2
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 2
+        DURABILITY: 2
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+        DURABILITY: 2
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+        DURABILITY: 2
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+        DURABILITY: 2
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+        DURABILITY: 2
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: OAK_LOG
+    amount: 64
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: OAK_LOG
+    amount: 32
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: GOLDEN_APPLE
+    amount: 10
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: HOPPER
+    amount: 16
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: BOOKSHELF
+    amount: 16
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ENCHANTING_TABLE
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: OBSIDIAN
+    amount: 32
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ANVIL

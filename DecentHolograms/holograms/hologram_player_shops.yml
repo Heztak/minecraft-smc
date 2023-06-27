@@ -1,0 +1,29 @@
+location: world:1.974:83.800:-44.508
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lPlayer Shops'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fItems that are &bdisplayed &fin the server'
+    height: 0.3
+  - content: '&fshop are playershops &aadvertised &fby players'
+    height: 0.3
+  - content: '&fthemselves. Browse for the items you need'
+    height: 0.3
+  - content: '&for advertise your own shop to make'
+    height: 0.3
+  - content: '&fa &dquick buck&f!'
+    height: 0.3
+  - content: ''
+    height: 0.3    
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3
+  actions: {}

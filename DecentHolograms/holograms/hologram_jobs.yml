@@ -1,0 +1,31 @@
+location: world:-52.995:82.300:27.503
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lPlayer Jobs'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&aJobs &fis a great way to earn extra'
+    height: 0.3
+  - content: '&fcash. You can assign up to &d&l3 &fjobs to'
+    height: 0.3
+  - content: '&fearn money. Every job is different and'
+    height: 0.3
+  - content: '&ftherefore requires a different &bskill&f.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fStart your cash flow today!'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,14 @@
+tasks:
+  fishingcertain:
+    type: 'fishingcertain'
+    amount: 125
+    item: TROPICAL_FISH
+    worlds:
+     - 'survival'
+rewards:
+  - "supremetokens give {player} 12"
+  - "eco give {player} 2000"
+options:
+  category: "fishing"
+  requires: []
+  repeatable: true

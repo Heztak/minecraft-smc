@@ -1,0 +1,15 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 250
+    block: "OBSIDIAN"
+rewards:
+  - "supremetokens give {player} 10"
+  - "lp user {player} permission set level.40a"  
+options:
+  category: "mining"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: false
+    time: 2880

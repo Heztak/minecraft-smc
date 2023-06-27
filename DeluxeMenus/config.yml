@@ -1,0 +1,141 @@
+# DeluxeMenus 1.13.7-Release main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: true
+gui_menus:
+  
+  # General menus
+  rank_information:
+    file: rank_information.yml
+  survival_menu_1:
+    file: survival_menu_1.yml
+  fisherman:
+    file: fisherman.yml
+  
+  # Dungeon menus
+  dungeons_items_1:
+    file: dungeons/dungeons_items_1.yml
+  shards_exchange:
+    file: dungeons/shards_exchange.yml
+  
+  # Traveling menus
+  server_warps:
+    file: travel_menus/server_warps.yml
+  worldsmenu:
+    file: travel_menus/worldsmenu.yml
+  
+  # SupremeDeath menus    
+  inventory_restorer-upgrade_slots:
+    file: inventory_restorer/inventory_restorer-upgrade_slots.yml
+  inventory_restorer:
+    file: inventory_restorer/inventory_restorer.yml
+  
+  # Key exchange menus    
+  exchangekeys:
+    file: key_exchanger/exchangekeys.yml
+  exchangekeys_confirm_vote_to_rare:
+    file: key_exchanger/exchangekeys_confirm_vote_to_rare.yml
+  exchangekeys_confirm_rare_to_ultra:
+    file: key_exchanger/exchangekeys_confirm_rare_to_ultra.yml
+  exchangekeys_confirm_ultra_to_god:
+    file: key_exchanger/exchangekeys_confirm_ultra_to_god.yml
+  
+  # Player level menus    
+  player_levels:
+    file: player_levels/player_levels.yml
+  player_levels_02:
+    file: player_levels/player_levels_02.yml
+  player_levels_03:
+    file: player_levels/player_levels_03.yml
+  player_levels_04:
+    file: player_levels/player_levels_04.yml
+  
+  # Cosmetics menus    
+  cosmetics_menu:
+    file: cosmetics/cosmetics_menu.yml
+  glow_color:
+    file: cosmetics/glow_color.yml
+  name_color:
+    file: cosmetics/name_color.yml
+  chat_color:
+    file: cosmetics/chat_color.yml
+  
+  # Courier menus    
+  delivery_rewards:
+    file: courier/delivery_rewards.yml
+  normal_reward_selector:
+    file: courier/normal_reward_selector.yml
+  super_reward_selector:
+    file: courier/super_reward_selector.yml
+  ultra_reward_selector:
+    file: courier/ultra_reward_selector.yml
+  
+  # Jobs menus    
+  jobsreborn_page_1:
+    file: jobs/jobsreborn_page_1.yml
+  jobsreborn_page_2:
+    file: jobs/jobsreborn_page_2.yml
+  jobsreborn_page_3:
+    file: jobs/jobsreborn_page_3.yml
+  jobsreborn_information_page_1:
+    file: jobs/jobsreborn_information_page_1.yml
+  jobsreborn_miner_earnings_1:
+    file: jobs/jobsreborn_miner_earnings_1.yml
+  jobsreborn_miner_earnings_2:
+    file: jobs/jobsreborn_miner_earnings_2.yml
+  jobsreborn_miner_earnings_3:
+    file: jobs/jobsreborn_miner_earnings_3.yml
+  jobsreborn_brewer_earnings_1:
+    file: jobs/jobsreborn_brewer_earnings_1.yml
+  jobsreborn_builder_earnings_1:
+    file: jobs/jobsreborn_builder_earnings_1.yml
+  jobsreborn_builder_earnings_2:
+    file: jobs/jobsreborn_builder_earnings_2.yml
+  jobsreborn_builder_earnings_3:
+    file: jobs/jobsreborn_builder_earnings_3.yml
+  jobsreborn_builder_earnings_4:
+    file: jobs/jobsreborn_builder_earnings_4.yml
+  jobsreborn_builder_earnings_5:
+    file: jobs/jobsreborn_builder_earnings_5.yml
+  jobsreborn_crafter_earnings_1:
+    file: jobs/jobsreborn_crafter_earnings_1.yml
+  jobsreborn_crafter_earnings_2:
+    file: jobs/jobsreborn_crafter_earnings_2.yml
+  jobsreborn_crafter_earnings_3:
+    file: jobs/jobsreborn_crafter_earnings_3.yml
+  jobsreborn_crafter_earnings_4:
+    file: jobs/jobsreborn_crafter_earnings_4.yml
+  jobsreborn_digger_earnings_1:
+    file: jobs/jobsreborn_digger_earnings_1.yml
+  jobsreborn_enchanter_earnings_1:
+    file: jobs/jobsreborn_enchanter_earnings_1.yml
+  jobsreborn_enchanter_earnings_2:
+    file: jobs/jobsreborn_enchanter_earnings_2.yml
+  jobsreborn_enchanter_earnings_3:
+    file: jobs/jobsreborn_enchanter_earnings_3.yml
+  jobsreborn_explorer_earnings_1:
+    file: jobs/jobsreborn_explorer_earnings_1.yml
+  jobsreborn_fisherman_earnings_1:
+    file: jobs/jobsreborn_fisherman_earnings_1.yml
+  jobsreborn_hunter_earnings_1:
+    file: jobs/jobsreborn_hunter_earnings_1.yml
+  jobsreborn_hunter_earnings_2:
+    file: jobs/jobsreborn_hunter_earnings_2.yml
+  jobsreborn_farmer_earnings_1:
+    file: jobs/jobsreborn_farmer_earnings_1.yml
+  jobsreborn_farmer_earnings_2:
+    file: jobs/jobsreborn_farmer_earnings_2.yml
+  jobsreborn_farmer_earnings_3:
+    file: jobs/jobsreborn_farmer_earnings_3.yml
+  jobsreborn_farmer_earnings_4:
+    file: jobs/jobsreborn_farmer_earnings_4.yml
+  jobsreborn_weaponsmith_earnings_1:
+    file: jobs/jobsreborn_weaponsmith_earnings_1.yml
+  jobsreborn_weaponsmith_earnings_2:
+    file: jobs/jobsreborn_weaponsmith_earnings_2.yml
+  jobsreborn_woodcutter_earnings_1:
+    file: jobs/jobsreborn_woodcutter_earnings_1.yml
+

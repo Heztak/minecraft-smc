@@ -1,0 +1,156 @@
+Digger:
+  fullname: Digger
+  shortname: D
+  FullDescription:
+  - "&6Earns money for terraforming the world."
+  ChatColour: GOLD
+  chat-display: full
+  BossBarColour: YELLOW
+  max-level: 200
+  leveling-progression-equation: 13*(joblevel)+(joblevel*joblevel*5)
+  income-progression-equation: baseincome+(baseincome*(joblevel-2)*0.01)-((baseincome+(baseincome*(joblevel-2)*0.01))
+    * ((numjobs-1)*0.01))
+  points-progression-equation: basepoints+(basepoints*(joblevel-2)*0.01)-((basepoints+(basepoints*(joblevel-2)*0.01))
+    * ((numjobs-1)*0.01))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 5
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Ground Mole
+      Objectives:
+      - Break;dirt;50
+      - Break;grass_block;50
+      - Break;gravel;50
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Dig blocks and get money
+      - Get 100 for this!
+  Gui:
+    Id: 284
+    Data: 0
+  Break:
+    red_sand:
+      income: 0.5
+      points: 0.3
+      experience: 0.4
+    coarse_dirt:
+      income: 0.5
+      points: 0.3
+      experience: 0.3
+    dirt:
+      income: 0.05
+      points: 0.02
+      experience: 0.04
+    grass_block:
+      income: 0.2
+      points: 0.15
+      experience: 0.2
+    gravel:
+      income: 0.3
+      points: 0.2
+      experience: 0.25
+    sand:
+      income: 0.1
+      points: 0.05
+      experience: 0.1
+    clay:
+      income: 0.6
+      points: 0.4
+      experience: 0.5
+    SOUL_SAND:
+      income: 0.15
+      points: 0.15
+      experience: 0.25
+    PODZOL:
+      income: 0.5
+      points: 0.3
+      experience: 0.3
+    CRIMSON_NYLIUM:
+      income: 0.2
+      points: 0.1
+      experience: 0.2
+    WARPED_NYLIUM:
+      income: 0.2
+      points: 0.1
+      experience: 0.2
+    SOUL_SOIL:
+      income: 0.15
+      points: 0.15
+      experience: 0.25
+    WHITE_CONCRETE_POWDER:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    ORANGE_CONCRETE_POWDER:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    MAGENTA_CONCRETE_POWDER:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    LIGHT_BLUE_CONCRETE_POWDER:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    YELLOW_CONCRETE_POWDER:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    LIME_CONCRETE_POWDER:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    PINK_CONCRETE_POWDER:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    GRAY_CONCRETE_POWDER:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    LIGHT_GRAY_CONCRETE_POWDER:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    CYAN_CONCRETE_POWDER:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    PURPLE_CONCRETE_POWDER:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    BLUE_CONCRETE_POWDER:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    BROWN_CONCRETE_POWDER:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    GREEN_CONCRETE_POWDER:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    BLACK_CONCRETE_POWDER:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    RED_CONCRETE_POWDER:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+  Kill:
+    Player:
+      income: 7.5
+      points: 7.5
+      experience: 7.5
+  custom-kill:
+    Digger:
+      income: 10.0
+      points: 10.0
+      experience: 10.0

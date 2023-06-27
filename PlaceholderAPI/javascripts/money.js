@@ -1,0 +1,1 @@
+var placeholder = "%vault_eco_balance_fixed%";function getnewplaceholder() {    placeholder = placeholder.toString();    var pattern = /(-?\d+)(\d{3})/;    while (pattern.test(placeholder))        placeholder = placeholder.replace(pattern, "$1,$2");    return placeholder;}getnewplaceholder();

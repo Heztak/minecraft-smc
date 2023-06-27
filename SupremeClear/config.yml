@@ -1,0 +1,94 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+
+clear-in-minutes: 15 # In what interval (minutes) does a server clearance take place?
+clear:
+  message: '    &2&l➲&r &r&aRemoved {amount} entities!'
+  title: ''
+  subtitle: ''
+  sounds: 
+    - 'BLOCK_COMPOSTER_READY;1.0;1.0'
+clearing-placeholder: '&cClearing...' # Placeholder (%supremeclear_time%) shown while clearing the server
+time-command-message: '&fNext clearance in: &e{time} minutes' # output using the '/supremeclear time' command    
+
+# __        __               _                                                             
+# \ \      / /_ _ _ __ _ __ (_)_ __   __ _   _ __ ___   ___  ___ ___  __ _  __ _  ___  ___ 
+#  \ \ /\ / / _` | '__| '_ \| | '_ \ / _` | | '_ ` _ \ / _ \/ __/ __|/ _` |/ _` |/ _ \/ __|
+#   \ V  V / (_| | |  | | | | | | | | (_| | | | | | | |  __/\__ \__ \ (_| | (_| |  __/\__ \
+#    \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, | |_| |_| |_|\___||___/___/\__,_|\__, |\___||___/
+#                                    |___/                                 |___/             
+
+warn-5-minutes:
+  title: ''
+  subtitle: ''
+  sounds: # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+    - 'BLOCK_NOTE_BLOCK_BELL;1.0;1.0'
+  message: '    &4&l➲&r &cAttention, ground items will be removed in 5 minutes.'
+warn-1-minute:
+  title: ''
+  subtitle: ''
+  sounds:
+    - 'BLOCK_NOTE_BLOCK_BELL;1.0;1.0'
+  message: '    &4&l➲&r &cAttention, ground items will be removed in 1 minute.' 
+
+#  ____                _                
+# | __ )  ___  ___ ___| |__   __ _ _ __ 
+# |  _ \ / _ \/ __/ __| '_ \ / _` | '__|
+# | |_) | (_) \__ \__ \ |_) | (_| | |   
+# |____/ \___/|___/___/_.__/ \__,_|_|   
+#
+
+bossbar:
+  color: RED # BLUE, GREEN, WHITE, PINK, PURPLE, YELLOW   
+  message: '&cClearing lagg'
+  sounds: []
+
+#   ____ _                                                _   _   _                 
+#  / ___| | ___  __ _ _ __ __ _ _ __   ___ ___   ___  ___| |_| |_(_)_ __   __ _ ___ 
+# | |   | |/ _ \/ _` | '__/ _` | '_ \ / __/ _ \ / __|/ _ \ __| __| | '_ \ / _` / __|
+# | |___| |  __/ (_| | | | (_| | | | | (_|  __/ \__ \  __/ |_| |_| | | | | (_| \__ \
+#  \____|_|\___|\__,_|_|  \__,_|_| |_|\___\___| |___/\___|\__|\__|_|_| |_|\__, |___/
+#                                                                         |___/
+
+clear-mobs-percentage: 30 # percentage of mobs being cleared
+clear-mobs: # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+    - PIG
+    - COW
+    - SHEEP
+    - CHICKEN
+    - SLIME
+    - SQUID
+
+disabled-worlds-for-mobs: # worlds where the server clearance won't be active
+ - 'world'
+ - 'world_dungeons'
+
+blacklist-materials: [] # entities that won't be cleared on a server clearance
+# - 'STONE'
+# - 'DIRT'
+
+#  _____      _             
+# | ____|_  _| |_ _ __ __ _ 
+# |  _| \ \/ / __| '__/ _` |
+# | |___ >  <| |_| | | (_| |
+# |_____/_/\_\\__|_|  \__,_|
+#
+
+# Should a server clearance remove the dropped player heads from SupremeDeath when they die?
+clear-supremedeath-heads: false

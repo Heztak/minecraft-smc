@@ -1,0 +1,773 @@
+KeyVote:
+  name: "KeyVote"
+  message: "&6&lSupply&e&lContainers&r &8➠ &eYou received %reward% from the Key container!"
+  title:
+    enabled: true
+    message: "&6&k█ &f%item% &e&k█"
+    submessage: "&7&oVote Key Container"
+    reveal_from_right: true
+    color_after_randomization: "&a"
+    fadein_ticks: 0
+    stay_ticks: 20
+    fadeout_ticks: 5
+    update_ticks: 20
+  sound:
+    enabled: true
+    type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 10
+    pitch: 1
+  rewards:
+    1:
+      name: "Vote"
+      chance: 50
+      commands:
+        - "cc give physical vote 1 %player%"
+    2:
+      name: "Rare"
+      chance: 25
+      commands:
+        - "cc give physical rare 1 %player%"
+    3:
+      name: "Ultra"
+      chance: 15
+      commands:
+        - "cc give physical ultra 1 %player%"
+    4:
+      name: "Spawner"
+      chance: 10
+      commands:
+        - "cc give physical god 1 %player%"      
+  item:
+    material: "PLAYER_HEAD"
+    skin: 'http://textures.minecraft.net/texture/7090102c16c2aeef91e3d77a5a375096cc8265c34bf9e1820b871f4449fb6e'
+    name: "&eKey &fContainer"
+    lore:
+      - "&7This container draws 1 random prize"
+      - ""
+      - "&fInformation:"
+      - "  &8◊ &7Rarity: &e✦✦✦✦&7✦"
+      - "  &8◊ &7Keys: &eVote, Rare,"
+      - "     &eUltra or Spawner"
+      - ""      
+      - "&a&lRight Click &r&7to open this container"
+    durability: 0
+    glow: false
+KeyRare:
+  name: "KeyRare"
+  message: "&6&lSupply&e&lContainers&r &8➠ &eYou received %reward% from the Key container!"
+  title:
+    enabled: true
+    message: "&6&k█ &f%item% &e&k█"
+    submessage: "&7&oRare Key Container"
+    reveal_from_right: true
+    color_after_randomization: "&a"
+    fadein_ticks: 0
+    stay_ticks: 20
+    fadeout_ticks: 5
+    update_ticks: 20
+  sound:
+    enabled: true
+    type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 10
+    pitch: 1
+  rewards:
+    1:
+      name: "Vote"
+      chance: 40
+      commands:
+        - "cc give physical vote 1 %player%"
+    2:
+      name: "Rare"
+      chance: 30
+      commands:
+        - "cc give physical rare 1 %player%"
+    3:
+      name: "Ultra"
+      chance: 15
+      commands:
+        - "cc give physical ultra 1 %player%"
+    4:
+      name: "Spawner"
+      chance: 15
+      commands:
+        - "cc give physical god 1 %player%"      
+  item:
+    material: "PLAYER_HEAD"
+    skin: 'http://textures.minecraft.net/texture/f86544c89a7282b82dab76575f8a191132b3d6c65f10283ef0cf92ab535b68f'
+    name: "&eKey &fContainer"
+    lore:
+      - "&7This container draws 1 random prize"
+      - ""
+      - "&fInformation:"
+      - "  &8◊ &7Rarity: &e✦✦✦✦&7✦"
+      - "  &8◊ &7Keys: &eVote, Rare,"
+      - "     &eUltra or Spawner"
+      - ""      
+      - "&a&lRight Click &r&7to open this container"
+    durability: 0
+    glow: false    
+KeyUltra:
+  name: "KeyUltra"
+  message: "&6&lSupply&e&lContainers&r &8➠ &eYou received %reward% from the Key container!"
+  title:
+    enabled: true
+    message: "&6&k█ &f%item% &e&k█"
+    submessage: "&7&oUltra Key Container"
+    reveal_from_right: true
+    color_after_randomization: "&a"
+    fadein_ticks: 0
+    stay_ticks: 20
+    fadeout_ticks: 5
+    update_ticks: 20
+  sound:
+    enabled: true
+    type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 10
+    pitch: 1
+  rewards:
+    1:
+      name: "Vote"
+      chance: 25
+      commands:
+        - "cc give physical vote 1 %player%"
+    2:
+      name: "Rare"
+      chance: 25
+      commands:
+        - "cc give physical rare 1 %player%"
+    3:
+      name: "Ultra"
+      chance: 25
+      commands:
+        - "cc give physical ultra 1 %player%"
+    4:
+      name: "Spawner"
+      chance: 25
+      commands:
+        - "cc give physical god 1 %player%"      
+  item:
+    material: "PLAYER_HEAD"
+    skin: 'http://textures.minecraft.net/texture/b071e1255487b77d3e22eb16f7b7ba83c3622e3dad49035e3d0812cba93c2'
+    name: "&eKey &fContainer"
+    lore:
+      - "&7This container draws 1 random prize"
+      - ""
+      - "&fInformation:"
+      - "  &8◊ &7Rarity: &e✦✦✦✦&7✦"
+      - "  &8◊ &7Keys: &eVote, Rare,"
+      - "     &eUltra or Spawner"
+      - ""      
+      - "&a&lRight Click &r&7to open this container"
+    durability: 0
+    glow: false     
+RankUltra:
+  name: "RankUltra"
+  message: "&6&lSupply&e&lContainers&r &8➠ &eYou received %reward% from the Rank container!"
+  title:
+    enabled: true
+    message: "&6&k█ &f%item% &e&k█"
+    submessage: "&7&oUltra Rank Container"
+    reveal_from_right: true
+    color_after_randomization: "&a"
+    fadein_ticks: 0
+    stay_ticks: 20
+    fadeout_ticks: 5
+    update_ticks: 20
+  sound:
+    enabled: true
+    type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 10
+    pitch: 1
+  rewards:
+    1:
+      name: "Iron"
+      chance: 40
+      commands:
+        - "supremevouchers %Player% knightrank"
+    2:
+      name: "Gold"
+      chance: 25
+      commands:
+        - "supremevouchers %Player% lordrank"
+    3:
+      name: "Diamond"
+      chance: 15
+      commands:
+        - "supremevouchers %Player% baronrank"
+    4:
+      name: "Emerald"
+      chance: 10
+      commands:
+        - "supremevouchers %Player% paladinrank"  
+    5:
+      name: "Obsidian"
+      chance: 8
+      commands:
+        - "supremevouchers %Player% dukerank" 
+    6:
+      name: "Supreme"
+      chance: 2
+      commands:
+        - "supremevouchers %Player% kingrank"         
+  item:
+    material: "PLAYER_HEAD"
+    skin: 'http://textures.minecraft.net/texture/b071e1255487b77d3e22eb16f7b7ba83c3622e3dad49035e3d0812cba93c2'
+    name: "&eRank &fContainer"
+    lore:
+      - "&7This container draws 1 random prize"
+      - ""
+      - "&fInformation:"
+      - "  &8◊ &7Rarity: &e✦✦✦✦✦"
+      - "  &8◊ &7Available ranks: &7Iron&e, &eGold,"
+      - "     &bDiamond&e, &2Emerald&e, &5Obsidian &eor &4Supreme"
+      - ""      
+      - "&a&lRight Click &r&7to open this container"
+    durability: 0
+    glow: false       
+SignColors:
+  name: "SignColors"
+  message: ''
+  title:
+    enabled: true
+    message: "&6&k█ &f%item% &e&k█"
+    submessage: "&7&oSign Color"
+    reveal_from_right: true
+    color_after_randomization: "&a"
+    fadein_ticks: 0
+    stay_ticks: 20
+    fadeout_ticks: 5
+    update_ticks: 20
+  sound:
+    enabled: true
+    type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 10
+    pitch: 1
+  rewards:
+    1:
+      name: "Black"
+      chance: 6
+      commands:
+        - "lp user %player% permission set signs.color.0"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &0Black &esign color!"        
+    2:
+      name: "Dark Blue"
+      chance: 6
+      commands:
+        - "lp user %player% permission set signs.color.1"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &1Dark Blue &esign color!"        
+    3:
+      name: "Dark Green"
+      chance: 6
+      commands:
+        - "lp user %player% permission set signs.color.2"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &2Dark Green &esign color!"        
+    4:
+      name: "Dark Aqua"
+      chance: 6
+      commands:
+        - "lp user %player% permission set signs.color.3"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &3Dark Aqua &esign color!"        
+    5:
+      name: "Dark Red"
+      chance: 6
+      commands:
+        - "lp user %player% permission set signs.color.4"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &4Dark Red &esign color!"        
+    6:
+      name: "Dark Purple"
+      chance: 6
+      commands:
+        - "lp user %player% permission set signs.color.5"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &5Dark Purple &esign color!"        
+    7:
+      name: "Gold"
+      chance: 7
+      commands:
+        - "lp user %player% permission set signs.color.6"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &6Gold &esign color!"        
+    8:
+      name: "Gray"
+      chance: 7
+      commands:
+        - "lp user %player% permission set signs.color.7"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &7Gray &esign color!"        
+    9:
+      name: "Dark Gray"
+      chance: 6
+      commands:
+        - "lp user %player% permission set signs.color.8"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &8Dark Gray &esign color!"        
+    10:
+      name: "Blue"
+      chance: 6
+      commands:
+        - "lp user %player% permission set signs.color.9"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &9Blue &esign color!"        
+    11:
+      name: "Green"
+      chance: 6
+      commands:
+        - "lp user %player% permission set signs.color.a"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &aGreen &esign color!"        
+    12:
+      name: "Aqua"
+      chance: 6
+      commands:
+        - "lp user %player% permission set signs.color.b"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &bAqua &esign color!"        
+    13:
+      name: "Red"
+      chance: 6
+      commands:
+        - "lp user %player% permission set signs.color.c"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &cRed &esign color!"        
+    14:
+      name: "Purple"
+      chance: 6
+      commands:
+        - "lp user %player% permission set signs.color.d"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &dPurple &esign color!"        
+    15:
+      name: "Yellow"
+      chance: 7
+      commands:
+        - "lp user %player% permission set signs.color.e"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &eYellow &esign color!"        
+    16:
+      name: "White"
+      chance: 7
+      commands:
+        - "lp user %player% permission set signs.color.f"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &fWhite &esign color!"        
+  item:
+    material: "PLAYER_HEAD"
+    skin: 'http://textures.minecraft.net/texture/5629a3d3f519dcd385b5992ef34bfa8a68c37444750b94ede5c2f521e17342'
+    name: "&eSign &bC&ao&dl&co&br&as &fContainer"
+    lore:
+      - "&7This container draws 1 random prize"
+      - ""
+      - "&fInformation:"
+      - "  &8◊ &7Rarity: &e✦✦✦&7✦✦"
+      - "  &8◊ &7Colors: &eAll colors"
+      - ""      
+      - "&a&lRight Click &r&7to open this container"
+    durability: 0
+    glow: false
+ChatColors:
+  name: "ChatColors"
+  message: ''
+  title:
+    enabled: true
+    message: "&6&k█ &f%item% &e&k█"
+    submessage: "&7&oChat Color"
+    reveal_from_right: true
+    color_after_randomization: "&a"
+    fadein_ticks: 0
+    stay_ticks: 20
+    fadeout_ticks: 5
+    update_ticks: 20
+  sound:
+    enabled: true
+    type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 10
+    pitch: 1
+  rewards:      
+    2:
+      name: "Dark Blue"
+      chance: 7
+      commands:
+        - "lp user %player% permission set chat.1"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &1Dark Blue &echat color!"
+    3:
+      name: "Dark Green"
+      chance: 7
+      commands:
+        - "lp user %player% permission set chat.2"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &2Dark Green &echat color!"
+    4:
+      name: "Dark Aqua"
+      chance: 7
+      commands:
+        - "lp user %player% permission set chat.3"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &3Dark Aqua &echat color!"
+    5:
+      name: "Dark Red"
+      chance: 7
+      commands:
+        - "lp user %player% permission set chat.4"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &4Dark Red &echat color!"
+    6:
+      name: "Dark Purple"
+      chance: 7
+      commands:
+        - "lp user %player% permission set chat.5"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &5Dark Purple &echat color!"
+    7:
+      name: "Gold"
+      chance: 7
+      commands:
+        - "lp user %player% permission set chat.6"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &6Gold &echat color!"
+    8:
+      name: "Gray"
+      chance: 8
+      commands:
+        - "lp user %player% permission set chat.7"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &7Gray &echat color!"
+    9:
+      name: "Dark Gray"
+      chance: 6
+      commands:
+        - "lp user %player% permission set chat.8"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &8Dark Gray &echat color!"
+    10:
+      name: "Blue"
+      chance: 6
+      commands:
+        - "lp user %player% permission set chat.9"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &9Blue &echat color!"
+    11:
+      name: "Green"
+      chance: 6
+      commands:
+        - "lp user %player% permission set chat.a"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &aGreen &echat color!"
+    12:
+      name: "Aqua"
+      chance: 6
+      commands:
+        - "lp user %player% permission set chat.b"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &bAqua &echat color!"
+    13:
+      name: "Red"
+      chance: 6
+      commands:
+        - "lp user %player% permission set chat.c"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &cRed &echat color!"
+    14:
+      name: "Purple"
+      chance: 6
+      commands:
+        - "lp user %player% permission set chat.d"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &dPurple &echat color!"
+    15:
+      name: "Yellow"
+      chance: 7
+      commands:
+        - "lp user %player% permission set chat.e"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &eYellow &echat color!"
+    16:
+      name: "White"
+      chance: 7
+      commands:
+        - "lp user %player% permission set chat.f"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &fWhite &echat color!"
+  item:
+    material: "PLAYER_HEAD"
+    skin: 'http://textures.minecraft.net/texture/2270b870e238e17212f7154ec61fea4f402d600ea23075660ad1bc1d6fc9715e'
+    name: "&eChat &bC&ao&dl&co&br&as &fContainer"
+    lore:
+      - "&7This container draws 1 random prize"
+      - ""
+      - "&fInformation:"
+      - "  &8◊ &7Rarity: &e✦✦✦✦&7✦"
+      - "  &8◊ &7Colors: &eAll colors"
+      - ""      
+      - "&a&lRight Click &r&7to open this container"
+    durability: 0
+    glow: false
+NameColors:
+  name: "NameColors"
+  message: ''
+  title:
+    enabled: true
+    message: "&6&k█ &f%item% &e&k█"
+    submessage: "&7&oName Color"
+    reveal_from_right: true
+    color_after_randomization: "&a"
+    fadein_ticks: 0
+    stay_ticks: 20
+    fadeout_ticks: 5
+    update_ticks: 20
+  sound:
+    enabled: true
+    type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 10
+    pitch: 1
+  rewards:      
+    2:
+      name: "Dark Blue"
+      chance: 7
+      commands:
+        - "lp user %player% permission set name.1"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &1Dark Blue &ename color!"        
+    3:
+      name: "Dark Green"
+      chance: 7
+      commands:
+        - "lp user %player% permission set name.2"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &2Dark Green &ename color!"        
+    4:
+      name: "Dark Aqua"
+      chance: 7
+      commands:
+        - "lp user %player% permission set name.3"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &3Dark Aqua &ename color!"        
+    5:
+      name: "Dark Red"
+      chance: 7
+      commands:
+        - "lp user %player% permission set name.4"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &4Dark Red &ename color!"        
+    6:
+      name: "Dark Purple"
+      chance: 7
+      commands:
+        - "lp user %player% permission set name.5"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &5Dark Purple &ename color!"        
+    7:
+      name: "Gold"
+      chance: 7
+      commands:
+        - "lp user %player% permission set name.6"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &6Gold &ename color!"        
+    8:
+      name: "Gray"
+      chance: 8
+      commands:
+        - "lp user %player% permission set name.7"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &7Gray &ename color!"        
+    9:
+      name: "Dark Gray"
+      chance: 6
+      commands:
+        - "lp user %player% permission set name.8"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &8Dark Gray &ename color!"        
+    10:
+      name: "Blue"
+      chance: 6
+      commands:
+        - "lp user %player% permission set name.9"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &9Blue &ename color!"        
+    11:
+      name: "Green"
+      chance: 6
+      commands:
+        - "lp user %player% permission set name.a"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &aGreen &ename color!"        
+    12:
+      name: "Aqua"
+      chance: 6
+      commands:
+        - "lp user %player% permission set name.b"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &bAqua &ename color!"        
+    13:
+      name: "Red"
+      chance: 6
+      commands:
+        - "lp user %player% permission set name.c"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &cRed &ename color!"        
+    14:
+      name: "Purple"
+      chance: 6
+      commands:
+        - "lp user %player% permission set name.d"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &dPurple &ename color!"        
+    15:
+      name: "Yellow"
+      chance: 7
+      commands:
+        - "lp user %player% permission set name.e"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &eYellow &ename color!"        
+    16:
+      name: "White"
+      chance: 7
+      commands:
+        - "lp user %player% permission set name.f"
+        - "rawmsg %player% false &6&lSupply&e&lContainers&r &8➠ &eYou received the &fWhite &ename color!"        
+  item:
+    material: "PLAYER_HEAD"
+    skin: 'http://textures.minecraft.net/texture/be07c6b0fb43c2937e24f8dc38f96d7dff0685d5525cf916f3929e5f934612eb'
+    name: "&eName &bC&ao&dl&co&br&as &fContainer"
+    lore:
+      - "&7This container draws 1 random prize"
+      - ""
+      - "&fInformation:"
+      - "  &8◊ &7Rarity: &e✦✦✦✦&7✦"
+      - "  &8◊ &7Colors: &eAll colors"
+      - ""      
+      - "&a&lRight Click &r&7to open this container"
+    durability: 0
+    glow: false
+MoarBows:
+  name: "Exclusive Bows"
+  message: ''
+  title:
+    enabled: true
+    message: "&6&k█ &f%item% &e&k█"
+    submessage: "&7&oExclusive Bows"
+    reveal_from_right: true
+    color_after_randomization: "&a"
+    fadein_ticks: 0
+    stay_ticks: 20
+    fadeout_ticks: 5
+    update_ticks: 15
+  sound:
+    enabled: true
+    type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 10
+    pitch: 1
+  rewards:      
+    1:
+      name: "Auto Bow"
+      chance: 4
+      commands:
+        - "moarbows get AUTOBOW %player%" 
+    2:
+      name: "Blaze Bow"
+      chance: 4
+      commands:
+        - "moarbows get BLAZE_BOW %player%"
+    3:
+      name: "Chicken Bow"
+      chance: 4
+      commands:
+        - "moarbows get CHICKEN_BOW %player%"
+    4:
+      name: "Composite Bow"
+      chance: 4
+      commands:
+        - "moarbows get COMPOSITE_BOW %player%"
+    5:
+      name: "Corona Bow"
+      chance: 4
+      commands:
+        - "moarbows get CORONA_BOW %player%"
+    6:
+      name: "Corrosive Bow"
+      chance: 4
+      commands:
+        - "moarbows get CORROSIVE_BOW %player%"
+    7:
+      name: "Cupidons Bow"
+      chance: 4
+      commands:
+        - "moarbows get CUPIDONS_BOW %player%"
+    8:
+      name: "Earthquake Bow"
+      chance: 4
+      commands:
+        - "moarbows get EARTHQUAKE_BOW %player%"
+    9:
+      name: "Explosive Bow"
+      chance: 4
+      commands:
+        - "moarbows get EXPLOSIVE_BOW %player%"
+    10:
+      name: "Fire Bow"
+      chance: 4
+      commands:
+        - "moarbows get FIRE_BOW %player%"
+    11:
+      name: "Gravity Bow"
+      chance: 4
+      commands:
+        - "moarbows get GRAVITY_BOW %player%"
+    12:
+      name: "Hunter Bow"
+      chance: 4
+      commands:
+        - "moarbows get HUNTER_BOW %player%"
+    13:
+      name: "Ice Bow"
+      chance: 4
+      commands:
+        - "moarbows get ICE_BOW %player%"
+    14:
+      name: "Laser Bow"
+      chance: 4
+      commands:
+        - "moarbows get LASER_BOW %player%"
+    15:
+      name: "Lightning Bow"
+      chance: 4
+      commands:
+        - "moarbows get LIGHTNING_BOWLT %player%"
+    16:
+      name: "Linear Bow"
+      chance: 3
+      commands:
+        - "moarbows get LINEAR_BOW %player%"
+    17:
+      name: "Marked Bow"
+      chance: 3
+      commands:
+        - "moarbows get MARKED_BOW %player%"
+    18:
+      name: "Meteor Bow"
+      chance: 3
+      commands:
+        - "moarbows get METEOR_BOW %player%"
+    19:
+      name: "Pulsar Bow"
+      chance: 3
+      commands:
+        - "moarbows get PULSAR_BOW %player%"
+    20:
+      name: "Railgun Bow"
+      chance: 3
+      commands:
+        - "moarbows get RAILGUN_BOW %player%"
+    21:
+      name: "Shadow Bow"
+      chance: 3
+      commands:
+        - "moarbows get SHADOW_BOW %player%"
+    22:
+      name: "Shocking Bow"
+      chance: 3
+      commands:
+        - "moarbows get SHOCKING_BOW %player%"
+    23:
+      name: "Silver Bow"
+      chance: 3
+      commands:
+        - "moarbows get SILVER_BOW %player%"
+    24:
+      name: "Snow Bow"
+      chance: 4
+      commands:
+        - "moarbows get SNOW_BOW %player%"
+    25:
+      name: "Spartan Bow"
+      chance: 3
+      commands:
+        - "moarbows get SPARTAN_BOW %player%"
+    26:
+      name: "Tripple Bow"
+      chance: 3
+      commands:
+        - "moarbows get TRIPPPLE_BOW %player%"
+    27:
+      name: "Void Bow"
+      chance: 3
+      commands:
+        - "moarbows get VOID_BOW %player%"
+    28:
+      name: "Wither Bow"
+      chance: 3
+      commands:
+        - "moarbows get WITHER_BOW %player%"
+  item:
+    material: "PLAYER_HEAD"
+    skin: 'http://textures.minecraft.net/texture/c787b7afb5a59953975bba2473749b601d54d6f93ceac7a02ac69aae7f9b8'
+    name: "&e&lExclusive Bow &fContainer"
+    lore:
+      - "&7This container draws 1 random prize"
+      - ""
+      - "&fInformation:"
+      - "  &8◊ &7Exclusive Bows: &e28"
+      - ""      
+      - "&a&lRight Click &r&7to open this container"
+    durability: 0
+    glow: false    

@@ -1,0 +1,14 @@
+location: world:-54.938:84.900:-24.939
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&a&l1. &f%supremetokens_tokens_name_1%'
+    height: 0.3
+  - content: '&a&l%supremetokens_tokens_value_1% Tokens'
+    height: 0.3
+  actions: {}

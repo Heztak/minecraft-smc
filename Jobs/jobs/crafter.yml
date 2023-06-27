@@ -1,0 +1,642 @@
+Crafter:
+  fullname: Crafter
+  shortname: Cr
+  FullDescription:
+  - "&fEarns money from crafting items."
+  ChatColour: CarrotOrange
+  BossBarColour: YELLOW
+  chat-display: full
+  max-level: 200
+  leveling-progression-equation: 13*(joblevel)+(joblevel*joblevel*5)
+  income-progression-equation: baseincome+(baseincome*(joblevel-2)*0.01)-((baseincome+(baseincome*(joblevel-2)*0.01))
+    * ((numjobs-1)*0.01))
+  points-progression-equation: basepoints+(basepoints*(joblevel-2)*0.01)-((basepoints+(basepoints*(joblevel-2)*0.01))
+    * ((numjobs-1)*0.01))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 5
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Master Crafter
+      Objectives:
+      - Craft;dispenser;10
+      - Craft;chest;10
+      - Craft;ladder;30
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Craft and get money
+      - Get 100 for this!
+  Gui:
+    Item: crafting_table
+  Craft:
+    stick:
+      income: 0.01
+      points: 0.01
+      experience: 0.01
+    dispenser:
+      income: 0.5
+      points: 0.2
+      experience: 0.5
+    note_block:
+      income: 0.6
+      points: 0.3
+      experience: 0.6
+    powered_rail:
+      income: 0.7
+      points: 0.1
+      experience: 1.0
+    detector_rail:
+      income: 0.7
+      points: 0.1
+      experience: 1.0
+    sticky_piston:
+      income: 0.8
+      points: 0.6
+      experience: 0.7
+    tnt:
+      income: 1.5
+      points: 1.0
+      experience: 1.2
+    chest:
+      income: 0.2
+      points: 0.1
+      experience: 0.3
+    crafting_table:
+      income: 0.05
+      points: 0.01
+      experience: 0.05
+    furnace:
+      income: 0.05
+      points: 0.01
+      experience: 0.05
+    ladder:
+      income: 0.06
+      points: 0.03
+      experience: 0.08
+    rail:
+      income: 0.5
+      points: 0.1
+      experience: 0.7
+    jukebox:
+      income: 0.6
+      points: 0.3
+      experience: 0.6
+    white_stained_glass:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    orange_stained_glass:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    magenta_stained_glass:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    light_blue_stained_glass:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    yellow_stained_glass:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    lime_stained_glass:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    pink_stained_glass:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    gray_stained_glass:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    light_gray_stained_glass:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    cyan_stained_glass:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    purple_stained_glass:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    blue_stained_glass:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    brown_stained_glass:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    green_stained_glass:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    red_stained_glass:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    black_stained_glass:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    cobblestone_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    acacia_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    birch_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    brick_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    dark_oak_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    dark_prismarine_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    jungle_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    nether_brick_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    oak_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    prismarine_brick_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    prismarine_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    purpur_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    quartz_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    red_sandstone_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    sandstone_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    spruce_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    stone_brick_stairs:
+      income: 0.03
+      points: 0.01
+      experience: 0.04
+    enchanting_table:
+      income: 3
+      points: 1.5
+      experience: 2
+    beacon:
+      income: 15
+      points: 8
+      experience: 10
+    anvil:
+      income: 10
+      points: 6
+      experience: 8
+    trapped_chest:
+      income: 0.2
+      points: 0.1
+      experience: 0.3
+    stone_pressure_plate:
+      income: 0.01
+      points: 0.01
+      experience: 0.01
+    oak_pressure_plate:
+      income: 0.01
+      points: 0.01
+      experience: 0.01
+    spruce_pressure_plate:
+      income: 0.01
+      points: 0.01
+      experience: 0.01
+    birch_pressure_plate:
+      income: 0.01
+      points: 0.01
+      experience: 0.01
+    jungle_pressure_plate:
+      income: 0.01
+      points: 0.01
+      experience: 0.01
+    acacia_pressure_plate:
+      income: 0.01
+      points: 0.01
+      experience: 0.01
+    dark_oak_pressure_plate:
+      income: 0.01
+      points: 0.01
+      experience: 0.01
+    light_weighted_pressure_plate:
+      income: 0.01
+      points: 0.01
+      experience: 0.01
+    heavy_weighted_pressure_plate:
+      income: 0.01
+      points: 0.01
+      experience: 0.01
+    daylight_detector:
+      income: 0.6
+      points: 0.25
+      experience: 0.5
+    hopper:
+      income: 1.0
+      points: 1.0
+      experience: 1.0
+    activator_rail:
+      income: 0.7
+      points: 0.1
+      experience: 1.0
+    dropper:
+      income: 0.5
+      points: 0.2
+      experience: 0.5
+    terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    white_terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    orange_terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    magenta_terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    light_blue_terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    yellow_terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    lime_terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    pink_terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    gray_terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    light_gray_terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    cyan_terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    purple_terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    blue_terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    brown_terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    green_terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    red_terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    black_terracotta:
+      income: 0.4
+      points: 0.1
+      experience: 0.2
+    glass:
+      income: 0.2
+      points: 0.1
+      experience: 0.2
+    slime_block:
+      income: 1.0
+      points: 1.0
+      experience: 1.0
+    prismarine:
+      income: 0.4
+      points: 0.2
+      experience: 0.3
+    prismarine_bricks:
+      income: 0.6
+      points: 0.4
+      experience: 0.5
+    dark_prismarine:
+      income: 0.8
+      points: 0.5
+      experience: 0.7
+    sea_lantern:
+      income: 0.7
+      points: 0.4
+      experience: 0.5
+    oak_fence_gate:
+      income: 0.08
+      points: 0.04
+      experience: 0.1
+    spruce_fence_gate:
+      income: 0.08
+      points: 0.04
+      experience: 0.1
+    birch_fence_gate:
+      income: 0.08
+      points: 0.04
+      experience: 0.1
+    jungle_fence_gate:
+      income: 0.08
+      points: 0.04
+      experience: 0.1
+    acacia_fence_gate:
+      income: 0.08
+      points: 0.04
+      experience: 0.1
+    dark_oak_fence_gate:
+      income: 0.08
+      points: 0.04
+      experience: 0.1
+    oak_fence:
+      income: 0.08
+      points: 0.04
+      experience: 0.1
+    spruce_fence:
+      income: 0.08
+      points: 0.04
+      experience: 0.1
+    birch_fence:
+      income: 0.2
+      points: 0.1
+      experience: 0.2
+    jungle_fence:
+      income: 0.08
+      points: 0.04
+      experience: 0.1
+    acacia_fence:
+      income: 0.08
+      points: 0.04
+      experience: 0.1
+    dark_oak_fence:
+      income: 0.08
+      points: 0.04
+      experience: 0.1
+    oak_door:
+      income: 0.1
+      points: 0.08
+      experience: 0.15
+    spruce_door:
+      income: 0.1
+      points: 0.08
+      experience: 0.15
+    birch_door:
+      income: 0.1
+      points: 0.08
+      experience: 0.15
+    jungle_door:
+      income: 0.1
+      points: 0.08
+      experience: 0.15
+    acacia_door:
+      income: 0.1
+      points: 0.08
+      experience: 0.15
+    dark_oak_door:
+      income: 0.1
+      points: 0.08
+      experience: 0.15
+    iron_door:
+      income: 0.5
+      points: 0.3
+      experience: 0.4
+    book:
+      income: 0.3
+      points: 0.2
+      experience: 0.2
+    compass:
+      income: 1.0
+      points: 0.7
+      experience: 1.0
+    clock:
+      income: 1.0
+      points: 0.7
+      experience: 0.9
+    cake:
+      income: 1.5
+      points: 1.0
+      experience: 1.2
+    bed:
+      income: 1.5
+      points: 1.0
+      experience: 1.2
+    brewing_stand:
+      income: 2.0
+      points: 1.0
+      experience: 1.5
+    cauldron:
+      income: 2.0
+      points: 1.0
+      experience: 1.5
+    ENDER_CHEST:
+      income: 0.75
+      points: 0.75
+      experience: 1
+    OBSERVER:
+      income: 0.8
+      points: 0.6
+      experience: 0.7
+    LECTERN:
+      income: 1.0
+      points: 1.0
+      experience: 1.0
+    SCAFFOLDING:
+      income: 0.1
+      points: 0.1
+      experience: 0.1
+    CAMPFIRE:
+      income: 0.4
+      points: 0.2
+      experience: 0.3
+    LANTERN:
+      income: 0.2
+      points: 0.1
+      experience: 0.2
+    BEEHIVE:
+      income: 1.0
+      points: 0.5
+      experience: 1.0
+    COMPOSTER:
+      income: 0.5
+      points: 0.3
+      experience: 0.5
+    BARREL:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    SMOKER:
+      income: 0.2
+      points: 0.2
+      experience: 0.2
+    BLAST_FURNACE:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    CARTOGRAPHY_TABLE:
+      income: 0.1
+      points: 0.1
+      experience: 0.1
+    FLETCHING_TABLE:
+      income: 0.1
+      points: 0.1
+      experience: 0.1
+    GRINDSTONE:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    SMITHING_TABLE:
+      income: 2
+      points: 1
+      experience: 1.6
+    STONECUTTER:
+      income: 0.6
+      points: 0.3
+      experience: 0.5
+    BELL:
+      income: 0.2
+      points: 0.1
+      experience: 0.2
+    LOOM:
+      income: 0.1
+      points: 0.1
+      experience: 0.1
+    TARGET:
+      income: 0.3
+      points: 0.1
+      experience: 0.3
+    SOUL_LANTERN:
+      income: 0.3
+      points: 0.2
+      experience: 0.3
+    SOUL_CAMPFIRE:
+      income: 0.5
+      points: 0.3
+      experience: 0.4
+    RESPAWN_ANCHOR:
+      income: 10
+      points: 5
+      experience: 8
+    LODESTONE:
+      income: 5
+      points: 3
+      experience: 4
+    WARPED_FENCE:
+      income: 0.2
+      points: 0.1
+      experience: 0.2
+    CRIMSON_FENCE:
+      income: 0.2
+      points: 0.1
+      experience: 0.2
+    WARPED_FENCE_GATE:
+      income: 0.2
+      points: 0.1
+      experience: 0.2
+    CRIMSON_FENCE_GATE:
+      income: 0.2
+      points: 0.1
+      experience: 0.2
+    CANDLE:
+      income: 0.2
+      points: 0.2
+      experience: 0.2
+    HONEYCOMB_BLOCK:
+      income: 1
+      points: 1
+      experience: 1
+    HONEY_BLOCK:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    Tinted_Glass:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    amethyst_block:
+      income: 1
+      points: 1
+      experience: 1
+    Spyglass:
+      income: 0.5
+      points: 0.4
+      experience: 0.5
+    raw_iron_block:
+      income: 1
+      points: 0.5
+      experience: 1
+    raw_Copper_block:
+      income: 1
+      points: 0.5
+      experience: 1
+    raw_gold_block:
+      income: 1
+      points: 0.5
+      experience: 1
+    glow_item_frame:
+      income: 0.2
+      points: 0.5
+      experience: 0.2
+    Lightning_Rod:
+      income: 0.2
+      points: 0.5
+      experience: 0.2
+    copper_block:
+      income: 1
+      points: 0.75
+      experience: 1
+  Smelt:
+    cooked_chicken:
+      income: 0.4
+      points: 0.2
+      experience: 0.3

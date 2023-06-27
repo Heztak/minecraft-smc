@@ -1,0 +1,31 @@
+location: world:-19.672:83.300:-38.704
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lThe Inventory Restorer'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fDo not fear &cdeath&f! The &bInventory Restorer'
+    height: 0.3
+  - content: '&fensures that your belongings are stored'
+    height: 0.3
+  - content: '&asafely &fwhile you bail out. Don''t feel like'
+    height: 0.3
+  - content: '&fwaiting for your stuff to be released?'
+    height: 0.3
+  - content: '&fUse &dgravestones &fto get your stuff'
+    height: 0.3
+  - content: '&fback instantly!'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&a&lRight Click &fto access this NPC'
+    height: 0.3
+  actions: {}

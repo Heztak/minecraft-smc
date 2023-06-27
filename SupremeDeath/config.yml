@@ -1,0 +1,217 @@
+#
+#      
+#      ░██████╗██╗░░░██╗██████╗░██████╗░███████╗███╗░░░███╗███████╗
+#      ██╔════╝██║░░░██║██╔══██╗██╔══██╗██╔════╝████╗░████║██╔════╝
+#      ╚█████╗░██║░░░██║██████╔╝██████╔╝█████╗░░██╔████╔██║█████╗░░
+#      ░╚═══██╗██║░░░██║██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░
+#      ██████╔╝╚██████╔╝██║░░░░░██║░░██║███████╗██║░╚═╝░██║███████╗
+#      ╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝
+#
+#          ░██████╗███████╗████████╗██╗░░░██╗██████╗░░██████╗
+#          ██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+#          ╚█████╗░█████╗░░░░░██║░░░██║░░░██║██████╔╝╚█████╗░
+#          ░╚═══██╗██╔══╝░░░░░██║░░░██║░░░██║██╔═══╝░░╚═══██╗
+#          ██████╔╝███████╗░░░██║░░░╚██████╔╝██║░░░░░██████╔╝
+#          ╚═════╝░╚══════╝░░░╚═╝░░░░╚═════╝░╚═╝░░░░░╚═════╝░
+#                                           Survival Setup
+#
+
+# Custom player head name and lore
+player-head-name: '&e&l{player}''s head'
+player-head-lore:
+- '&dHead value:'
+- '&a${money}'
+- '&7Right click'
+
+# Date format
+date-format: 'dd-MM-yy'
+
+# Functions as back button (DeluxeMenus/gui_menus/inventory_restorer.yml)
+exit-button-command: 'dm open inventory_restorer {player}'
+
+# Locked inventory slots
+no-available-slot: '&cYou do not have an available slot.'
+
+# Empty inventory slot message
+empty-item-click-message: '&cThere''s nothing in here..'
+
+# The time for how long your inventory is held by the bank
+cooldown-in-seconds: 300
+
+# The time you have to claim your inventory when your inventory is released
+expire-in-seconds: 432000
+
+# The price it costs to immediately buy off your inventory with gravestones
+buy-inventory-price: 1
+
+# Amount of gravestones a player gets when first joining
+starting-gravestones: 0
+
+# Insufficient funds
+insufficient-funds: '&cYou do not have a gravestone to restore your items.'
+
+# Message you get when you claim the money from someone's head
+redeem-head-message: '&a+${amount}'
+
+# Amount of gravestones you have
+show-gravestones: '&e{gravestones} Gravestone.'
+
+# Sounds
+death-menu-sounds:
+- ITEM_BOOK_PAGE_TURN;1.0;1.0
+redeem-head-sounds:
+- BLOCK_NOTE_BLOCK_BELL;1.0;1.0
+redeem-inventory-sounds:
+- BLOCK_NOTE_BLOCK_BELL;1.0;1.0
+buy-inventory-sounds:
+- BLOCK_NOTE_BLOCK_BELL;1.0;1.0
+delete-inventory-sounds:
+- BLOCK_COMPOSTER_READY;1.0;1.0
+accept-sounds:
+- BLOCK_NOTE_BLOCK_BELL;1.0;1.0
+decline-sounds:
+- ENTITY_PANDA_SNEEZE;1.0;1.0
+
+# Worlds where the SupremeDeath feature does not work
+blacklist-worlds:
+- world
+- world_dungeons
+
+# Blacklist a slot in a players slot bar. This feature will prevent items from dropping and saving (inside the gui) when you die.
+#   Used for the Survival Menu item.
+blacklist-slot:
+  enabled: true
+  slot: 8
+
+# Percentage of money you lose when you die
+lost-death-money:
+  default:
+    amount: 10
+  iron:
+    amount: 10 
+  gold:
+    amount: 10
+  diamond:
+    amount: 7   
+  emerald:
+    amount: 7
+  obsidian:
+    amount: 5   
+  supreme:
+    amount: 5
+  helper:
+    amount: 0    
+  manager:
+    amount: 0
+  owner:
+    amount: 0
+  moderator:
+    amount: 0
+  trial:
+    amount: 10   
+    
+    
+# Main menu title    
+chest-title: '&cInventory slots'
+
+# Option to save or remove title
+hopper-title: '&cSave your inventory'
+
+# Title to preview your inventory
+preview-title: '&cYour belongings'
+
+# Gui
+exit-item:
+  material: BARRIER
+  name: '&C⤾ Back'
+  lore: []
+  glow: false
+accept-item:
+  material: LIME_STAINED_GLASS_PANE
+  name: '&a&lAccept'
+  lore:
+  - '&7Save my items, and wait 7'
+  - '&7days to claim it back.'
+  glow: false
+decline-item:
+  material: RED_STAINED_GLASS_PANE
+  name: '&c&lDeny'
+  lore:
+  - '&7Remove my items, and'
+  - '&7be aware that my stuff'
+  - '&7will never come back.'
+  glow: false
+available-item:
+  material: GREEN_STAINED_GLASS_PANE
+  name: '&aInventory slot'
+  lore: []
+  glow: false
+cooldown-item:
+  material: COBBLESTONE_WALL
+  name: '&e&lR.I.P. {player}'
+  lore:
+  - ''
+  - '&fInformation:'
+  - '  &8◊ &7Died: &f{date}'
+  - '  &8◊ &7Money lost: &c-${amount}'
+  - ''
+  - '&fCan be claimed in:'
+  - '  &8◊ &7Time: &e{cooldown}'
+  - ''
+  - '&a&lRight click &7to preview'  
+  glow: true
+back-item:
+  material: BARRIER
+  name: '&C⤾ Back'
+  lore: []
+  glow: false
+expire-item:
+  material: MOSSY_COBBLESTONE_WALL
+  name: '&e&lR.I.P. {player}'
+  lore:
+  - ''
+  - '&fInformation:'
+  - '  &8◊ &7Died: &f{date}'
+  - '  &8◊ &7Money lost: &c-${amount}'
+  - ''
+  - '&fCan be claimed in:'
+  - '  &8◊ &7Time: &a&lClaim now!'
+  - '  &8◊ &7Expires in: &c{cooldown}'
+  - ''
+  glow: true
+empty-item:
+  material: COBBLESTONE_WALL
+  name: '&a&lUnlocked'
+  lore: []
+  glow: false
+locked-item:
+  material: FURNACE_MINECART
+  name: '&c&lLocked'
+  lore: []
+  glow: false
+delete-item:
+  material: LAVA_BUCKET
+  name: '&e&lRemove my items'
+  lore:
+  - '&7Remove my inventory,'
+  - '&7it will never come back.'
+  - ''
+  - '&c&lLeft click &7to remove your items' 
+  glow: false
+buy-item:
+  material: COBBLESTONE_WALL
+  name: '&e&lRestore my items'
+  lore:
+  - '&7You can restore your items'
+  - '&7now so you don''t have to wait.'
+  - ''
+  - '  &8◊ &fPrice: &d1 Gravestone'
+  - ''
+  - '&fNote:'
+  - '&7Make sure your inventory is empty'  
+  - '&7before you restore it. If it does not'
+  - '&7fit into your inventory, your items'
+  - '&7will be placed on the floor.'  
+  - ''  
+  - '&a&lLeft click &7to restore your items'  
+  glow: false

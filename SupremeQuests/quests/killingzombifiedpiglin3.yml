@@ -1,0 +1,13 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 25
+    mob: ZOMBIFIED_PIGLIN
+    worlds:
+     - 'survival'
+rewards:
+  - "eco give {player} 1000"
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

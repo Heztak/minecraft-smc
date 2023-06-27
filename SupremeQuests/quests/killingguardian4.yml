@@ -1,0 +1,13 @@
+tasks:
+  killing:
+    type: 'mobkillingcertain'
+    amount: 75
+    mob: GUARDIAN
+    worlds:
+     - 'survival'
+rewards:
+  - "supremetokens give {player} 10"
+options:
+  category: "killing"
+  requires: []
+  repeatable: true

@@ -1,0 +1,727 @@
+BrownWool:
+  name: '&6&lBrown Wool'
+  price: 1.5
+  material: 'BROWN_WOOL'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+GhastTear:
+  name: '&6&lGhast tear'
+  price: 40
+  material: 'GHAST_TEAR'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Egg:
+  name: '&6&lEgg'
+  price: 1.4
+  material: 'EGG'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'        
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Paper:
+  name: '&6&lPaper'
+  price: 2.2
+  material: 'PAPER'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'        
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+YellowDye:
+  name: '&6&lYellow dye'
+  price: 2
+  material: 'YELLOW_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'        
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+OrangeDye:
+  name: '&6&lOrange dye'
+  price: 2
+  material: 'ORANGE_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'        
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+WhiteDye:
+  name: '&6&lWhite dye'
+  price: 2
+  material: 'WHITE_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'        
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+MagentaDye:
+  name: '&6&lMagenta dye'
+  price: 2
+  material: 'MAGENTA_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'   
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+LightBlueDye:
+  name: '&6&lLight blue dye'
+  price: 2
+  material: 'LIGHT_BLUE_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'  
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+LimeDye:
+  name: '&6&lLime dye'
+  price: 2
+  material: 'LIME_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'   
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+PinkDye:
+  name: '&6&lPink dye'
+  price: 2
+  material: 'PINK_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'     
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+GrayDye:
+  name: '&6&lGray dye'
+  price: 2
+  material: 'GRAY_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'        
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+LightGrayDye:
+  name: '&6&lLight gray dye'
+  price: 2
+  material: 'LIGHT_GRAY_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'   
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+CyanDye:
+  name: '&6&lCyan dye'
+  price: 2
+  material: 'CYAN_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'     
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+PurpleDye:
+  name: '&6&lPurple dye'
+  price: 2
+  material: 'PURPLE_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'        
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+BlueDye:
+  name: '&6&lBlue dye'
+  price: 2
+  material: 'BLUE_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'    
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+BrownDye:
+  name: '&6&lBrown dye'
+  price: 2
+  material: 'BROWN_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'     
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+GreenDye:
+  name: '&6&lGreen dye'
+  price: 2
+  material: 'GREEN_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'  
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+RedDye:
+  name: '&6&lRed dye'
+  price: 2
+  material: 'RED_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+BlackDye:
+  name: '&6&lBlack dye'
+  price: 2
+  material: 'BLACK_DYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+RawRabbit:
+  name: '&6&lRaw rabbit'
+  price: 4.5
+  material: 'RABBIT'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'     
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Bone:
+  name: '&6&lBone'
+  price: 4
+  material: 'BONE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'    
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+RawPorkchop:
+  name: '&6&lRaw porkchop'
+  price: 4.5
+  material: 'PORKCHOP'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea' 
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Pufferfish:
+  name: '&6&lPufferfish'
+  price: 20
+  material: 'PUFFERFISH'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'   
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Feather:
+  name: '&6&lFeather'
+  price: 0.8
+  material: 'FEATHER'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'  
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+BrownMushroom:
+  name: '&6&lBrown mushroom'
+  price: 3
+  material: 'BROWN_MUSHROOM'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Pumpkin:
+  name: '&6&lPumpkin'
+  price: 8
+  material: 'PUMPKIN'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea' 
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Diorite:
+  name: '&6&lDiorite'
+  price: 3.2
+  material: 'DIORITE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Potato:
+  name: '&6&lPotato'
+  price: 1
+  material: 'POTATO'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+RedMushroom:
+  name: '&6&lRed mushroom'
+  price: 3
+  material: 'RED_MUSHROOM'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Coal:
+  name: '&6&lCoal'
+  price: 4.4
+  material: 'COAL'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'   
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+RawMutton:
+  name: '&6&lRaw mutton'
+  price: 3.5
+  material: 'MUTTON'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'  
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Beetroot:
+  name: '&6&lBeetroot'
+  price: 1.2
+  material: 'BEETROOT'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+IronIngot:
+  name: '&6&lIron ingot'
+  price: 20.3
+  material: 'IRON_INGOT'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'       
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+CookedRabbit:
+  name: '&6&lCooked rabbit'
+  price: 10
+  material: 'COOKED_RABBIT'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'    
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+SweetBerries:
+  name: '&6&lSweet berries'
+  price: 3.6
+  material: 'SWEET_BERRIES'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea' 
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Compass:
+  name: '&6&lCompass'
+  price: 18
+  material: 'COMPASS'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'      
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+RawBeef:
+  name: '&6&lRaw beef'
+  price: 2.5
+  material: 'BEEF'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'    
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+RawCod:
+  name: '&6&lRaw cod'
+  price: 1.3
+  material: 'COD'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'       
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+EndStone:
+  name: '&6&lEnd stone'
+  price: 14
+  material: 'END_STONE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'      
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+FireCoralBlock:
+  name: '&6&lFire coral block'
+  price: 0.8
+  material: 'FIRE_CORAL_BLOCK'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'    
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Leather:
+  name: '&6&lLeather'
+  price: 4
+  material: 'LEATHER'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'    
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+SpiderEye:
+  name: '&6&lSpider eye'
+  price: 16
+  material: 'SPIDER_EYE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'   
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Andesite:
+  name: '&6&lAndesite'
+  price: 1.8
+  material: 'ANDESITE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'      
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+BeetrootSeeds:
+  name: '&6&lBeetroot seeds'
+  price: 2
+  material: 'BEETROOT_SEEDS'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'  
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+SlimeBall:
+  name: '&6&lSlimeball'
+  price: 8
+  material: 'SLIME_BALL'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+NetherQuartz:
+  name: '&6&lNether quartz'
+  price: 2
+  material: 'QUARTZ'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'   
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Wheat:
+  name: '&6&lWheat'
+  price: 1.2
+  material: 'WHEAT'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'    
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Glowstone:
+  name: '&6&lGlowstone'
+  price: 24
+  material: 'GLOWSTONE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+RedSandstone:
+  name: '&6&lRed sandstone'
+  price: 4.5
+  material: 'RED_SANDSTONE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'     
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+RabbitsFoot:
+  name: '&6&lRabbit''s foot'
+  price: 12.6
+  material: 'RABBIT_FOOT'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'       
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Flint:
+  name: '&6&lFlint'
+  price: 3.6
+  material: 'FLINT'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'   
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Vines:
+  name: '&6&lVines'
+  price: 2
+  material: 'VINE'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+RottenFlesh:
+  name: '&6&lRotten flesh'
+  price: 0.8
+  material: 'ROTTEN_FLESH'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+TropicalFish:
+  name: '&6&lTropical fish'
+  price: 12
+  material: 'TROPICAL_FISH'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea' 
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
+
+Melon:
+  name: '&6&lMelon'
+  price: 9
+  material: 'MELON'
+  amount: 1
+  lore:
+    - ''
+    - ' &7▪ &fBuy Price: &e${price}/ea'
+    - ''
+    - '&a&lClick here &r&ato Buy this item.'
+  durability: 0
+  glow: false
